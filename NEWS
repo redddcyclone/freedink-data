@@ -1,4 +1,12 @@
-* v1.08.20100103                                         -*- outline -*-
+* v1.08.UNRELEASED                                       -*- outline -*-
+
+** Fix game freeze
+
+  When you didn't have a free inventory slot and tried to buy a bow in
+  Kernsin, the game froze.  This is now fixed.  Thanks to Bas Wijnen
+  for the report.
+
+* v1.08.20100103
 
 ** German translation (thanks Michael Skiba)
 

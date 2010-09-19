@@ -39,6 +39,8 @@ You are carrying too much.
   title_end();
   "Ok"
   choice_end()
+  unfreeze(1);
+  unfreeze(&current_sprite);
   return;
  }
 
