@@ -179,8 +179,10 @@ Translations
 Packaging
 =========
 
-The Debian packaging is Copyright (C) 2008, 2009, Sylvain Beucler <beuc@beuc.net>
-and is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
+The Debian packaging is Copyright (C) 2008, 2009, 2010, Sylvain
+Beucler <beuc@beuc.net> and is licensed under the GPL, either version
+3, or (at your option) any later version, see
+`/usr/share/common-licenses/GPL-3'.
 
 
 Licenses
