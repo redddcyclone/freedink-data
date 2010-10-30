@@ -9,8 +9,9 @@ Keyboard controls
     <SPACE>	Talk/Examine/Manipulate
     <SHIFT>	Use equipped magic
     <ENTER>	Inventory/Equip screen
-    <ESC>		Options
+    <ESC>	Options
     <M>		Display map (if you have one)
+    <Tab>	When maintained, enable Turbo mode
 
 Keyboard controls: Inventory/Equip screen
     <ARROW KEYS>	Highlight Item/Weapon or Magic
@@ -32,6 +33,7 @@ Joystick/Gamepad controls: Inventory/Equip screen
     <BUTTON 4>	Exit Inventory/Equip screen
 
 Other
+    <Alt-Return>	Toggle fullscreen mode
     <Alt-M>	Stop playing current MIDI song
     <Alt-Q>	Quick quit to Windows
     <Alt-D>	Enable debug mode
