@@ -1,5 +1,7 @@
 * v1.08.UNRELEASED                                       -*- outline -*-
 
+** Improved Dutch translation (thanks Bas Wijnen)
+
 ** Fix game freeze
 
   When you didn't have a free inventory slot and tried to buy a bow in
