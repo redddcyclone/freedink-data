@@ -1,26 +1,31 @@
+# Translation of freedink-data: storyline data for dink
+# Copyright (C) 2010 Bas Wijnen.
+# This file is distributed under the same license as the dink package.
+# Nanette <clubs_shetlandpony@hotmail.com>, 2009.
+# Bas Wijnen <wijnen@debian.org>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: dink 1.08.20090706\n"
+"Project-Id-Version: dink 1.08.20100103\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-12-16 21:52+0100\n"
-"PO-Revision-Date: 2010-09-29 22:45+0200\n"
+"PO-Revision-Date: 2010-12-12 10:34+0100\n"
 "Last-Translator: Bas Wijnen <wijnen@debian.org>\n"
-"Language-Team: XX <xx@li.org>\n"
-"Language: \n"
+"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: Dutch\n"
 
 # Name translations:
 # Conan o'brien: André van Duin
 #: Story/1GOLD.c:16 Story/LGOLD.c:28 Story/MGOLD.c:29 Story/SGOLD.c:16
 #: Story/XLGOLD.c:29
 msgid "I found &mcrap gold."
-msgstr "Ik heb €&mcrap gevonden."
+msgstr "Ik heb &mcrap goudstukken gevonden."
 
 #: Story/APOTION.c:20
 msgid "Megapotion!  All stats raised by one."
-msgstr "Megaportie!  Alles krijgt er een punt bij"
+msgstr "Megatoverdrank!  Alles krijgt er een punt bij"
 
 #: Story/BUTTON6.c:7
 msgid "I don't own a map yet."
@@ -165,8 +170,7 @@ msgid "Enter = Item/magic equip screen"
 msgstr "Enter = Keuzescherm voor actief voorwerp en magie"
 
 #: Story/ESCAPE.c:126
-msgid ""
-"Use the arrow keys to move.  Joystick and control pad are also supported."
+msgid "Use the arrow keys to move.  Joystick and control pad are also supported."
 msgstr "Beweeg met de pijltjestoetsen, of met joystick of gamepad."
 
 #: Story/ESCAPE.c:128 Story/ESCAPE.c:143 Story/S1-BOOT.c:83
@@ -292,11 +296,11 @@ msgstr "Ik heb nu hellevuurmagie!"
 
 #: Story/GOLD200.c:28
 msgid "I found &ncrap gold."
-msgstr "Ik heb €&ncrap gevonden."
+msgstr "Ik heb &ncrap goudstukken gevonden."
 
 #: Story/GOLD500.c:28
 msgid "I found 500 gold."
-msgstr "Ik heb €500 gevonden."
+msgstr "Ik heb 500 goudstukken gevonden."
 
 #: Story/ITEM-B1.c:92 Story/ITEM-B2.c:92
 msgid "* POWER SHOT *"
@@ -470,8 +474,7 @@ msgstr "Ik heb het nieuws gehoord over Milder."
 
 #: Story/KING.c:162
 msgid "Yes.. he was a very brave knight - he entered the darklands knowing..."
-msgstr ""
-"Ja.. hij  was een erg goede ridder - hij is de donkere landen ingegaan..."
+msgstr "Ja.. hij  was een erg goede ridder - hij is de donkere landen ingegaan..."
 
 #: Story/KING.c:164
 msgid "full well that very few return.  And now he is lost too."
@@ -559,7 +562,7 @@ msgstr "Valsspeler!"
 
 #: Story/PAPGOLD.c:15
 msgid "I found 200 gold!"
-msgstr "Ik heb €200 gevonden!"
+msgstr "Ik heb 200 goudstukken gevonden!"
 
 #: Story/PDIE.c:13
 msgid "Wow, that was quite a pig!"
@@ -594,12 +597,8 @@ msgid "a Cast plot!"
 msgstr "voor zijn aandeel in het oprollen van het Castcomplot!"
 
 #: Story/POSTER.c:30
-msgid ""
-"Also in the news:  A pig farmer named Dink Smallwood found a lost Terris "
-"girl."
-msgstr ""
-"Verder:  Een varkenshoeder genaamd Dink Smallwood heeft een vermist meisje "
-"uit Terris gevonden."
+msgid "Also in the news:  A pig farmer named Dink Smallwood found a lost Terris girl."
+msgstr "Verder:  Een varkenshoeder genaamd Dink Smallwood heeft een vermist meisje uit Terris gevonden."
 
 #: Story/POSTER.c:32
 msgid "Pig farmer!? What a crock.  At least I'm on there though."
@@ -647,16 +646,14 @@ msgstr "Gaaf!!!!!"
 
 #: Story/POSTER.c:66
 msgid "Also in the news:  Windemere Village experiences a famine."
-msgstr ""
-"Verder in het nieuws:  Het dorp Windemere is getroffen door hongersnood."
+msgstr "Verder in het nieuws:  Het dorp Windemere is getroffen door hongersnood."
 
 #: Story/POSTER.c:75
 msgid "The King's News, issue 47."
 msgstr "Nieuws van de koning - nr 47."
 
 #: Story/POSTER.c:77
-msgid ""
-"The Knight Milder Flatstomp ventures into The Darklands - hunting the Cast."
+msgid "The Knight Milder Flatstomp ventures into The Darklands - hunting the Cast."
 msgstr "Ridder Milder Flatstomp reist naar de Darklands - achter de Cast aan."
 
 #: Story/POSTER.c:79
@@ -664,14 +661,11 @@ msgid "Big freakin' deal."
 msgstr "Boeien."
 
 #: Story/POSTER.c:81
-msgid ""
-" Also:  Hero Smallwood saves Windemere Village from famine!  He reportly"
+msgid " Also:  Hero Smallwood saves Windemere Village from famine!  He reportly"
 msgstr " Verder: de held Smallwood redt Windemere van de hongersnood!"
 
 #: Story/POSTER.c:83
-msgid ""
-"taught them proper agricultural procedure he learned pig farming in "
-"Stonebrook."
+msgid "taught them proper agricultural procedure he learned pig farming in Stonebrook."
 msgstr "Hij heeft ze geleerd te boeren zoals hij zelf in Stonebrook deed."
 
 #: Story/POSTER.c:85
@@ -728,9 +722,7 @@ msgstr "Smallwood wil koning worden!  Lees er alles over!"
 
 #: Story/POSTER.c:145
 msgid "'You've won the game, please don't take my throne too!' - King Daniel"
-msgstr ""
-"'Je hebt het spel gewonnen, blijf van mijn troon af alsjeblieft!' - Koning "
-"Daniel"
+msgstr "'Je hebt het spel gewonnen, blijf van mijn troon af alsjeblieft!' - Koning Daniel"
 
 #: Story/POSTER.c:151
 msgid "The King's News, issue 76."
@@ -786,7 +778,7 @@ msgstr "dansen en supersnel bewegen.\""
 
 #: Story/S1-BOOT.c:25
 msgid "Buy his boots ($500)"
-msgstr "Koop de laarzen (€500)"
+msgstr "Koop de laarzen (500 goudstukken)"
 
 #: Story/S1-BOOT.c:26 Story/S1-BOOT.c:27
 msgid "Complain about the price"
@@ -794,7 +786,7 @@ msgstr "Klaag over de prijs"
 
 #: Story/S1-BOOT.c:34
 msgid "You know, I bought the ones I'm wearing for only 1 piece of gold."
-msgstr "Weet je, ik heb de laarzen die ik draag voor maar €1 gekocht."
+msgstr "Weet je, ik heb de laarzen die ik draag voor maar 1 goudstuk gekocht."
 
 #: Story/S1-BOOT.c:36
 msgid "You get what you pay for."
@@ -818,7 +810,7 @@ msgstr "Ik vind ze te duur, kan u ze goedkoper maken?"
 
 #: Story/S1-BOOT.c:50
 msgid "Sure, how about 2 gold?"
-msgstr "Tuurlijk, wat dacht je van €2?"
+msgstr "Tuurlijk, wat dacht je van 2 goudstukken?"
 
 #: Story/S1-BOOT.c:52
 msgid "Great!  I'll take.. hey!"
@@ -866,7 +858,7 @@ msgstr "Voelde ik iets? Een vlieg misschien?"
 
 #: Story/S1-BRG2.c:26
 msgid "\"Hello good sir, the bridge toll is 100 gold.\""
-msgstr "\"Hallo jongeman, de tol is €100.\""
+msgstr "\"Hallo jongeman, de tol is 100 goudstukken.\""
 
 #: Story/S1-BRG2.c:28
 msgid "Pay the toll"
@@ -1014,8 +1006,7 @@ msgstr "Boerderij SmileStein - Wij verbouwen het, u eet het."
 
 #: Story/S1-FMONS.c:10
 msgid "You cannot defeat us Mr. Smallwood, we are too much for you."
-msgstr ""
-"Je kan ons niet verslaan meneer Smallwood, we zijn met teveel voor jou."
+msgstr "Je kan ons niet verslaan meneer Smallwood, we zijn met teveel voor jou."
 
 #: Story/S1-FMONS.c:11
 msgid "Try your best but you risk your life doing so..."
@@ -1084,8 +1075,7 @@ msgstr "Laar maar"
 
 #: Story/S1-GG.c:50
 msgid "Hey, guard Renton.  I need to go do something, please let me out."
-msgstr ""
-"Hé, bewaker Renton.  Ik moet iets gaan doen, laat me er alsjeblieft uit."
+msgstr "Hé, bewaker Renton.  Ik moet iets gaan doen, laat me er alsjeblieft uit."
 
 #: Story/S1-GG.c:52
 msgid "It's much too dangerous for a boy out there, Dink."
@@ -1105,8 +1095,7 @@ msgstr "Mijn bed is aan het verbranden!"
 
 #: Story/S1-H1-1.c:13 Story/S1-H1-1C.c:13
 msgid "This is my bed.  So clean and neat!  Mom must have made it."
-msgstr ""
-"Dit is mijn bed.  Zo netjes en schoon!  Mamma heeft het blijkbaar opgemaakt."
+msgstr "Dit is mijn bed.  Zo netjes en schoon!  Mamma heeft het blijkbaar opgemaakt."
 
 #: Story/S1-H1-1.c:20 Story/S1-H1-1C.c:20
 msgid "It's hot!"
@@ -1182,8 +1171,7 @@ msgstr "Het lijkt wel of hij zit vastgeschroefd in de grond."
 
 #: Story/S1-H1-M.c:22
 msgid "Dink, it's getting late!  No food until you feed the pigs!"
-msgstr ""
-"Dink, het word al laat!  Je krijgt geen eten tot je de varkens hebt gevoerd!"
+msgstr "Dink, het word al laat!  Je krijgt geen eten tot je de varkens hebt gevoerd!"
 
 #: Story/S1-H1-M.c:33
 msgid "Dink, can you do something for me?"
@@ -1539,8 +1527,7 @@ msgstr "Dank je Dink!"
 
 #: Story/S1-H2-O.c:157
 msgid "Yeah, I guess if I see 'em I'll send him home.  Maybe."
-msgstr ""
-"Tja, als ik hem zie zal ik zeggen dat ie naar huis moet gaan.  Denk ik."
+msgstr "Tja, als ik hem zie zal ik zeggen dat ie naar huis moet gaan.  Denk ik."
 
 #: Story/S1-H2-O.c:159
 msgid "I see...thank.. you .. I guess."
@@ -1568,8 +1555,7 @@ msgstr "Wat bedoel je Dink?"
 
 #: Story/S1-H2-O.c:181
 msgid "You know, all drowning away your problems on the weekend"
-msgstr ""
-"Nou, flink dronken worden om je problemen te vergeten in het weekend..."
+msgstr "Nou, flink dronken worden om je problemen te vergeten in het weekend..."
 
 #: Story/S1-H2-O.c:182
 msgid "waking up with guys you don't even know."
@@ -1605,9 +1591,7 @@ msgstr "Pak aan stinkende flessen!"
 
 #: Story/S1-H3-3.c:9
 msgid "Mr.SmileStein's bed, I shudder at what happens here."
-msgstr ""
-"Meneer SmileSteins bed, ik griezel als ik denk aan wat hierin allemaal "
-"gebeurt."
+msgstr "Meneer SmileSteins bed, ik griezel als ik denk aan wat hierin allemaal gebeurt."
 
 #: Story/S1-H3-3.c:15
 msgid "Ohh soft."
@@ -1695,9 +1679,7 @@ msgstr "Wat?  Waar heb je het over?"
 
 #: Story/S1-H3-L.c:39
 msgid "I've heard .. rumors Libby, it's okay to admit it you know."
-msgstr ""
-"Ik heb wat gehoord .. geruchten Libby, het geeft niet als je het toegeeft "
-"hoor."
+msgstr "Ik heb wat gehoord .. geruchten Libby, het geeft niet als je het toegeeft hoor."
 
 #: Story/S1-H3-L.c:41
 msgid "Admit?  Admit what?"
@@ -1793,8 +1775,7 @@ msgstr "Dank je Dink, dat is lief van je."
 
 #: Story/S1-H3-L.c:96
 msgid "So I guess you noticed that your farm is doing better now huh?"
-msgstr ""
-"Je hebt zeker wel in de gaten dat het nu veel beter gaat op de boerderij hè?"
+msgstr "Je hebt zeker wel in de gaten dat het nu veel beter gaat op de boerderij hè?"
 
 #: Story/S1-H3-L.c:98
 msgid "You know that was my handiwork out there."
@@ -1914,8 +1895,7 @@ msgstr "Vraag wat hij van plan is eraan te doen"
 
 #: Story/S1-H3-OF.c:72
 msgid "Don't worry Mr. SmileStein, I'll take care of the problem."
-msgstr ""
-"Wees niet ongerust meneer SmileStein, ik zal dat varkentje wel eens wassen."
+msgstr "Wees niet ongerust meneer SmileStein, ik zal dat varkentje wel eens wassen."
 
 #: Story/S1-H3-OF.c:74
 msgid "Really Dink??  Oh thank you, thank you."
@@ -1939,8 +1919,7 @@ msgstr "Ik denk eraan om een jager uit PortTown in te huren"
 
 #: Story/S1-H3-OF.c:83
 msgid "and take care of them!  That'll help next year's harvest."
-msgstr ""
-"om ze uit te roeien!  Dan komt het nog goed met de oogst van volgend jaar."
+msgstr "om ze uit te roeien!  Dan komt het nog goed met de oogst van volgend jaar."
 
 #: Story/S1-H3-OF.c:88
 msgid "Can I go up and see Libby?"
@@ -2040,8 +2019,7 @@ msgstr "Ik heb gehoord dat Ethels eend op vreselijke wijze is vermoord!"
 
 #: Story/S1-LG.c:72
 msgid "I don't know much now, but I'll tell you when I do."
-msgstr ""
-"Verder is er geen nieuws, maar als ik meer weet zal ik het je vertellen."
+msgstr "Verder is er geen nieuws, maar als ik meer weet zal ik het je vertellen."
 
 #: Story/S1-LG.c:73
 msgid "Oh, how tragic .... uh ..."
@@ -2157,8 +2135,7 @@ msgstr "zag hem flirten met Libby EN Lyna!"
 
 #: Story/S1-LG.c:165
 msgid "Damn.. they must dig his uniform.  I HAVE to join!"
-msgstr ""
-"Verdorie.. Ze vallen natuurlijk op zijn uniform.  Ik moet ook bij die garde!"
+msgstr "Verdorie.. Ze vallen natuurlijk op zijn uniform.  Ik moet ook bij die garde!"
 
 #: Story/S1-LG.c:169
 msgid "Guess what, I got a secret for ya Chealse."
@@ -2198,8 +2175,7 @@ msgstr "We hebben net gehoord van het vreselijke ongeluk..."
 
 #: Story/S1-LTR.c:20
 msgid "your home a short while ago.  Needless to say we are shocked."
-msgstr ""
-"dat je huis heeft verwoest.  We zijn er natuurlijk erg door geschrokken."
+msgstr "dat je huis heeft verwoest.  We zijn er natuurlijk erg door geschrokken."
 
 #: Story/S1-LTR.c:21
 msgid "This must be a hard time for you, being so young and suffering..."
@@ -2255,8 +2231,7 @@ msgstr "niks aanleren. Maar er zijn vele leraren"
 
 #: Story/S1-MH-F.c:22
 msgid "teachers out there, you will find one and further"
-msgstr ""
-"overal ter wereld die je willen helpen.  Je komt ze vanzelf op je pad tegen."
+msgstr "overal ter wereld die je willen helpen.  Je komt ze vanzelf op je pad tegen."
 
 #: Story/S1-MH-F.c:23
 msgid "your training."
@@ -2264,7 +2239,7 @@ msgstr "Zij zullen je verder trainen in het gebruik van magie."
 
 #: Story/S1-MH-F.c:25
 msgid "There are 200 gold pieces enclosed, spend them wisely."
-msgstr "Ik geef je €200 mee, ga er wijs mee om."
+msgstr "Ik geef je 200 goudstukken mee, ga er wijs mee om."
 
 #: Story/S1-MH-F.c:28
 msgid "For now I leave you with this, your first spell."
@@ -2276,9 +2251,7 @@ msgstr "Geniet ervan Dink, je hebt hem verdiend."
 
 #: Story/S1-MH-F.c:31
 msgid "All right, my first spell! Maybe I can burn down some trees..."
-msgstr ""
-"Cool, mijn eerste toverspreuk! Misschien kan ik er wel bomen mee "
-"platbranden..."
+msgstr "Cool, mijn eerste toverspreuk! Misschien kan ik er wel bomen mee platbranden..."
 
 #: Story/S1-MH-F.c:43
 msgid "I now have fireball magic!"
@@ -2326,8 +2299,7 @@ msgstr "Nee Dink, ik maak gebruik van magie!."
 
 #: Story/S1-MH-M.c:42
 msgid "You too may have the power, an ability for the supernatural."
-msgstr ""
-"Jij hebt misschien ook het vermogen en de kracht om met magie om te gaan."
+msgstr "Jij hebt misschien ook het vermogen en de kracht om met magie om te gaan."
 
 #: Story/S1-MH-M.c:44
 msgid "Really?  You think so?  Cool, what can I do?"
@@ -2375,8 +2347,7 @@ msgstr "Martridge, Ik .. ik kan het aan. Ik ben er klaar voor."
 
 #: Story/S1-MH-M.c:73
 msgid "I promise I'll be honorable and learn to use it right."
-msgstr ""
-"Ik beloof je dat ik eerlijk zal zijn en zal leren om er wijs mee om te gaan."
+msgstr "Ik beloof je dat ik eerlijk zal zijn en zal leren om er wijs mee om te gaan."
 
 #: Story/S1-MH-M.c:75
 msgid "Well Dink, you must prove yourself."
@@ -2432,8 +2403,7 @@ msgstr "waren grote leiders, traden op voor publiek, of waren goede krijgers."
 
 #: Story/S1-MH-M.c:109
 msgid "It's a great power and gift to those who can use it."
-msgstr ""
-"Voor wie het kan gebruiken is het een grote gave, die veel macht geeft."
+msgstr "Voor wie het kan gebruiken is het een grote gave, die veel macht geeft."
 
 #: Story/S1-MH-M.c:117
 msgid "Why are you trying to hurt me Dink?"
@@ -2473,9 +2443,7 @@ msgstr "KWAK!!!"
 
 #: Story/S1-OLDD.c:24
 msgid "You suck little duck guy, not even I run away from home."
-msgstr ""
-"Je bent een slechte eend, zelfs ik haal het niet in mijn hoofd om weg te "
-"lopen van huis."
+msgstr "Je bent een slechte eend, zelfs ik haal het niet in mijn hoofd om weg te lopen van huis."
 
 #: Story/S1-OLDD.c:26
 msgid "You should be ashamed."
@@ -2511,7 +2479,7 @@ msgstr "Dat zijn koninklijke wachten, wat doen die helemaal hier ..."
 
 #: Story/S1-ROB2.c:34
 msgid "Hah, you still owe us 5 gold pieces for passing through the land."
-msgstr "Ha, je bent ons €5 schuldig omdat je over dit land reist."
+msgstr "Ha, je bent ons 5 goudstukken schuldig omdat je over dit land reist."
 
 #: Story/S1-ROB2.c:37
 msgid "I don't have that much sir."
@@ -2660,9 +2628,7 @@ msgstr "goed verdedigd, om het zacht uit te drukken."
 
 #: Story/S1-WAND.c:85
 msgid "I've seen many a traveler lose his head if you know what I mean."
-msgstr ""
-"Ik heb gezien dat het vele reizigers de kop kostte, als je begrijpt wat ik "
-"bedoel."
+msgstr "Ik heb gezien dat het vele reizigers de kop kostte, als je begrijpt wat ik bedoel."
 
 #: Story/S1-WAND.c:89
 msgid "I've heard of an old man who lives just north of SunCool pond."
@@ -2746,8 +2712,7 @@ msgstr "ze geloven alles."
 
 #: Story/S1-WAND.c:144
 msgid "I heard there was a bad fire in a nearby village,"
-msgstr ""
-"Ik heb gehoord dat er een flinke brand was in een dorpje hier dichtbij."
+msgstr "Ik heb gehoord dat er een flinke brand was in een dorpje hier dichtbij."
 
 #: Story/S1-WAND.c:145
 msgid "hope no one was hurt too bad."
@@ -2835,8 +2800,7 @@ msgstr "Ik ben net ontsnapt uit het goblinreservaat."
 
 #: Story/S1-WAND2.c:93
 msgid "It's quite a horrible place and I wouldn't recommend going there."
-msgstr ""
-"Het is een vreselijke plek en ik zou je niet aanraden om daarheen te gaan."
+msgstr "Het is een vreselijke plek en ik zou je niet aanraden om daarheen te gaan."
 
 #: Story/S1-WAND2.c:95
 msgid "That place is far to the west, how'd you get out here?"
@@ -2864,20 +2828,15 @@ msgstr "of erop uit trekken met een stel struikrovers."
 
 #: Story/S1-WAND2.c:105
 msgid "Unfortunately for me one of my first jobs led me right into"
-msgstr ""
-"Helaas bracht een van mijn eerste avonturen me gelijk in aanraking met de "
-"goblins"
+msgstr "Helaas bracht een van mijn eerste avonturen me gelijk in aanraking met de goblins"
 
 #: Story/S1-WAND2.c:106
 msgid "being captured by the goblins.  Last time I go to the WestLands."
-msgstr ""
-"die me gevangen zetten.  Dat was de laatste keer dat ik in het westen ben "
-"geweest."
+msgstr "die me gevangen zetten.  Dat was de laatste keer dat ik in het westen ben geweest."
 
 #: Story/S1-WAND2.c:110
 msgid "After being around those goblins for so long I'm glad to be out."
-msgstr ""
-"Nadat ik zo lang bij de goblins ben geweest, ben ik blij dat ik er weg ben."
+msgstr "Nadat ik zo lang bij de goblins ben geweest, ben ik blij dat ik er weg ben."
 
 #: Story/S1-WAND2.c:111
 msgid "Those guy are dumb as bricks man!"
@@ -2913,13 +2872,11 @@ msgstr "Nog een reden dat ik daar een tijdje uit de buurt blijf."
 
 #: Story/S1-WAND2.c:143
 msgid "While imprisoned, the goblins said that by the Crag cliffs"
-msgstr ""
-"In de tijd dat ik gevangen zat zeiden de goblins dat er bij de Crag cliffs"
+msgstr "In de tijd dat ik gevangen zat zeiden de goblins dat er bij de Crag cliffs"
 
 #: Story/S1-WAND2.c:144
 msgid "There was a wizard that they were fighting, they thought"
-msgstr ""
-"een tovenaar was waar ze tegen vochten. Ze dachten dat als ze hem zouden"
+msgstr "een tovenaar was waar ze tegen vochten. Ze dachten dat als ze hem zouden"
 
 #: Story/S1-WAND2.c:145
 msgid "they could actually get his magic if they defeated him."
@@ -2927,14 +2884,11 @@ msgstr "verslaan, ze de magie en toverspreuken zouden krijgen die hij had."
 
 #: Story/S1-WAND2.c:146
 msgid "Anyway they said this guy could actually turn people to ice!!"
-msgstr ""
-"Ik hoorde ze zeggen dat die tovenaar zelfs mensen in ijs kon veranderen!!"
+msgstr "Ik hoorde ze zeggen dat die tovenaar zelfs mensen in ijs kon veranderen!!"
 
 #: Story/S1-WAND2.c:147
 msgid "I'd guess they lost about 30 troops before they gave up."
-msgstr ""
-"Ik denk dat ze zo'n 30 troepen hebben verloren voordat ze het hebben "
-"opgegeven."
+msgstr "Ik denk dat ze zo'n 30 troepen hebben verloren voordat ze het hebben opgegeven."
 
 #: Story/S1-WAND2.c:151
 msgid "I hear your Mom's a slut.  But that's just the word on"
@@ -2974,9 +2928,7 @@ msgstr "Een man die ik ontmoette tijdens mijn omzwervingen vertelde dat er"
 
 #: Story/S1-WAND2.c:172
 msgid "around these parts.  Hope no one was injured."
-msgstr ""
-"hier in de buurt een grote brand is geweest. Ik hoop dat er niemand gewond "
-"is geraakt."
+msgstr "hier in de buurt een grote brand is geweest. Ik hoop dat er niemand gewond is geraakt."
 
 #: Story/S1-WAND2.c:179
 msgid "Greetings friend, any news?"
@@ -3056,9 +3008,7 @@ msgstr "Hoe kan je van mij verwachten dat ik je vind als je hut verborgen is?"
 
 #: Story/S1-WIZ.c:61
 msgid "Good point.  It lies behind some trees north-east of here."
-msgstr ""
-"Tja, daar zeg je wat. De hut ligt achter een paar bomen ten noord-oosten van "
-"hier."
+msgstr "Tja, daar zeg je wat. De hut ligt achter een paar bomen ten noord-oosten van hier."
 
 #: Story/S1-WIZ.c:63
 msgid "Ok, I may drop by later.. are you in a circus?"
@@ -3326,8 +3276,7 @@ msgstr "Ik wil wel ruilen, maar mijn bed is net zo groot."
 
 #: Story/S2-AUNTP.c:313
 msgid "What if you traded them in for one big one we could share?"
-msgstr ""
-"En als u ze nou eens in zou ruilen voor een groot bed voor ons tweetjes?"
+msgstr "En als u ze nou eens in zou ruilen voor een groot bed voor ons tweetjes?"
 
 #: Story/S2-AUNTP.c:315
 msgid "I'm your aunt, Dink!"
@@ -3515,8 +3464,7 @@ msgstr "Ja."
 
 #: Story/S2-BAR.c:255
 msgid "Nice job on saving Nadine's little girl.  You are something of a..."
-msgstr ""
-"Fantastisch dat je Nadine's dochtertje hebt gered. Je bent hier nu een..."
+msgstr "Fantastisch dat je Nadine's dochtertje hebt gered. Je bent hier nu een..."
 
 #: Story/S2-BAR.c:258
 msgid "hero around here.  Oh, and my employees are lazy, that's about it."
@@ -3571,23 +3519,16 @@ msgid "King Daniel has ruled with an iron hand for nearly a decade now."
 msgstr "Koning Daniel regeert nu al bijna 10 jaar met harde hand."
 
 #: Story/S2-CA-G.c:68
-msgid ""
-"It was his strategic brilliance that stopped the Great Goblin invasion of "
-"'23."
-msgstr ""
-"Door zijn strategisch inzicht is de invasie van de goblins in '23 afgeslagen"
+msgid "It was his strategic brilliance that stopped the Great Goblin invasion of '23."
+msgstr "Door zijn strategisch inzicht is de invasie van de goblins in '23 afgeslagen"
 
 #: Story/S2-CA-G.c:70
 msgid "Did he kill them all?"
 msgstr "Heeft hij ze allemaal gedood?"
 
 #: Story/S2-CA-G.c:72
-msgid ""
-"No.  After the war was won he created a special place for them to live in "
-"peace."
-msgstr ""
-"Nee.  Na de oorlog heeft hij een speciale plek voor ze gebouwd waar ze in "
-"vrede kunnen leven."
+msgid "No.  After the war was won he created a special place for them to live in peace."
+msgstr "Nee.  Na de oorlog heeft hij een speciale plek voor ze gebouwd waar ze in vrede kunnen leven."
 
 #: Story/S2-CA-G.c:74
 msgid "Wow, quite a guy."
@@ -3602,11 +3543,8 @@ msgid "And you are?"
 msgstr "En wie ben je?"
 
 #: Story/S2-CA-G.c:94
-msgid ""
-"I've never heard of you.  Please, go back to your village and play hero "
-"there."
-msgstr ""
-"Nooit van gehoord. Ga terug naar je dorp om daar de held uit te hangen."
+msgid "I've never heard of you.  Please, go back to your village and play hero there."
+msgstr "Nooit van gehoord. Ga terug naar je dorp om daar de held uit te hangen."
 
 #: Story/S2-CA-G.c:99 Story/S2-CA-G.c:108
 msgid "Ah, the one that saved that little girl.  Nice work."
@@ -3634,8 +3572,7 @@ msgstr "Ieder ander zou in mijn plaats hetzelfde hebben gedaan."
 
 #: Story/S2-CA-G.c:122
 msgid "But alas, the King is visiting abroad."
-msgstr ""
-"Maar helaas kan je de koning niet spreken, hij legt een staatsbezoek af."
+msgstr "Maar helaas kan je de koning niet spreken, hij legt een staatsbezoek af."
 
 #: Story/S2-CA-G.c:124
 msgid "Damn."
@@ -3759,8 +3696,7 @@ msgstr "Ik denk niet dat dat genoeg is."
 
 #: Story/S2-CAVE.c:64
 msgid "Try in town, someone there's gotta know something."
-msgstr ""
-"Probeer het eens in de stad, daar is vast wel iemand die er iets op weet."
+msgstr "Probeer het eens in de stad, daar is vast wel iemand die er iets op weet."
 
 #: Story/S2-CAVE.c:66
 msgid "Ok... by the way, my name is Dink.  Goodbye for now."
@@ -3952,9 +3888,7 @@ msgstr "Ok.. wat is het?"
 
 #: Story/S2-CAVE2.c:141
 msgid "The Mordavia scroll.  It contains magic I needed to..."
-msgstr ""
-"De.. Morda..via.... boekrol. Hij ..bevat...de magie... die ik nodig had ..."
-"om......"
+msgstr "De.. Morda..via.... boekrol. Hij ..bevat...de magie... die ik nodig had ...om......"
 
 #: Story/S2-CAVE2.c:142
 msgid "Ahhhhhh."
@@ -3986,7 +3920,7 @@ msgstr "Je bloed zal vloeien als een rivier."
 
 #: Story/S2-CMAN.c:28
 msgid "Can I interest you in our love gift for December?  Only $80!"
-msgstr "Wilt u misschien ons liefdesgeschenk voor december? Het kost maar €80!"
+msgstr "Wilt u misschien ons liefdesgeschenk voor december? Het kost maar 80 goudstukken!"
 
 #: Story/S2-CSLAY.c:9
 msgid "Not bad.. not bad at all."
@@ -4070,8 +4004,7 @@ msgstr "Deze man heeft me gered van een stel stoute mensen!"
 
 #: Story/S2-CULG.c:75
 msgid "Dink, thank you.  If you ever need anything, just ask."
-msgstr ""
-"Dink, dank je wel.  Als je ooit iets nodig hebt, hoef je het maar te vragen."
+msgstr "Dink, dank je wel.  Als je ooit iets nodig hebt, hoef je het maar te vragen."
 
 #: Story/S2-CULG.c:77
 msgid "I was just doing my job, ma'am."
@@ -4135,8 +4068,7 @@ msgstr "Hoe gaat het met het aanbidden van het dode drakenskelet, meisjes?"
 
 #: Story/S2-CULT.c:93
 msgid "Wonderful - thank you for showing us the light, Bishop Nelson!"
-msgstr ""
-"Fantastisch! - Dank u dat u ons het licht hebt laten zien, Bisschop Nelson!"
+msgstr "Fantastisch! - Dank u dat u ons het licht hebt laten zien, Bisschop Nelson!"
 
 #: Story/S2-CULT.c:95
 msgid "Guess what, I have a little surprise for you today."
@@ -4168,9 +4100,7 @@ msgstr "Hoe kan je nou een rottend lijk aanbidden?!"
 
 #: Story/S2-CULT.c:115
 msgid "I think the Carcass would appreciate another sacrifice, Bishop Nelson."
-msgstr ""
-"Ik denk dat het skelet het wel op prijs zou stellen als we hem een offer "
-"brengen, Bisschop Nelson."
+msgstr "Ik denk dat het skelet het wel op prijs zou stellen als we hem een offer brengen, Bisschop Nelson."
 
 #: Story/S2-CULT.c:117
 msgid "Excellent point, Jennifer."
@@ -4266,9 +4196,7 @@ msgstr "er zullen wel monsters in de buurt zijn geweest."
 
 #: Story/S2-H2-S.c:6
 msgid "Not a bad little room.  I think I'm going to enjoy my stay."
-msgstr ""
-"Dit kamertje ziet er niet slecht uit.  Ik geloof dat ik het hier wel leuk ga "
-"vinden."
+msgstr "Dit kamertje ziet er niet slecht uit.  Ik geloof dat ik het hier wel leuk ga vinden."
 
 #: Story/S2-H2-S.c:8
 msgid "Except for that guy Jack..."
@@ -4288,11 +4216,11 @@ msgstr "\"U ziet er gezond uit, meneer.\""
 
 #: Story/S2-HEALP.c:98 Story/S2-HEALP.c:124
 msgid "Buy a bottle of elixer for $25"
-msgstr "Koop een fles elixer voor €25."
+msgstr "Koop een fles elixer voor 25 goudstukken."
 
 #: Story/S2-HEALP.c:121 Story/S4-HEALP.c:122
 msgid "\"You are injured!  It will cost $&amount gold to heal you.\""
-msgstr "\"U bent gewond! Het kost €&amount om u te genezen.\""
+msgstr "\"U bent gewond! Het kost &amount goudstukken om u te genezen.\""
 
 #: Story/S2-HEALP.c:123 Story/S4-HEALP.c:124
 msgid "Get healed"
@@ -4420,9 +4348,7 @@ msgstr "<snikt>  Dink... ik..ik dacht dat jij anders was."
 
 #: Story/S2-JACK.c:141
 msgid "Get a clue, honey.  How do you think I kept my mom in line?  Haw!"
-msgstr ""
-"Denk eens na schat, hoe denk je dat ik mijn moeder alles voor mij liet "
-"doen?  Ha!"
+msgstr "Denk eens na schat, hoe denk je dat ik mijn moeder alles voor mij liet doen?  Ha!"
 
 #: Story/S2-JACK.c:156
 msgid "Oh, NOW YOU'VE DONE IT!"
@@ -4466,8 +4392,7 @@ msgstr "en toen ik net de genadeslag wilde geven...."
 
 #: Story/S2-MAN2.c:49
 msgid "He begged me for his life.  Have you ever seen a dragon cry?"
-msgstr ""
-"smeekte hij me om hem te laten leven. Heb je ooit een draak zien huilen?"
+msgstr "smeekte hij me om hem te laten leven. Heb je ooit een draak zien huilen?"
 
 #: Story/S2-MAN2.c:51 Story/S6-VEND.c:40
 msgid "Nope."
@@ -4502,11 +4427,8 @@ msgid "You trained a slayer!?!"
 msgstr "Jij hebt een slayer getemd!?!"
 
 #: Story/S2-MAN2.c:70
-msgid ""
-"Yup.  I raised him from when he was a pup.  He would do anything I told him "
-"to."
-msgstr ""
-"Ja.  Ik heb hem van kinds af opgevoed.  Hij deed echt alles wat ik hem vroeg."
+msgid "Yup.  I raised him from when he was a pup.  He would do anything I told him to."
+msgstr "Ja.  Ik heb hem van kinds af opgevoed.  Hij deed echt alles wat ik hem vroeg."
 
 #: Story/S2-MAN2.c:71
 msgid "Where is he now??!"
@@ -4542,8 +4464,7 @@ msgstr "Ja hoor, het was één of andere vreemde vuurtoverspreuk."
 
 #: Story/S2-MAN2.c:89
 msgid "I may have helped that big fire back a few seasons ago."
-msgstr ""
-"Misschien heb ik daarmee wel die grote brand gesticht een paar jaar geleden."
+msgstr "Misschien heb ik daarmee wel die grote brand gesticht een paar jaar geleden."
 
 #: Story/S2-MAN2.c:90
 msgid "Quite toasty things got!"
@@ -4563,8 +4484,7 @@ msgstr "Ja, waarom niet, waarom wil je gaan jagen dan?"
 
 #: Story/S2-MAN2.c:97
 msgid "I hear there's a cave to the northeast with quite a catch inside it."
-msgstr ""
-"Ik hoorde dat er in het noordwesten een grot is waar een grote buit in ligt."
+msgstr "Ik hoorde dat er in het noordwesten een grot is waar een grote buit in ligt."
 
 #: Story/S2-MAN2.c:98
 msgid "I don't know..."
@@ -4592,8 +4512,7 @@ msgstr "Babbel met de mannen"
 
 #: Story/S2-MAN2.c:130
 msgid "Greetings men.  I bring stories of my adventures from the East."
-msgstr ""
-"Hallo mannen. Ik breng jullie verhalen van mijn avonturen in het oosten."
+msgstr "Hallo mannen. Ik breng jullie verhalen van mijn avonturen in het oosten."
 
 #: Story/S2-MAN2.c:137
 msgid "Oh really?  And who might you be?"
@@ -4682,8 +4601,7 @@ msgstr "Stelletje sukkels!  Ik haat jullie allemaal!"
 
 #: Story/S2-MAN2.c:190
 msgid "This has been fun, pig boy, but I have REAL adventuring to do.  See ya."
-msgstr ""
-"Dit was leuk, varkensjong, maar ik ga ECHTE advonturen beleven. Tot kijk."
+msgstr "Dit was leuk, varkensjong, maar ik ga ECHTE advonturen beleven. Tot kijk."
 
 #: Story/S2-MAN2.c:195
 msgid "He said pig boy..."
@@ -4771,8 +4689,7 @@ msgid "a poor guy who is imprisoned in the dungeon south of here."
 msgstr "te helpen die opgesloten zit in een kerker ten zuiden van hier."
 
 #: Story/S2-MDOOR.c:59
-msgid ""
-"Young Maulwood, people get trapped in places they shouldn't go all the time."
+msgid "Young Maulwood, people get trapped in places they shouldn't go all the time."
 msgstr "Jonge Maulwood, dan moet hij maar niet zo dom zijn om daarin te gaan."
 
 #: Story/S2-MDOOR.c:61
@@ -4781,15 +4698,11 @@ msgstr "Waarom zou het mij iets kunnen schelen dat die man opgesloten zit?"
 
 #: Story/S2-MDOOR.c:67
 msgid "It's Smallwood sir, and he says..."
-msgstr ""
-"De naam is Smallwood meneer, en hij zei dat hij gevangengenomen is door..."
+msgstr "De naam is Smallwood meneer, en hij zei dat hij gevangengenomen is door..."
 
 #: Story/S2-MDOOR.c:69
-msgid ""
-"he was imprisoned by agents of the Cast and that the lock can only be broken "
-"with magic!"
-msgstr ""
-"mannen van de Cast, en dat het slot alleen open kan met een toverspreuk!"
+msgid "he was imprisoned by agents of the Cast and that the lock can only be broken with magic!"
+msgstr "mannen van de Cast, en dat het slot alleen open kan met een toverspreuk!"
 
 #: Story/S2-MDOOR.c:71
 msgid "Are you high?"
@@ -4801,8 +4714,7 @@ msgstr "Nee."
 
 #: Story/S2-MDOOR.c:76
 msgid "Well, if those Cast members are involved I'd best help."
-msgstr ""
-"Goed dan, als die Castkerels erbij betrokken zijn kan ik maar beter helpen."
+msgstr "Goed dan, als die Castkerels erbij betrokken zijn kan ik maar beter helpen."
 
 #: Story/S2-MDOOR.c:78
 msgid "Come in."
@@ -4974,9 +4886,7 @@ msgstr "Ik wil dat je weggaat."
 
 #: Story/S2-NADP.c:67
 msgid "Hi Nadine.  I'm new to town.  Why is your house a pig pen?"
-msgstr ""
-"Hoi Nadine. Ik ben nieuw in de stad. Waarom is het zo'n varkensstal in je "
-"huis?"
+msgstr "Hoi Nadine. Ik ben nieuw in de stad. Waarom is het zo'n varkensstal in je huis?"
 
 #: Story/S2-NADP.c:69
 msgid "Since my little girl was kidnapped, I've sort of let things go."
@@ -5060,11 +4970,11 @@ msgstr "\"We kopen wel eens wat op. Wat heeft u?\""
 
 #: Story/S2-OUT.c:183 Story/S4-ST1P.c:131
 msgid "Sell a Longsword - $200"
-msgstr "Verkoop een langzwaard - €200"
+msgstr "Verkoop een langzwaard - 200 goudstukken"
 
 #: Story/S2-OUT.c:184 Story/S4-ST1P.c:132
 msgid "Sell a nut - $2"
-msgstr "Verkoop een noot - €2"
+msgstr "Verkoop een noot - 2 goudstukken"
 
 #: Story/S2-OUT.c:185 Story/S4-ST1P.c:135
 msgid "Sell nothing"
@@ -5072,16 +4982,15 @@ msgstr "Verkoop niks"
 
 #: Story/S2-OUT.c:216
 msgid "\"Our wares are the finest quality around.  We'll beat any price!\""
-msgstr ""
-"\"Onze goederen zijn van de beste kwaliteit.  We zijn de goedkoopste!\""
+msgstr "\"Onze goederen zijn van de beste kwaliteit.  We zijn de goedkoopste!\""
 
 #: Story/S2-OUT.c:218 Story/S4-ST3P.c:64
 msgid "Longsword - $400"
-msgstr "Langzwaard - €400"
+msgstr "Langzwaard - 400 goudstukken"
 
 #: Story/S2-OUT.c:219 Story/S4-ST3P.c:65
 msgid "Bomb - $20"
-msgstr "Bom - €20"
+msgstr "Bom - 20 goudstukken"
 
 #: Story/S2-OUT.c:256
 msgid "\"What can I do for you today, sir?\""
@@ -5191,8 +5100,7 @@ msgstr "Wie ik?"
 
 #: Story/S2-RYANT.c:46
 msgid "Yup, myself, why if you couldn't tell I'm an adventurer."
-msgstr ""
-"Ja u, ik ben zelf een avonturier, mocht het u nog niet opgevallen zijn."
+msgstr "Ja u, ik ben zelf een avonturier, mocht het u nog niet opgevallen zijn."
 
 #: Story/S2-RYANT.c:48
 msgid "Hehe, yes well, I'm a ... a .. specialist."
@@ -5283,9 +5191,7 @@ msgid "Nadine's House"
 msgstr "Nadines Huis"
 
 #: Story/S2-SIGNE.c:3
-msgid ""
-"Danger! Murkwood Forest - Has been magically sealed shut by decree of King "
-"Daniel."
+msgid "Danger! Murkwood Forest - Has been magically sealed shut by decree of King Daniel."
 msgstr "Gevaar! Murkwood Bos - Magisch afgesloten op bevel van koning Daniel."
 
 #: Story/S2-SK.c:3
@@ -5294,14 +5200,11 @@ msgstr "Woning van Jack en Maria Kneedlewood"
 
 #: Story/S2-STAT.c:5
 msgid "It's a stuffed slayer.  We pay good money for slayer claws here."
-msgstr ""
-"Het is een opgezette slayer.  Slayerklauwen kopen wij tegen een hoge prijs "
-"op."
+msgstr "Het is een opgezette slayer.  Slayerklauwen kopen wij tegen een hoge prijs op."
 
 #: Story/S2-STAT.c:11
 msgid "Um, sir?  It's stuffed.  It isn't alive... It won't hurt you."
-msgstr ""
-"Eh, meneer?  Hij is opgezet.  Hij leeft niet meer... Hij zal u niks doen."
+msgstr "Eh, meneer?  Hij is opgezet.  Hij leeft niet meer... Hij zal u niks doen."
 
 #: Story/S2-T1S.c:7
 msgid "Welcome to the town of Terris"
@@ -5457,13 +5360,11 @@ msgstr "en dat ze het land hebben geterroriseerd."
 
 #: Story/S2-WAND.c:113
 msgid "But they say a magic user came and cast a mighty spell on the castle."
-msgstr ""
-"Maar toen kwam er een tovenaar die een machtige toverspreuk heeft gebruikt."
+msgstr "Maar toen kwam er een tovenaar die een machtige toverspreuk heeft gebruikt."
 
 #: Story/S2-WAND.c:115
 msgid "So strong that it teleported the castle to the icelands in the north."
-msgstr ""
-"Het hele kasteel is daardoor verplaatst naar de ijslanden in het noorden."
+msgstr "Het hele kasteel is daardoor verplaatst naar de ijslanden in het noorden."
 
 #: Story/S2-WAND.c:117
 msgid "Presumably the goblins died in the harsh weather."
@@ -5683,7 +5584,7 @@ msgstr "Ga ...ga gewoon weg wil je."
 
 #: Story/S3-BOWL.c:30
 msgid "\"Hello, friend.  I will teach you bow lore for $1500 gold.\""
-msgstr "\"Hallo, vriend. Ik kan je goed leren boogschieten voor €1500.\""
+msgstr "\"Hallo, vriend. Ik kan je goed leren boogschieten voor 1500 goudstukken.\""
 
 #: Story/S3-BOWL.c:32
 msgid "Learn bow lore"
@@ -5844,9 +5745,7 @@ msgstr "Ik heb andere dingen gehoord..."
 
 #: Story/S3-CHICK.c:82
 msgid "Like that Cast Knights are planning to come and kill everyone here."
-msgstr ""
-"Zoals dat ridders van de Cast van plan zijn hier te komen en iedereen te "
-"vermoorden."
+msgstr "Zoals dat ridders van de Cast van plan zijn hier te komen en iedereen te vermoorden."
 
 #: Story/S3-CHICK.c:84
 msgid "What...?"
@@ -5910,8 +5809,7 @@ msgstr "Ik heb laatst wel een gerucht gehoord."
 
 #: Story/S3-CHICK.c:141
 msgid "A man said he was traveling near the Goblin Sanctuary and one"
-msgstr ""
-"Een man zei dat hij langs het goblinreservaat reisde en dat hij door een"
+msgstr "Een man zei dat hij langs het goblinreservaat reisde en dat hij door een"
 
 #: Story/S3-CHICK.c:143
 msgid "attacked him.  Very rare these days."
@@ -5983,9 +5881,7 @@ msgstr "MAAK DAT JE WEGKOMT!!!!!"
 
 #: Story/S3-FREAK.c:42
 msgid "There go my chances of impressing the Mayor's daughter!!!!"
-msgstr ""
-"Daar gaan mijn kansen om indruk te maken op de dochter van de "
-"burgemeester!!!!"
+msgstr "Daar gaan mijn kansen om indruk te maken op de dochter van de burgemeester!!!!"
 
 #: Story/S3-FREAK.c:55
 msgid "This parade is gonna rule!!!"
@@ -6252,10 +6148,8 @@ msgid "no bow?!!! un not joon! leev!!"
 msgstr "nie boog?!!! dan nie joon! wegga noe!!"
 
 #: Story/S3-GOBG.c:118
-msgid ""
-"Say.  So how 'bout that war of '23?  You guys got beat back pretty hard."
-msgstr ""
-"Zeg. Hoe zit dat met die oorlog van '23? Jullie zijn toen flink afgedroogd."
+msgid "Say.  So how 'bout that war of '23?  You guys got beat back pretty hard."
+msgstr "Zeg. Hoe zit dat met die oorlog van '23? Jullie zijn toen flink afgedroogd."
 
 #: Story/S3-GOBG.c:120
 msgid "yoo ar engerang meee!"
@@ -6299,15 +6193,12 @@ msgid "We can supply all your wood furnishing needs."
 msgstr "We kunnen al uw hout- en meubelwensen vervullen."
 
 #: Story/S3-LARRY.c:32
-msgid ""
-"Oh, not for me then.  I've had bad experiences with furniture in the past."
-msgstr ""
-"Oh, dat is niks voor mij.  Ik heb slechte ervaringen met meubels gehad."
+msgid "Oh, not for me then.  I've had bad experiences with furniture in the past."
+msgstr "Oh, dat is niks voor mij.  Ik heb slechte ervaringen met meubels gehad."
 
 #: Story/S3-LARRY.c:34
 msgid "Things tend to light on fire, and people I know just die. :'("
-msgstr ""
-"Dingen vliegen zomaar in de brand, en mensen van wie ik hou gaan dood. :'("
+msgstr "Dingen vliegen zomaar in de brand, en mensen van wie ik hou gaan dood. :'("
 
 #: Story/S3-LARRY.c:36
 msgid "Okay then, if you need anything I'll be ...  over ... there."
@@ -6319,8 +6210,7 @@ msgstr "En, nog andere aanbiedingen?"
 
 #: Story/S3-LARRY.c:44
 msgid "Please sir, no more, I need to tend to my daughter."
-msgstr ""
-"Alstublieft meneer, ik heb geen tijd, ik moet voor mijn dochtertje zorgen."
+msgstr "Alstublieft meneer, ik heb geen tijd, ik moet voor mijn dochtertje zorgen."
 
 #: Story/S3-LARRY.c:46 Story/S3-LARRY.c:73 Story/S3-LARRY.c:75
 msgid "DADDY!!!!!!!!!"
@@ -6344,9 +6234,7 @@ msgstr "bij mensen thuis.  We doen ook aanrechten enzo."
 
 #: Story/S3-LARRY.c:70
 msgid "I see, well I don't own a house, but thanks for the info."
-msgstr ""
-"Ik begrijp het, nou ja, ik heb geen eigen huis, maar bedankt voor de "
-"informatie."
+msgstr "Ik begrijp het, nou ja, ik heb geen eigen huis, maar bedankt voor de informatie."
 
 #: Story/S3-LARRY.c:72
 msgid "Yeah, no problem ..."
@@ -6446,8 +6334,7 @@ msgstr "Graag gedaan."
 
 #: Story/S3-MAYOR.c:34
 msgid "Mayor, I have urgent news, your town is going to be attacked!"
-msgstr ""
-"Burgemeester, ik heb belangrijk nieuws, uw stad zal worden aangevallen!"
+msgstr "Burgemeester, ik heb belangrijk nieuws, uw stad zal worden aangevallen!"
 
 #: Story/S3-MAYOR.c:36
 msgid "What?!?  That's preposterous, you've got to be joking!"
@@ -6471,8 +6358,7 @@ msgstr "Des te meer reden voor u om me te geloven."
 
 #: Story/S3-MAYOR.c:46
 msgid "Now the girl by the fountain said you knew some Royal guards."
-msgstr ""
-"Het meisje bij de fontein zei dat u ridders van de koningklijke garde kent."
+msgstr "Het meisje bij de fontein zei dat u ridders van de koningklijke garde kent."
 
 #: Story/S3-MAYOR.c:48
 msgid "You talked with my daughter?"
@@ -6583,11 +6469,8 @@ msgid "What's this?  You have learned our tongue well, Mog."
 msgstr "Wat nu?  Jij hebt onze taal goed leren spreken, Mog."
 
 #: Story/S3-MOG.c:20
-msgid ""
-"Of course.  I was raised by.. what is this?  My comrades litter the ground!"
-msgstr ""
-"Natuurlijk. Ik ben opgevoed door.. wat krijgen we nou? Al mijn mannen zijn "
-"dood!"
+msgid "Of course.  I was raised by.. what is this?  My comrades litter the ground!"
+msgstr "Natuurlijk. Ik ben opgevoed door.. wat krijgen we nou? Al mijn mannen zijn dood!"
 
 #: Story/S3-MOG.c:22
 msgid "It was I who fell them."
@@ -6631,8 +6514,7 @@ msgstr "Help!! Die Dink is geen held, hij was het brein achter de aanval!"
 
 #: Story/S3-PEEPS.c:46
 msgid "Please sir... please...no!!!  Come on, help me fight this guy!"
-msgstr ""
-"Alstublieft...meneer...nee!!!  Kom op, help me tegen deze vent te vechten!"
+msgstr "Alstublieft...meneer...nee!!!  Kom op, help me tegen deze vent te vechten!"
 
 #: Story/S3-PEEPS.c:63
 msgid "Now, THAT'S entertainment!"
@@ -6680,8 +6562,7 @@ msgstr "Oostwaarts naar Terris"
 
 #: Story/S3-SIGN7.c:3
 msgid "Goblin Sanctuary - Humans keep out to avoid incidents."
-msgstr ""
-"Goblinreservaat - Verboden toegang voor mensen om ongelukken te voorkomen."
+msgstr "Goblinreservaat - Verboden toegang voor mensen om ongelukken te voorkomen."
 
 #: Story/S3-ST1O.c:18
 msgid "Over here."
@@ -6889,8 +6770,7 @@ msgstr "Nou ja, ik laat het wel weten."
 
 #: Story/S3-ST2P.c:61
 msgid "One more thing.. if you hold down the button you will draw"
-msgstr ""
-"Nog één ding..als je de knop ingedrukt houdt, span je de boog verder aan,"
+msgstr "Nog één ding..als je de knop ingedrukt houdt, span je de boog verder aan,"
 
 #: Story/S3-ST2P.c:63
 msgid "your bow back farther, thus hitting harder.  No refunds.  Enjoy!"
@@ -6902,7 +6782,7 @@ msgstr "Vraag naar de bogen"
 
 #: Story/S3-ST2P.c:76
 msgid "Buy a Bow and some arrows for $1000"
-msgstr "Koop een boog en wat pijlen voor €1000"
+msgstr "Koop een boog en wat pijlen voor 1000 goudstukken"
 
 #: Story/S3-ST2P.c:85
 msgid "Well, you talked me into it and I bought one."
@@ -6922,8 +6802,7 @@ msgstr "Eens kijken... er is een oude man die een huis heeft aan het strand"
 
 #: Story/S3-ST2P.c:93
 msgid "here who can teach you bow lore.  This will give you triple"
-msgstr ""
-"hier in de buurt.  Hij kan je de kunst bijbrengen.  Heb je het onder de knie,"
+msgstr "hier in de buurt.  Hij kan je de kunst bijbrengen.  Heb je het onder de knie,"
 
 #: Story/S3-ST2P.c:95
 msgid "damage.. when it works."
@@ -6951,11 +6830,11 @@ msgstr "Ik vroeg me af hoeveel uw bogen moeten kosten?"
 
 #: Story/S3-ST2P.c:113
 msgid "My current price for a bow and arrows is 1000 gold."
-msgstr "Op dit moment is de prijs voor een boog met pijlen €1000."
+msgstr "Op dit moment is de prijs voor een boog met pijlen 1000 goudstukken."
 
 #: Story/S3-ST2P.c:115
 msgid "MAN!  Don't you think that's a little steep??"
-msgstr "€1000?!  Vindt u niet dat dat een beetje veel is??"
+msgstr "1000 goudstukken?!  Vindt u niet dat dat een beetje veel is??"
 
 #: Story/S3-ST2P.c:117
 msgid "Not at all, my quality is superb."
@@ -7051,9 +6930,7 @@ msgstr "Hoe kom je hierin om het altaar van dichtbij te zien?"
 
 #: Story/S4-DG.c:44
 msgid "It is a great honor to worship inside.. one you have not earned."
-msgstr ""
-"Het is een grote eer om binnen te mogen aanbidden.. een te grote eer voor "
-"jou."
+msgstr "Het is een grote eer om binnen te mogen aanbidden.. een te grote eer voor jou."
 
 #: Story/S4-DG.c:46
 msgid "You can pray to the duck from here."
@@ -7152,12 +7029,8 @@ msgid "Dink, you magically changed our supreme beings into food!"
 msgstr "Dink, je hebt onze oppenwezens in eten omgetoverd!"
 
 #: Story/S4-END.c:103
-msgid ""
-"No.. there is a perfect explanation, you see, the friction seemed to cook "
-"and..."
-msgstr ""
-"Nee.. er is een gewone verklaring voor, kijk, door de wrijving wordt het "
-"warm en..."
+msgid "No.. there is a perfect explanation, you see, the friction seemed to cook and..."
+msgstr "Nee.. er is een gewone verklaring voor, kijk, door de wrijving wordt het warm en..."
 
 #: Story/S4-END.c:106
 msgid "Who cares about that!"
@@ -7417,7 +7290,7 @@ msgstr "Nee meneer!"
 
 #: Story/S4-HEALP.c:99 Story/S4-HEALP.c:125
 msgid "Buy a bottle of elixer for $100"
-msgstr "Koop een fles elixer voor €100"
+msgstr "Koop een fles elixer voor 100 goudstukken"
 
 #: Story/S4-MD2.c:11
 msgid "Ahh Dink, thank you, thank you!"
@@ -7657,11 +7530,11 @@ msgstr "Sla me alstublieft niet, meneer."
 
 #: Story/S4-ST1P.c:133
 msgid "Sell a Clawsword - $1000"
-msgstr "Verkoop een klauwzwaard - €1000"
+msgstr "Verkoop een klauwzwaard - 1000 goudstukken"
 
 #: Story/S4-ST1P.c:134
 msgid "Sell a slayer claw - $150"
-msgstr "Verkoop een slayerklauw - €150"
+msgstr "Verkoop een slayerklauw - 150 goudstukken"
 
 #: Story/S4-ST2P.c:13
 msgid "See what's up"
@@ -7753,8 +7626,7 @@ msgstr "hongersnood meer is."
 
 #: Story/S4-ST2P.c:63
 msgid "Thank you Dink, and if there's anything you need, just ask."
-msgstr ""
-"Dank je Dink, en als ik ooit eens wat voor jou kan doen, zeg je het maar."
+msgstr "Dank je Dink, en als ik ooit eens wat voor jou kan doen, zeg je het maar."
 
 #: Story/S4-ST2P.c:67
 msgid "What exactly do you have for sale?"
@@ -7794,7 +7666,7 @@ msgstr "\"Arrr, laat uw ogen eens gaan over deze mooie dingen...\""
 
 #: Story/S4-ST3P.c:66
 msgid "Clawsword - $2000"
-msgstr "Klauwzwaard - €2000"
+msgstr "Klauwzwaard - 2000 goudstukken"
 
 #: Story/S4-ST3P.c:127
 msgid "You don't have enough gold to buy this bomb, mate!"
@@ -7902,8 +7774,7 @@ msgstr "Er is een steen vlakbij het eendenaltaar met een barst erin..."
 
 #: Story/S4-TREE.c:14
 msgid "Please sir, don't hurt me, the talking tree of the east!"
-msgstr ""
-"Alstublieft meneer, doe mij, de sprekende boom van het oosten, geen pijn!"
+msgstr "Alstublieft meneer, doe mij, de sprekende boom van het oosten, geen pijn!"
 
 #: Story/S4-TREE.c:16
 msgid "That one smarted!"
@@ -7946,11 +7817,8 @@ msgid "It all started when we built this town on their nest."
 msgstr "Het is allemaal begonnen toen we deze stad op hun nest bouwden."
 
 #: Story/S5-END.c:26
-msgid ""
-"So basically, I just killed two innocent Dragons for protecting their own?"
-msgstr ""
-"Dus als ik het goed begrijp, heb ik twee onschuldige draken gedood die "
-"zichzelf beschermden?"
+msgid "So basically, I just killed two innocent Dragons for protecting their own?"
+msgstr "Dus als ik het goed begrijp, heb ik twee onschuldige draken gedood die zichzelf beschermden?"
 
 #: Story/S5-END.c:28
 msgid "Um.. gotta get back to the store, see ya later."
@@ -8082,7 +7950,7 @@ msgstr "\"Wat zal het zijn, held?\""
 
 #: Story/S5-ST1P.c:72
 msgid "Throwing Axe - $3000"
-msgstr "Werpbijl - €3000"
+msgstr "Werpbijl - 3000 goudstukken"
 
 #: Story/S6-FOUNT.c:10
 msgid "Take a drink"
@@ -8234,9 +8102,7 @@ msgstr "Je vriend heeft waarschijnlijk nog maar weinig tijd, Dink."
 
 #: Story/S6-ST1P.c:136
 msgid "For all we know they could've converted Milder to evil."
-msgstr ""
-"Voor hetzelfde geld hebben ze Milder al net zo slecht gemaakt als zijzelf "
-"zijn."
+msgstr "Voor hetzelfde geld hebben ze Milder al net zo slecht gemaakt als zijzelf zijn."
 
 #: Story/S6-ST1P.c:138
 msgid "Dink, if they keep getting stronger I fear my church"
@@ -8255,19 +8121,16 @@ msgid "It is an abomination of nature.  I will not speak of it."
 msgstr "Het is iets gruwelijks.  Ik spreek er verder niet over."
 
 #: Story/S6-ST1P.c:154
-msgid ""
-"\"I only have a few things... power weapons I found near the 'machine'...\""
-msgstr ""
-"\"Ik heb maar een paar dingen... krachtige wapens die ik bij de 'machine' "
-"vond...\""
+msgid "\"I only have a few things... power weapons I found near the 'machine'...\""
+msgstr "\"Ik heb maar een paar dingen... krachtige wapens die ik bij de 'machine' vond...\""
 
 #: Story/S6-ST1P.c:156
 msgid "Light Sword - $4000"
-msgstr "Licht zwaard - €4000"
+msgstr "Licht zwaard - 4000 goudstukken"
 
 #: Story/S6-ST1P.c:157
 msgid "Massive Bow - $5000"
-msgstr "Stevige boog - €5000"
+msgstr "Stevige boog - 5000 goudstukken"
 
 #: Story/S6-ST1P.c:188
 msgid "Hahaha!!"
@@ -8327,7 +8190,7 @@ msgstr "Dan ga ik nu maar."
 
 #: Story/S6-VEND.c:73
 msgid "\"Hello, friend.  I will teach Hellfire magic for $1500 gold.\""
-msgstr "\"Hallo, vriend.  Ik leer je hellevuurmagie voor €1500.\""
+msgstr "\"Hallo, vriend.  Ik leer je hellevuurmagie voor 1500 goudstukken.\""
 
 #: Story/S6-VEND.c:75
 msgid "Learn Hellfire"
@@ -8515,8 +8378,7 @@ msgstr "Je bent ziek en bedriegelijk, dat ben je."
 
 #: Story/S7-MIL.c:122
 msgid "..his name is Seth.. he is an ancient one...he killed the others.."
-msgstr ""
-"..zijn naam is Seth.. hij is een oude...hij heeft de anderen vermoord.."
+msgstr "..zijn naam is Seth.. hij is een oude...hij heeft de anderen vermoord.."
 
 #: Story/S7-MIL.c:124
 msgid "<casts explosion>"
@@ -8556,9 +8418,7 @@ msgstr "Geest, laat me met rust!"
 
 #: Story/S7-MOM.c:53
 msgid "Some of us like to eat humans.  I would leave if I were you."
-msgstr ""
-"Sommige van ons houden van mensenvlees.  Ik zou maken dat ik wegkwam als ik "
-"jou was."
+msgstr "Sommige van ons houden van mensenvlees.  Ik zou maken dat ik wegkwam als ik jou was."
 
 #: Story/S7-MOM.c:55
 msgid "I am not afraid, ghost."
@@ -8578,15 +8438,15 @@ msgstr "Hoeveel zet je in?"
 
 #: Story/S8-DA.c:37
 msgid "Bet 50"
-msgstr "Zet €50 in"
+msgstr "Zet 50 goudstukken in"
 
 #: Story/S8-DA.c:38
 msgid "Bet 100"
-msgstr "Zet €100 in"
+msgstr "Zet 100 goudstukken in"
 
 #: Story/S8-DA.c:39
 msgid "Bet 200"
-msgstr "Zet €200 in"
+msgstr "Zet 200 goudstukken in"
 
 #: Story/S8-DA.c:40
 msgid "Stop"
@@ -8774,7 +8634,7 @@ msgstr "\"Mijn meesterwerk is klaar!\""
 
 #: Story/S8-GUY.c:42
 msgid "Buy the FlameBow for $25,000"
-msgstr "Koop de FlameBow voor €25.000"
+msgstr "Koop de FlameBow voor 25.000 goudstukken"
 
 #: Story/S8-GUY.c:74
 msgid "* FLAMEBOW BOUGHT *"
@@ -8834,8 +8694,7 @@ msgstr "De oorlog, de goblinoorlog!"
 
 #: Story/SC-WIZ.c:36
 msgid "I must defend this castle, I can't let them take it back."
-msgstr ""
-"Ik moet dit kasteel verdedigen, ze mogen het niet weer in handen krijgen."
+msgstr "Ik moet dit kasteel verdedigen, ze mogen het niet weer in handen krijgen."
 
 #: Story/SC-WIZ.c:38
 msgid "The .. the goblin wars, those ended a long long time ago!!"
@@ -8923,9 +8782,7 @@ msgstr "ze kunnen de magie uit je familie opnemen en zich ermee voeden."
 
 #: Story/SC-WIZ.c:82
 msgid "And if one were to destroy you, they would gain immense power."
-msgstr ""
-"En als het één van hen lukt om jou te vernietigen, krijgt hij heel veel "
-"macht."
+msgstr "En als het één van hen lukt om jou te vernietigen, krijgt hij heel veel macht."
 
 #: Story/SC-WIZ.c:84
 msgid "There is some chaos brewing in this land now."
@@ -8941,8 +8798,7 @@ msgstr "toen ik hier langskwam.  Ik moet een vriend redden."
 
 #: Story/SC-WIZ.c:90
 msgid "Be careful Dink, whoever is behind this is probably an ancient,"
-msgstr ""
-"Wees voorzichtig Dink, degene die hierachter zit is waarschijnlijk een oude,"
+msgstr "Wees voorzichtig Dink, degene die hierachter zit is waarschijnlijk een oude,"
 
 #: Story/SC-WIZ.c:92
 msgid "making it all seem to be someone else."
@@ -8974,9 +8830,7 @@ msgstr "Eh ..."
 
 #: Story/SPICE.c:16
 msgid "Let's not discuss that now Sporty.  Let's talk about you .."
-msgstr ""
-"Laten we het daar nu niet over hebben, Sporty.  Laten we het over jou "
-"hebben .."
+msgstr "Laten we het daar nu niet over hebben, Sporty.  Laten we het over jou hebben .."
 
 #: Story/SPICE.c:17
 msgid "all five of you and me!!"
@@ -9076,5 +8930,4 @@ msgstr "Mijn lichaam tintelt!"
 
 #: Story/s7-boss.c:302
 msgid "I must now get back to Goodheart Castle and inform the King."
-msgstr ""
-"Ik moet nu terug naar kasteel GoodHeart om de koning op de hoogte te brengen."
+msgstr "Ik moet nu terug naar kasteel GoodHeart om de koning op de hoogte te brengen."
