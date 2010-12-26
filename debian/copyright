@@ -117,7 +117,7 @@ Sound effects
 =============
 
 - intro.wav/intro.wav
-<not copyrightable (1 frame of silence)>
+  <not copyrightable (1 frame of silence)>
 - fire.wav/fire_long.wav
     Copyright (C) 1999-2007  The Berklee College of Music Sampling Archive
     License: CC-BY 3.0
@@ -132,7 +132,10 @@ Sound effects
     License: CC-BY 3.0
 - gold.wav/gold.ogg (orig: gold.ogg)
   bird1.wav (orig: bird2.ogg)
-(/usr/share/games/wesnoth/data/core/sounds/ from the Wesnoth project)
+  arrow.wav (orig: bow-hit.ogg)
+  bow1.wav (orig: bow-miss.ogg)
+  sword2.wav (orig: spear.ogg)
+  (/usr/share/games/wesnoth/data/core/sounds/ from the Wesnoth project)
     Copyright (C) 2003 - 2007 by David White <dave@whitevine.net>
     Copyright (C) 2004 - 2007 by Guillaume Melquiond <guillaume.melquiond@gmail.com>
     Copyright (C) 2004 - 2007 by Philippe Plantier <ayin@anathas.org>
@@ -155,8 +158,17 @@ Sound effects
 - gold.wav/gold.aup
   gold.wav/gold_data
   gold.wav/gold.ogg
-Based on gold.wav above, plus:
+  Based on gold.wav above, plus:
     Copyright (C) 2008  Sylvain Beucler
+- arrow.wav
+  Based on arrow.wav above, plus:
+    Copyright (C) 2010  Petteri Tolonen
+- bow1.wav
+  Based on arrow.wav above, plus:
+    Copyright (C) 2010  Petteri Tolonen
+- sword2.wav
+  Based on arrow.wav above, plus:
+    Copyright (C) 2010  Petteri Tolonen
 - high2.wav
     Copyright (C) 2009  Sylvain Beucler
     License: GPLv3+ | Art Libre | CC-BY-SA

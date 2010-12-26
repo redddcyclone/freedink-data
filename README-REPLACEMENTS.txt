@@ -239,3 +239,44 @@ Battle of Wesnoth
   Origin: wesnoth/data/core/sounds/ambient/birds2.ogg
   Author: ?
   License: GPLv2+
+
+- arrow.wav
+
+  An arrow hitting something wooden
+
+  Origin: wesnoth/data/core/sounds/bow-hit.ogg
+  Author: ?
+  License: GPLv2+
+
+  Edited: shortened the arrow zoom sound in the beginning. The sound
+  of the arrow actually hitting something still comes a bit late, but
+  in my opinion it's not that big deal.
+  Copyright (C) 2010  Petteri Tolonen
+  License: GPLv2+
+
+- bow1.wav
+
+  Launching an arrow
+
+  Origin: wesnoth/data/core/sounds/bow-miss.ogg
+  Author: ?
+  License: GPLv2+
+
+  Edited: Removed the sound of the arrow zooming away.
+  Copyright (C) 2010  Petteri Tolonen
+  License: GPLv2+
+
+- sword2.wav
+
+  Sword hitting something non-metallic, but also used at high rate
+  (22050Hz) to produce the 'Dink picks a small heart' sound
+
+  Origin: wesnoth/data/core/sounds/spear.ogg
+  Author: ?
+  License: GPLv2+
+
+  Edited: added kind of a reversed and shortened echo after the
+  hitting sound.  Sounds ok played faster as a 'pick-something-up'
+  sound too. I'm not fully satisfied with this, but I did my best :).
+  Copyright (C) 2010  Petteri Tolonen
+  License: GPLv2+
