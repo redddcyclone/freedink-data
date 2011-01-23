@@ -27,6 +27,11 @@ jackd -d alsa &  # optional? Rosegarden complains but still plays
 fluidsynth -m alsa_seq /usr/share/sounds/sf2/FluidR3_GM.sf2
 rosegarden myscore.rg
 
+# Notes:
+# - You may need to connect fluidsynth to the system playback in qjackctl
+# - If you get "JackAudioDriver::ProcessAsync: read error, skip cycle", use -P:
+#   jackd -d alsa -P
+
 
 # To save the data as a .wav, run fluidsynth differently:
 
