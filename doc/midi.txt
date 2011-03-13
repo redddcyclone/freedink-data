@@ -23,14 +23,20 @@ aptitude install qsynth qjackctl
 
 # To run:
 
-jackd -d alsa &  # optional? Rosegarden complains but still plays
+jackd -d alsa  # optional? Rosegarden complains but still plays
 fluidsynth -m alsa_seq /usr/share/sounds/sf2/FluidR3_GM.sf2
 rosegarden myscore.rg
 
 # Notes:
-# - You may need to connect fluidsynth to the system playback in qjackctl
-# - If you get "JackAudioDriver::ProcessAsync: read error, skip cycle", use -P:
-#   jackd -d alsa -P
+- If you get "JackAudioDriver::ProcessAsync: read error, skip cycle", use -P:
+  jackd -d alsa -P
+- You may need to connect fluidsynth to the system playback in qjackctl
+- Fluidsynth may be off-pitch if it complains like:
+  fluidsynth: warning: Jack sample rate mismatch, expect tuning issues (synth.sample-rate=44100, jackd=48000)
+  In which case, you can run jackd with the recommended rate:
+  jackd -d alsa -P -r 44100
+- Alternative: use TiMIDity+freepats instead of Fluidsynth:
+  timidity -iA -B2,8 -Oj -EFreverb=0 -s 44100
 
 
 # To save the data as a .wav, run fluidsynth differently:
