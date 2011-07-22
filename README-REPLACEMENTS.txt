@@ -31,6 +31,17 @@ using the Ogg Vorbis format rather than the MIDI format.
   http://arsouyes.org/partitions/finies/gounod/Ave_Maria/Ave_Maria.mid (Gounod version)
 
 
+- 5.ogg (Tavern/bar in Terris)
+  sea.mid
+  Untitled3.mscz
+  
+  Composed by Ofir Mo <firewallspam2@gmail.com> for FreeDink!
+  Converted to .ogg through FluidSynth by Sylvain Beucler
+  (cf. doc/midi.txt)
+
+  +Copyright (C) 2011  Ofir Mo
+  +License: GPLv3+
+
 - 104.mid (Stonebrook, Dink's village)
 
   "Serenade D957" by Franz Schubert
