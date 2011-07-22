@@ -1,4 +1,4 @@
-* v1.08.UNRELEASED                                       -*- outline -*-
+* v1.08.20110723                                       -*- outline -*-
 
 ** Improved Dutch translation (thanks Bas Wijnen)
 
@@ -9,6 +9,10 @@
   When you didn't have a free inventory slot and tried to buy a bow in
   Kernsin, the game froze.  This is now fixed.  Thanks to Bas Wijnen
   for the report.
+
+** New sound replacement: 5.ogg: Tavern/bar in Terris (thanks Ofir Mo)
+
+** New sound replacement: 13.ogg: Church (thanks Ofir Mo)
 
 * v1.08.20100103
 

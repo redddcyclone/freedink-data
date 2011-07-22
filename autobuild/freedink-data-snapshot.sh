@@ -47,7 +47,7 @@ then
 fi
 
 make dist
-mv *.tar.gz /mnt/snapshots/
+mv -f *.tar.gz /mnt/snapshots/
 cp -r gentoo /mnt/snapshots/
-
+cp NEWS /mnt/snapshots/freedink-data-NEWS.txt
 popd

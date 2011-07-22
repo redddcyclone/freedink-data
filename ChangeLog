@@ -1,3 +1,89 @@
+2011-07-22  Sylvain Beucler <beuc@beuc.net>
+
+	* README-REPLACEMENTS.txt, debian/copyright,
+	src/13.mid/CanonInD222.mid: New sound replacement : 13.mid (church)
+
+2011-07-22  Sylvain Beucler <beuc@beuc.net>
+
+	* README-REPLACEMENTS.txt, debian/copyright, src/5.mid/5.ogg: New
+	sound replacement for 5.mid (tavern/bar)
+
+2011-07-22  Sylvain Beucler <beuc@beuc.net>
+
+	* : Remove 20M origin .ogg file for 106.ogg, to ease maintenance
+
+2011-03-13  Sylvain Beucler <beuc@beuc.net>
+
+	* doc/midi.txt: More MIDI notes
+
+2011-01-23  Sylvain Beucler <beuc@beuc.net>
+
+	* doc/midi.txt: MIDI troubleshooting
+
+2010-12-26  Sylvain Beucler <beuc@beuc.net>
+
+	* README-REPLACEMENTS.txt, debian/copyright: Add 3 new sound effects
+	from Petteri
+
+2010-12-26  Sylvain Beucler <beuc@beuc.net>
+
+	* dink/l10n/nl.po: Update Dutch translation
+
+2010-12-26  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS, debian/copyright, dink/l10n/es.po: New updated Spanish
+	translation
+
+2010-11-14  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS, doc/release.txt: Update NEWS
+
+2010-10-30  Sylvain Beucler <beuc@beuc.net>
+
+	* dink/dmod.diz, doc/release.txt: Doc fixes
+
+2010-10-25  Sylvain Beucler <beuc@beuc.net>
+
+	* dink/l10n/nl.po: More updates to the Dutch translation
+
+2010-10-25  Sylvain Beucler <beuc@beuc.net>
+
+	* debian/copyright, dink/l10n/nl.po: Update Dutch translation
+
+2010-10-24  Sylvain Beucler <beuc@beuc.net>
+
+	* debian/README.Debian, debian/README.source, debian/changelog,
+	debian/control, debian/copyright, debian/watch: Sync Debian changes
+
+2010-09-19  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS, dink/Story/S3-ST2P.c: Fix a game freeze in Kernsin
+
+2010-05-23  Sylvain Beucler <beuc@beuc.net>
+
+	* doc/PACKAGING: More documentation for packagers
+
+2010-03-21  Sylvain Beucler <beuc@beuc.net>
+
+	* Makefile: Include ChangeLog COPYING DEB NEWS in release tarballs
+
+2010-01-10  Sylvain Beucler <beuc@beuc.net>
+
+	* dink/l10n/da.po, dink/l10n/de.po, dink/l10n/fr.po: Sync
+	translations from the TP
+
+2010-01-03  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS, autobuild/freedink-data-debs.sh,
+	autobuild/freedink-data-rpms.sh,
+	autobuild/freedink-data-snapshot.sh, doc/release.txt: Sync
+	autobuild/
+
+2010-01-03  Sylvain Beucler <beuc@beuc.net>
+
+	* ChangeLog, Makefile, NEWS, dink/l10n/dink.pot, doc/release.txt,
+	freedink-data.spec: Release 1.08.20100103
+
 2010-01-03  Sylvain Beucler <beuc@beuc.net>
 
 	* COPYING, NEWS, README.txt, debian/copyright, dink/l10n/de.po,

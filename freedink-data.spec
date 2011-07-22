@@ -1,11 +1,11 @@
 Name:		freedink-data
-Version:	1.08.20100103
+Version:	1.08.20110723
 Release:	1%{?dist}
 Summary:	Adventure and role-playing game (game data)
 
 Group:		Amusements/Games
 License:	zlib and CC-BY-SA and (GPLv3+ or Free Art or CC-BY-SA) and OAL and Public Domain and CC-BY and GPLv2+
-URL:		http://www.freedink.org/
+URL:		http://www.gnu.org/software/freedink/
 Source0:	ftp://ftp.gnu.org/gnu/freedink/%{name}-%{version}.tar.gz
 #Source0:	http://www.freedink.org/releases/%{name}-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
@@ -47,6 +47,13 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sat Jul 23 2011 Sylvain Beucler <beuc@beuc.net> - 1.08.20110723-1
+- New upstream release
+- Update homepage URL
+
+* Tue Feb 08 2011 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.08.20100103-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_15_Mass_Rebuild
+
 * Sun Jan  3 2010 Sylvain Beucler <beuc@beuc.net> - 1.08.20100103-1
 - New upstream release
 
