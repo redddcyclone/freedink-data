@@ -42,6 +42,14 @@ using the Ogg Vorbis format rather than the MIDI format.
   +Copyright (C) 2011  Ofir Mo
   +License: GPLv3+
 
+- 13.mid (Church in the Edge of the World)
+  
+  Johann Pachelbel's Canon, also known as Canon in D major, or Canon
+  and Gigue for 3 violins and basso continuo
+  MIDI file by Ofir Mo
+  
+  +License: public domain
+
 - 104.mid (Stonebrook, Dink's village)
 
   "Serenade D957" by Franz Schubert
