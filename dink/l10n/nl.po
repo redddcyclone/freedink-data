@@ -1,20 +1,20 @@
 # Translation of freedink-data: storyline data for dink
-# Copyright (C) 2010 Bas Wijnen.
+# Copyright (C) 2010-2011 Bas Wijnen.
 # This file is distributed under the same license as the dink package.
 # Nanette <clubs_shetlandpony@hotmail.com>, 2009.
-# Bas Wijnen <wijnen@debian.org>, 2010.
+# Bas Wijnen <wijnen@debian.org>, 2010-2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dink 1.08.20100103\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-12-16 21:52+0100\n"
-"PO-Revision-Date: 2010-12-12 10:34+0100\n"
+"PO-Revision-Date: 2011-04-09 19:31+0100\n"
 "Last-Translator: Bas Wijnen <wijnen@debian.org>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
+"Language: Dutch\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: Dutch\n"
 
 # Name translations:
 # Conan o'brien: André van Duin
@@ -25,7 +25,7 @@ msgstr "Ik heb &mcrap goudstukken gevonden."
 
 #: Story/APOTION.c:20
 msgid "Megapotion!  All stats raised by one."
-msgstr "Megatoverdrank!  Alles krijgt er een punt bij"
+msgstr "Megatoverdrank!  Alles krijgt er een punt bij."
 
 #: Story/BUTTON6.c:7
 msgid "I don't own a map yet."
@@ -123,7 +123,7 @@ msgstr "Laat maar"
 
 #: Story/ESCAPE.c:42
 msgid "Wow, this loaded game looks so familiar."
-msgstr "Wauw, dit spel lijkt erg bekend."
+msgstr "Wauw, dit spel komt me erg bekend voor."
 
 #: Story/ESCAPE.c:82
 msgid "Yes, I really want to quit the game"
@@ -147,7 +147,7 @@ msgstr "Toetsen"
 
 #: Story/ESCAPE.c:111
 msgid "How to save the game"
-msgstr "Hoe je een spel moet opslaan"
+msgstr "Opslaan van spel"
 
 #: Story/ESCAPE.c:112
 msgid "Done"
@@ -316,7 +316,7 @@ msgstr "Vas Neeko Matrid Osana"
 
 #: Story/ITEM-PIG.c:85
 msgid "Come on pigs, eat!"
-msgstr "Kom op varkentjes, eten!"
+msgstr "Kom op, varkentjes, eten!"
 
 #: Story/KING.c:8
 msgid "SMALLWOOD HAS RETURNED!"
@@ -372,7 +372,7 @@ msgstr "Vind ze (en andere mooie spellen!) op www.rtsoft.com"
 
 #: Story/KING.c:34
 msgid "Or make your own, download the free development kit."
-msgstr "Of maak ze zelf, download het gratis ontwikkelpakket"
+msgstr "Of maak ze zelf, download het gratis ontwikkelpakket."
 
 #: Story/KING.c:36
 msgid "Special thanks to the following:"
@@ -466,7 +466,7 @@ msgstr "Ja - mijn familie werd jaarlijks royaal bestolen door de kroon."
 
 #: Story/KING.c:153
 msgid "I will take that into consideration Dink, I really will."
-msgstr "Ik zal erover denken Dink, echt waar."
+msgstr "Ik zal erover denken, Dink, echt waar."
 
 #: Story/KING.c:160
 msgid "I heard about Milder."
@@ -474,7 +474,7 @@ msgstr "Ik heb het nieuws gehoord over Milder."
 
 #: Story/KING.c:162
 msgid "Yes.. he was a very brave knight - he entered the darklands knowing..."
-msgstr "Ja.. hij  was een erg goede ridder - hij is de donkere landen ingegaan..."
+msgstr "Ja.. hij was een erg goede ridder - hij is de donkere landen ingegaan..."
 
 #: Story/KING.c:164
 msgid "full well that very few return.  And now he is lost too."
@@ -546,7 +546,7 @@ msgstr "Je mag nu je aanvalssterkte, verdediging of toverkunst verhogen."
 
 #: Story/LRAISE.c:22
 msgid "Increase Attack"
-msgstr "Verhoog je aanvalssterkte"
+msgstr "Aanvalssterkte verhogen"
 
 #: Story/LRAISE.c:23
 msgid "Increase Defense"
@@ -842,7 +842,7 @@ msgstr "Ik heb niet genoeg geld!"
 #: Story/S5-ST1P.c:36 Story/S6-ST1P.c:18 Story/S6-ST1P.c:55 Story/S6-VEND.c:96
 #: Story/S6-VEND.c:112 Story/S8-GUY.c:63
 msgid "You are carrying too much."
-msgstr "Je hebt teveel bij je."
+msgstr "Je hebt te veel bij je."
 
 #: Story/S1-BOOT.c:93
 msgid "* HYPER BOOTS BOUGHT *"
@@ -878,7 +878,7 @@ msgstr "Bedankt.  Prettige dag verder."
 
 #: Story/S1-BRG2.c:60
 msgid "This is ridiculous.  How can you justify charging this much?"
-msgstr "Dit is krankzinnig.  Hoe kan je nu zoveel vragen?"
+msgstr "Dit is krankzinnig.  Hoe kun je nu zoveel vragen?"
 
 #: Story/S1-BRG2.c:62
 msgid "My kids need to eat."
@@ -902,7 +902,7 @@ msgstr "Kom dan, varkentjes."
 
 #: Story/S1-BUL.c:23
 msgid "Well, lookie what we got here."
-msgstr "Ach kijk wie we hier hebben."
+msgstr "Ach, kijk wie we hier hebben."
 
 #: Story/S1-BUL.c:25
 msgid "What do you want, Milder?"
@@ -1034,7 +1034,7 @@ msgstr "WATER MOET DOOD!"
 
 #: Story/S1-GG.c:12
 msgid "Watch it boy, even my temper may wear eventually."
-msgstr "Pas op jongen, zelfs ik wordt op een zeker moment boos."
+msgstr "Pas op jongen, zelfs ik word op een zeker moment boos."
 
 #: Story/S1-GG.c:14
 msgid "Oh, a warrior are you? <chuckle>"
@@ -1143,7 +1143,7 @@ msgstr "Nee, het is te heet."
 
 #: Story/S1-H1-3.c:24
 msgid "Eat this, bed!"
-msgstr "Pak aan stom bed!"
+msgstr "Pak aan, stom bed!"
 
 #: Story/S1-H1-4.c:25
 msgid "It'll catch fire soon."
@@ -1283,7 +1283,7 @@ msgstr "Dat gaat wel over."
 
 #: Story/S1-H1-M.c:131
 msgid "I'm finished with my chores, mother."
-msgstr "Ik ben klaar met mijn taken mam."
+msgstr "Ik ben klaar met mijn taken, mam."
 
 #: Story/S1-H1-M.c:133
 msgid "Good boy.  Go visit our neighbors while I prepare dinner."
@@ -1291,7 +1291,7 @@ msgstr "Goed zo.  Ga maar bij de buren langs terwijl ik het eten kook."
 
 #: Story/S1-H1-M.c:146
 msgid "Ouch!  Stop it!"
-msgstr "Auw! hou daarmee op!"
+msgstr "Auw!  Hou daarmee op!"
 
 #: Story/S1-H1-O.c:35
 msgid "Dink!!!"
@@ -1359,7 +1359,7 @@ msgstr "tot nu."
 
 #: Story/S1-H1-S.c:18
 msgid "Ahh, too much smoke .... gotta get out ..."
-msgstr "Aah, er is teveel rook.... ik moet naar buiten ..."
+msgstr "Aah, er is te veel rook.... ik moet naar buiten ..."
 
 #: Story/S1-H1-S.c:35
 msgid "There's that letter."
@@ -1391,7 +1391,7 @@ msgstr "Man, feestje in dit huis"
 
 #: Story/S1-H2-3.c:13
 msgid "Die stupid drinks!"
-msgstr "Sterf stomme drank"
+msgstr "Sterf, stomme drank!"
 
 #: Story/S1-H2-DK.c:7
 msgid "I knew you'd come back."
@@ -1439,11 +1439,11 @@ msgstr "Kom niet bij me in de buurt!"
 
 #: Story/S1-H2-O.c:44
 msgid "I'm so sorry about your mother Dink,"
-msgstr "Ik vind het zo erg van je moeder Dink,"
+msgstr "Ik vind het zo erg van je moeder, Dink,"
 
 #: Story/S1-H2-O.c:46
 msgid "she was a good woman."
-msgstr "Ze was een lieve vrouw."
+msgstr "ze was een lieve vrouw."
 
 #: Story/S1-H2-O.c:49
 msgid "Kinda funny, my duck missing and your Mom dead."
@@ -1495,7 +1495,7 @@ msgstr "Niet zo goed, Dink.  Kleine Quackers is zoek!"
 
 #: Story/S1-H2-O.c:130
 msgid "I'm fine Dink, thank you for asking."
-msgstr "Het gaat prima Dink, fijn dat je het vraagt."
+msgstr "Het gaat prima, Dink, fijn dat je het vraagt."
 
 #: Story/S1-H2-O.c:135
 msgid "Where is the little one today?"
@@ -1523,7 +1523,7 @@ msgstr "Ik zal hem gauw voor je vinden lieve Ethel, twijfel daar niet aan!"
 
 #: Story/S1-H2-O.c:150
 msgid "Thank you Dink!"
-msgstr "Dank je Dink!"
+msgstr "Dank je, Dink!"
 
 #: Story/S1-H2-O.c:157
 msgid "Yeah, I guess if I see 'em I'll send him home.  Maybe."
@@ -1551,7 +1551,7 @@ msgstr "Je houdt wel van een feestje, hè?"
 
 #: Story/S1-H2-O.c:179
 msgid "What Dink?"
-msgstr "Wat bedoel je Dink?"
+msgstr "Wat bedoel je, Dink?"
 
 #: Story/S1-H2-O.c:181
 msgid "You know, all drowning away your problems on the weekend"
@@ -1587,7 +1587,7 @@ msgstr "Smilesteins kunstmest en bestrijdingsmiddelen."
 
 #: Story/S1-H3-2.c:13
 msgid "Eat it smelly bottles!"
-msgstr "Pak aan stinkende flessen!"
+msgstr "Pak aan, stinkende flessen!"
 
 #: Story/S1-H3-3.c:9
 msgid "Mr.SmileStein's bed, I shudder at what happens here."
@@ -1595,7 +1595,7 @@ msgstr "Meneer SmileSteins bed, ik griezel als ik denk aan wat hierin allemaal g
 
 #: Story/S1-H3-3.c:15
 msgid "Ohh soft."
-msgstr "Ooh lekker zacht."
+msgstr "Ooh, lekker zacht."
 
 #: Story/S1-H3-4.c:8 Story/S1-H3-7.c:8
 msgid "A small table."
@@ -1639,7 +1639,7 @@ msgstr "Ziet eruit als een spinnewiel."
 
 #: Story/S1-H3-9.c:12
 msgid "Die thread user."
-msgstr "Draadverspiller!."
+msgstr "Draadverspiller!"
 
 #: Story/S1-H3-L.c:8
 msgid "Oh Dink, it's you.."
@@ -1667,7 +1667,7 @@ msgstr "Libby, wat is er aan de hand?  Waarom ben je zo overstuur?"
 
 #: Story/S1-H3-L.c:27
 msgid "Nothing Dink, you wouldn't understand."
-msgstr "Niks Dink, je zou het toch niet begrijpen."
+msgstr "Niks, Dink, je zou het toch niet begrijpen."
 
 #: Story/S1-H3-L.c:36
 msgid "It's your father isn't it?  Does he do anything to you?"
