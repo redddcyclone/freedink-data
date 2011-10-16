@@ -1,3 +1,35 @@
+2011-10-16  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS, README-REPLACEMENTS.txt, debian/copyright,
+	src/12.mid/dink-castle.mid, src/18.mid/mystery-game.mid,
+	src/7.mid/clockwork.mid: New sounds replacements: 7.mid, 12.mid,
+	18.mid
+
+2011-07-30  Sylvain Beucler <beuc@beuc.net>
+
+	* debian/copyright: Update dutch translation copyright
+
+2011-07-25  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS, dink/l10n/nl.po: Update Dutch translation
+
+2011-07-25  Sylvain Beucler <beuc@beuc.net>
+
+	* doc/release.txt: Fix Fedora package URL
+
+2011-07-23  Sylvain Beucler <beuc@beuc.net>
+
+	* debian/rules, doc/release.txt: Don't use autotools_dev in debian/
+	(bad copy/paste)
+
+2011-07-23  Sylvain Beucler <beuc@beuc.net>
+
+	* ChangeLog, Makefile, NEWS, autobuild/freedink-data-snapshot.sh,
+	debian/changelog, debian/control,
+	debian/freedink-data.lintian-overrides, debian/gbp.conf,
+	debian/rules, dink/l10n/dink.pot, freedink-data.spec: Release
+	1.08.20110723
+
 2011-07-22  Sylvain Beucler <beuc@beuc.net>
 
 	* README-REPLACEMENTS.txt, debian/copyright,

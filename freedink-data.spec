@@ -1,5 +1,5 @@
 Name:		freedink-data
-Version:	1.08.20110723
+Version:	1.08.20111016
 Release:	1%{?dist}
 Summary:	Adventure and role-playing game (game data)
 
@@ -47,6 +47,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Oct 16 2011 Sylvain Beucler <beuc@beuc.net> - 1.08.20111016-1
+- New upstream release
+
 * Sat Jul 23 2011 Sylvain Beucler <beuc@beuc.net> - 1.08.20110723-1
 - New upstream release
 - Update homepage URL
