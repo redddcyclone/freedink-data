@@ -92,8 +92,20 @@ Free sound replacements
   5.mid/Untitled3.mscz
     Copyright: Ofir Mo <firewallspam2@gmail.com>
     License: GPLv3+
+- 7.mid/clockwork.mid
+  7.mid/clockwork.rg
+    Copyright (C) 2011 Joshua O'Leary
+    License: GPLv3+
+- 12.mid/dink-castle.mid
+  12.mid/dink-castle.rg
+    Copyright (C) 2011 Joshua O'Leary
+    License: GPLv3+
 - 13.mid/CanonInD222.mid
     License: public domain
+- 18.mid/mystery-game.mid
+  18.mid/mystery-game.rg
+    Copyright (C) 2011 Joshua O'Leary
+    License: GPLv3+
 - 104.mid/serenade-d957.rg
   104.mid/serenade-d957.mid
     Copyright (C) 2008  Sylvain Beucler
@@ -202,7 +214,7 @@ Translations
 Packaging
 =========
 
-The Debian packaging is Copyright (C) 2008, 2009, 2010, Sylvain
+The Debian packaging is Copyright (C) 2008, 2009, 2010, 2011, Sylvain
 Beucler <beuc@beuc.net> and is licensed under the GPL, either version
 3, or (at your option) any later version, see
 `/usr/share/common-licenses/GPL-3'.

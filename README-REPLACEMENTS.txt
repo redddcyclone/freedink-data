@@ -42,6 +42,20 @@ using the Ogg Vorbis format rather than the MIDI format.
   +Copyright (C) 2011  Ofir Mo
   +License: GPLv3+
 
+- 7.mid (Darklands)
+
+  Composed by Joshua O'Leary <joshua.oleary@btinternet.com> for FreeDink!
+
+  +Copyright (C) 2011 Joshua O'Leary
+  +License: GPLv3+
+
+- 12.mid (inside GoodHearth castle)
+
+  Composed by Joshua O'Leary <joshua.oleary@btinternet.com> for FreeDink!
+
+  +Copyright (C) 2011 Joshua O'Leary
+  +License: GPLv3+
+
 - 13.mid (Church in the Edge of the World)
   
   Johann Pachelbel's Canon, also known as Canon in D major, or Canon
@@ -49,6 +63,13 @@ using the Ogg Vorbis format rather than the MIDI format.
   MIDI file by Ofir Mo
   
   +License: public domain
+
+- 18.mid (End Boss)
+
+  Composed by Joshua O'Leary <joshua.oleary@btinternet.com> for FreeDink!
+
+  +Copyright (C) 2011 Joshua O'Leary
+  +License: GPLv3+
 
 - 104.mid (Stonebrook, Dink's village)
 
