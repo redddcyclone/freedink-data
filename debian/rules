@@ -21,3 +21,6 @@ export DH_OPTIONS
 
 override_dh_auto_install:
 	make install DESTDIR=$(CURDIR)/debian/freedink-data PREFIX=/usr DATADIR=/usr/share/games
+
+override_dh_installchangelogs:
+	dh_installchangelogs ChangeLog

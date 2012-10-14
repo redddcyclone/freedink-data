@@ -1,3 +1,12 @@
+freedink-data (1.08.20111016-2) UNRELEASED; urgency=low
+
+  * Specify source format
+  * Install upstream ChangeLog
+  * Remove helper-templates-in-copyright lintian override, the false
+    positive was fixed by lintian.
+
+ -- Sylvain Beucler <beuc@debian.org>  Sun, 14 Oct 2012 12:21:31 +0200
+
 freedink-data (1.08.20111016-1) unstable; urgency=low
 
     * New upstream release
