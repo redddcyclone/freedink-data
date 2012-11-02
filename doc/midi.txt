@@ -23,6 +23,7 @@ aptitude install qsynth qjackctl
 
 # To run:
 
+sudo modprobe snd_seq
 jackd -d alsa  # optional? Rosegarden complains but still plays
 fluidsynth -m alsa_seq /usr/share/sounds/sf2/FluidR3_GM.sf2
 rosegarden myscore.rg
