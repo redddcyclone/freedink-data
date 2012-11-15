@@ -1,14 +1,14 @@
 # Danish translations for dink package.
-# Copyright (C) 2010 Dink & Joe Hansen.
+# Copyright (C) 2012 Dink & Joe Hansen.
 # This file is distributed under the same license as the dink package.
-# Joe Hansen <joedalton2@yahoo.dk>, 2009.
+# Joe Hansen <joedalton2@yahoo.dk>, 2009, 2010, 2012.
 #
 # konventioner
 # $ er erstattet med danske kr.
 #
-# the cast -> Klikken (the cast er en gruppe af forbrydere i spillet, navnet har
+# the cast -> Kliken (the cast er en gruppe af forbrydere i spillet, navnet har
 #                      ingen reference i det engelske sprog. Se 
-#                      #: Story/DAM-ICEE.c:65).
+#                      #: Story/DAM-ICEE.c:65). (måske også håndlangerne kunne bruges)
 # longsword -> sværd 
 # potion -> trylledrik
 # scroll -> skriftrulle 
@@ -20,24 +20,26 @@
 #  Darklands -> Mørkelandene
 #  Goblin Sanctuary -> Goblinreservat
 #  GoodHeart (castle) -> De Gode Hjerters Borg
-#  KernSin -> KernSin  (nogen ideer?) 
-#  Murkwood Forest -> Murktræ Skov
+#  KernSin -> Kernsin
+#  Murkwood Forest -> Mørktræ Skov
 #  PortTown -> Havneby
 #  Stonebrook (village) -> Stenbro (landsby)
 #  Windemere (village) -> Vindsus (landsby)
 #  WestLands -> Vestlandene
 #
 # Persongalleri
-#  Blistering Pete -> Peter
+#  Ancient ones -> De Oprindelige
+#  Blistering Pete -> IldPeter (andre forslag Peter, skoldpeter)
 #  Dink Smallwood -> Dink Skovhøj  (dig, hovedpersonen)
 #  Kelly -> Kelly
-#  Milder Flatstomp -> Milder Flatstomp (kongens modigste ridder)
+#  Milder Flatstomp -> Milder Fladstamp (kongens modigste ridder andre forslag Fladtramp)
 #  Mr. SmileStein -> hr. Smilsten  (gårdejer)
 #  Robinson Cabinets -> Robinsonsnedkerne
 #
 # Monstre, objekter m.m.
 #  AlkTree -> alktræ
 #  Bonca -> bonca
+#  clawsword -> klosværd
 #  Dead Dragon Carcass -> Dødsdragelig
 #  Slayer -> slayer (slayer shapeshifter -> slayerhamskifter)
 #  SunCool pond -> SolKold-dammen
@@ -47,9 +49,10 @@ msgstr ""
 "Project-Id-Version: dink 1.08.20100103\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-12-16 21:52+0100\n"
-"PO-Revision-Date: 2010-01-08 17:30+01:00\n"
+"PO-Revision-Date: 2012-11-10 17:30+01:00\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -65,7 +68,7 @@ msgstr "Megatrylledrik! Alle evner forøget med en."
 
 #: Story/BUTTON6.c:7
 msgid "I don't own a map yet."
-msgstr "Jeg ejer endnu ikke et kort."
+msgstr "Jeg har endnu ikke et kort."
 
 #: Story/DAM-ICEE.c:58
 msgid "Woah!"
@@ -88,7 +91,7 @@ msgstr "Nu må jeg færdiggøre min mission."
 # can find leads at http://www.dinknetwork.com/forum.cgi?MID=97039
 #: Story/DAM-ICEE.c:65
 msgid "Mission? To what, destroy the Cast?"
-msgstr "Mission? Til hvad, knuse Klikken?"
+msgstr "Mission? Til hvad, knuse Kliken?"
 
 #: Story/DAM-ICEE.c:68
 msgid "Actually, it was to stop a freak named Bishop Nelson."
@@ -96,7 +99,7 @@ msgstr "Det var egentlig meningen, at jeg skulle stoppe en mærkelig fyr kaldet 
 
 #: Story/DAM-ICEE.c:71
 msgid "Wait..  I don't understand!"
-msgstr "Vent...  Jeg forstår ikke!"
+msgstr "Vent ...  Jeg forstår ikke!"
 
 #: Story/DAM-ICEE.c:72
 msgid "It's best that way.  Now follow me, I'll get you out of here."
@@ -166,10 +169,13 @@ msgid "View/change gamepad buttons"
 msgstr "Vis/ændr gamepadknapper"
 
 # hvad er det her for noget?
+# Never mind -> 'Ligegyldigt', 'Alligevel ikke', 'Skidt være med det'
+# Efter at have fundet det mindst ét sted i spillet: 'Ikke noget'
+# (man begynder på at snakke med nogen, men vælger alligevel ikke at sige noget)
 #: Story/ESCAPE.c:33 Story/ESCAPE.c:192 Story/ESCAPE.c:209 Story/ESCAPE.c:234
 #: Story/S1-LG.c:32 Story/S1-MH-M.c:64 Story/SAVEBOT.c:41 Story/START-2.c:42
 msgid "Nevermind"
-msgstr "Nevermind"
+msgstr "Ligegyldigt"
 
 #: Story/ESCAPE.c:42
 msgid "Wow, this loaded game looks so familiar."
@@ -181,7 +187,7 @@ msgstr "Ja, jeg ønsker at afslutte spillet"
 
 #: Story/ESCAPE.c:83
 msgid "I was just kidding, back to the action, please"
-msgstr "Det var bare for sjov. Lad os komme i gang igen"
+msgstr "Det var bare for sjov.  Lad os komme i gang igen"
 
 #: Story/ESCAPE.c:88
 msgid "Phew, that was a close one!"
@@ -205,7 +211,7 @@ msgstr "Færdig"
 
 #: Story/ESCAPE.c:121
 msgid "Ctrl = Attack/choose"
-msgstr "Ctrl = Angreb/vælg"
+msgstr "Ctrl = Angrib/vælg"
 
 #: Story/ESCAPE.c:122
 msgid "Space = Talk/examine/skip text"
@@ -215,9 +221,11 @@ msgstr "Mellemrum = Snak/undersøg/spring tekst over"
 msgid "Shift = Magic"
 msgstr "Skift = Magi"
 
+# Udstyrs- og magiskærm
+# (det er en skærm hvor man ser begge dele)
 #: Story/ESCAPE.c:124
 msgid "Enter = Item/magic equip screen"
-msgstr "Retur = Udstyr/udstyrsskærm for magi"
+msgstr "Retur = Udstyrs- og magiskærm"
 
 #: Story/ESCAPE.c:126
 msgid "Use the arrow keys to move.  Joystick and control pad are also supported."
@@ -254,7 +262,7 @@ msgstr "Ja, jeg ønsker at starte fra begyndelsen"
 
 #: Story/ESCAPE.c:162
 msgid "No, go back!"
-msgstr "Nej, gå tilbage!"
+msgstr "Nej, vend tilbage!"
 
 #: Story/ESCAPE.c:182
 msgid "Button 1 - &buttoninfo"
@@ -298,7 +306,7 @@ msgstr "Knap 10 - &buttoninfo"
 
 #: Story/ESCAPE.c:201
 msgid "What should button &old_result do?"
-msgstr "Hvad bør knap &old_result udføre?"
+msgstr "Hvad skal knap &old_result udføre?"
 
 #: Story/ESCAPE.c:203
 msgid "Attack"
@@ -342,7 +350,7 @@ msgstr "En pæn skriftrulle."
 
 #: Story/GET-FB.c:28 Story/GET-SFB.c:23
 msgid "I now have the hellfire magic!"
-msgstr "Jeg har nu magien helvedsild!"
+msgstr "Jeg har nu magien helvedesild!"
 
 #: Story/GOLD200.c:28
 msgid "I found &ncrap gold."
@@ -358,7 +366,7 @@ msgstr "* KRAFTSKUD *"
 
 #: Story/ITEM-NUT.c:9
 msgid "Yum, tasted good."
-msgstr "Yum, smagte godt."
+msgstr "Umm, smagte godt."
 
 #: Story/ITEM-P1.c:7
 msgid "Vas Neeko Matrid Osana"
@@ -382,7 +390,7 @@ msgstr "Hr. Flatstomp er død.  Han døde i mine arme, med ære."
 
 #: Story/KING.c:14
 msgid "I will inform Lyna.  I was afraid this was so."
-msgstr "Jeg fortæller det til Lyna.  Jeg var bange for, at det var sket."
+msgstr "Jeg fortæller det til Lyna.  Jeg var bange for, at det var hændt."
 
 #: Story/KING.c:16
 msgid "Also - the evil ancient Seth has been vanquished."
@@ -428,21 +436,28 @@ msgstr "Eller lav dit eget, hent det gratis udviklingssæt."
 msgid "Special thanks to the following:"
 msgstr "En speciel tak skal lyde til:"
 
+# betyder 'draw blood' ikke at man udgyder en andens blod?  Men under
+# alle omstændigheder, det er desværre en umulig oversættelse da
+# morsomheden ligger i at vedkommende *tegnede* blod.
+# kunne man ikke sige:
+# beklager at jeg fik dig til at se rødt ;)
 #: Story/KING.c:38
 msgid "Justin - sorry I made you draw blood ;)"
-msgstr "Justin - beklager at jeg udgød dit blod ;)"
+msgstr "Justin - beklager at jeg fik dig til at se rødt ;)"
 
 #: Story/KING.c:40
 msgid "Pap - Great level design and story (when you were here...)"
-msgstr "Pap - Storartet niveaudesign og historie (når du var her...)"
+msgstr "Pap - Storartet banedesign og historie (når du var her ...)"
 
+# det er måske ikke verdens mest afgørende rettelse, men en corndog er
+# tæt relateret til en hotdog :)
 #: Story/KING.c:42
 msgid "Shawn - corndogs are NOT the food of the God's"
-msgstr "Shawn - sandwich er IKKE gudernes nektar"
+msgstr "Shawn - en hotdog er IKKE gudernes nektar"
 
 #: Story/KING.c:44
 msgid "(for other unwise sayings, check out the QUOTES.TXT file)"
-msgstr "(af andre ukendte årsager, så se filen QUOTES.TXT)"
+msgstr "(se filen QUOTES.TXT for at finde andre ukloge ting at sige)"
 
 #: Story/KING.c:46
 msgid "Thanks for playing - Seth"
@@ -478,7 +493,7 @@ msgstr "Hvad er det så, jeg kan hjælpe dig med?"
 
 #: Story/KING.c:138
 msgid "Complain about your taxes"
-msgstr "Klage over dine skatter"
+msgstr "Klag over dine skatter"
 
 #: Story/KING.c:139
 msgid "Offer to help Milder"
@@ -504,7 +519,7 @@ msgstr "Gå"
 
 #: Story/KING.c:147
 msgid "Well... I think you should lower the pig tax, sir."
-msgstr "Tja... Jeg synes, at du skal sænke griseskatten."
+msgstr "Tja ... Jeg synes, at du skal sænke griseskatten."
 
 #: Story/KING.c:149
 msgid "Oh really?"
@@ -516,7 +531,7 @@ msgstr "Ja - min familie bliver royalt røvrendt af kronen hvert år."
 
 #: Story/KING.c:153
 msgid "I will take that into consideration Dink, I really will."
-msgstr "Det vil jeg medtage i mine overvejelser Dink, det garanterer jeg."
+msgstr "Det vil jeg medtage i mine overvejelser, Dink, det garanterer jeg."
 
 #: Story/KING.c:160
 msgid "I heard about Milder."
@@ -525,7 +540,7 @@ msgstr "Jeg hørte om Milder."
 # engelsk fejl Darklands
 #: Story/KING.c:162
 msgid "Yes.. he was a very brave knight - he entered the darklands knowing..."
-msgstr "Ja.. han var en meget modig ridder - han gik ind i Mørkelandene vel vidende..."
+msgstr "Ja.. han var en meget modig ridder - han gik ind i Mørkelandene vel vidende ..."
 
 #: Story/KING.c:164
 msgid "full well that very few return.  And now he is lost too."
@@ -537,7 +552,7 @@ msgstr "Jeg vil gerne anmode om tilladelse til at finde ham, høje konge."
 
 #: Story/KING.c:168
 msgid "You Dink?  It is suicide."
-msgstr "Dig Dink?  Det er selvmord."
+msgstr "Dig, Dink?  Det er selvmord."
 
 #: Story/KING.c:170
 msgid "He grew up in my village - I cannot turn my back on him."
@@ -549,7 +564,7 @@ msgstr "Og jeg kan ikke nægte dig."
 
 #: Story/KING.c:174
 msgid "But... just getting to the darklands is quite a challenge..."
-msgstr "Men... bare det at komme til Mørkelandene er noget af en udfordring..."
+msgstr "Men ... bare det at komme til Mørkelandene er noget af en udfordring ..."
 
 #: Story/KING.c:176
 msgid "Please - just tell me the way."
@@ -561,15 +576,15 @@ msgstr "Gå nordpå fra denne borg indtil du finder klipperne."
 
 #: Story/KING.c:180
 msgid "I will have men there to guide you through the passage."
-msgstr "Jeg vil have placeret mænd der, som kan vise dig vej gennem passagen."
+msgstr "Jeg har folk der, som kan vise dig vej gennem passagen."
 
 #: Story/KING.c:182
 msgid "And Dink..."
-msgstr "Og Dink..."
+msgstr "Og Dink ..."
 
 #: Story/KING.c:184
 msgid "Something very strange is happening to the world..."
-msgstr "Noget meget mærkeligt er ved at ske med verden..."
+msgstr "Noget meget mærkeligt er ved at ske med verden ..."
 
 #: Story/KING.c:186
 msgid "The darklands seem to be the origin.  Please be careful."
@@ -593,7 +608,7 @@ msgstr "DU ER NU NIVEAU &level"
 
 #: Story/LRAISE.c:20
 msgid "You may increase one of your attributes."
-msgstr "Du må øge en af dine evner."
+msgstr "Du kan øge en af dine evner."
 
 #: Story/LRAISE.c:22
 msgid "Increase Attack"
@@ -625,7 +640,7 @@ msgstr "Kongens nyheder, udgave 43."
 
 #: Story/POSTER.c:12
 msgid "A young man by the name of Milder Flatstomp has won the King's"
-msgstr "En ung mand ved navn Milder Flatstomp har vundet kongens"
+msgstr "En ung mand ved navn Milder Fladstamp har vundet kongens"
 
 #: Story/POSTER.c:14
 msgid "jousting tournament."
@@ -633,7 +648,7 @@ msgstr "ridderturnering."
 
 #: Story/POSTER.c:16
 msgid "What?!  Whatever!"
-msgstr "Hvad?!  Jaså!"
+msgstr "Hvad?!  Hrmph!"
 
 #: Story/POSTER.c:24
 msgid "The King's News, issue 44."
@@ -641,20 +656,22 @@ msgstr "Kongens nyheder, udgave 44."
 
 #: Story/POSTER.c:26
 msgid "Milder Flatstomp is knighted by King Daniel for his part in uncovering"
-msgstr "Milder Flatstomp slås til ridder af kong Daniel for hans del i afsløringen"
+msgstr "Milder Fladstamp slås til ridder af kong Daniel for hans del i afsløringen"
 
 #: Story/POSTER.c:28
 msgid "a Cast plot!"
-msgstr "af et Klikkekomplot!"
+msgstr "af et Klikekomplot!"
 
 #: Story/POSTER.c:30
 msgid "Also in the news:  A pig farmer named Dink Smallwood found a lost Terris girl."
-msgstr "Også i nyhederne:  En griseavler ved navn Dink Skovhøj fandt en fortabt Terrispige."
+msgstr "Også i nyhederne:  En griseavler ved navn Dink Skovhøj fandt en fortabt pige fra Terris."
 
 # er den oversat korrekt?
+# Jeg tror crock ~ nar vil fungere bedre, det virker som om det bruges
+# som generisk skældsord
 #: Story/POSTER.c:32
 msgid "Pig farmer!? What a crock.  At least I'm on there though."
-msgstr "Griseavler!? Sikken svindler. I det mindste er jeg hårdt på sagen."
+msgstr "Griseavler!? Sikken nar. I det mindste er jeg hårdt på sagen."
 
 #: Story/POSTER.c:34
 msgid " Also:  The town of Kernsin is having a festival, all invited."
@@ -666,7 +683,7 @@ msgstr "Kongens nyheder, udgave 45."
 
 #: Story/POSTER.c:45
 msgid "The famous Knight Milder Flatstomp has wed!"
-msgstr "Den kendte ridder Milder Flatstomp er blevet gift!"
+msgstr "Den berømte ridder Milder Fladstamp er blevet gift!"
 
 #: Story/POSTER.c:47
 msgid "Flatstomp got married?  Wow, small world."
@@ -674,7 +691,7 @@ msgstr "Flatstomp - gift?  Hvilken lille verden."
 
 #: Story/POSTER.c:49
 msgid "King Daniel wishes Milder and Lyna (the lucky maiden) well."
-msgstr "Kong Daniel ønsker Milder og Lyna (den lykkelige brud) al godt fremover."
+msgstr "Kong Daniel ønsker Milder og Lyna (den lykkelige brud) alt godt fremover."
 
 #: Story/POSTER.c:51
 msgid "LYNA? NOOO!!!"
@@ -683,7 +700,7 @@ msgstr "LYNA? NEEEJ!!!"
 # Er det et bevidst S ?
 #: Story/POSTER.c:53
 msgid " Also:  The town of KernSin is having a parade today."
-msgstr " Bemærk også:  Byen KernSin afholder en parade i dag."
+msgstr " Bemærk også:  Byen Kernsin afholder en parade i dag."
 
 #: Story/POSTER.c:60
 msgid "The King's News, issue 46."
@@ -691,7 +708,7 @@ msgstr "Kongens nyheder, udgave 46."
 
 #: Story/POSTER.c:62
 msgid "Dink Smallwood saves KernSin and foils the Cast!"
-msgstr "Dink Skovhøj redder KernSin og snyder Klikken!"
+msgstr "Dink Skovhøj redder Kernsin og snyder Kliken!"
 
 #: Story/POSTER.c:64
 msgid "Yeah!!!!!"
@@ -707,7 +724,7 @@ msgstr "Kongens nyheder, udgave 47."
 
 #: Story/POSTER.c:77
 msgid "The Knight Milder Flatstomp ventures into The Darklands - hunting the Cast."
-msgstr "Ridderen Milder Flatstomp rejser ind i Mørkelandene - på jagt efter Klikken."
+msgstr "Ridderen Milder Fladstamp rejser ind i Mørkelandene - på jagt efter Kliken."
 
 #: Story/POSTER.c:79
 msgid "Big freakin' deal."
@@ -723,7 +740,7 @@ msgstr "rapporternes udsagn, så lærte han dem korrekte landbrugsprocedurer ind
 
 #: Story/POSTER.c:85
 msgid "Arg! Oh well, close enough."
-msgstr "Arg! tæt nok på."
+msgstr "Arg! Nå, tæt nok på."
 
 #: Story/POSTER.c:92 Story/POSTER.c:105
 msgid "The King's News, issue 48."
@@ -739,7 +756,7 @@ msgstr "'Det er en kedelig dag for vort land' - kong Daniel"
 
 #: Story/POSTER.c:98 Story/POSTER.c:111
 msgid "Wow.. Poor Milder...he really wasn't such a bad guy."
-msgstr "Wow... Stakkels Milder... han var i virkeligheden ikke en skidt fyr."
+msgstr "Wow ... Stakkels Milder ... han var i virkeligheden ikke en skidt fyr."
 
 #: Story/POSTER.c:118
 msgid "The King's News, issue 49."
@@ -759,11 +776,11 @@ msgstr "Kongens nyheder, udgave 50."
 
 #: Story/POSTER.c:132
 msgid "Smallwood has returned from the Darklands!"
-msgstr "Skovhøj er returneret fra Mørkelandene!"
+msgstr "Skovhøj er vendt tilbage fra Mørkelandene!"
 
 #: Story/POSTER.c:134
 msgid "'I can't wait until he gets to the castle!' - King Daniel"
-msgstr "'Jeg kan ikke vente, til han returnerer til slottet!' - kong Daniel"
+msgstr "'Jeg kan ikke vente, til han vender tilbage til slottet!' - kong Daniel"
 
 #: Story/POSTER.c:141
 msgid "The King's News, issue 51."
@@ -787,23 +804,26 @@ msgstr "Ingen nyheder."
 
 #: Story/S1-BLOVE.c:10
 msgid "Hey, that's Lyna with Milder Flatstomp!"
-msgstr "Hey, det er Lyna med Milder Flatstomp!"
+msgstr "Hey, det er Lyna med Milder Fladstamp!"
 
+# Skat? Snuske?
 #: Story/S1-BLOVE.c:12
 msgid "You know I love you baby... so what's the problem?"
-msgstr "Du ved jeg elsker dig... så hvad er problemet?"
+msgstr "Du ved jeg elsker dig snuske ... så hvad er problemet?"
 
 #: Story/S1-BLOVE.c:14
 msgid "Milder... I want to get to know you first."
-msgstr "Milder... Jeg vil først lære dig bedre at kende."
+msgstr "Milder ... Jeg vil først lære dig bedre at kende."
 
 #: Story/S1-BLOVE.c:16
 msgid "I have a mind too, you know."
 msgstr "Jeg har også en mening, at du ved det."
 
+# at du ved det. [punktum]
+# eller, ved du det
 #: Story/S1-BLOVE.c:18
 msgid "You kinda talk too much, you know that?"
-msgstr "Du snakker for meget, at du ved det?"
+msgstr "Du snakker for meget, ved du det?"
 
 #: Story/S1-BLOVE.c:20
 msgid "You're an ass!"
@@ -821,9 +841,10 @@ msgstr "»Jeg er en skomager/apoteker.  Jeg laver"
 msgid "special herb boots.  When the herb"
 msgstr "specielle krydderurtestøvler.  Når urterne"
 
+# berører
 #: Story/S1-BOOT.c:22
 msgid "touches your skin, you'll want to"
-msgstr "rammer din hud, vil du"
+msgstr "rører din hud, vil du"
 
 #: Story/S1-BOOT.c:23
 msgid "dance and be hyper.\""
@@ -853,9 +874,10 @@ msgstr "Sælger du mange af dem her?"
 msgid "I've never sold one."
 msgstr "Jeg har aldrig solgt nogen."
 
+# Jaså (det er muligt at Ja så også er legalt)
 #: Story/S1-BOOT.c:42
 msgid "Nice."
-msgstr "Ja så."
+msgstr "Jaså."
 
 #: Story/S1-BOOT.c:48
 msgid "You know, the price is too much, could you please lower it?"
@@ -897,6 +919,7 @@ msgstr "Jeg har ikke nok penge!"
 msgid "You are carrying too much."
 msgstr "Du bærer for meget."
 
+# kunne også være HYPERSTØVLER
 #: Story/S1-BOOT.c:93
 msgid "* HYPER BOOTS BOUGHT *"
 msgstr "* EKSTRA AKTIVE STØVLER KØBT *"
@@ -953,9 +976,10 @@ msgstr "Ah, dejligt."
 msgid "Here, piggie piggies."
 msgstr "Her, spis spis."
 
+# "Se hvad vi har her."
 #: Story/S1-BUL.c:23
 msgid "Well, lookie what we got here."
-msgstr "Se hvad vi har her."
+msgstr "Hvad har vi her."
 
 #: Story/S1-BUL.c:25
 msgid "What do you want, Milder?"
@@ -967,7 +991,7 @@ msgstr "Ikke noget."
 
 #: Story/S1-BUL.c:29
 msgid "'cept to watch you work... Is pig farming fun?"
-msgstr "Elsker at se dig arbejde... Er griseavl sjovt?"
+msgstr "Elsker at se dig arbejde ... Er griseavl sjovt?"
 
 #: Story/S1-BUL.c:31
 msgid "I'm NOT a pig farmer."
@@ -979,15 +1003,15 @@ msgstr "Fodrer du grise nu?"
 
 #: Story/S1-BUL.c:35
 msgid "Er.."
-msgstr "Øh.."
+msgstr "Æh.."
 
 #: Story/S1-BUL.c:37
 msgid "Um.."
-msgstr "Um.."
+msgstr "Øh.."
 
 #: Story/S1-BUL.c:39
 msgid "Bawahahahah!  See you around, squirt."
-msgstr "Bawahahahah!  Se dig omkring, lille fyr."
+msgstr "Bawahahahah!  Vi ses, lille fyr."
 
 #: Story/S1-BUL.c:41
 msgid "I *HATE* that guy!"
@@ -999,7 +1023,7 @@ msgstr "Lugter vådt herinde."
 
 #: Story/S1-CAVE.c:13 Story/S1-CAVES.c:14
 msgid "I don't like this one bit..."
-msgstr "Jeg kan ikke lide det her overhovedet..."
+msgstr "Jeg kan ikke lide det her overhovedet ..."
 
 #: Story/S1-CAVE.c:34 Story/S1-CAVES.c:35
 msgid "Can we leave now? <shiver>"
@@ -1009,13 +1033,15 @@ msgstr "Kan vi gå nu? <ryster>"
 msgid "I'm scared."
 msgstr "Jeg er bange."
 
+# Jeg mener a Why i dette tilfælde skal læses som et udbrud, altså i
+# betydningen 'Nå'
 #: Story/S1-CAVE.c:38 Story/S1-CAVES.c:39
 msgid "Why, that's a funny noise."
-msgstr "Hvorfor, det er en sjov lyd."
+msgstr "Nå, det er en sjov lyd."
 
 #: Story/S1-CAVE.c:41 Story/S1-CAVES.c:42
 msgid "This cave sucks, let's leave..."
-msgstr "Denne hule stinker, lad os gå..."
+msgstr "Denne hule stinker, lad os gå ..."
 
 #: Story/S1-CAVEM.c:53
 msgid "Who dares enter my cave?"
@@ -1023,7 +1049,7 @@ msgstr "Hvem vover at komme ind i min hule?"
 
 #: Story/S1-CAVEM.c:57
 msgid "I sense someone in my domain."
-msgstr "Jeg kan mærke noget i mit domæne."
+msgstr "Jeg kan mærke noget i mit rige."
 
 #: Story/S1-CAVEM.c:61
 msgid "I feel I'm threatened ..."
@@ -1031,11 +1057,11 @@ msgstr "Jeg føler mig truet ..."
 
 #: Story/S1-ELTR.c:8
 msgid "To get passage on the boat with Death"
-msgstr "At få transport på båden med Døden"
+msgstr "Hvis du vil have transport på båden med Døden"
 
 #: Story/S1-ELTR.c:9
 msgid "please order the full version."
-msgstr "bestil venligst den fulde version."
+msgstr "så bestil venligst den fulde version."
 
 #: Story/S1-ELTR.c:11
 msgid "You'll be glad you did!"
@@ -1055,15 +1081,15 @@ msgstr "Jeg kan se problemet"
 
 #: Story/S1-FARMS.c:3
 msgid "SmileStein Farm - We grow it, you eat it."
-msgstr "Smilstens landbrug, vi avler det, du spiser det."
+msgstr "Smilstens landbrug - vi avler det, du spiser det."
 
 #: Story/S1-FMONS.c:10
 msgid "You cannot defeat us Mr. Smallwood, we are too much for you."
-msgstr "Du kan ikke besejre os hr. Skovhøj, vi er for stærke for dig."
+msgstr "Du kan ikke besejre os, hr. Skovhøj, vi er for stærke for dig."
 
 #: Story/S1-FMONS.c:11
 msgid "Try your best but you risk your life doing so..."
-msgstr "Gør dit bedste men du risikerer dit liv under forsøget..."
+msgstr "Gør dit bedste, men du risikerer dit liv under forsøget ..."
 
 #: Story/S1-FMONS.c:16
 msgid "RRrrr ar a rar a  arrgghhh."
@@ -1087,19 +1113,19 @@ msgstr "VAND SKAL DØ!"
 
 #: Story/S1-GG.c:12
 msgid "Watch it boy, even my temper may wear eventually."
-msgstr "Se her knægt, selv mit temperament vil til sidst blive mindre."
+msgstr "Pas på knægt, selv min tilmodighed vil til sidst løbe tør."
 
 #: Story/S1-GG.c:14
 msgid "Oh, a warrior are you? <chuckle>"
-msgstr "Oh, du er en kriger? <griner>"
+msgstr "Nå, du er en kriger? <griner>"
 
 #: Story/S1-GG.c:16
 msgid "Nice... Have you been practicing that on your pigs?"
-msgstr "Pænt... Har du trænet det på dine grise?"
+msgstr "Flot ... Har du trænet det på dine grise?"
 
 #: Story/S1-GG.c:30
 msgid "Sorry about what happened Dink, I hope you're ok."
-msgstr "Beklager det skete Dink, jeg håber, du er okay."
+msgstr "Beklager det skete Dink.  Jeg håber, du er okay."
 
 #: Story/S1-GG.c:31
 msgid "Thanks, I'll be ok."
@@ -1107,7 +1133,7 @@ msgstr "Tak, jeg er okay."
 
 #: Story/S1-GG.c:33
 msgid "By the way, a letter came for you.  It's at your house,"
-msgstr "Desuden er et brev kommet til dig.  Det er hjemme i dit hus,"
+msgstr "Desuden er der kommet et brev til dig.  Det er hjemme i dit hus,"
 
 #: Story/S1-GG.c:34
 msgid "you should go take a look at it."
@@ -1128,7 +1154,7 @@ msgstr "Glem det"
 
 #: Story/S1-GG.c:50
 msgid "Hey, guard Renton.  I need to go do something, please let me out."
-msgstr "Hallo, vagt Renton.  Jeg har brug for at gå ud og foretage mig noget, vær venlig og luk mig ud."
+msgstr "Hallo, vagt Renton.  Jeg har brug for at gå ud og foretage mig noget.  Vær venlig og luk mig ud."
 
 #: Story/S1-GG.c:52
 msgid "It's much too dangerous for a boy out there, Dink."
@@ -1180,7 +1206,7 @@ msgstr "Åndssvage ildsted!"
 
 #: Story/S1-H1-2.c:30
 msgid "Ouch, that is hot!"
-msgstr "Ouch, det er varmt!"
+msgstr "Av, det er varmt!"
 
 #: Story/S1-H1-3.c:11
 msgid "Mom's bed is on fire, noooo!"
@@ -1192,7 +1218,7 @@ msgstr "Mors seng."
 
 #: Story/S1-H1-3.c:21
 msgid "No it's too hot."
-msgstr "Nej den er for varm."
+msgstr "Nej, den er for varm."
 
 #: Story/S1-H1-3.c:24
 msgid "Eat this, bed!"
@@ -1206,9 +1232,10 @@ msgstr "Den vil snart bryde i brand."
 msgid "I'm not hungry right now.."
 msgstr "Jeg er ikke sulten nu.."
 
+# den/det ? udeladt
 #: Story/S1-H1-4.c:35
 msgid "Ahh, I can't save it."
-msgstr "Ahh, jeg kan ikke blive."
+msgstr "Argh, jeg kan ikke gemme."
 
 #: Story/S1-H1-4.c:38
 msgid "Why must I attack furniture?"
@@ -1220,7 +1247,7 @@ msgstr "Den er for stor til at kunne flyttes!"
 
 #: Story/S1-H1-4.c:50
 msgid "This table must be bolted to the ground."
-msgstr "Dette bord må være boltret til jorden."
+msgstr "Dette bord må være boltet til jorden."
 
 #: Story/S1-H1-M.c:22
 msgid "Dink, it's getting late!  No food until you feed the pigs!"
@@ -1250,9 +1277,12 @@ msgstr "Ikke noget problem, jeg er snart tilbage."
 msgid "You're a dear."
 msgstr "Du er en skat."
 
+# Dink, husk at fodre grisene?
+# Dink, vil du ikke lige fodre grisene?
+# eller: Dink, husk at fodre grisene.
 #: Story/S1-H1-M.c:60
 msgid "Dink, would you go feed the pigs?"
-msgstr "Dink, husk at fodre grisene?"
+msgstr "Dink, vil du ikke lige fodre grisene?"
 
 #: Story/S1-H1-M.c:62
 msgid "What, now?"
@@ -1288,7 +1318,7 @@ msgstr "Mor, hvordan fodrer jeg grisene?  Jeg har glemt det!"
 
 #: Story/S1-H1-M.c:95
 msgid "That's very amusing, Dink.  You get the sack of feed, and you"
-msgstr "Det er meget underholdende, Dink.  Du henter sækken med foder, og du"
+msgstr "Meget morsomt, Dink.  Du henter sækken med foder, og du"
 
 #: Story/S1-H1-M.c:96
 msgid "sprinkle it in the pig pen.  And don't tease them!"
@@ -1316,7 +1346,7 @@ msgstr "Fortæl mig om denne landsby."
 
 #: Story/S1-H1-M.c:115
 msgid "The villagers are very friendly.  Oh, Ethel wants to see you."
-msgstr "Landsbyboerne er meget venlige.  Oh, Ethel ønsker at se dig."
+msgstr "Landsbyboerne er meget venlige.  Nåeh jo, Ethel ønsker at se dig."
 
 #: Story/S1-H1-M.c:117
 msgid "Ethel?  She's old, isn't she?"
@@ -1336,7 +1366,7 @@ msgstr "Du kommer over det."
 
 #: Story/S1-H1-M.c:131
 msgid "I'm finished with my chores, mother."
-msgstr "Jeg er færdig med mine pligter mor."
+msgstr "Jeg er færdig med mine pligter, mor."
 
 #: Story/S1-H1-M.c:133
 msgid "Good boy.  Go visit our neighbors while I prepare dinner."
@@ -1344,7 +1374,7 @@ msgstr "God dreng.  Besøg vores naboer mens jeg gør middagen klar."
 
 #: Story/S1-H1-M.c:146
 msgid "Ouch!  Stop it!"
-msgstr "Ouch!  Stop det!"
+msgstr "Av!  Stop det!"
 
 #: Story/S1-H1-O.c:35
 msgid "Dink!!!"
@@ -1376,7 +1406,7 @@ msgstr "Og hvad skal det så lige betyde, Ethel?"
 
 #: Story/S1-H1-O.c:54
 msgid "Oh.. nothing..."
-msgstr "Oh.. ikke noget..."
+msgstr "Oh.. ikke noget ..."
 
 #: Story/S1-H1-O.c:60
 msgid "There was nothing you could do.."
@@ -1384,11 +1414,11 @@ msgstr "Der var ikke noget, du kunne have gjort.."
 
 #: Story/S1-H1-O.c:62
 msgid "Don't blame yourself kid."
-msgstr "Læg ikke skylden på dig selv knægt."
+msgstr "Læg ikke skylden på dig selv, knægt."
 
 #: Story/S1-H1-O.c:88
 msgid "What, the house, mother nooooo!!!"
-msgstr "Hvad, huset, mor neeeeeej!!!"
+msgstr "Hvad, huset, mor, neeeeeej!!!"
 
 #: Story/S1-H1-O.c:90
 msgid "She's still in there!!"
@@ -1396,11 +1426,11 @@ msgstr "Hun er stadig derinde!!"
 
 #: Story/S1-H1-S.c:8
 msgid "Mother noooooo!"
-msgstr "Mor neeeej!"
+msgstr "Mor, neeeej!"
 
 #: Story/S1-H1-S.c:13
 msgid "Mother, you can't die, nooo I  I ..."
-msgstr "Mor, du må ikke dø, neeej jeg jeg ..."
+msgstr "Mor, du må ikke dø, neeej, jeg, jeg ..."
 
 #: Story/S1-H1-S.c:15
 msgid "never knew how much I really cared about you"
@@ -1424,7 +1454,7 @@ msgstr "Mit gamle hjem ..."
 
 #: Story/S1-H2-1.c:8
 msgid "This bed smells kinda funny..."
-msgstr "Denne seng lugter sjovt..."
+msgstr "Denne seng lugter sjovt ..."
 
 #: Story/S1-H2-1.c:13
 msgid "You smell, therefore you die!!!"
@@ -1436,7 +1466,7 @@ msgstr "Den gamle kvinde har en krig af væsker heroppe!"
 
 #: Story/S1-H2-2.c:13
 msgid "Owww, I could cut myself!"
-msgstr "Owww, jeg kunne skære mig selv!"
+msgstr "Owww, jeg kunne skære mig!"
 
 #: Story/S1-H2-3.c:8
 msgid "Man, party in this house!"
@@ -1464,7 +1494,7 @@ msgstr "Ud!!"
 
 #: Story/S1-H2-DK.c:22
 msgid "Uh, sorry."
-msgstr "Uh, beklager."
+msgstr "Øh, beklager."
 
 #: Story/S1-H2-O.c:6
 msgid "Hello murderer!!"
@@ -1476,15 +1506,15 @@ msgstr "Jamen goddag, Dink."
 
 #: Story/S1-H2-O.c:18
 msgid "Oh Dink, I'm so worried - have you found him?"
-msgstr "Oh Dink, jeg er så bekymret - har du fundet ham?"
+msgstr "Åh Dink, jeg er så bekymret - har du fundet ham?"
 
 #: Story/S1-H2-O.c:24
 msgid "Oh Dink, look who is here!"
-msgstr "Oh Dink, se hvem som er her!"
+msgstr "Åh Dink, se hvem som er her!"
 
 #: Story/S1-H2-O.c:26
 msgid "Also Dink, your mother was looking for you."
-msgstr "Din mor ledte også efter dig, Dink."
+msgstr "Din mor ledte i øvrigt efter dig, Dink."
 
 #: Story/S1-H2-O.c:35
 msgid "Get away from me!"
@@ -1500,11 +1530,11 @@ msgstr "hun var en god kvinde."
 
 #: Story/S1-H2-O.c:49
 msgid "Kinda funny, my duck missing and your Mom dead."
-msgstr "Lidt sjovt, min and er væk og din mor er død."
+msgstr "Sjovt sammentræf, min and er væk og din mor er død."
 
 #: Story/S1-H2-O.c:53
 msgid "Kinda funny, my duck and your Mom dead."
-msgstr "Lidt sjovt, min and og din mor er død."
+msgstr "Sjovt sammentræf, min and og din mor er død."
 
 #: Story/S1-H2-O.c:64
 msgid "I'm so grateful to you, Dink!  You are such a dear!"
@@ -1536,7 +1566,7 @@ msgstr "Spørg efter hendes kæledyr"
 
 #: Story/S1-H2-O.c:106
 msgid "Inquire about all her bottles"
-msgstr "Forespørg om alle hendes flasker"
+msgstr "Spørg om alle hendes flasker"
 
 #: Story/S1-H2-O.c:121
 msgid "How are you today, Ethel?"
@@ -1560,11 +1590,11 @@ msgstr "Quackers er væk!  Vil du hjælpe mig med at finde ham?"
 
 #: Story/S1-H2-O.c:140
 msgid "Agree whole heartedly"
-msgstr "Indvi fuldstændig"
+msgstr "Accepter fuldstændig"
 
 #: Story/S1-H2-O.c:141
 msgid "Barely agree"
-msgstr "Indvi delvis"
+msgstr "Accepter delvis"
 
 #: Story/S1-H2-O.c:142
 msgid "Tell her where she can stick 'Quackers'"
@@ -1580,35 +1610,36 @@ msgstr "Mange tak Dink!"
 
 #: Story/S1-H2-O.c:157
 msgid "Yeah, I guess if I see 'em I'll send him home.  Maybe."
-msgstr "Yeah, hvis jeg ser ham, så sender jeg ham hjem.  Måske."
+msgstr "Ja, hvis jeg ser ham, så sender jeg ham hjem.  Måske."
 
 #: Story/S1-H2-O.c:159
 msgid "I see...thank.. you .. I guess."
-msgstr "Jeg forstår...tak...alligevel."
+msgstr "Jeg forstår... tak... alligevel."
 
 #: Story/S1-H2-O.c:165
 msgid "You're pathetic.  Find your own duck."
-msgstr "Du er patetisk.  Find din egen and."
+msgstr "Du er ynkelig.  Find din egen and."
 
 #: Story/S1-H2-O.c:167
 msgid "I.. I... didn't know... <begins to tear up>"
-msgstr "Jeg.. jeg... vidste ikke... <begynder at bryde i gråd>"
+msgstr "Jeg.. jeg ... vidste ikke ... <begynder at bryde i gråd>"
 
+# spirits ~ spiritus
 #: Story/S1-H2-O.c:176
 msgid "Hey Ethel, what's with all the spirits on the wall there?"
-msgstr "Hej Ethel, hvad er det for nogle ånder på væggen der?"
+msgstr "Hallo Ethel, hvad sker der for al sprutten på væggen der?"
 
 #: Story/S1-H2-O.c:177
 msgid "You really like to party don't you?"
-msgstr "Du kan virkelig li' at feste?"
+msgstr "Du kan virkelig li' at feste, hva'?"
 
 #: Story/S1-H2-O.c:179
 msgid "What Dink?"
-msgstr "Hvad Dink?"
+msgstr "Hvad, Dink?"
 
 #: Story/S1-H2-O.c:181
 msgid "You know, all drowning away your problems on the weekend"
-msgstr "Du ved, drukne sine problemer væk i weekenden"
+msgstr "Du ved, drukne sine problemer i weekenden"
 
 #: Story/S1-H2-O.c:182
 msgid "waking up with guys you don't even know."
@@ -1640,7 +1671,7 @@ msgstr "Hr. Smilstens gødning og formularer."
 
 #: Story/S1-H3-2.c:13
 msgid "Eat it smelly bottles!"
-msgstr "Tag den lugtende flasker!"
+msgstr "Tag den, lugtende flasker!"
 
 #: Story/S1-H3-3.c:9
 msgid "Mr.SmileStein's bed, I shudder at what happens here."
@@ -1656,7 +1687,7 @@ msgstr "Et lille bord."
 
 #: Story/S1-H3-4.c:13
 msgid "Ouch, splinters."
-msgstr "Ouch, splinter."
+msgstr "Av, splinter."
 
 #: Story/S1-H3-5.c:31
 msgid "Not so fast, Smallwood!"
@@ -1676,19 +1707,20 @@ msgstr "Libbys seng, ahh yeah."
 
 #: Story/S1-H3-8.c:16
 msgid "Libby's bed, to dream the impossible dream..."
-msgstr "Libbys seng, at drømme den umulige drøm..."
+msgstr "Libbys seng, at drømme den umulige drøm ..."
 
 #: Story/S1-H3-8.c:20
 msgid "Libby's bed, looks lonely."
-msgstr "Libbys seng, ser ensom ud."
+msgstr "Libbys seng - ser ensom ud."
 
 #: Story/S1-H3-8.c:26
 msgid "Get ready for me!"
 msgstr "Gør dig klar!"
 
+# spinning wheel ~ spindehjul, eller ten
 #: Story/S1-H3-9.c:7
 msgid "Looks like a spinning wheel."
-msgstr "Ligner et roterende hjul."
+msgstr "Ligner et spindehjul."
 
 #: Story/S1-H3-9.c:12
 msgid "Die thread user."
@@ -1696,7 +1728,7 @@ msgstr "Dø trådbruger."
 
 #: Story/S1-H3-L.c:8
 msgid "Oh Dink, it's you.."
-msgstr "Oh Dink, det er dig.."
+msgstr "Åh Dink, det er dig.."
 
 #: Story/S1-H3-L.c:18
 msgid "Coax her into telling you why she's upset"
@@ -1732,7 +1764,7 @@ msgstr "Hvad?  Hvad snakker du om?"
 
 #: Story/S1-H3-L.c:39
 msgid "I've heard .. rumors Libby, it's okay to admit it you know."
-msgstr "Jeg har hørt .. rygter LIbby, det er i orden at erkende det."
+msgstr "Jeg har hørt .. rygter Libby. Det er i orden at erkende det."
 
 #: Story/S1-H3-L.c:41
 msgid "Admit?  Admit what?"
@@ -1752,7 +1784,7 @@ msgstr "Jeg græder fordi min far er så oprørt."
 
 #: Story/S1-H3-L.c:46
 msgid "Oh ... I .... see."
-msgstr "Oh ... Jeg ... forstår."
+msgstr "Åh ... Jeg ... forstår."
 
 #: Story/S1-H3-L.c:47
 msgid "<sniff>"
@@ -1772,11 +1804,12 @@ msgstr "Det er præcis et år siden at mor døde, derfor."
 
 #: Story/S1-H3-L.c:53
 msgid "Uhhh.  I ... uhm ..."
-msgstr "Uhhh.  Jeg ... uhm ..."
+msgstr "Øhhh.  Jeg ... æh ..."
 
+# »Jaså« eller »Nå«, forslår jeg
 #: Story/S1-H3-L.c:55 Story/S1-H3-OF.c:100
 msgid "Oh"
-msgstr "Oh"
+msgstr "Jaså"
 
 #: Story/S1-H3-L.c:64
 msgid "I'm sorry about your mother.  But I know how you feel"
@@ -1792,7 +1825,7 @@ msgstr "Tak Dink, du har gjort mig lykkelig."
 
 #: Story/S1-H3-L.c:74
 msgid "Uhh, hehe, sorry for being so insensitive and saying those things."
-msgstr "Uhh, hehe, beklager at jeg var så ufølsom og sagde de ting."
+msgstr "Øhh, hehe, beklager at jeg var så ufølsom og sagde de ting."
 
 #: Story/S1-H3-L.c:75
 msgid "Guess I shouldn't listen to rumors so much."
@@ -1800,19 +1833,19 @@ msgstr "Jeg skulle nok ikke høre på alle de rygter."
 
 #: Story/S1-H3-L.c:77
 msgid "Uhh .. hehe ..he .."
-msgstr "Uhh .. hehe ..he .."
+msgstr "Øhh .. hehe ..he .."
 
 #: Story/S1-H3-L.c:78
 msgid "Uhhhhh..."
-msgstr "Uhhhhh..."
+msgstr "Øhhhhh ..."
 
 #: Story/S1-H3-L.c:79
 msgid "Oh boy."
-msgstr "Oh ha."
+msgstr "Nådada."
 
 #: Story/S1-H3-L.c:87
 msgid "Don't cry Libby.  It's okay whatever it is."
-msgstr "Græd ikke Libby.  Det er i orden, uanset hvad det er."
+msgstr "Græd ikke, Libby.  Det er i orden, uanset hvad det er."
 
 #: Story/S1-H3-L.c:88
 msgid "Sometimes bad things just happen to us, we just"
@@ -1824,7 +1857,7 @@ msgstr "lære at leve os igennem."
 
 #: Story/S1-H3-L.c:91
 msgid "Thanks Dink, that's kind of you."
-msgstr "Tak Dink, det er pænt af dig."
+msgstr "Tak, Dink. Det er pænt af dig."
 
 #: Story/S1-H3-L.c:96
 msgid "So I guess you noticed that your farm is doing better now huh?"
@@ -1836,11 +1869,11 @@ msgstr "Du ved, det var mig der klarede det derude."
 
 #: Story/S1-H3-L.c:99
 msgid "Pretty good..."
-msgstr "Godt gået..."
+msgstr "Godt gået ..."
 
 #: Story/S1-H3-L.c:100
 msgid "...compared to your usual."
-msgstr "...sammenlignet med hvad du normalt kan klare."
+msgstr "... sammenlignet med hvad du normalt kan klare."
 
 #: Story/S1-H3-L.c:102
 msgid "Dohh!"
@@ -1852,19 +1885,19 @@ msgstr "Uh, glem det.  Jeg må gå nu."
 
 #: Story/S1-H3-L.c:118
 msgid "You know I hate to do this to you baby."
-msgstr "Du ved, jeg hader at måtte gøre det her ved din skat."
+msgstr "Du ved, jeg hader at måtte gøre det her mod dig skat."
 
 #: Story/S1-H3-L.c:121
 msgid "Noo Dink!!  What's your problem..."
-msgstr "Nej Dink!!  Hvad er dit problem..."
+msgstr "Nej, Dink!!  Hvad er dit problem ..."
 
 #: Story/S1-H3-OF.c:7
 msgid "I'm sorry my dear, I miss you..."
-msgstr "Jeg beklager søde, jeg savner dig..."
+msgstr "Jeg beklager søde, jeg savner dig ..."
 
 #: Story/S1-H3-OF.c:8
 msgid "Oh Dink!!  Sorry, didn't see you there."
-msgstr "Oh Dink!!  Beklager, så dig ikke."
+msgstr "Hov Dink!!  Beklager, så dig ikke."
 
 #: Story/S1-H3-OF.c:15
 msgid "Dink!  I hope you're doing okay."
@@ -1872,11 +1905,11 @@ msgstr "Dink!  Jeg håber, du klarer det."
 
 #: Story/S1-H3-OF.c:17
 msgid "Tragic, what happened."
-msgstr "Tragisk, hvad skete der."
+msgstr "Tragisk, hvad der skete."
 
 #: Story/S1-H3-OF.c:22
 msgid "Oh Dink, how goes the battle?"
-msgstr "Oh Dink, hvordan går slaget?"
+msgstr "Åh Dink, hvordan går slaget?"
 
 #: Story/S1-H3-OF.c:26
 msgid "Ah Dink, savior of my farm!"
@@ -1892,7 +1925,7 @@ msgstr "Forhør dig om hans gård"
 
 #: Story/S1-H3-OF.c:37
 msgid "Ask to see Libby"
-msgstr "Spørg om du kan se Libby"
+msgstr "Spørg om du kan besøge Libby"
 
 #: Story/S1-H3-OF.c:38
 msgid "Get info about the farm"
@@ -1906,9 +1939,10 @@ msgstr "Hvordan har din familie det?"
 msgid "We're fine."
 msgstr "Vi har det fint."
 
+# evt. Javel/Jaså/Aha.  Jeg tror de to sidste muligheder er beds
 #: Story/S1-H3-OF.c:47 Story/S2-CA-G.c:59 Story/S2-WENCH.c:119
 msgid "Ah."
-msgstr "Ah."
+msgstr "Aha."
 
 #: Story/S1-H3-OF.c:50
 msgid "Dink, I'm so sorry about your mother."
@@ -1920,11 +1954,11 @@ msgstr "Hun var en god kvinde."
 
 #: Story/S1-H3-OF.c:58
 msgid "So how is your farm?  Growing much?"
-msgstr "Så hvordan går det med din gård?  Vokser den?"
+msgstr "Så hvordan går det med din gård?  Får du plantet noget?"
 
 #: Story/S1-H3-OF.c:61
 msgid "The farm... oh the farm!!  Those damn monsters,"
-msgstr "Gården... oh gården!!  De forbandede monstre,"
+msgstr "Gården ... ah gården!!  De forbandede monstre,"
 
 #: Story/S1-H3-OF.c:62
 msgid "they're really starting to bother me."
@@ -1948,11 +1982,11 @@ msgstr "Spørg hvad han har planer om at gøre"
 
 #: Story/S1-H3-OF.c:72
 msgid "Don't worry Mr. SmileStein, I'll take care of the problem."
-msgstr "Du skal ikke bekymre dig mere hr. Smilsten, jeg ordner problemet."
+msgstr "Du skal ikke bekymre dig mere, hr. Smilsten, jeg ordner problemet."
 
 #: Story/S1-H3-OF.c:74
 msgid "Really Dink??  Oh thank you, thank you."
-msgstr "Virkelig Dink??  Oh mange tak, mange tak."
+msgstr "Virkelig, Dink??  Åh mange tak, mange tak."
 
 #: Story/S1-H3-OF.c:75
 msgid "Just come back and tell me when you've defeated them."
@@ -1976,7 +2010,7 @@ msgstr "så han kan tage sig af dem!  Det vil hjælpe på næste års høst."
 
 #: Story/S1-H3-OF.c:88
 msgid "Can I go up and see Libby?"
-msgstr "Kan jeg gå op og se til Libby?"
+msgstr "Kan jeg gå op og hilse på Libby?"
 
 #: Story/S1-H3-OF.c:93
 msgid "For you Dink, yes go right up."
@@ -2000,7 +2034,7 @@ msgstr "Monstrene render konstant rundt på den."
 
 #: Story/S1-H3-OF.c:106
 msgid "Please see what you can do Dink."
-msgstr "Se hvad du kan gøre ved det Dink."
+msgstr "Se hvad du kan gøre ved det, Dink."
 
 #: Story/S1-H3-OF.c:114
 msgid "Please, I'm not in the mood."
@@ -2012,11 +2046,11 @@ msgstr "Ah, hej hr. Smilsten."
 
 #: Story/S1-HSIGN.c:5
 msgid "Private property! Keep out! - Wizard Martridge"
-msgstr "Privat egendom! Bliv væk! - Troldmand Martridge"
+msgstr "Privat ejendom! Bliv væk! - Troldmand Martridge"
 
 #: Story/S1-HSIGN.c:7
 msgid "How interesting.  I wonder what is hidden around here..."
-msgstr "Hvor interessant.  Hvad mon der skjuler sig her omkring..."
+msgstr "Hvor interessant.  Hvad mon der skjuler sig her omkring ..."
 
 #: Story/S1-LG.c:15
 msgid "La la laaa La La"
@@ -2032,15 +2066,15 @@ msgstr "Goddag Chealse ..."
 
 #: Story/S1-LG.c:28
 msgid "Flirt with her"
-msgstr "Flørt med hende"
+msgstr "Flirt med hende"
 
 #: Story/S1-LG.c:29
 msgid "Ask about gossip"
-msgstr "Spørg om rygter"
+msgstr "Spørg om sladder"
 
 #: Story/S1-LG.c:30
 msgid "Ask about Milder FlatStomp"
-msgstr "Spørg om Milder FlatStomp"
+msgstr "Spørg om Milder Fladstamp"
 
 #: Story/S1-LG.c:31
 msgid "Tell her you killed Ethel's duck"
@@ -2060,15 +2094,15 @@ msgstr "Ja ja, Skovhøj!!"
 
 #: Story/S1-LG.c:44
 msgid "So what's the latest word in town Chealse?"
-msgstr "Så hvad er de seneste rygter i byen Chealse?"
+msgstr "Så hvad er den seneste sladder i byen, Chealse?"
 
 #: Story/S1-LG.c:59
 msgid "I can't think of anymore gossip, sorry Dink."
-msgstr "Jeg kan ikke huske flere rygter, beklager Dink."
+msgstr "Jeg kan ikke huske mere sladder. Beklager Dink."
 
 #: Story/S1-LG.c:71
 msgid "Well I hear there's been a horrible murder of Ethel's duck!"
-msgstr "Jeg hører, at der har været et frygtelig mord på Ethels and!"
+msgstr "Jeg hører, at der har været et frygteligt mord på Ethels and!"
 
 #: Story/S1-LG.c:72
 msgid "I don't know much now, but I'll tell you when I do."
@@ -2076,11 +2110,11 @@ msgstr "Jeg ved ikke noget for nu, men jeg giver dig besked, når jeg gør."
 
 #: Story/S1-LG.c:73
 msgid "Oh, how tragic .... uh ..."
-msgstr "Oh, hvor tragisk .... uh ..."
+msgstr "Nå, hvor tragisk .... øh ..."
 
 #: Story/S1-LG.c:75
 msgid "... gotta go"
-msgstr "... må gå"
+msgstr "... må løbe"
 
 #: Story/S1-LG.c:98
 msgid "Well, I heard that the SmileSteins have quite an abusive family now."
@@ -2092,11 +2126,11 @@ msgstr "På trods af at deres far er en landmand, der bliver set op til."
 
 #: Story/S1-LG.c:101
 msgid "Are you sure, that sounds pretty far fetched."
-msgstr "Er du sikker, det lyder lidt langt ud."
+msgstr "Er du sikker?  Det lyder lidt langt ude."
 
 #: Story/S1-LG.c:103
 msgid "Yeah, oh yeah, just the other night when I was coming back"
-msgstr "Yeah, oh yeah, den anden nat da jeg kom hjem fra"
+msgstr "Bestemt, ja.  Den anden nat da jeg kom hjem fra"
 
 #: Story/S1-LG.c:104
 msgid "from picking flowers, I heard Libby up in her room crying."
@@ -2104,7 +2138,7 @@ msgstr "blomsterplukning, hørte jeg Libby græde i sit værelse."
 
 #: Story/S1-LG.c:106
 msgid "No ... Libby?  Oh my."
-msgstr "Nej ... Libby?  Oh my."
+msgstr "Nej ... Libby?  Sikke noget."
 
 #: Story/S1-LG.c:118
 msgid "Libby and her new boyfriend seem really happy together."
@@ -2120,7 +2154,7 @@ msgstr "Han ser noget dominerende ud."
 
 #: Story/S1-LG.c:123
 msgid "Yeah, well she says she really likes him and that once"
-msgstr "Yeah, hun siger, at hun virkelig kan lide ham og"
+msgstr "Tjaeh, hun siger, at hun virkelig kan lide ham og"
 
 #: Story/S1-LG.c:124
 msgid "you get to know him he's a great guy."
@@ -2144,7 +2178,7 @@ msgstr "Wow"
 
 #: Story/S1-LG.c:137
 msgid "Yeah, big stuff.."
-msgstr "Yeah, store sager.."
+msgstr "Sandelig, store sager.."
 
 #: Story/S1-LG.c:145
 msgid "Well when I went to the coast the other day I heard the Pirates"
@@ -2172,7 +2206,7 @@ msgstr "Okay okay, min storesøster Aby, som bor i Havneby, fortalte mig det."
 
 #: Story/S1-LG.c:159
 msgid "What's with that big dummy Milder Flatstomp lately?"
-msgstr "Hvad er det med den store dumme Milder Flatstomp her for nylig?"
+msgstr "Hvad er det med den store dumme Milder Fladstamp her for nylig?"
 
 #: Story/S1-LG.c:161
 msgid "Well I hear he applied to the Royal Guard."
@@ -2180,7 +2214,7 @@ msgstr "Jeg hørte, at han søgte ind hos Den Kongelige Vagt."
 
 #: Story/S1-LG.c:162
 msgid "But besides that he's just a big oaf, but I"
-msgstr "Men udover det så er han bare et stort fjog, men jeg"
+msgstr "Men ud over det så er han bare et stort fjog, men jeg"
 
 #: Story/S1-LG.c:163
 msgid "also saw him flirting with Libby AND Lyna!"
@@ -2188,19 +2222,19 @@ msgstr "så ham også charme sig ind på Libby OG Lyna!"
 
 #: Story/S1-LG.c:165
 msgid "Damn.. they must dig his uniform.  I HAVE to join!"
-msgstr "Damn... de må være vilde med hans uniform.  Jeg MÅ også have en!"
+msgstr "Satans ... de må være vilde med hans uniform.  Jeg MÅ også have en!"
 
 #: Story/S1-LG.c:169
 msgid "Guess what, I got a secret for ya Chealse."
-msgstr "Gæt hvad, jeg har en hemmelighed til dig Chealse."
+msgstr "Gæt hvad, jeg har en hemmelighed til dig, Chealse."
 
 #: Story/S1-LG.c:171
 msgid "Really?  What is it Dink?"
-msgstr "Virkelig?  Hvad er det Dink?"
+msgstr "Virkelig?  Hvad er det, Dink?"
 
 #: Story/S1-LG.c:172
 msgid "Well...."
-msgstr "Tja...."
+msgstr "Tja ...."
 
 #: Story/S1-LG.c:174
 msgid "I WAS THE ONE WHO KILLED ETHEL'S DUCK!!!!!!!!!"
@@ -2212,7 +2246,7 @@ msgstr "Neeeeeeeej"
 
 #: Story/S1-LG.c:189
 msgid "Hey, watch it pig farmer!!"
-msgstr "Hey, se her griseavler!!"
+msgstr "Hallo, pas på griseavler!!"
 
 #: Story/S1-LG.c:198
 msgid "She won't be bothering people any more."
@@ -2224,23 +2258,23 @@ msgstr "Kære Dink,"
 
 #: Story/S1-LTR.c:19
 msgid "We've just gotten word of the tragic accident that happened at..."
-msgstr "Vi har netop hørt om den tragiske ulykke, som skete i..."
+msgstr "Vi har netop hørt om den tragiske ulykke, som skete i ..."
 
 #: Story/S1-LTR.c:20
 msgid "your home a short while ago.  Needless to say we are shocked."
-msgstr "dit hjem for nylig.  Vi er chokeret."
+msgstr "dit hjem for nylig.  Vi er chokerede."
 
 #: Story/S1-LTR.c:21
 msgid "This must be a hard time for you, being so young and suffering..."
-msgstr "Det må være hårdt for dig, så ung og sørgende..."
+msgstr "Det må være hårdt for dig, så ung og lider ..."
 
 #: Story/S1-LTR.c:22
 msgid "such a great loss.  You are completely welcome to come and stay..."
-msgstr "hvilket tab.  Du er selvfølgelig velkommen til at komme ind og overnatte..."
+msgstr "et så stort tab.  Du er selvfølgelig velkommen til at komme ind og overnatte ..."
 
 #: Story/S1-LTR.c:23
 msgid "with us in Terris for a while, I don't think Jack will mind."
-msgstr "hos os i Terris, jeg tror ikke, at Jack vil have noget imod det."
+msgstr "hos os i Terris.  Jeg tror ikke, at Jack vil have noget imod det."
 
 #: Story/S1-LTR.c:25
 msgid "Sincerely, Aunt Maria Kneedlewood"
@@ -2248,11 +2282,11 @@ msgstr "Din, Tante Maria Kneedlewood"
 
 #: Story/S1-LTR.c:27
 msgid "Hmm... Terris.  I think that is west of here."
-msgstr "Hmm... Terris.  Jeg tror, at det er vest herfor."
+msgstr "Hmm ... Terris.  Jeg tror, at det er vest herfor."
 
 #: Story/S1-LTR.c:29
 msgid "Hey!  A map was enclosed!"
-msgstr "Hey!  Et kort blev afsløret!"
+msgstr "Hallo!  Der er vedlagt et kort!"
 
 #: Story/S1-LTR.c:32
 msgid "(Press M or button 6 for map toggle)"
@@ -2260,7 +2294,7 @@ msgstr "(Tryk M eller knap 6 for slå kort til/fra)"
 
 #: Story/S1-MH-F.c:13
 msgid "Hey, it's a scroll from Martridge!"
-msgstr "Hey, det er en skriftrulle fra Martridge!"
+msgstr "Næh, det er en skriftrulle fra Martridge!"
 
 #: Story/S1-MH-F.c:14
 msgid "Let's see ..."
@@ -2284,7 +2318,7 @@ msgstr "instruere dig yderligere.  Men der er mange"
 
 #: Story/S1-MH-F.c:22
 msgid "teachers out there, you will find one and further"
-msgstr "lærere derude, du kan finde en og fortsætte"
+msgstr "lærere derude. Du kan finde en og fortsætte"
 
 #: Story/S1-MH-F.c:23
 msgid "your training."
@@ -2304,7 +2338,7 @@ msgstr "Nyd det Dink, du har fortjent det."
 
 #: Story/S1-MH-F.c:31
 msgid "All right, my first spell! Maybe I can burn down some trees..."
-msgstr "Skide godt, min første magi! Måske jeg kan brænde nogle træer ned..."
+msgstr "Skide godt, min første magi! Måske jeg kan brænde nogle træer ned ..."
 
 #: Story/S1-MH-F.c:43
 msgid "I now have fireball magic!"
@@ -2324,7 +2358,7 @@ msgstr "Ahh Dink, jeg har ventet dig."
 
 #: Story/S1-MH-M.c:28
 msgid "Hi, it's me again.  Now who are you really?"
-msgstr "Hej, det er mig igen.  Hvem er du virkelig?"
+msgstr "Hej, det er mig igen.  Hvem er du egentlig?"
 
 #: Story/S1-MH-M.c:30
 msgid "I am the Wizard Martridge.  A teacher of magic."
@@ -2332,7 +2366,7 @@ msgstr "Jeg er troldmanden Martridge.  En lærer i magiens verden."
 
 #: Story/S1-MH-M.c:32
 msgid "Wow, I don't think I've ever seen your place around here before."
-msgstr "Wov, jeg tror aldrig, jeg har set dit sted heromkring før."
+msgstr "Wow, jeg tror aldrig, jeg har set dit sted heromkring før."
 
 #: Story/S1-MH-M.c:34
 msgid "I like being closer to nature."
@@ -2344,7 +2378,7 @@ msgstr "Jeg har observeret dig et stykke tid, Dink."
 
 #: Story/S1-MH-M.c:38
 msgid "Like, peeking in through my windows and such?"
-msgstr "Som i, kigge ind igennem mit vindue og sådan?"
+msgstr "Som i at kigge ind igennem mit vindue og sådan?"
 
 #: Story/S1-MH-M.c:40
 msgid "No Dink, I have magic."
@@ -2364,7 +2398,7 @@ msgstr "Kan jeg skabe kvindfolk sådan lige foran mig og andre ting?"
 
 #: Story/S1-MH-M.c:48
 msgid "Uh, no."
-msgstr "Uh, nej."
+msgstr "Øh, nej."
 
 #: Story/S1-MH-M.c:50
 msgid "Well can I like float around and fly up into trees?"
@@ -2372,7 +2406,7 @@ msgstr "Kan jeg drifte omkring og flyve op i træerne?"
 
 #: Story/S1-MH-M.c:52
 msgid "Uh maybe, it depends..."
-msgstr "Uh måske, det afhænger..."
+msgstr "Øh måske, det afhænger ..."
 
 #: Story/S1-MH-M.c:54
 msgid "Can I throw death from my hands??"
@@ -2380,7 +2414,7 @@ msgstr "Kan jeg kaste død fra mine hænder??"
 
 #: Story/S1-MH-M.c:56
 msgid "Maybe I was wrong Dink."
-msgstr "Måske tog jeg fejl Dink."
+msgstr "Måske tog jeg fejl, Dink."
 
 #: Story/S1-MH-M.c:58
 msgid "But these things can be hard to tell."
@@ -2396,7 +2430,7 @@ msgstr "Spørg om magi"
 
 #: Story/S1-MH-M.c:71
 msgid "Martridge, I .. I can handle it.  I'm prepared."
-msgstr "Martridge, Jeg kan håndtere det.  Jeg er forberedt."
+msgstr "Martridge, jeg kan håndtere det.  Jeg er forberedt."
 
 #: Story/S1-MH-M.c:73
 msgid "I promise I'll be honorable and learn to use it right."
@@ -2408,7 +2442,7 @@ msgstr "Du må vise dig værdig, Dink."
 
 #: Story/S1-MH-M.c:77
 msgid "Ah man, how do I do that?"
-msgstr "Ah man, hvordan gør jeg det?"
+msgstr "Ej mand, hvordan gør jeg det?"
 
 #: Story/S1-MH-M.c:79
 msgid "Well in a cave on these hills, there lies a beast."
@@ -2460,7 +2494,7 @@ msgstr "Det er en stor kraft og gave til dem, som kan bruge den."
 
 #: Story/S1-MH-M.c:117
 msgid "Why are you trying to hurt me Dink?"
-msgstr "Hvorfor prøver du på at skade mig Dink?"
+msgstr "Hvorfor prøver du på at skade mig, Dink?"
 
 #: Story/S1-NOPAS.c:12
 msgid "I'd best not venture so far from town.  Too dangerous!"
@@ -2468,7 +2502,7 @@ msgstr "Jeg må nok undlade at rejse så langt væk fra byen.  Det er for farlig
 
 #: Story/S1-NTREE.c:12
 msgid "Hey, that's an AlkTree."
-msgstr "Hey, det er et alktræ."
+msgstr "Minsandten, det er et alktræ."
 
 #: Story/S1-NUT.c:13
 msgid "I'm full!  I can't pick up anything else."
@@ -2508,11 +2542,11 @@ msgstr "Rend mig"
 
 #: Story/S1-OLDD.c:30
 msgid "But fine, I'll go home..."
-msgstr "Men okay, jeg går hjem..."
+msgstr "Men okay, jeg går hjem ..."
 
 #: Story/S1-OLDD.c:47
 msgid "Haw haw!"
-msgstr "Haw haw!"
+msgstr "Har har!"
 
 #: Story/S1-ROB2.c:25
 msgid "Please, I've no money, I'm just traveling light."
@@ -2520,7 +2554,7 @@ msgstr "Jeg har ingen penge, jeg rejser på få midler."
 
 #: Story/S1-ROB2.c:27
 msgid "We'll be the judge of that, where are you headed?"
-msgstr "Det skal jeg nok afgøre, hvor er du på vej hen?"
+msgstr "Det skal jeg få afgjort. Hvor er du på vej hen?"
 
 #: Story/S1-ROB2.c:30
 msgid "I'm just passing through to Windemere sir."
@@ -2560,11 +2594,11 @@ msgstr "Hallo, det ligner en åbning her bag denne sten."
 
 #: Story/S1-ROC.c:22
 msgid "It's too heavy for me.  If I was a little stronger..."
-msgstr "Den er for tung til mig.  Hvis bare jeg var en smule stærkere..."
+msgstr "Den er for tung til mig.  Hvis bare jeg var en smule stærkere ..."
 
 #: Story/S1-ROC.c:34
 msgid "It's .. it's moving..."
-msgstr "Den .. den bevæger sig..."
+msgstr "Den .. den bevæger sig ..."
 
 #: Story/S1-ROC.c:50
 msgid "..heavy..heavy.."
@@ -2609,7 +2643,7 @@ msgstr "Takket være dig er jeg.  De fyre ville have dræbt mig!"
 
 #: Story/S1-VIC.c:21
 msgid "Yea, I've never seen anything like that happen"
-msgstr "Yea, jeg har aldrig set noget som det ske"
+msgstr "Ja, jeg har aldrig set noget som det ske"
 
 #: Story/S1-VIC.c:22
 msgid "around here before."
@@ -2637,11 +2671,11 @@ msgstr "Til Terris og De Gode Hjerters Borg"
 
 #: Story/S1-WAND.c:7
 msgid "Hello fellow traveller."
-msgstr "Hallo fælles rejsende."
+msgstr "Hallo medrejsende."
 
 #: Story/S1-WAND.c:18
 msgid "Inquire about his travels"
-msgstr "Forespørg om hans rejser"
+msgstr "Spørg til hans rejser"
 
 #: Story/S1-WAND.c:19
 msgid "Ask about news"
@@ -2649,7 +2683,7 @@ msgstr "Spørg efter nyheder"
 
 #: Story/S1-WAND.c:20
 msgid "Ask about AlkTree nuts"
-msgstr "Spørg om han har se alktrænødder"
+msgstr "Spørg om han har set alktrænødder"
 
 #: Story/S1-WAND.c:34
 msgid "AlkTree nuts??  Those make for a hearty meal.  Let's see.."
@@ -2665,7 +2699,7 @@ msgstr "tæt herpå."
 
 #: Story/S1-WAND.c:45
 msgid "Ow, crazy bastard!!"
-msgstr "Ow, tossede bastard!!"
+msgstr "Av, tossede nar!!"
 
 #: Story/S1-WAND.c:74
 msgid "I'm afraid he wont be making it to his destination."
@@ -2785,7 +2819,7 @@ msgstr "en vanvittig mand.  En morder som jager og dræber folks kæledyr!"
 
 #: Story/S1-WAND.c:155 Story/S1-WAND.c:164
 msgid "Horrible isn't it?"
-msgstr "Frygteligt er det ikke?"
+msgstr "Frygteligt, er det ikke?"
 
 #: Story/S1-WAND.c:157
 msgid "Yes.. very .. horrible .."
@@ -2793,7 +2827,7 @@ msgstr "Ja.. meget .. frygteligt .."
 
 #: Story/S1-WAND.c:166
 msgid "Yes.. very uh .. horrible .."
-msgstr "Ja.. meget uh .. frygteligt .."
+msgstr "Ja.. meget øh .. frygteligt .."
 
 #: Story/S1-WAND.c:170
 msgid "So young man, what's your name?"
@@ -2805,7 +2839,7 @@ msgstr "Skovhøj, Dink Skovhøj."
 
 #: Story/S1-WAND.c:173
 msgid "Greetings Mr. Smallwood."
-msgstr "Velkommen hr. Skovhøj."
+msgstr "Velkommen, hr. Skovhøj."
 
 #: Story/S1-WAND2.c:15
 msgid "I hope they didn't follow me .."
@@ -2827,9 +2861,10 @@ msgstr "Spørg om nyheder"
 msgid "Ask if he has any AlkTree nuts"
 msgstr "Spørg om han har nogen alktrænødder"
 
+# 'had' ~ 'spist', tror jeg.  'har ikke set' virker nok også
 #: Story/S1-WAND2.c:45
 msgid "AlkTree nuts??  I haven't had those in a long long time."
-msgstr "Alktrænødder??  Jeg har ikke haft den slags i meget lang tid."
+msgstr "Alktrænødder??  Jeg har ikke spist den slags i meget lang tid."
 
 #: Story/S1-WAND2.c:46
 msgid "In my old town I might have been able to tell you,"
@@ -2841,11 +2876,11 @@ msgstr "men jeg kender ikke til nogen heromkring."
 
 #: Story/S1-WAND2.c:56
 msgid "Ow, the hell's your problem?!"
-msgstr "Ow, hvad helved' er dit problem?!"
+msgstr "Av, hvad helved' er dit problem?!"
 
 #: Story/S1-WAND2.c:84
 msgid "He won't bother anyone anymore..."
-msgstr "Han vil ikke genere nogen igen..."
+msgstr "Han vil ikke genere nogen igen ..."
 
 #: Story/S1-WAND2.c:92
 msgid "I just escaped from the Goblin Sanctuary."
@@ -2889,7 +2924,7 @@ msgstr "fangenskab hos goblinerne.  Sidste gang jeg går til Vestlandene."
 
 #: Story/S1-WAND2.c:110
 msgid "After being around those goblins for so long I'm glad to be out."
-msgstr "Efter at have være hos de gobliner i så lang tid er jeg glad for at være ude."
+msgstr "Efter at have været hos de gobliner i så lang tid er jeg glad for at være ude."
 
 #: Story/S1-WAND2.c:111
 msgid "Those guy are dumb as bricks man!"
@@ -2909,15 +2944,15 @@ msgstr "Alle deres patruljer som kom tilbage fra nord virkede anderledes."
 
 #: Story/S1-WAND2.c:133
 msgid "Soon they started behaving really weird, not much later a few were"
-msgstr "De begyndte snart at opføre sig virkelig underligt, ikke lang tid"
+msgstr "De begyndte snart at opføre sig virkelig underligt. Kort tid efter"
 
 #: Story/S1-WAND2.c:134
 msgid "locked up right next to me and going crazy!"
-msgstr "efter endte nogle af dem ved siden af mig og de gik amok!"
+msgstr "blev nogle af dem indespærret ved siden af mig og gik helt amok!"
 
 #: Story/S1-WAND2.c:136
 msgid "Man, sounds pretty creepy."
-msgstr "Lyder virkelig uhyggeligt."
+msgstr "For søren, det lyder virkelig uhyggeligt."
 
 #: Story/S1-WAND2.c:138
 msgid "Just another reason I'm headed away for a while."
@@ -2930,7 +2965,7 @@ msgstr "Mens jeg var fanget sagde goblinerne, at der ved Kragklinten"
 # engelsk fejl stort t ?
 #: Story/S1-WAND2.c:144
 msgid "There was a wizard that they were fighting, they thought"
-msgstr "var en troldmand som de kæmpede imod, de mente"
+msgstr "var en troldmand som de kæmpede imod. De mente"
 
 #: Story/S1-WAND2.c:145
 msgid "they could actually get his magic if they defeated him."
@@ -2970,7 +3005,7 @@ msgstr " .. Ha Ha .."
 
 #: Story/S1-WAND2.c:160
 msgid "Ha Ha ... wait!!!!"
-msgstr "Ha Ha .. vent!!!!"
+msgstr "Ha Ha ... vent!!!!"
 
 #: Story/S1-WAND2.c:161
 msgid "My Mom's dead!!!!!"
@@ -3014,7 +3049,7 @@ msgstr "Mange tak."
 
 #: Story/S1-WIZ.c:13
 msgid "What the..."
-msgstr "Hvad i..."
+msgstr "Hvad i ..."
 
 #: Story/S1-WIZ.c:21 Story/S8-DUCK.c:17
 msgid "Who are you?"
@@ -3036,9 +3071,10 @@ msgstr "Jeg er bestemt ingen af de dele!"
 msgid "You cannot measure magic by size!"
 msgstr "Du kan ikke måle magi på baggrund af størrelse!"
 
+# pet ~ klappe/ae (klø bag øret?)
 #: Story/S1-WIZ.c:39
 msgid "I just have to pet you!"
-msgstr "Jeg må lige domesticere dig!"
+msgstr "Jeg må lige ae dig bag øret!"
 
 #: Story/S1-WIZ.c:43
 msgid "Huh?  I just walked right through you."
@@ -3054,7 +3090,7 @@ msgstr "Selvfølgelig er jeg det.. bare ikke fysisk."
 
 #: Story/S1-WIZ.c:57
 msgid "If you would like to learn more.. Come to my hidden cabin."
-msgstr "Hvis du vil lære mere.. Kom til min skjulte hytte."
+msgstr "Hvis du vil vide mere.. Kom til min skjulte hytte."
 
 #: Story/S1-WIZ.c:59
 msgid "How am I supposed to find it if it's hidden?"
@@ -3066,7 +3102,7 @@ msgstr "God pointe.  Den ligger bag nogle træer nordøst herfra."
 
 #: Story/S1-WIZ.c:63
 msgid "Ok, I may drop by later.. are you in a circus?"
-msgstr "Okay, jeg kommer måske forbi senere... er du i et cirkus?"
+msgstr "Okay, jeg kommer måske forbi senere ... er du i et cirkus?"
 
 #: Story/S1-WIZ.c:65
 msgid "DON'T ANGER ME, HUMAN!"
@@ -3078,7 +3114,7 @@ msgstr "Det her vil lære dig at tale mig imod!"
 
 #: Story/S2-AUNTP.c:57
 msgid "Please Jack!  Stop..."
-msgstr "Jack, vær sød!  Stop..."
+msgstr "Jack, vær sød!  Stop ..."
 
 #: Story/S2-AUNTP.c:59
 msgid "Shut your trap!"
@@ -3094,7 +3130,7 @@ msgstr "Er vi færdige?"
 
 #: Story/S2-AUNTP.c:127
 msgid "You ok, baby?"
-msgstr "Er du okay baby?"
+msgstr "Er du okay, skat?"
 
 #: Story/S2-AUNTP.c:131
 msgid "You shouldn't make me so mad."
@@ -3114,7 +3150,7 @@ msgstr "Hvem helvede er du?"
 
 #: Story/S2-AUNTP.c:156
 msgid "I'm.. I'm Dink Smallwood.  I got a letter and..."
-msgstr "Jeg.. jeg er Dink Skovhøj.  Jeg har et brev og..."
+msgstr "Jeg.. jeg er Dink Skovhøj.  Jeg har et brev og ..."
 
 #: Story/S2-AUNTP.c:158
 msgid "I ain't sent no letter to nobody nohow."
@@ -3122,7 +3158,7 @@ msgstr "Jeg har ikke sendt noget brev til nogen."
 
 #: Story/S2-AUNTP.c:160
 msgid "But I..."
-msgstr "Men jeg..."
+msgstr "Men jeg ..."
 
 #: Story/S2-AUNTP.c:162
 msgid "Git outta my house."
@@ -3222,7 +3258,7 @@ msgstr "Reddede Nadines pige?"
 
 #: Story/S2-AUNTP.c:232
 msgid "Uh, yeah.  How did you know?"
-msgstr "Uh, yeah.  Hvordan vidste du det?"
+msgstr "Øh, ja.  Hvordan vidste du det?"
 
 #: Story/S2-AUNTP.c:234
 msgid "It's in the King's News, there is a copy at the healers."
@@ -3258,7 +3294,7 @@ msgstr "Du lyder ikke så entusiastisk."
 
 #: Story/S2-AUNTP.c:258
 msgid "Well.. things have been rough lately, that's all."
-msgstr "... det har været hårdt på det seneste, det er det hele."
+msgstr "Tjaeh... det har været lidt hårdt på det seneste, det er det hele."
 
 #: Story/S2-AUNTP.c:264 Story/S2-AUNTP.c:282
 msgid "I saw Jack hit you."
@@ -3472,9 +3508,12 @@ msgstr "Forsøger du at ødelægge stedet, gør du?"
 msgid "Gossip"
 msgstr "Sladder"
 
+# I dette tilfælde kan man vælge mellem Gossip og Threaten, altså
+# 'Sladder' og 'Trussel', bør det nok være (sladder er der allerede et
+# par strenge tilbage)
 #: Story/S2-BAR.c:163
 msgid "Threaten"
-msgstr "True"
+msgstr "Trussel"
 
 #: Story/S2-BAR.c:171
 msgid "I don't much like you."
@@ -3518,11 +3557,11 @@ msgstr "Yep."
 
 #: Story/S2-BAR.c:255
 msgid "Nice job on saving Nadine's little girl.  You are something of a..."
-msgstr "Godt klaret sådan at redde Nadines lille pige.  Du er noget af en..."
+msgstr "Godt klaret sådan at redde Nadines lille pige.  Du er noget af en ..."
 
 #: Story/S2-BAR.c:258
 msgid "hero around here.  Oh, and my employees are lazy, that's about it."
-msgstr "helt heromkring.  Oh, og mine ansatte er dovne, det er nok det hele."
+msgstr "helt heromkring.  Nåeh jo, og mine ansatte er dovne, det er nok det hele."
 
 #: Story/S2-CA-G.c:25
 msgid "Nice, you win the game, then start killing guards?  Get 'em!"
@@ -3554,7 +3593,7 @@ msgstr "De Gode Hjerters Borg har stået her i århundreder."
 
 #: Story/S2-CA-G.c:53
 msgid "It is a magnificent testament to what a monarchy can do."
-msgstr "Den er et imponerende testamente, over hvad et monarki kan udføre."
+msgstr "Den er et imponerende vidnesbyrd, over hvad et monarki kan udføre."
 
 #: Story/S2-CA-G.c:55
 msgid "That castle actually doesn't look that big."
@@ -3578,7 +3617,7 @@ msgstr "Den var hans strategiske evner, som stoppede den store goblininvasion i 
 
 #: Story/S2-CA-G.c:70
 msgid "Did he kill them all?"
-msgstr "Slog ham dem alle ihjel?"
+msgstr "Slog han dem alle ihjel?"
 
 #: Story/S2-CA-G.c:72
 msgid "No.  After the war was won he created a special place for them to live in peace."
@@ -3614,11 +3653,11 @@ msgstr "Jeg beklager, kongen er optaget til anden side i dag."
 
 #: Story/S2-CA-G.c:110
 msgid "I have news about a Cast plot!"
-msgstr "Jeg har hørt nyt om et borgkomplot!"
+msgstr "Jeg har hørt nyt om et klikekomplot!"
 
 #: Story/S2-CA-G.c:118
 msgid "Hello, Smallwood.  Congratulations on foiling that attack in KernSin."
-msgstr "Hej Skovhøj.  Tillykke med at forhindre det angreb på KernSin."
+msgstr "Hej Skovhøj.  Tillykke med at du forhindrede det angreb på Kernsin."
 
 #: Story/S2-CA-G.c:120
 msgid "It was no more than any other man would have done."
@@ -3666,7 +3705,7 @@ msgstr "VAGT, ÅBN PORTEN!"
 
 #: Story/S2-CA-G.c:169
 msgid "Killing guards is fun!"
-msgstr "Drab på vagter er sjovt!"
+msgstr "Det er sjovt at dræbe vagter!"
 
 #: Story/S2-CA-O.c:8
 msgid "Hey, that's GoodHeart castle."
@@ -3690,7 +3729,7 @@ msgstr "De smed mig herind"
 
 #: Story/S2-CAVE.c:31
 msgid "Huh?"
-msgstr "Huh?"
+msgstr "Hva?"
 
 #: Story/S2-CAVE.c:33
 msgid "Who threw you in here?"
@@ -3698,7 +3737,7 @@ msgstr "Hvem smid dig herind?"
 
 #: Story/S2-CAVE.c:36
 msgid "They did, agents of the Cast."
-msgstr "De gjorde, Klikkens agenter."
+msgstr "De gjorde, Klikens agenter."
 
 #: Story/S2-CAVE.c:39
 msgid "Is he telling the truth?"
@@ -3706,7 +3745,7 @@ msgstr "Fortæller han sandheden?"
 
 #: Story/S2-CAVE.c:42
 msgid "You probably deserved it..."
-msgstr "Du fortjente det sikkert..."
+msgstr "Du fortjente det sikkert ..."
 
 #: Story/S2-CAVE.c:44
 msgid "No, actually I didn't."
@@ -3714,7 +3753,7 @@ msgstr "Nej, det gjorde jeg ikke."
 
 #: Story/S2-CAVE.c:46 Story/S2-MDOOR.c:74 Story/S3-ST1P.c:101
 msgid "Oh."
-msgstr "Oh."
+msgstr "Jaså."
 
 #: Story/S2-CAVE.c:48
 msgid "Now will you help me get outta here!"
@@ -3754,7 +3793,7 @@ msgstr "Forsøg inde i byen, nogen der må vide noget."
 
 #: Story/S2-CAVE.c:66
 msgid "Ok... by the way, my name is Dink.  Goodbye for now."
-msgstr "Okay.. forresten mit navn er Dink.  Farvel for nu."
+msgstr "Okay ... forresten mit navn er Dink.  Farvel for nu."
 
 #: Story/S2-CAVE.c:86
 msgid "Any luck?"
@@ -3762,15 +3801,16 @@ msgstr "Lykkedes det?"
 
 #: Story/S2-CAVE.c:88
 msgid "Uh, working on that."
-msgstr "Uh, arbejder på det."
+msgstr "Øh, arbejder på det."
 
 #: Story/S2-CAVE.c:90
 msgid "Hurry!!"
 msgstr "Skynd dig!!"
 
+# Nok snarere 'Jaja' (som svar på noget med "skynd dig")
 #: Story/S2-CAVE.c:95 Story/S3-ST1P.c:32
 msgid "Noted."
-msgstr "Bemærket."
+msgstr "Jaja."
 
 #: Story/S2-CAVE.c:114
 msgid "Any luck yet?"
@@ -3790,7 +3830,7 @@ msgstr "HVAD I ALVERDEN LAVER DU SÅ HER?"
 
 #: Story/S2-CAVE.c:126
 msgid "Oh yeah, sorry."
-msgstr "Oh yeah, beklager."
+msgstr "Nåeh ja, beklager."
 
 #: Story/S2-CAVE.c:145
 msgid "Any luck YET!?"
@@ -3870,7 +3910,7 @@ msgstr "Ha ha haaa"
 
 #: Story/S2-CAVE2.c:69
 msgid "It's okay Dink, I can take 'em."
-msgstr "Det er i orden Dink, jeg kan klare dem."
+msgstr "Det er i orden, Dink, jeg kan klare dem."
 
 #: Story/S2-CAVE2.c:71
 msgid "Allright."
@@ -3894,11 +3934,11 @@ msgstr "Neeeej!!"
 
 #: Story/S2-CAVE2.c:108
 msgid "Our work is done here."
-msgstr "Vores job her er færdig."
+msgstr "Vores job her er fuldført."
 
 #: Story/S2-CAVE2.c:110
 msgid "You may live, if you forget all that you've seen here."
-msgstr "Du for lov at leve, hvis du glemmer alt om, hvad du har set."
+msgstr "Du får lov at leve, hvis du glemmer alt om, hvad du har set."
 
 #: Story/S2-CAVE2.c:112
 msgid "Forget ..."
@@ -3934,7 +3974,7 @@ msgstr "Det er ikke din fejl"
 
 #: Story/S2-CAVE2.c:137
 msgid "Just .. just be careful... also, take this..."
-msgstr "Bare .. bare vær forsigtig... tag også den her..."
+msgstr "Bare .. bare vær forsigtig ... tag også den her ..."
 
 #: Story/S2-CAVE2.c:139
 msgid "Alright.. what is it?"
@@ -3942,7 +3982,7 @@ msgstr "Okay.. hvad er det?"
 
 #: Story/S2-CAVE2.c:141
 msgid "The Mordavia scroll.  It contains magic I needed to..."
-msgstr "Mordaviarullen.  Den indeholder magi, jeg skulle bruge til..."
+msgstr "Mordaviarullen.  Den indeholder magi, jeg skulle bruge til ..."
 
 #: Story/S2-CAVE2.c:142
 msgid "Ahhhhhh."
@@ -3950,7 +3990,7 @@ msgstr "Ahhhhhh."
 
 #: Story/S2-CAVE2.c:144
 msgid "Ah man..."
-msgstr "Ah mand..."
+msgstr "Åhr mand ..."
 
 #: Story/S2-CMAN.c:11
 msgid "Kill him, Girls!"
@@ -4050,7 +4090,7 @@ msgstr "Mor!"
 
 #: Story/S2-CULG.c:71
 msgid "Oh Mary!  You are home!"
-msgstr "Oh Mary!  Du er hjemme!"
+msgstr "Åh Mary!  Du er hjemme!"
 
 #: Story/S2-CULG.c:73
 msgid "This man saved me from some naughty people!"
@@ -4106,7 +4146,7 @@ msgstr "Kæreste Cindy, sig hele navnet hver gang."
 
 #: Story/S2-CULT.c:68
 msgid "Fine."
-msgstr "Okay"
+msgstr "Okay, okay."
 
 #: Story/S2-CULT.c:70
 msgid "I would do anything for you, DEAD DRAGON CARCASS."
@@ -4114,7 +4154,7 @@ msgstr "Jeg vil gøre alt for dig, DØDSDRAGELIG."
 
 #: Story/S2-CULT.c:73
 msgid "Interesting little party we've got here..."
-msgstr "Interessant lille fest vi holder os her..."
+msgstr "Interessant lille fest vi holder os her ..."
 
 #: Story/S2-CULT.c:91
 msgid "How goes the Dead Dragon Carcass worshipping, girls?"
@@ -4126,7 +4166,7 @@ msgstr "Vinderligt - tak fordi du viste os lyset, biskop Nelson!"
 
 #: Story/S2-CULT.c:95
 msgid "Guess what, I have a little surprise for you today."
-msgstr "Gæt engang, jeg har en lille overraskelse for dig i dag."
+msgstr "Gæt engang, jeg har en lille overraskelse til jer i dag."
 
 #: Story/S2-CULT.c:98
 msgid "More goat blood?"
@@ -4142,7 +4182,7 @@ msgstr "Vi har et nyt medlem.  Kom frem, Mary!"
 
 #: Story/S2-CULT.c:109
 msgid "Please!  I don't want to join your cult!"
-msgstr "Vær sød!  Jeg ønsker ikke at sutte mig til din kult!"
+msgstr "Vær sød!  Jeg ønsker ikke at slutte mig til din kult!"
 
 #: Story/S2-CULT.c:111
 msgid "You WILL learn to love the Dead Dragon Carcass, Mary."
@@ -4154,7 +4194,7 @@ msgstr "Hvordan kan du tilbede et råddent lig?!"
 
 #: Story/S2-CULT.c:115
 msgid "I think the Carcass would appreciate another sacrifice, Bishop Nelson."
-msgstr "Jeg tror at Dødsdrageliget vil være taknemmelig for endnu et offer, biskop Nelson."
+msgstr "Jeg tror at Dødsdrageliget vil være taknemmeligt for endnu et offer, biskop Nelson."
 
 #: Story/S2-CULT.c:117
 msgid "Excellent point, Jennifer."
@@ -4170,7 +4210,7 @@ msgstr "Sig noget som indebærer, at du har tænkt dig at redde hende"
 
 #: Story/S2-CULT.c:129
 msgid "Agree that Mary should be sacrificed"
-msgstr "Indvi i at Mary bør ofres"
+msgstr "Accepter at Mary bør ofres"
 
 #: Story/S2-CULT.c:130
 msgid "Use brains and stay hidden"
@@ -4214,7 +4254,7 @@ msgstr "Ahh, dette er en meget bedre position."
 
 #: Story/S2-CULT.c:180
 msgid "The Dead Dragon Carcass is calling for a sacrifice..."
-msgstr "Dødsdrageliget kalder på et offer..."
+msgstr "Dødsdrageliget kalder på et offer ..."
 
 #: Story/S2-CULT.c:182
 msgid "HIM!"
@@ -4230,7 +4270,7 @@ msgstr "Du må forstå, mine piger er mere end man umiddelbart ser."
 
 #: Story/S2-DAMS.c:3
 msgid "Bjork Dam"
-msgstr "Bjørk Dam"
+msgstr "Bjørks Dam"
 
 #: Story/S2-DS.c:6
 msgid "Condemned Mine - Do Not Enter!"
@@ -4238,11 +4278,11 @@ msgstr "Forladt mine - Bliv væk!"
 
 #: Story/S2-FGATE.c:40 Story/S2-MAN1.c:24
 msgid "Ouch!"
-msgstr "Ouch!"
+msgstr "Av!"
 
 #: Story/S2-H1-S.c:7
 msgid "Whoa, this place looks abandoned..."
-msgstr "Whoa, dette sted ser forladt ud..."
+msgstr "Whoa, dette sted ser forladt ud ..."
 
 #: Story/S2-H1-S.c:8
 msgid "must've been the monsters nearby."
@@ -4254,7 +4294,7 @@ msgstr "Ikke et dårligt lille rum.  Jeg tror, jeg kommer til at nyde mit ophold
 
 #: Story/S2-H2-S.c:8
 msgid "Except for that guy Jack..."
-msgstr "Med undtagelse af den fyr Jack..."
+msgstr "Med undtagelse af den fyr Jack ..."
 
 #: Story/S2-HEALP.c:62 Story/S4-HEALP.c:63
 msgid "You don't have enough gold to buy elixer."
@@ -4290,7 +4330,7 @@ msgstr "Jeg er helbredt."
 
 #: Story/S2-IDOL.c:17
 msgid "Uh, darn thing won't budge!!"
-msgstr "Uh, lede ting vil ikke gi' sig!!"
+msgstr "Øh, den forbandede ting vil ikke gi' sig!!"
 
 #: Story/S2-JACK.c:27
 msgid "Say hi to Jack"
@@ -4310,7 +4350,7 @@ msgstr "Sig til Jack at han skal holde sig fra Maria"
 
 #: Story/S2-JACK.c:31
 msgid "Coerce Jack into hitting Maria again"
-msgstr "Opmunter Jack til at ramme Maria igen"
+msgstr "Opmuntre Jack til at slå Maria igen"
 
 #: Story/S2-JACK.c:38
 msgid "Hi Jack! Whacha doing?"
@@ -4342,11 +4382,11 @@ msgstr "Rend mig!"
 
 #: Story/S2-JACK.c:59
 msgid "Why you little!!  Take this!"
-msgstr "Hvad din lille!!  Tag den her!"
+msgstr "Hvad, din lille!!  Tag den her!"
 
 #: Story/S2-JACK.c:69
 msgid "Jack.  I know I'm your guest and all but..."
-msgstr "Jack.  Jeg ved, jeg er din gæst men..."
+msgstr "Jack.  Jeg ved, jeg er din gæst men ..."
 
 #: Story/S2-JACK.c:73
 msgid "If you touch Maria again, you won't live to see tomorrow."
@@ -4358,11 +4398,11 @@ msgstr "Hvad med at jeg »rører« dig nu?"
 
 #: Story/S2-JACK.c:77
 msgid "Sorry, not into that.  But I know this guy named Milder..."
-msgstr "Beklager, er ikke til den slags.  Men jeg kender den her fyr Milder..."
+msgstr "Beklager, er ikke til den slags.  Men jeg kender den her fyr Milder ..."
 
 #: Story/S2-JACK.c:83
 msgid "Jack.  Guess who was badmouthing you a second ago..."
-msgstr "Jack.  Gæt hvem som talte ondt om dig for et øjeblik siden..."
+msgstr "Jack.  Gæt hvem som talte ondt om dig for et øjeblik siden ..."
 
 #: Story/S2-JACK.c:85
 msgid "My bitch wife?"
@@ -4370,11 +4410,11 @@ msgstr "Min kællingekone?"
 
 #: Story/S2-JACK.c:87
 msgid "Yup.  Better lay a bit o law into her, if you know what I mean."
-msgstr "Yup.  Hvis bedst at du får lidt styr på hende, hvis du ved, hvad jeg mener."
+msgstr "Yup.  Vist bedst at du får lidt styr på hende, hvis du ved, hvad jeg mener."
 
 #: Story/S2-JACK.c:96
 msgid "Oh honey.. could you come here a sec?"
-msgstr "Oh skat.. kommer du lige et sekund?"
+msgstr "Hallo skat.. kommer du lige et sekund?"
 
 #: Story/S2-JACK.c:100
 msgid "Yes, Jack."
@@ -4398,15 +4438,15 @@ msgstr "Gå ud og ryd op."
 
 #: Story/S2-JACK.c:139
 msgid "<sob>  Dink... I..thought you were different."
-msgstr "<hulker>  Dink... Jeg..troede, at du var anderledes."
+msgstr "<hulker>  Dink ... Jeg ... troede, at du var anderledes."
 
 #: Story/S2-JACK.c:141
 msgid "Get a clue, honey.  How do you think I kept my mom in line?  Haw!"
-msgstr "Tænk dig om, kæreste.  Hvordan troede du, jeg holdt styr på min mor?  Haw!"
+msgstr "Tænk dig om, kæreste.  Hvordan troede du, jeg holdt styr på min mor?  Har!"
 
 #: Story/S2-JACK.c:156
 msgid "Oh, NOW YOU'VE DONE IT!"
-msgstr "Oh, NU HAR DU GJORT DET!"
+msgstr "Åh, NU HAR DU GJORT DET!"
 
 #: Story/S2-JACK.c:169
 msgid "Dink!  What have you done!"
@@ -4430,7 +4470,7 @@ msgstr "Kæmp!!!"
 
 #: Story/S2-MAN2.c:45
 msgid "Nathan, how about another story?"
-msgstr "Nathan, hvad med en anden historie?"
+msgstr "Nathan, hvad med en historie mere?"
 
 #: Story/S2-MAN2.c:46
 msgid "Alright."
@@ -4438,11 +4478,11 @@ msgstr "Okay."
 
 #: Story/S2-MAN2.c:47
 msgid "One time I was fighting this dragon..."
-msgstr "Engang kæmpede jeg med den her drage..."
+msgstr "Engang kæmpede jeg med den her drage ..."
 
 #: Story/S2-MAN2.c:48
 msgid "As I was about to deliver the death blow...."
-msgstr "Da jeg var klar til at sætte dødsslaget ind...."
+msgstr "Da jeg var klar til at sætte dødsslaget ind ..."
 
 #: Story/S2-MAN2.c:49
 msgid "He begged me for his life.  Have you ever seen a dragon cry?"
@@ -4454,7 +4494,7 @@ msgstr "Niks."
 
 #: Story/S2-MAN2.c:58
 msgid "Haw, those old codgers are so full of it..."
-msgstr "Haw, de gamle særlinge er så fuld af..."
+msgstr "Haw, de gamle særlinge er så fuld af ..."
 
 #: Story/S2-MAN2.c:59
 msgid "Anyway, it wasn't pretty so I killed him."
@@ -4466,11 +4506,11 @@ msgstr "Og hvor var det lige du så en drage?"
 
 #: Story/S2-MAN2.c:61
 msgid "Uh.. Joppa Isle!"
-msgstr "Uh.. Joppa Ø!"
+msgstr "Øh.. Joppas Ø!"
 
 #: Story/S2-MAN2.c:62
 msgid "Liar.. Joppa Isle doesn't exist, it's a story for kids."
-msgstr "Løgner.. Joppa Ø eksisterer ikke, det er en børnefortælling."
+msgstr "Løgner.. Joppas Ø eksisterer ikke, det er en børnefortælling."
 
 #: Story/S2-MAN2.c:68
 msgid "Did I ever tell you about the time I trained a slayer?"
@@ -4494,7 +4534,7 @@ msgstr "Måtte dræbe ham.  Har du nogensinde smagt slayerkød?"
 
 #: Story/S2-MAN2.c:78
 msgid "Give me a break..."
-msgstr "Stop hesten..."
+msgstr "Stop hesten ..."
 
 #: Story/S2-MAN2.c:79
 msgid "It tastes better than what you serve here, barkeep!"
@@ -4502,7 +4542,7 @@ msgstr "Det smager bedre, end det du serverer her, bartender!"
 
 #: Story/S2-MAN2.c:80
 msgid "I'll make a note of that..."
-msgstr "Det husker jeg..."
+msgstr "Det husker jeg ..."
 
 #: Story/S2-MAN2.c:86
 msgid "Then there was the time I found a magic scroll"
@@ -4522,7 +4562,7 @@ msgstr "Jeg har måske hjulpet den ild i gang, der opstod for nogle sæsoner sid
 
 #: Story/S2-MAN2.c:90
 msgid "Quite toasty things got!"
-msgstr "Så dejligt varmt det er blevet!"
+msgstr "Så dejligt varmt det blev!"
 
 #: Story/S2-MAN2.c:91
 msgid "Whatever, you've had too much to drink."
@@ -4530,7 +4570,7 @@ msgstr "Uanset hvad så har du fået for meget at drikke."
 
 #: Story/S2-MAN2.c:95
 msgid "You wanna go hunting?"
-msgstr "Vil ud med ud og jage?"
+msgstr "Vil du med ud og jage?"
 
 #: Story/S2-MAN2.c:96
 msgid "Sure I guess, why you wanna go hunting?"
@@ -4542,7 +4582,7 @@ msgstr "Jeg har hørt, at der er en hule mod nordøst med noget af en fangst ind
 
 #: Story/S2-MAN2.c:98
 msgid "I don't know..."
-msgstr "Jeg ved ikke..."
+msgstr "Jeg ved ikke ..."
 
 #: Story/S2-MAN2.c:110
 msgid "You'd best learn some manners quickly, boy."
@@ -4566,11 +4606,11 @@ msgstr "Snak med mændene"
 
 #: Story/S2-MAN2.c:130
 msgid "Greetings men.  I bring stories of my adventures from the East."
-msgstr "Hej Mænd.  Jeg har historier om mine eventyr i øst med."
+msgstr "Hej mænd.  Jeg har historier om mine eventyr i øst."
 
 #: Story/S2-MAN2.c:137
 msgid "Oh really?  And who might you be?"
-msgstr "Oh virkelig?  Og hvem er du?"
+msgstr "Såeh, virkelig?  Og hvem er du?"
 
 #: Story/S2-MAN2.c:139
 msgid "My name is Dink Smallwood.  I am a warrior!"
@@ -4582,7 +4622,7 @@ msgstr "Du har været på eventyr?"
 
 #: Story/S2-MAN2.c:144
 msgid "Oh yes.  Once, I was in this really scary cave..."
-msgstr "Oh ja.  Engang var jeg i denne virkelig skræmmende hule..."
+msgstr "Åh ja.  Engang var jeg i denne virkelig skræmmende hule ..."
 
 #: Story/S2-MAN2.c:146
 msgid "Yes, go on!"
@@ -4590,7 +4630,7 @@ msgstr "Ja, fortsæt!"
 
 #: Story/S2-MAN2.c:148
 msgid "Next thing I knew I was face to face with a huge monster..."
-msgstr "Lige pludselig var jeg ansigt til ansigt med et stort monster..."
+msgstr "Lige pludselig var jeg ansigt til ansigt med et stort monster ..."
 
 #: Story/S2-MAN2.c:157
 msgid "What nonsense is this pig farmer filling your heads with?"
@@ -4602,11 +4642,11 @@ msgstr "Han er en GRISEAVLER?!"
 
 #: Story/S2-MAN2.c:161
 msgid "Damn you, Milder!  What are you doing here?"
-msgstr "Forbandet være dig Milder!  Hvad laver du her?"
+msgstr "Forbandet være dig, Milder!  Hvad laver du her?"
 
 #: Story/S2-MAN2.c:165
 msgid "Just passing through... what are you doing away from the farm?"
-msgstr "Bare på vej igennem... hvad gør du væk fra gården?"
+msgstr "Bare på vej igennem ... hvad laver du væk fra gården?"
 
 #: Story/S2-MAN2.c:167
 msgid "Farm?!  What a loser!"
@@ -4614,11 +4654,11 @@ msgstr "Gård?!  Sikken taber!"
 
 #: Story/S2-MAN2.c:170
 msgid "I don't tend pigs anymore, I'm a mighty warrior."
-msgstr "Jeg tager mig ikke længere af grise, jeg er en stor kriger."
+msgstr "Jeg tager mig ikke længere af grise, jeg er en stor kriger på eventyr."
 
 #: Story/S2-MAN2.c:172
 msgid "Oh hogwash!"
-msgstr "Oh pladder!"
+msgstr "Lyder som lidt af et SVINkeærinde!"
 
 #: Story/S2-MAN2.c:174 Story/S2-MAN2.c:185 Story/S2-MAN2.c:197
 #: Story/S2-MAN2.c:214 Story/S2-MAN2.c:215
@@ -4635,7 +4675,7 @@ msgstr "Det er IKKE sjovt."
 
 #: Story/S2-MAN2.c:179
 msgid "I'm sorry Dink.. I'll make it up by buying you a drink."
-msgstr "Jeg beklager Dink.. Jeg betaler tilbage ved at købe en drink."
+msgstr "Jeg beklager, Dink.. Jeg betaler tilbage ved at købe en drink."
 
 #: Story/S2-MAN2.c:181
 msgid "Great, what kind?"
@@ -4659,11 +4699,11 @@ msgstr "Det har været sjovt, grisedreng, men jeg har RIGTIGE eventyr i vente.  
 
 #: Story/S2-MAN2.c:195
 msgid "He said pig boy..."
-msgstr "Han sagde grisedreng..."
+msgstr "Han sagde grisedreng ..."
 
 #: Story/S2-MAN2.c:206
 msgid "Look... My farming days are over, ok?"
-msgstr "Hør... Mine landbrugsdage er ovre, okay?"
+msgstr "Hør ... Mine landbrugsdage er ovre, okay?"
 
 #: Story/S2-MAN2.c:208
 msgid "Ok, you really want some adventure?"
@@ -4671,7 +4711,7 @@ msgstr "Ok, du vil virkelig på eventyr?"
 
 #: Story/S2-MAN2.c:210
 msgid "Oh yes!"
-msgstr "Oh ja!"
+msgstr "Åh ja!"
 
 #: Story/S2-MAN2.c:212
 msgid "Go plow Harper's field, farmer boy."
@@ -4683,7 +4723,7 @@ msgstr "Hvad med at jeg pløjer din mor?"
 
 #: Story/S2-MAN2.c:224
 msgid "Look..."
-msgstr "Hør..."
+msgstr "Hør ..."
 
 #: Story/S2-MAN2.c:226
 msgid "Save it boy, come back when you've done something important."
@@ -4703,7 +4743,7 @@ msgstr "Var det ikke jer to, der lo ad mig?"
 
 #: Story/S2-MAN2.c:239
 msgid "No.  That was uh, two other guys..."
-msgstr "Nej.  Det var uh, to andre fyre..."
+msgstr "Nej.  Det var øh, to andre fyre ..."
 
 #: Story/S2-MDOOR.c:13
 msgid "This looks like the place, but it's locked."
@@ -4715,7 +4755,7 @@ msgstr "Måske jeg skal banke på.."
 
 #: Story/S2-MDOOR.c:22
 msgid "I hope that damn old man gives me that spell."
-msgstr "Jeg håber, den gamle gnavne mand giver dig trolddommen."
+msgstr "Jeg håber, den gamle gnavne mand giver mig trolddommen."
 
 #: Story/S2-MDOOR.c:27 Story/S2-TDOOR.c:12 Story/S3-MDOOR.c:10
 #: Story/S4-MDOOR.c:22
@@ -4736,15 +4776,17 @@ msgstr "Hvem der?"
 
 #: Story/S2-MDOOR.c:55
 msgid "I .. I'm Dink Smallwood, I'm trying to help..."
-msgstr "Jeg .. Jeg er Dink Skovhøj, jeg forsøger at hjælpe..."
+msgstr "Jeg .. Jeg er Dink Skovhøj, jeg forsøger at hjælpe ..."
 
 #: Story/S2-MDOOR.c:57
 msgid "a poor guy who is imprisoned in the dungeon south of here."
 msgstr "en fattig dreng som er fanget i fangekælderen syd for her."
 
+# maulwood er fordi han ikka kan finde ud af navnet smallwood
+# altså Unge Skroghøj
 #: Story/S2-MDOOR.c:59
 msgid "Young Maulwood, people get trapped in places they shouldn't go all the time."
-msgstr "Unge Maulwood, folk bliver fanget, på steder de ikke skulle, hele tiden."
+msgstr "Unge Skroghøj, folk bliver fanget, på steder de ikke skulle, hele tiden."
 
 #: Story/S2-MDOOR.c:61
 msgid "Why should I care what happens to this man?"
@@ -4752,11 +4794,11 @@ msgstr "Hvorfor skulle jeg bryde mig om, hvad der sker denne mand?"
 
 #: Story/S2-MDOOR.c:67
 msgid "It's Smallwood sir, and he says..."
-msgstr "Det er Skovhøj hr., og han siger..."
+msgstr "Det er Skovhøj hr., og han siger ..."
 
 #: Story/S2-MDOOR.c:69
 msgid "he was imprisoned by agents of the Cast and that the lock can only be broken with magic!"
-msgstr "Han blev fanget af agenter fra Klikken, og den lås kan kun brydes med magi!"
+msgstr "Han blev fanget af agenter fra Kliken, og den lås kan kun brydes med magi!"
 
 #: Story/S2-MDOOR.c:71
 msgid "Are you high?"
@@ -4768,7 +4810,7 @@ msgstr "Nej."
 
 #: Story/S2-MDOOR.c:76
 msgid "Well, if those Cast members are involved I'd best help."
-msgstr "Tja, hvis de Klikkemedlemmer er involveret, så må jeg hellere hjælpe."
+msgstr "Tja, hvis de Klikemedlemmer er involveret, så må jeg hellere hjælpe."
 
 #: Story/S2-MDOOR.c:78
 msgid "Come in."
@@ -4780,7 +4822,7 @@ msgstr "Hej, jeg er tilbage!"
 
 #: Story/S2-MDOOR.c:102
 msgid "Ah, yes Smallwand, come in .."
-msgstr "Ah, ja Smallwand, kom ind .."
+msgstr "Ah, ja Hovskøj, kom ind .."
 
 #: Story/S2-MDOOR.c:121
 msgid "Hello, anyone home?"
@@ -4788,7 +4830,7 @@ msgstr "Hallo, nogen hjemme?"
 
 #: Story/S2-MH-M.c:6
 msgid "Welcome young BallWood."
-msgstr "Velkommen unge Baltræ."
+msgstr "Velkommen unge Plovhøj."
 
 #: Story/S2-MH-M.c:8
 msgid "It's Smallwood sir."
@@ -4804,11 +4846,11 @@ msgstr "Lær mig nogle virkelig kraftige trolddomskunstner!"
 
 #: Story/S2-MH-M.c:22
 msgid "Er, to help the man trapped in the dungeon I mean."
-msgstr "Er, jeg mener, for at hjælpe manden der er fanget i fangekælderen."
+msgstr "Æh, jeg mener, for at hjælpe manden der er fanget i fangekælderen."
 
 #: Story/S2-MH-M.c:26 Story/S2-MH-M.c:63
 msgid "I sense you are powerful enough now Tallwood."
-msgstr "Jeg kan mærke, du er magtfuld nok nu Talltræ."
+msgstr "Jeg kan mærke, du er magtfuld nok nu, Skovstøj."
 
 #: Story/S2-MH-M.c:28 Story/S2-MH-M.c:65
 msgid "You will now understand the Acid Rain magic."
@@ -4820,7 +4862,7 @@ msgstr "Regn?  Regn er den store magi du vil lære mig?"
 
 #: Story/S2-MH-M.c:32 Story/S2-MH-M.c:69
 msgid "Scoff not child or you shall burn and kill yourself with it!"
-msgstr "Hån ikke et barn eller du vil brænde og dræbe dig selv på grund af det!"
+msgstr "Gør ikke nar, barn, eller du vil brænde og dræbe dig selv på grund af det!"
 
 #: Story/S2-MH-M.c:43 Story/S2-MH-M.c:74
 msgid "I now have Rain Magic.  Yay."
@@ -4828,7 +4870,7 @@ msgstr "Jeg har nu regnmagi.  Jubii."
 
 #: Story/S2-MH-M.c:48
 msgid "I'm sorry Smallweed, but your magic is not powerful enough yet."
-msgstr "Jeg beklager Lilleurt, men din magi er ikke kraftig nok endnu."
+msgstr "Jeg beklager Vokshøj, men din magi er ikke kraftig nok endnu."
 
 #: Story/S2-MH-M.c:50
 msgid "You must have at least 5 magic for the new spell."
@@ -4836,7 +4878,7 @@ msgstr "Du skal have mindst 5 magi til den nye trolddom."
 
 #: Story/S2-MH-M.c:81
 msgid "You are still not powerful enough Brickwood."
-msgstr "Du er stadig ikke magtfuld nok Briktræ."
+msgstr "Du er stadig ikke magtfuld nok, Skovsløj."
 
 #: Story/S2-MH-M.c:83 Story/S4-H2P2.c:14
 msgid "Smallwood sir."
@@ -4848,11 +4890,11 @@ msgstr "Du skal bruge 5 magi til denne trolddom."
 
 #: Story/S2-MH-M.c:89
 msgid "Aww man."
-msgstr "Aww mand."
+msgstr "Åhhr mand."
 
 #: Story/S2-MH-M.c:96
 msgid "Hey Mister, you know anymore magic you can teach me?"
-msgstr "Hallo hr., kender du til magi, du kan lære mig?"
+msgstr "Hallo hr., kender du til mere magi, du kan lære mig?"
 
 #: Story/S2-MH-M.c:98
 msgid "No Smallwood, I'm too old and tired anyway."
@@ -4860,7 +4902,7 @@ msgstr "Nej Skovhøj, jeg er alligevel for gammel og træt."
 
 #: Story/S2-MH-M.c:100
 msgid "Ok, no problem... and my name isn't.. oh."
-msgstr "Ok, intet problem... og mit navn er ikke.. oh."
+msgstr "Ok, intet problem ... og mit navn er ikke ... oh."
 
 #: Story/S2-MYBED.c:3
 msgid "A pretty nice bed.  Looks a lot like my last one."
@@ -4876,7 +4918,7 @@ msgstr "Det må være kvindens seng.  Ser beskidt ud."
 
 #: Story/S2-NA1.c:8
 msgid "Clean yourself!"
-msgstr "Vask dig selv!"
+msgstr "Vask dig!"
 
 #: Story/S2-NA2.c:3
 msgid "Such a small bed."
@@ -4900,7 +4942,7 @@ msgstr "Vær grov over for Nadine"
 
 #: Story/S2-NADP.c:34
 msgid "Let her know exactly how fruitless your search has been thus far"
-msgstr "Lad mig vide præcis hvor frugtesløs din søgning har været indtil nu"
+msgstr "Lad hende vide præcis hvor frugtesløs din søgning har været indtil nu"
 
 #: Story/S2-NADP.c:35
 msgid "Ask Nadine how she and Mary are doing"
@@ -4916,7 +4958,7 @@ msgstr "Glimrende!"
 
 #: Story/S2-NADP.c:45
 msgid "I see you have not had time to clean the house..."
-msgstr "Jeg kan se, at du ikke har haft tid til at rydde op i huset..."
+msgstr "Jeg kan se, at du ikke har haft tid til at rydde op i huset ..."
 
 #: Story/S2-NADP.c:47
 msgid "Mary just came home!  We can do that stuff later."
@@ -4992,7 +5034,7 @@ msgstr "Du ved, at jeg ikke har noget!  Se på mit tøj!"
 
 #: Story/S2-NADP.c:103
 msgid "No thanks.  Also, your arms look pointy and stupid."
-msgstr "Nej tak.  Din arme ser spidse og dumme ud."
+msgstr "Nej tak.  Din arme ser i øvrigt spidse og dumme ud."
 
 #: Story/S2-NADP.c:105
 msgid "How dare you!"
@@ -5064,7 +5106,7 @@ msgstr "Hej, Dink."
 
 #: Story/S2-RYAN2.c:18
 msgid "Psst, over here"
-msgstr "Psst, her ovre"
+msgstr "Psst, herovre"
 
 #: Story/S2-RYAN2.c:37
 msgid "You ready to do this buddy?"
@@ -5072,11 +5114,11 @@ msgstr "Er du klar til det her knægt?"
 
 #: Story/S2-RYAN2.c:39
 msgid "Yeah, no problem."
-msgstr "Yeah, ikke noget problem."
+msgstr "Ja, ikke noget problem."
 
 #: Story/S2-RYAN2.c:41
 msgid "Allright, follow me..."
-msgstr "Okay, følg mig..."
+msgstr "Okay, følg mig ..."
 
 #: Story/S2-RYAN2.c:44
 msgid "In here"
@@ -5088,11 +5130,11 @@ msgstr "Ok, det er heroppe"
 
 #: Story/S2-RYAN3.c:21
 msgid "Follow me..."
-msgstr "Følg mig..."
+msgstr "Følg mig ..."
 
 #: Story/S2-RYAN3.c:29
 msgid "Now if I can just pick this lock..."
-msgstr "Hvis bare jeg kan åbne den her lås..."
+msgstr "Hvis bare jeg kan åbne den her lås ..."
 
 #: Story/S2-RYAN3.c:32
 msgid "What are we doing?"
@@ -5100,11 +5142,11 @@ msgstr "Hvad er det vi gør?"
 
 #: Story/S2-RYAN3.c:36
 msgid "Just one more second..."
-msgstr "Bare et mere sekund..."
+msgstr "Bare et sekund mere ..."
 
 #: Story/S2-RYAN3.c:73
 msgid "Oh no, guards!!  Run for it!"
-msgstr "Oh nej, vagter!!  Løb for livet!"
+msgstr "Åh nej, vagter!!  Løb for livet!"
 
 #: Story/S2-RYAN3.c:77
 msgid "This ain't good."
@@ -5134,11 +5176,12 @@ msgstr "Er du den, der kan udføre jobbet?"
 
 #: Story/S2-RYANT.c:33
 msgid "Uh, what job?"
-msgstr "Uh, hvilket job?"
+msgstr "Øh, hvilket job?"
 
+# Æh, glem dem. (el. lign.)
 #: Story/S2-RYANT.c:35
 msgid "Oh, never mind."
-msgstr "Oh, glem det."
+msgstr "Æh, glem dem."
 
 #: Story/S2-RYANT.c:36
 msgid "Ahh, where is that guy?!"
@@ -5146,15 +5189,15 @@ msgstr "Ahh, hvor er den fyr?!"
 
 #: Story/S2-RYANT.c:42
 msgid "So what do you do pal?"
-msgstr "Så hvad gør du ven?"
+msgstr "Så hvad gør du, ven?"
 
 #: Story/S2-RYANT.c:44
 msgid "Who me?"
-msgstr "Hvem mig?"
+msgstr "Hvem, mig?"
 
 #: Story/S2-RYANT.c:46
 msgid "Yup, myself, why if you couldn't tell I'm an adventurer."
-msgstr "Yup, migselv, hvis du ikke kunne se, jeg er en eventyrer."
+msgstr "Ja, mig, hvis du ikke kunne se, jeg er en eventyrer."
 
 #: Story/S2-RYANT.c:48
 msgid "Hehe, yes well, I'm a ... a .. specialist."
@@ -5162,7 +5205,7 @@ msgstr "Hehe, jaså, jeg er en ... en .. specialist."
 
 #: Story/S2-RYANT.c:50
 msgid "Oh, what do you specialize in?"
-msgstr "Oh, hvad har du specialiseret dig i?"
+msgstr "Javel, hvad har du specialiseret dig i?"
 
 #: Story/S2-RYANT.c:52
 msgid "Let's just say I help acquire things.."
@@ -5198,7 +5241,7 @@ msgstr "Er du sikker?"
 
 #: Story/S2-RYANT.c:74
 msgid "Yeah, I know how to do all sorts of things."
-msgstr "Yeah, jeg kan udføre alle mulige slags opgaver."
+msgstr "Helt klart, jeg kan udføre alle mulige slags opgaver."
 
 #: Story/S2-RYANT.c:76
 msgid "Hmmmmm"
@@ -5222,15 +5265,16 @@ msgstr "Hus til salg:  Kontakt Charlie for information."
 
 #: Story/S2-SALE.c:11
 msgid "I wonder who Charlie is ..."
-msgstr "Jeg undres over hvem Charlie er ..."
+msgstr "Gad vide hvem Charlie er ..."
 
 #: Story/S2-SALE2.c:7
 msgid "For Sale"
 msgstr "Til salg"
 
+# træ år gammel (det er et ordspil relateret til et talende træ)
 #: Story/S2-SEC2.c:15
 msgid "I'm tree years old.. HAW HAW HAW!"
-msgstr "Jeg er tre år gammel.. HAW HAW HAW!"
+msgstr "Jeg er træ år gammel.. HAR HAR HAR!"
 
 #: Story/S2-SEC2.c:17
 msgid "That is also the LAMEST thing I've ever heard."
@@ -5238,7 +5282,7 @@ msgstr "Det er da også den TÅBELIGSTE ting jeg har hørt."
 
 #: Story/S2-SEC2.c:22
 msgid "Your magic is treely useless against me.. HAW HAW HAW!"
-msgstr "Din magi er virkelig ubrugelig mod mig.. HAW HAW HAW!"
+msgstr "Din magi er virkelig kun trættende mod mig.. HAR HAR HAR!"
 
 #: Story/S2-SIGN3.c:3
 msgid "Nadine's House"
@@ -5246,11 +5290,11 @@ msgstr "Nadines hus"
 
 #: Story/S2-SIGNE.c:3
 msgid "Danger! Murkwood Forest - Has been magically sealed shut by decree of King Daniel."
-msgstr "Fare! Murktræ Skov - er blevet magisk forseglet efter ordre fra kong Daniel."
+msgstr "Fare! Mørktræ Skov - er blevet magisk forseglet efter ordre fra kong Daniel."
 
 #: Story/S2-SK.c:3
 msgid "Residence of Jack and Maria Kneedlewood"
-msgstr "Hjem for Jack og Maria Kneedlewood"
+msgstr "Jack og Maria Kneedlewoods hjem"
 
 #: Story/S2-STAT.c:5
 msgid "It's a stuffed slayer.  We pay good money for slayer claws here."
@@ -5258,7 +5302,7 @@ msgstr "Det er en udstoppet slayer.  Vi betaler gode penge for slayerklør her."
 
 #: Story/S2-STAT.c:11
 msgid "Um, sir?  It's stuffed.  It isn't alive... It won't hurt you."
-msgstr "Um hr.?  Den er udstoppet.  Den er ikke i live... Den vil ikke dræbe dig."
+msgstr "Øhm, hr.?  Den er udstoppet.  Den er ikke i live ... Den vil ikke dræbe dig."
 
 #: Story/S2-T1S.c:7
 msgid "Welcome to the town of Terris"
@@ -5266,7 +5310,7 @@ msgstr "Velkommen til byen Terris"
 
 #: Story/S2-T2S.c:8
 msgid "South to KernSin"
-msgstr "Syd for KernSin"
+msgstr "Syd for Kernsin"
 
 #: Story/S2-TABLE.c:3
 msgid "A small wooden table."
@@ -5286,7 +5330,7 @@ msgstr "Yeah, han har hjemsøgt os i lang tid."
 
 #: Story/S2-TDS.c:49
 msgid "Oh, uh .. glad to be of assistance guys."
-msgstr "Oh, uh .. glad for at kunne hjælpe."
+msgstr "Åh, øh .. glad for at kunne hjælpe."
 
 #: Story/S2-TDS.c:51
 msgid "He won't be bothering anyone for quite a while."
@@ -5294,11 +5338,11 @@ msgstr "Han vil ikke genere nogen i lang tid."
 
 #: Story/S2-TDS.c:53
 msgid "Yeah, say, are Tom and Bob ok inside?"
-msgstr "Yeah, hør, er Tom og Bok okay indenfor?"
+msgstr "Jaeh, hør, er Tom og Bob okay indenfor?"
 
 #: Story/S2-TDS.c:55
 msgid "Uh.. Yes, they're fine."
-msgstr "Uh.. Ja, de har det fint."
+msgstr "Øh.. Ja, de har det fint."
 
 #: Story/S2-TDS.c:58
 msgid "I guess they'll be right out."
@@ -5310,7 +5354,7 @@ msgstr "Kom så, lad os få den her taber i fængsel."
 
 #: Story/S2-WAND.c:9
 msgid "Hello there sir."
-msgstr "Hallo der hr."
+msgstr "Hallo der, hr."
 
 #: Story/S2-WAND.c:18
 msgid "Say Hi"
@@ -5322,7 +5366,7 @@ msgstr "Spørg om hans sagnhistorier"
 
 #: Story/S2-WAND.c:24
 msgid "So what do you do?"
-msgstr "Så hvad gør du?"
+msgstr "Så hvad laver du?"
 
 #: Story/S2-WAND.c:26
 msgid "Well, I'm a hunter."
@@ -5406,7 +5450,7 @@ msgstr "i dette land."
 
 #: Story/S2-WAND.c:109
 msgid "It's said they launched attack and attack from it,"
-msgstr "Det siges, at de gennemførte angreb og angreb fra den,"
+msgstr "Det siges, at de gennemførte angreb efter angreb fra den,"
 
 #: Story/S2-WAND.c:111
 msgid "terrorizing the land."
@@ -5414,7 +5458,7 @@ msgstr "og terroriserede landet."
 
 #: Story/S2-WAND.c:113
 msgid "But they say a magic user came and cast a mighty spell on the castle."
-msgstr "Men de siger, at en bruger af magi kom og kastede en stor trolddom over borgen."
+msgstr "Men de siger, at en magiker kom og kastede en stor trolddom over borgen."
 
 #: Story/S2-WAND.c:115
 msgid "So strong that it teleported the castle to the icelands in the north."
@@ -5430,7 +5474,7 @@ msgstr "Ellers har ingen hørt om borgen siden."
 
 #: Story/S2-WANT.c:3
 msgid "Wanted - Any info on the rogue group known as The Cast."
-msgstr "Efterlyst - Enhver oplysning om banditgruppen kendt som Klikken."
+msgstr "Efterlyst - Enhver oplysning om banditgruppen kendt som Kliken."
 
 #: Story/S2-WANT.c:4
 msgid "Contact King Daniel at Goodheart Castle for possible reward."
@@ -5482,11 +5526,11 @@ msgstr "Skal vi spise en gang mad senere?"
 
 #: Story/S2-WENCH.c:106
 msgid "Oh yes!  Hey, hero Smallwood just asked me out!"
-msgstr "Oh ja!  Hey, helt Skovhøj inviterede mig lige ud!"
+msgstr "Åh ja!  Hey, helt Skovhøj inviterede mig lige ud!"
 
 #: Story/S2-WENCH.c:108
 msgid "Ah, it's going to be easy to get used to this..."
-msgstr "Ah, det bliver nemt at blive vant til det her..."
+msgstr "Ah, det bliver nemt at blive vant til det her ..."
 
 #: Story/S2-WENCH.c:117
 msgid "Sorry, I'm working later."
@@ -5522,7 +5566,7 @@ msgstr "Jeg kan høre nogen komme!"
 
 #: Story/S3-1ST.c:57
 msgid "Hey, those are some of the damn Cast knights."
-msgstr "Hej, det er nogle af de forbanede borgriddere."
+msgstr "Hej, det er nogle af de forbanede klikeriddere."
 
 #: Story/S3-1ST.c:62
 msgid "What the hell are they doing here?"
@@ -5530,7 +5574,7 @@ msgstr "Hvad i alverden gør de her?"
 
 #: Story/S3-1ST.c:65
 msgid "Area looks clear, I'm ready to head back."
-msgstr "Område ser fint ud, jeg er klar til at tage tilbage."
+msgstr "Området ser fint ud, jeg er klar til at tage tilbage."
 
 #: Story/S3-1ST.c:67
 msgid "I think we'll be able to raid the town during the festival."
@@ -5538,7 +5582,7 @@ msgstr "Jeg tror, at vi vil være i stand til at røve byen under festivalen."
 
 #: Story/S3-1ST.c:69
 msgid "Good, right on schedule.  Only WE won't be blamed..."
-msgstr "Godt, lige til tiden.  VI vil bare ikke få skylden..."
+msgstr "Godt, lige til tiden.  Det bliver ikke OS, der får skylden ..."
 
 #: Story/S3-1ST.c:71
 msgid "Right.  Have you contacted Mog?"
@@ -5562,7 +5606,7 @@ msgstr "De nævnte en festival ..."
 
 #: Story/S3-1ST.c:92
 msgid "... wonder if it's around here."
-msgstr "... mon det er heromkring."
+msgstr "... gad vide om det er heromkring."
 
 #: Story/S3-BH.c:23 Story/S3-BH.c:44
 msgid "Can I HELP you?"
@@ -5570,11 +5614,11 @@ msgstr "Kan jeg HJÆLPE dig?"
 
 #: Story/S3-BH.c:25
 msgid "Uhh ... maybe."
-msgstr "Uhh ... måske."
+msgstr "Øhh ... måske."
 
 #: Story/S3-BH.c:27
 msgid "Yeah well, what the hell are you doing??"
-msgstr "Yeah tja, hvad i alverden laver du??"
+msgstr "Tjoeh tjaeh, hvad i alverden laver du??"
 
 #: Story/S3-BH.c:29
 msgid "What do you mean?"
@@ -5598,7 +5642,7 @@ msgstr "JA, skrid ud herfra NU!!"
 
 #: Story/S3-BH.c:46
 msgid "Nope, just looking through houses and stuff."
-msgstr "Niks, kigger bare igennem huse og sager."
+msgstr "Niks, kigger bare igennem huse og den slags."
 
 #: Story/S3-BH.c:48
 msgid "You know, you've got a lot of nerve."
@@ -5606,7 +5650,7 @@ msgstr "Du har noget af en attitude, at du ved det."
 
 #: Story/S3-BH.c:50
 msgid "Yea whatever ..."
-msgstr "Yea sikkert ..."
+msgstr "Ja, helt sikkert ..."
 
 #: Story/S3-BH.c:52
 msgid "Hmmmph."
@@ -5614,7 +5658,7 @@ msgstr "Hmmmph."
 
 #: Story/S3-BH.c:54
 msgid "Hey old man, the funeral house called ..."
-msgstr "Hej gamle mand, begravelseshuset kaldt ..."
+msgstr "Hej gamle mand, begravelseshuset ringede ..."
 
 #: Story/S3-BH.c:55
 msgid "they're ready for you now!"
@@ -5658,7 +5702,7 @@ msgstr "Jeg må ind i det telt."
 
 #: Story/S3-CAMP.c:52
 msgid "Here goes nothing..."
-msgstr "Her er ingenting..."
+msgstr "Nu sker det ..."
 
 #: Story/S3-CAMP.c:62
 msgid "Gotta run!!  Gotta run!!"
@@ -5694,11 +5738,11 @@ msgstr "Jeg troede, at jeg havde sagt, du skulle holde dig væk fra os."
 
 #: Story/S3-CAMPS.c:84
 msgid "Yeah well, my foot still has an appointment with you."
-msgstr "Yeah sikkert, min fod har stadig en aftale med dig."
+msgstr "Ja sikkert, min fod har stadig en aftale med dig."
 
 #: Story/S3-CAMPS.c:86
 msgid "What do you freaks want with town anyway?"
-msgstr "Hvad vil i vanskabninger med byen i det hele taget?"
+msgstr "Hvad vil I vanskabninger med byen i det hele taget?"
 
 #: Story/S3-CAMPS.c:88
 msgid "Our business doesn't need to be told to the dead.."
@@ -5710,11 +5754,11 @@ msgstr "Gør det af med ham."
 
 #: Story/S3-CHICK.c:15
 msgid "** FIXING BUG.. RESETTING GOBLIN VILLAGE **"
-msgstr "** RETTER FEJL... GENPLACERER GOBLINLANDSBY **"
+msgstr "** RETTER FEJL ... GENPLACERER GOBLINLANDSBY **"
 
 #: Story/S3-CHICK.c:27
 msgid "Ask what she does"
-msgstr "Spørg hvad hun gør"
+msgstr "Spørg hvad hun laver"
 
 #: Story/S3-CHICK.c:28
 msgid "Tell her about the planned assault"
@@ -5730,7 +5774,7 @@ msgstr "Vis hende skriftrullen"
 
 #: Story/S3-CHICK.c:38
 msgid "Oh hi, pretty good."
-msgstr "Oh hi, rigtig god."
+msgstr "Åh hej, rigtig godt."
 
 #: Story/S3-CHICK.c:40
 msgid "My name's Dink, pleasure to meet you."
@@ -5738,7 +5782,7 @@ msgstr "Mit navn er Dink, en fornøjelse at møde dig."
 
 #: Story/S3-CHICK.c:44
 msgid "Just having a stroll around town?"
-msgstr "Går bare en lille tur i byen?"
+msgstr "Går du bare en lille tur i byen?"
 
 #: Story/S3-CHICK.c:46
 msgid "I was just taking a look at the town square."
@@ -5754,12 +5798,12 @@ msgstr "Efter den store parade der skal gå i gang, hvad ellers?"
 
 #: Story/S3-CHICK.c:52
 msgid "Ahh, yes.. I've ... heard of that parade."
-msgstr "Ahh, ja... jeg har ... hørt om den parade."
+msgstr "Ahh, ja ... jeg har ... hørt om den parade."
 
 #: Story/S3-CHICK.c:57
 msgctxt "s3-chick:57"
 msgid "So what do you do?"
-msgstr "Så hvad gør du?"
+msgstr "Så hvad laver du?"
 
 #: Story/S3-CHICK.c:59
 msgid "Oh, I'm a painter."
@@ -5783,31 +5827,32 @@ msgstr "Du ved, jeg har hørt nogle ting om denne parade."
 
 #: Story/S3-CHICK.c:74
 msgid "Yeah me too, everyone's happy as can be."
-msgstr "Yeah også mig, alle er så lykkelige."
+msgstr "Ja også mig, alle er så lykkelige."
 
 #: Story/S3-CHICK.c:76
 msgid "The music can be heard all around the land."
 msgstr "Musikken kan høres over hele landet."
 
+# [konteksten er at han skal til at fortælle om et overfald]
 #: Story/S3-CHICK.c:78
 msgid "Yeah well ..."
-msgstr "Yeal sikkert ..."
+msgstr "Hmm ja ..."
 
 #: Story/S3-CHICK.c:80
 msgid "I've heard different things..."
-msgstr "Jeg har hørt forskellige ting..."
+msgstr "Jeg har hørt forskellige ting ..."
 
 #: Story/S3-CHICK.c:82
 msgid "Like that Cast Knights are planning to come and kill everyone here."
-msgstr "Som at borgridderne planlægger at komme og dræbe alle til stede."
+msgstr "Såsom at klikeridderne planlægger at komme og dræbe alle til stede."
 
 #: Story/S3-CHICK.c:84
 msgid "What...?"
-msgstr "Hvad...?"
+msgstr "Hvad ...?"
 
 #: Story/S3-CHICK.c:86
 msgid "You're kidding right?"
-msgstr "Du laver sjov ikke?"
+msgstr "Du laver sjov, ikke?"
 
 #: Story/S3-CHICK.c:88
 msgid "Wish I was, but I heard it myself just outside of town."
@@ -5863,7 +5908,7 @@ msgstr "Jeg hørte dog et rygte."
 
 #: Story/S3-CHICK.c:141
 msgid "A man said he was traveling near the Goblin Sanctuary and one"
-msgstr "En mand sagde han rejste nær Goblinreservatet og at en"
+msgstr "En mand sagde han rejste nær Goblinreservatet, og at en goblin"
 
 #: Story/S3-CHICK.c:143
 msgid "attacked him.  Very rare these days."
@@ -5871,7 +5916,7 @@ msgstr "angreb ham.  Meget sjældent disse dage."
 
 #: Story/S3-CHICK.c:145
 msgid "That could be something, I'll check it out."
-msgstr "Det kunne være noget, jeg undersøger det."
+msgstr "Det kunne være noget - jeg undersøger det."
 
 #: Story/S3-CHICK.c:153
 msgid "Take a look at this!"
@@ -5879,7 +5924,7 @@ msgstr "Se på det her!"
 
 #: Story/S3-CHICK.c:154
 msgid "The Cast's battle plan for the city."
-msgstr "Klikkens slagplan for byen."
+msgstr "Klikens slagplan for byen."
 
 #: Story/S3-CHICK.c:156
 msgid "My god, look at this plan."
@@ -5887,7 +5932,7 @@ msgstr "Min gud, se på denne plan."
 
 #: Story/S3-CHICK.c:158
 msgid "They aren't even focusing their attack at the military"
-msgstr "De fokuserer end ikke angrebet som militæret"
+msgstr "De fokuserer end ikke angrebet på militæret"
 
 #: Story/S3-CHICK.c:160
 msgid "they're attacking the whole populace here."
@@ -5899,11 +5944,11 @@ msgstr "Vi må stoppe dem!"
 
 #: Story/S3-CHICK.c:164
 msgid "Quick, get this information to my father ... hurry!"
-msgstr "Hurtig, få denne information til min far ... hurtigt!"
+msgstr "Skynd dig, få denne information til min far ... hurtigt!"
 
 #: Story/S3-CHICK.c:180
 msgid "Hey watch it sucka!"
-msgstr "Hey se her røvhul!"
+msgstr "Hey se her, røvhul!"
 
 #: Story/S3-CHICK.c:184
 msgid "Help me, someone help me!"
@@ -5947,11 +5992,11 @@ msgstr "Jeg elsker mine ænder."
 
 #: Story/S3-FREAK.c:63
 msgid "Ready for our act little pals?"
-msgstr "Klar til vores lille optræden små venner?"
+msgstr "Klar til vores lille optræden, små venner?"
 
 #: Story/S3-FREAK.c:67
 msgid "Gettin' ready to rock!!"
-msgstr "Klar til rock!!"
+msgstr "Klar til at sparke røv!!"
 
 #: Story/S3-FREAK.c:82
 msgid "Get lost!! You have completely destroyed my act!"
@@ -5959,7 +6004,7 @@ msgstr "Forsvind!! Du har fuldstændig ødelagt min optræden!"
 
 #: Story/S3-FREAK.c:90
 msgid "What do you want man?  I gotta keep moving!"
-msgstr "Hvad vil du mand?  Jeg må videre!"
+msgstr "Hvad vil du, mand?  Jeg må videre!"
 
 #: Story/S3-FREAK.c:92
 msgid "Ask why he's running"
@@ -5995,11 +6040,11 @@ msgstr "Det kommer til at sparke røv!!!!!!"
 
 #: Story/S3-FREAK.c:112 Story/S4-ST1P.c:51
 msgid "What's with all the ducks?"
-msgstr "Hvad er der med alle ænderne?"
+msgstr "Hvorfor alle ænderne?"
 
 #: Story/S3-FREAK.c:114
 msgid "Oh, they're my pets.  We're gonna be in the parade together."
-msgstr "Oh, der er mine kæledyr.   Vi skal optræde sammen i paraden."
+msgstr "Nå, de er mine kæledyr.  Vi skal optræde sammen i paraden."
 
 #: Story/S3-FREAK.c:116 Story/S3-LOSER.c:36
 msgid "I see ..."
@@ -6025,13 +6070,14 @@ msgstr "Klar?  Følg mig!"
 msgid "Hey.."
 msgstr "Hey.."
 
+# (anden lyder som en fejl fordi der rent faktisk refererers til en and)
 #: Story/S3-FREAK.c:135
 msgid "What's with that other one?"
-msgstr "Hvad sker der med den anden?"
+msgstr "Hvad sker der med den derovre?"
 
 #: Story/S3-FREAK.c:137
 msgid "Oh ..."
-msgstr "Oh ..."
+msgstr "Åh ..."
 
 #: Story/S3-FREAK.c:139
 msgid "he has issues."
@@ -6039,7 +6085,7 @@ msgstr "han er lidt sær."
 
 #: Story/S3-FREAK.c:143
 msgid "Oh boy ..."
-msgstr "Oh ha ..."
+msgstr "Nådada ..."
 
 #: Story/S3-FREAK.c:147
 msgid "Soooo ... didn't see you at the parade."
@@ -6047,11 +6093,11 @@ msgstr "Sååååå ... så dig ikke til paraden."
 
 #: Story/S3-FREAK.c:149
 msgid "Oh .. hehe .. yeah, I uhh ... I ..."
-msgstr "Oh .. hehe .. yeah, jeg uhh ... jeg ..."
+msgstr "Nåeh .. hehe .. ja, jeg øh ... jeg ..."
 
 #: Story/S3-FREAK.c:151
 msgid "one of the ducks got sick, and well .. we couldn't perform."
-msgstr "en af mine ænder blev syge, og ... vi kunne derfor ikke optræde."
+msgstr "en af mine ænder blev syg, og ... vi kunne derfor ikke optræde."
 
 #: Story/S3-FREAK.c:156
 msgid "I'm sure.  That's too bad, after all that practice."
@@ -6059,7 +6105,7 @@ msgstr "Sikkert.  Det er surt, efter al den træning."
 
 #: Story/S3-FREAK.c:158
 msgid "Well hey, don't worry ..."
-msgstr "Well hey, du skal ikke bekymre dig ..."
+msgstr "Nå, du skal ikke bekymre dig ..."
 
 #: Story/S3-FREAK.c:160
 msgid "we're practicing for next year."
@@ -6067,7 +6113,7 @@ msgstr "vi træner til næste år."
 
 #: Story/S3-FREAK.c:162
 msgid "Aww man..."
-msgstr "Aww mand..."
+msgstr "Åhr mand ..."
 
 #: Story/S3-FREAK.c:166
 msgid "Note to self:  Don't come here next year."
@@ -6075,15 +6121,15 @@ msgstr "Bemærkning til mig selv:  Kom ikke her næste år."
 
 #: Story/S3-GOB.c:21
 msgid "heeloo, freen.  We kan took tegether?"
-msgstr "heeloo, freen.  vi kan took sammeeen?"
+msgstr "heej, væn.  vi kan snake sammeeen?"
 
 #: Story/S3-GOB.c:33
 msgid "osh!  Puheaze hooman! We chan bey freens!"
-msgstr "osh!  Pheaxe mennker! Vi kain vor vener!"
+msgstr "osh!  Fræd mennker! Vi kain vor vener!"
 
 #: Story/S3-GOB.c:36
 msgid "doon hort meeee!"
-msgstr "doon hort miii!"
+msgstr "slag maj iiik!"
 
 #: Story/S3-GOB.c:39
 msgid "i won oose vilens!"
@@ -6091,11 +6137,11 @@ msgstr "i vaandt oose vilens!"
 
 #: Story/S3-GOB.c:48
 msgid "Let that be a clear message to his people.  Haw!"
-msgstr "Lad det være en klar besked til dette folk.  Haw!"
+msgstr "Lad det være en klar besked til dette folk.  Har!"
 
 #: Story/S3-GOB.c:56
 msgid "Ask the Goblin's name"
-msgstr "Spørg om Goblinens navn"
+msgstr "Spørg om goblinens navn"
 
 #: Story/S3-GOB.c:57
 msgid "Ask what he is doing way out here"
@@ -6111,7 +6157,7 @@ msgstr "Hvad er dit navn, Goblin?"
 
 #: Story/S3-GOB.c:66
 msgid "my nam is george.  whe kin bey gud frins?"
-msgstr "mit navn er George.  vei toa vaære goode ven?"
+msgstr "mit navn george.  vei toa vaære goode ven?"
 
 #: Story/S3-GOB.c:68
 msgid "I don't understand a thing you're saying."
@@ -6171,7 +6217,7 @@ msgstr "Anmod goblinvagten om at lukke dig ind"
 
 #: Story/S3-GOBG.c:69
 msgid "Incite an 'incident'"
-msgstr "Starte en 'hændelse'"
+msgstr "Start en »hændelse«"
 
 #: Story/S3-GOBG.c:76
 msgid "Greetings my good fellow!  May I enter your fine establishment?"
@@ -6183,23 +6229,24 @@ msgstr "hmm."
 
 #: Story/S3-GOBG.c:87
 msgid "hmm.. are yoo joon?? coom beck lader! too erly"
-msgstr "hmm.. er duu joon?? koom back senere! foo tirdly"
+msgstr "hmm.. er duu joon?? koom tebage senere! foo tirdly"
 
+# (jeg kan se du har en bue.  Åbn porten!)
 #: Story/S3-GOBG.c:95
 msgid "ashee yoo hav bough. GATS OPAN!"
-msgstr "ashee yoo hav bough. GATS OPAN!"
+msgstr "jesser du ha buuu.  PROT ÅBE!"
 
 #: Story/S3-GOBG.c:108
 msgid "erga hoomans NOT heenter!  leev!"
-msgstr "erga hoomans NOT heenter!  leev!"
+msgstr "erga meenske IK heenter!  fårsvim!"
 
 #: Story/S3-GOBG.c:110
 msgid "Oh come on, let me in!"
-msgstr "Oh kom nu, lad mig komme ind!"
+msgstr "Åh kom nu, lad mig komme ind!"
 
 #: Story/S3-GOBG.c:112
 msgid "no bow?!!! un not joon! leev!!"
-msgstr "no bue?!!! un not joon! leev!!"
+msgstr "ikk bue?!!! un not joon! fårsvim!!"
 
 #: Story/S3-GOBG.c:118
 msgid "Say.  So how 'bout that war of '23?  You guys got beat back pretty hard."
@@ -6215,7 +6262,7 @@ msgstr "Jeg mener, kong Daniel mere eller mindre knuster jer som små insekter."
 
 #: Story/S3-GOBG.c:124
 msgid "reechard!?? yoo wheel bey daying now!"
-msgstr "reechard!?? duu villl me dagging nuuu!"
+msgstr "riichard!?? duu villl me dagging nuuu!"
 
 #: Story/S3-GSIGN.c:3
 msgid "welkam to george huse"
@@ -6244,11 +6291,11 @@ msgstr "Vi er Robinsonsnedkerne."
 
 #: Story/S3-LARRY.c:30
 msgid "We can supply all your wood furnishing needs."
-msgstr "Vi kan forsyne dig med alt indenfor træmøbler."
+msgstr "Vi kan forsyne dig med alt inden for træmøbler."
 
 #: Story/S3-LARRY.c:32
 msgid "Oh, not for me then.  I've had bad experiences with furniture in the past."
-msgstr "Oh, det er ikke noget for mig så.  Jeg har tidligere haft dårlige erfaringer med møbler."
+msgstr "Nå, det er ikke noget for mig så.  Jeg har tidligere haft dårlige erfaringer med møbler."
 
 #: Story/S3-LARRY.c:34
 msgid "Things tend to light on fire, and people I know just die. :'("
@@ -6256,7 +6303,7 @@ msgstr "Ting har det med at bryde i flammer, og folk jeg kender dør bare. :'("
 
 #: Story/S3-LARRY.c:36
 msgid "Okay then, if you need anything I'll be ...  over ... there."
-msgstr "Okay så, hvis du skal bruge noget... så er jeg ... herovre."
+msgstr "Okay så, hvis du skal bruge noget ... så er jeg ... herovre."
 
 #: Story/S3-LARRY.c:42
 msgid "So, any other deals?"
@@ -6288,15 +6335,15 @@ msgstr "på individuelle huse.  Vi laver også køkkenborde og den slags."
 
 #: Story/S3-LARRY.c:70
 msgid "I see, well I don't own a house, but thanks for the info."
-msgstr "Jeg forstår, men jeg ejer ikke et hus, men tak for informationen."
+msgstr "Jeg forstår, men jeg ejer ikke et hus. Men tak for informationen."
 
 #: Story/S3-LARRY.c:72
 msgid "Yeah, no problem ..."
-msgstr "Yeah, ikke noget problem ..."
+msgstr "Ja, ikke noget problem ..."
 
 #: Story/S3-LARRY.c:74
 msgid "Oh no ..."
-msgstr "Oh nej ..."
+msgstr "Åh nej ..."
 
 #: Story/S3-LARRY.c:77
 msgid "Yes dear, what is it?"
@@ -6336,11 +6383,12 @@ msgstr "Hey, stop det, det gør ondt på skoven."
 
 #: Story/S3-LOSER.c:13 Story/S3-LOSER.c:30
 msgid "Hey, uhh ... where did everyone go?"
-msgstr "Hey, uhh ... hvor blev alle af?"
+msgstr "Hey, øhh ... hvor blev alle af?"
 
+# over, slut, overstået
 #: Story/S3-LOSER.c:15
 msgid "The parade's over already man."
-msgstr "Paraden er allerede over."
+msgstr "Paraden er allerede overstået."
 
 #: Story/S3-LOSER.c:17
 msgid "Everyone took off."
@@ -6380,11 +6428,11 @@ msgstr "Hej borgmester, pæn by du har her."
 
 #: Story/S3-MAYOR.c:26 Story/S3-MAYOR.c:85
 msgid "Thank you fair citizen."
-msgstr "Tak gode borger."
+msgstr "Tak, gode borger."
 
 #: Story/S3-MAYOR.c:28 Story/S3-MAYOR.c:87
 msgid "Yeah, noted."
-msgstr "Yeah."
+msgstr "Javel, ja."
 
 #: Story/S3-MAYOR.c:34
 msgid "Mayor, I have urgent news, your town is going to be attacked!"
@@ -6396,7 +6444,7 @@ msgstr "Hvad?!?  Det er latterligt, du må gøre grin!"
 
 #: Story/S3-MAYOR.c:38
 msgid "No, I'm dead serious!  It's the Cast Knights."
-msgstr "Nej, jeg er gravalvorlig!  Det er Klikkens riddere."
+msgstr "Nej, jeg er gravalvorlig!  Det er Klikens riddere."
 
 #: Story/S3-MAYOR.c:40
 msgid "They're planning to attack during the parade."
@@ -6432,7 +6480,7 @@ msgstr "Glem det, så du har nogle forbindelser?"
 
 #: Story/S3-MAYOR.c:56
 msgid "Yes they could help."
-msgstr "Ja de ville kunne hjælpe."
+msgstr "Ja, de ville kunne hjælpe."
 
 #: Story/S3-MAYOR.c:58
 msgid "But I need proof before I can go calling them in."
@@ -6440,11 +6488,11 @@ msgstr "Men jeg skal bruge bevis, før jeg kan kalde dem ind."
 
 #: Story/S3-MAYOR.c:60
 msgid "Ok, so if I get proof you'll help?"
-msgstr "Okay, hvis jeg viser beviser, så vil du hjælpe?"
+msgstr "Okay, hvis jeg finder beviser, vil du så hjælpe?"
 
 #: Story/S3-MAYOR.c:62
 msgid "Yes, without it my hands are tied."
-msgstr "Ja, uden er mine hænder bundet."
+msgstr "Ja, men uden er mine hænder bundet."
 
 #: Story/S3-MAYOR.c:65
 msgid "Allright, then I'm off."
@@ -6460,11 +6508,11 @@ msgstr "Jeg fik endelig beviset, vi har brug for."
 
 #: Story/S3-MAYOR.c:95
 msgid "No you didn't you liar!"
-msgstr "Nej du gjorde ikke din løgner!"
+msgstr "Nej du gjorde ikke, din løgner!"
 
 #: Story/S3-MAYOR.c:97
 msgid "Oops, my bad."
-msgstr "Oops, min fejl."
+msgstr "Ups, min fejl."
 
 #: Story/S3-MAYOR.c:107
 msgid "Say hello"
@@ -6480,7 +6528,7 @@ msgstr "Hallo borgmester, hvordan går det?"
 
 #: Story/S3-MAYOR.c:116
 msgid "Pretty good fair citizen."
-msgstr "Rigtig godt gode borger."
+msgstr "Rigtig godt, gode borger."
 
 #: Story/S3-MAYOR.c:118
 msgid "Hey, that's just great."
@@ -6488,7 +6536,7 @@ msgstr "Det er bare godt."
 
 #: Story/S3-MAYOR.c:123
 msgid "I've got your proof mayor."
-msgstr "Jeg har beviset borgmester."
+msgstr "Jeg har beviset, borgmester."
 
 #: Story/S3-MAYOR.c:125
 msgid "They plan to slaughter the entire city."
@@ -6496,7 +6544,7 @@ msgstr "De planlægger at slagte hele byen."
 
 #: Story/S3-MAYOR.c:127
 msgid "Oh my god, this attack would destroy our defenses!"
-msgstr "Oh min gud, dette angreb vil knuse vores forsvarsværker!"
+msgstr "Åh gud, dette angreb vil knuse vores forsvarsværker!"
 
 #: Story/S3-MAYOR.c:129
 msgid "I can't believe they would attack us like this."
@@ -6508,7 +6556,7 @@ msgstr "Vil du hidkalde vagten nu?"
 
 #: Story/S3-MAYOR.c:133
 msgid "Yes, I just hope they can get here in time..."
-msgstr "Ja, jeg håber bare, at de kan nå frem i tide..."
+msgstr "Ja, jeg håber bare, at de kan nå frem i tide ..."
 
 #: Story/S3-MOG.c:8
 msgid "All this killing and still no answers."
@@ -6532,7 +6580,7 @@ msgstr "Det var mig som dræbte dem."
 
 #: Story/S3-MOG.c:24
 msgid "NOW TELL ME OF YOUR SECRET DEALINGS WITH THE CAST!"
-msgstr "NU SKAL DU FORTÆLLE MIG OM DINE HEMMELIGE FORHANDLINGER MED KLIKKEN!"
+msgstr "NU SKAL DU FORTÆLLE MIG OM DINE HEMMELIGE FORHANDLINGER MED KLIKEN!"
 
 #: Story/S3-MOG.c:26
 msgid "You?  YOU?  I MUST AVENGE MY BROTHERS!"
@@ -6544,7 +6592,7 @@ msgstr "Er det ikke vidunderligt?"
 
 #: Story/S3-PEEPS.c:20
 msgid "Not a very long parade was it..."
-msgstr "Ikke en særlig lang parade..."
+msgstr "Ikke en særlig lang parade ..."
 
 #: Story/S3-PEEPS.c:22
 msgid "This was even better than last year!"
@@ -6568,7 +6616,7 @@ msgstr "Hjælp!! Denne Dinkfyr er ikke nogen helt, han stod bag angrebet!"
 
 #: Story/S3-PEEPS.c:46
 msgid "Please sir... please...no!!!  Come on, help me fight this guy!"
-msgstr "Vær venlig hr.... nej!!!  Kom og hjælp mig med at bekæmpe den her fyr!"
+msgstr "Vær venlig hr ... nej!!!  Kom og hjælp mig med at bekæmpe den her fyr!"
 
 #: Story/S3-PEEPS.c:63
 msgid "Now, THAT'S entertainment!"
@@ -6584,23 +6632,23 @@ msgstr "Jeg skal få din verden til at ryste!"
 
 #: Story/S3-SIGN1.c:6
 msgid "'Sign' me up.. for DESTRUCTION! Haw haw!"
-msgstr "'Meld' mig ind.. til ØDELÆGGELSE! Haw haw!"
+msgstr "'Meld' mig ind.. til ØDELÆGGELSE! Har har!"
 
 #: Story/S3-SIGN1.c:13
 msgid "KernSin is closed until preparation is complete."
-msgstr "KernSin er lukket indtil forberedelsen er færdig."
+msgstr "Kernsin er lukket indtil forberedelsen er færdig."
 
 #: Story/S3-SIGN1.c:15
 msgid "Huh?  What on earth can they be preparing?"
-msgstr "Huh?  Hvad i alverden kan de forberede?"
+msgstr "Hmmm?  Hvad i alverden kan de forberede?"
 
 #: Story/S3-SIGN1.c:20
 msgid "KernSin city limits.  Please enter our lovely town!"
-msgstr "KernSins bygrænse.  Kom trykt ind i vores vidunderlige by!"
+msgstr "Kernsins bygrænse.  Kom trygt ind i vores vidunderlige by!"
 
 #: Story/S3-SIGN2.c:7
 msgid "Welcome to KernSin"
-msgstr "Velkommen til KernSin"
+msgstr "Velkommen til KernsSin"
 
 #: Story/S3-SIGN3.c:7
 msgid "Hiram's Bookstore"
@@ -6648,7 +6696,7 @@ msgstr "Held og lykke."
 
 #: Story/S3-ST1P.c:8
 msgid "Welcome to our book store sir."
-msgstr "Velkommen til vores boghandel hr."
+msgstr "Velkommen til vores boghandel, hr."
 
 #: Story/S3-ST1P.c:17
 msgid "How may I help you today sir?"
@@ -6660,11 +6708,11 @@ msgstr "Spørg om boghandlen"
 
 #: Story/S3-ST1P.c:21
 msgid "Find out about the next town"
-msgstr "Undersøg den næste by"
+msgstr "Spørg om den næste by"
 
 #: Story/S3-ST1P.c:22 Story/S4-ST1P.c:39
 msgid "See what's news"
-msgstr "Se nyhederne"
+msgstr "Følg med i nyhederne"
 
 #: Story/S3-ST1P.c:27
 msgid "So what do you got here?"
@@ -6688,7 +6736,7 @@ msgstr "Magi?  Nej, ingenting."
 
 #: Story/S3-ST1P.c:40
 msgid "I see... thanks."
-msgstr "Jeg forstår... tak."
+msgstr "Jeg forstår ... tak."
 
 #: Story/S3-ST1P.c:46
 msgid "Did you hear anything about that other town yet?"
@@ -6696,15 +6744,15 @@ msgstr "Har du hørt noget om den anden by endnu?"
 
 #: Story/S3-ST1P.c:48
 msgid "Yeah actually, a man passed through here this morning,"
-msgstr "Yeah, en mand kom igennem her denne morgen,"
+msgstr "Ja, en mand kom faktisk igennem her denne morgen,"
 
 #: Story/S3-ST1P.c:49
 msgid "he said the bridge was back up, so I'm sure you could"
-msgstr "han sagde at broen var op igen, så jeg er sikker på,"
+msgstr "han sagde at broen var oppe igen, så jeg er sikker på,"
 
 #: Story/S3-ST1P.c:50
 msgid "head over there and check it out."
-msgstr "at du kan tager derover og undersøge den."
+msgstr "at du kan tage derover og undersøge den."
 
 #: Story/S3-ST1P.c:52
 msgid "Okay, thanks."
@@ -6720,7 +6768,7 @@ msgstr "Der er et pænt sted øst for Terris."
 
 #: Story/S3-ST1P.c:62
 msgid "But last I heard the bridge there was out."
-msgstr "Men sidste gang jeg hørte om det, var broen nede."
+msgstr "Men sidste gang jeg hørte om det, var broen i stykker."
 
 #: Story/S3-ST1P.c:64
 msgid "I'll let ya know if I hear anything though."
@@ -6732,7 +6780,7 @@ msgstr "Hvad er der sket for nylig heromkring?"
 
 #: Story/S3-ST1P.c:72
 msgid "Well, you should know hero!  Thanks for what you did,"
-msgstr "Det burde du vide helt!  Tak for din indsats,"
+msgstr "Det burde du vide, helt!  Tak for din indsats,"
 
 #: Story/S3-ST1P.c:74
 msgid "the mayor tells me you saved us all."
@@ -6740,7 +6788,7 @@ msgstr "borgmesteren har fortalt mig, at du reddede os alle."
 
 #: Story/S3-ST1P.c:76
 msgid "Uh, well .. the mayor exaggerates just a bit,"
-msgstr "Uh, tja .. borgmesteren overdriver en lille smule,"
+msgstr "Øh, tja .. borgmesteren overdriver en lille smule,"
 
 #: Story/S3-ST1P.c:78
 msgid "but yes, it was pretty much me."
@@ -6748,7 +6796,7 @@ msgstr "men ja, det var stort set mig."
 
 #: Story/S3-ST1P.c:80
 msgid "You're quite the popular guy,"
-msgstr "Du er den populære fyr,"
+msgstr "Du er ikke så lidt populær,"
 
 #: Story/S3-ST1P.c:82
 msgid "I even heard the mayor's daughter talking about you."
@@ -6784,7 +6832,7 @@ msgstr "folk venter på at paraden skal gå i gang."
 
 #: Story/S3-ST1P.c:115
 msgid "Oh my golly gosh, please don't hurt me mister..."
-msgstr "Oh hvad i alverden, gør mig ikke ondt hr..."
+msgstr "Åh hvad i alverden, gør mig ikke ondt hr ..."
 
 #: Story/S3-ST2.c:4
 msgid "The best in bows"
@@ -6796,7 +6844,7 @@ msgstr "Goddag hr."
 
 #: Story/S3-ST2P.c:21
 msgid "See, now that pierced my lung! Ouch!"
-msgstr "Se, nu punkterede den min lunge! Ouch!"
+msgstr "Se, nu punkterede den min lunge! Av!"
 
 #: Story/S3-ST2P.c:25
 msgid "That hurts and all, but you could be doing much more damage with a bow!"
@@ -6812,15 +6860,18 @@ msgstr "Jeg beklager hr., men du har IKKE nok guld!"
 
 #: Story/S3-ST2P.c:49
 msgid "Whoops, sorry about that."
-msgstr "Whoops, beklager."
+msgstr "Ups, beklager."
 
 #: Story/S3-ST2P.c:57
 msgid "Excellent sir!  I'm sure you won't be disappointed."
 msgstr "Glimrende hr.!  Jeg er sikker på, at du ikke bliver skuffet."
 
+# "I'll let you know" er en meget engelsk sætning, jeg tror vi skal
+# finde noget mere indirekte "Ja, vi får se." betyder slet ikke det samme, 
+# men læseren vil ikke mærke forskel
 #: Story/S3-ST2P.c:59
 msgid "Yeah, well I'll let ya know."
-msgstr "Yeah, jeg vil lade dig det vide."
+msgstr "Ja, vi får se."
 
 #: Story/S3-ST2P.c:61
 msgid "One more thing.. if you hold down the button you will draw"
@@ -6864,7 +6915,7 @@ msgstr "tredobbelt skade.. når det virker."
 
 #: Story/S3-ST2P.c:97
 msgid "Cool!  How will I know his house?"
-msgstr "Sejt!  Hvordan kender jeg hans hus?"
+msgstr "Sejt!  Hvordan finder jeg hans hus?"
 
 #: Story/S3-ST2P.c:99
 msgid "It's sort of hidden."
@@ -6880,7 +6931,7 @@ msgstr "Og goddag til dig hr., jeg er Arturous, til din tjeneste."
 
 #: Story/S3-ST2P.c:111
 msgid "Yes well, I was wondering how much you sold your bows for?"
-msgstr "Jeg tænkte på til hvilken pris, sælger du dine buer?"
+msgstr "Jeg tænkte på, til hvilken pris, sælger du dine buer?"
 
 #: Story/S3-ST2P.c:113
 msgid "My current price for a bow and arrows is 1000 gold."
@@ -6908,7 +6959,7 @@ msgstr "Er den ikke bare smuk?"
 
 #: Story/S3-TC.c:259
 msgid "Yup, it's a parade allright."
-msgstr "Yup, det er en parade."
+msgstr "Jep, det er en parade."
 
 #: Story/S3-TC.c:261
 msgid "A lot of people too, I shudder at what could've happened."
@@ -6916,7 +6967,7 @@ msgstr "En masse mennesker, jeg ryster ved tanken om, hvad der kunne være sket.
 
 #: Story/S3-TC.c:263
 msgid "You really saved the town Dink..."
-msgstr "Du har i den grad reddet byen Dink..."
+msgstr "Du har i den grad reddet byen, Dink ..."
 
 #: Story/S3-TC.c:265
 msgid "I'm really proud of you."
@@ -6932,11 +6983,11 @@ msgstr "Jeg må gå, jeg skal mødes med min far."
 
 #: Story/S3-TC.c:271
 msgid "Take care Dink, I hope I'll see you again."
-msgstr "Vær forsigtig Dink, jeg håber, jeg ser dig igen."
+msgstr "Vær forsigtig, Dink. Jeg håber, jeg ser dig igen."
 
 #: Story/S3-TC.c:284
 msgid "Oh, you will baby, you will..."
-msgstr "Oh, det vil du baby, det vil du..."
+msgstr "Åh, det vil du baby, det vil du ..."
 
 #: Story/S4-DG.c:9
 msgid "Please stop hitting me now."
@@ -6964,7 +7015,7 @@ msgstr "Vi tilbeder dem her."
 
 #: Story/S4-DG.c:30
 msgid "Oh, I thought it might be a ranch or something."
-msgstr "Oh, jeg troede, det måske var en form for ranch."
+msgstr "Nå, jeg troede, det måske var en form for ranch."
 
 #: Story/S4-DG.c:32
 msgid "On some occasions we do offer food here to the ducks."
@@ -7008,7 +7059,7 @@ msgstr "Skynd dig, Kelly!"
 
 #: Story/S4-END.c:38
 msgid "This is gonna be so great and..."
-msgstr "Det her bliver så fedt og..."
+msgstr "Det her bliver så fedt og ..."
 
 #: Story/S4-END.c:40
 msgid "WHAT THE!?!?!"
@@ -7016,7 +7067,7 @@ msgstr "HVAD I!?!?!"
 
 #: Story/S4-END.c:48
 msgid "Uh oh."
-msgstr "Uh oh."
+msgstr "Åh-åh."
 
 #: Story/S4-END.c:58
 msgid "NO!!!!!"
@@ -7068,7 +7119,7 @@ msgstr "Vent..er det ikke helt råt?"
 
 #: Story/S4-END.c:96
 msgid "I guess one piece won't hurt..."
-msgstr "Jeg antager, at et stykke ikke vil skade..."
+msgstr "Jeg antager, at et enkelt stykke ikke vil skade ..."
 
 #: Story/S4-END.c:98
 msgid "IT TASTES GREAT!"
@@ -7084,7 +7135,7 @@ msgstr "Dink, du ændrede magisk vores guder til mad!"
 
 #: Story/S4-END.c:103
 msgid "No.. there is a perfect explanation, you see, the friction seemed to cook and..."
-msgstr "Nej.. der er en perfekt forklaring, forstår du, friktionen fik det til at koge og..."
+msgstr "Nej.. der er en perfekt forklaring, forstår du, friktionen fik det til at koge og ..."
 
 #: Story/S4-END.c:106
 msgid "Who cares about that!"
@@ -7144,7 +7195,7 @@ msgstr "Spørg om byen"
 
 #: Story/S4-H1P.c:78
 msgid "Hey, uh thanks for that fireball!"
-msgstr "Hey, uh tak for den ildkugle!"
+msgstr "Hey, øh tak for den ildkugle!"
 
 #: Story/S4-H1P.c:79
 msgid "What the hell's wrong with you?"
@@ -7164,7 +7215,7 @@ msgstr "Måske endnu en røver der var efter min mad."
 
 #: Story/S4-H1P.c:86
 msgid "I have to defend myself."
-msgstr "Jeg må forsvare mig selv."
+msgstr "Jeg må forsvare mig."
 
 #: Story/S4-H1P.c:88
 msgid "This town is messed up."
@@ -7172,7 +7223,7 @@ msgstr "Denne by er helt væk."
 
 #: Story/S4-H1P.c:94
 msgid "So, what's with the town here?"
-msgstr "Så, hvad sker der med den her by?"
+msgstr "Såeh, hvad sker der med den her by?"
 
 #: Story/S4-H1P.c:96
 msgid "We, we all worship the duck here."
@@ -7196,7 +7247,7 @@ msgstr "Vi tilbeder alle anden her."
 
 #: Story/S4-H1P.c:107
 msgid "Yeah ..."
-msgstr "Yeah ..."
+msgstr "Hmja ..."
 
 #: Story/S4-H1P.c:108
 msgid "Is this some kind of religion?"
@@ -7208,7 +7259,7 @@ msgstr "Ja, vi giver alt til og skylder alt til anden."
 
 #: Story/S4-H1P.c:112
 msgid "Well okay then, I'll ... I'll get back to you on that."
-msgstr "Jaså, jeg ... jeg vender tilbage."
+msgstr "Jaså, jeg ... vi tager den senere."
 
 #: Story/S4-H1P.c:124
 msgid "Ah, some hero you are!"
@@ -7248,7 +7299,7 @@ msgstr "Ja, tja, vi giver meget til ænderne."
 
 #: Story/S4-H2P1.c:35
 msgid "Yeah, yeah, the ducks I know ..."
-msgstr "Yeah, yeah, ænderne dem kender jeg til ..."
+msgstr "Jaja, ænderne dem kender jeg til ..."
 
 #: Story/S4-H2P1.c:36
 msgid "what the hell have they given back to you?"
@@ -7312,7 +7363,7 @@ msgstr "Hej hr., tak for at give os noget at spise."
 
 #: Story/S4-H2P3.c:15
 msgid "You're welcome."
-msgstr "Du er velkommen."
+msgstr "Velbekomme."
 
 #: Story/S4-H2P3.c:22
 msgid "Ask about food"
@@ -7428,7 +7479,7 @@ msgstr "bare gå."
 
 #: Story/S4-MDOOR.c:13
 msgid "Thank you for saving us Dink!"
-msgstr "Tak fordi du reddede os Dink!"
+msgstr "Tak fordi du reddede os, Dink!"
 
 #: Story/S4-MDOOR.c:26
 msgid "Go away."
@@ -7444,7 +7495,7 @@ msgstr "Neeeeeeeeeej!!"
 
 #: Story/S4-MDOOR.c:38
 msgid "You can't get in."
-msgstr "Du kan ikke gå ind."
+msgstr "Du må ikke komme ind."
 
 #: Story/S4-MDOOR.c:42
 msgid "Leave me alone."
@@ -7466,9 +7517,12 @@ msgstr "Til landsbyen Vindsus"
 msgid "Super-Fry Chicken opening soon."
 msgstr "Kyllingebutik åbner snart."
 
+# Det står på et skilt ifølge kildereferencen.
+# Hvis vi er frække kan vi også skrive "OPROP" jf. det velkende tyske
+# flyveblad (ellers bare en eller anden titel)
 #: Story/S4-SIGN3.c:14
 msgid "Hear ye, hear ye ..."
-msgstr "Hear ye, hear ye ..."
+msgstr "OPROP, OPROP ..."
 
 #: Story/S4-SIGN3.c:15
 msgid "By order of our great ducks the monthly tax shall be doubled."
@@ -7488,7 +7542,7 @@ msgstr "Velkommen til Jills pantebutik."
 
 #: Story/S4-ST1P.c:25
 msgid "Oh, too have some food ..."
-msgstr "Oh, at have noget mad ..."
+msgstr "Åh, at have noget mad ..."
 
 #: Story/S4-ST1P.c:29
 msgid "The ducks ... the ducks ..."
@@ -7504,7 +7558,7 @@ msgstr "Hvordan er det gået på det seneste?"
 
 #: Story/S4-ST1P.c:49
 msgid "Oh just fine sir, thanks for asking."
-msgstr "Oh fint hr., tak fordi du spurgte."
+msgstr "Fint nok hr., tak fordi du spurgte."
 
 #: Story/S4-ST1P.c:53
 msgid "Those ducks are our friends and keepers"
@@ -7524,11 +7578,11 @@ msgstr "Vær sød mod ænderne i denne by."
 
 #: Story/S4-ST1P.c:60
 msgid "Sure, no problem."
-msgstr "Ikke noget problem."
+msgstr "Naturligvis."
 
 #: Story/S4-ST1P.c:65
 msgid "Uh, do you have anything for sale?"
-msgstr "Uh, har du noget til salg?"
+msgstr "Øh, har du noget til salg?"
 
 #: Story/S4-ST1P.c:67
 msgid "Well, I ... I'm afraid not right now sir."
@@ -7564,7 +7618,7 @@ msgstr "Hej Jill, hvordan går det?"
 
 #: Story/S4-ST1P.c:85
 msgid "Oh Dink, thank you, thank you for saving us."
-msgstr "Oh Dink, mange tak, tak fordi du redder os."
+msgstr "Åh Dink, mange tak, tak fordi du redder os."
 
 #: Story/S4-ST1P.c:87
 msgid "I didn't know what was going to happen to the town."
@@ -7584,7 +7638,7 @@ msgstr "Slå mig ikke hr."
 
 #: Story/S4-ST1P.c:133
 msgid "Sell a Clawsword - $1000"
-msgstr "Sælg et klørsværd - 1.000 kr."
+msgstr "Sælg et klosværd - 1.000 kr."
 
 #: Story/S4-ST1P.c:134
 msgid "Sell a slayer claw - $150"
@@ -7628,7 +7682,7 @@ msgstr "i så lang tid."
 
 #: Story/S4-ST2P.c:35
 msgid "Yeah, it's pretty weird."
-msgstr "Yeah, det er ret underligt."
+msgstr "Ja, det er ret underligt."
 
 #: Story/S4-ST2P.c:37
 msgid "What do you do for food?"
@@ -7636,7 +7690,7 @@ msgstr "Hvad spiser du af mad?"
 
 #: Story/S4-ST2P.c:39
 msgid "Oh me?  Well I'm not from these parts, and know how to"
-msgstr "Oh mig?  Jeg er ikke fra de her egne, og jeg ved, hvordan jeg"
+msgstr "Nå, mig?  Jeg er ikke fra de her egne, og jeg ved, hvordan jeg"
 
 #: Story/S4-ST2P.c:41
 msgid "make foods from other things.  I live on soups and herbs,"
@@ -7644,7 +7698,7 @@ msgstr "kan skaffe mad andre steder fra.  Jeg lever af supper og krydderurter,"
 
 #: Story/S4-ST2P.c:43
 msgid "not the meat and eggs they're used to here."
-msgstr "og ikke det kød og æg de er vandt til her."
+msgstr "og ikke det kød og æg de er vant til her."
 
 #: Story/S4-ST2P.c:47
 msgid "Hi man, how's the store doing?"
@@ -7652,7 +7706,7 @@ msgstr "Hej du, hvordan går butikken?"
 
 #: Story/S4-ST2P.c:49
 msgid "Oh goodness, it's been going quite well sir Dink."
-msgstr "Oh, det er gået meget godt hr. Dink."
+msgstr "Sandelig, det er gået meget godt hr. Dink."
 
 #: Story/S4-ST2P.c:51
 msgid "I owe you a debt for saving my humble store."
@@ -7660,7 +7714,7 @@ msgstr "Jeg er i stor gæld til dig, fordi du reddede min ydmyge butik."
 
 #: Story/S4-ST2P.c:53
 msgid "Aww come on, I didn't do that much."
-msgstr "Aww tag det roligt, så meget gjorde jeg altså ikke."
+msgstr "Åhr tag det roligt, så meget gjorde jeg altså ikke."
 
 #: Story/S4-ST2P.c:55
 msgid "Just showed the people here what to eat."
@@ -7680,7 +7734,7 @@ msgstr "længere er sult her."
 
 #: Story/S4-ST2P.c:63
 msgid "Thank you Dink, and if there's anything you need, just ask."
-msgstr "Tak Dink, og og hvis de er noget du søger, så bare spørg."
+msgstr "Tak, Dink, og hvis der er noget du søger, så bare spørg."
 
 #: Story/S4-ST2P.c:67
 msgid "What exactly do you have for sale?"
@@ -7704,7 +7758,7 @@ msgstr "Nej hr., jeg er bare en ydmyg handelsmand."
 
 #: Story/S4-ST3P.c:9
 msgid "Good day to ye sir."
-msgstr "Goddag til dig hr."
+msgstr "Goddag til dig, hr."
 
 #: Story/S4-ST3P.c:13
 msgid "Arrr, I miss the sea ..."
@@ -7716,7 +7770,7 @@ msgstr "Du har ikke nok guld til at købe dette sværd, landkrabbe!"
 
 #: Story/S4-ST3P.c:62
 msgid "\"Arrr, feast your eyes on these fine tools...\""
-msgstr "»Arrr, nyd disse fine sværds glans...«"
+msgstr "»Arrr, nyd disse fine sværds glans ...«"
 
 #: Story/S4-ST3P.c:66
 msgid "Clawsword - $2000"
@@ -7740,11 +7794,11 @@ msgstr "Pæn butik du har her, hvad sælger du?"
 
 #: Story/S4-ST3P.c:188
 msgid "What be this place ye ask?  Can't ya tell?!"
-msgstr "Hvad er dette for et sted siger du?  Kan du ikke se det?!"
+msgstr "Hvad er dette for et sted, siger du?  Kan du ikke se det?!"
 
 #: Story/S4-ST3P.c:190
 msgid "This be Blistering Pete's weapons shop,"
-msgstr "Dette er Peters våbenhandel,"
+msgstr "Dette er Ildpeters våbenhandel,"
 
 # engelsk fejl her? lille s
 #: Story/S4-ST3P.c:192
@@ -7759,9 +7813,10 @@ msgstr "Er du pirat?"
 msgid "Arr, I used to be ..."
 msgstr "Arr, det var jeg ..."
 
+# bedste, hvis jeg selv skal sige det."
 #: Story/S4-ST3P.c:201
 msgid "one of the best I might add."
-msgstr "en af de bedste, hvis jeg selv skal sige det."
+msgstr "en af de bedste, naturligvis."
 
 #: Story/S4-ST3P.c:203
 msgid "Well, what are you doing here?"
@@ -7773,7 +7828,7 @@ msgstr "Skulle du så ikke være ude på det åbne hav og finde rov?"
 
 #: Story/S4-ST3P.c:207
 msgid "I used to live that lifestyle, blood on me blade,"
-msgstr "Jeg plejede at have den livstil, blod på klingen,"
+msgstr "Jeg plejede at have den livstil: blod på klingen,"
 
 #: Story/S4-ST3P.c:209
 msgid "rum in me gut, and plunder in the hold."
@@ -7801,7 +7856,7 @@ msgstr "Hvorfor spørger du?"
 
 #: Story/S4-ST3P.c:221
 msgid "Just, just wondering sir."
-msgstr "Jeg undrede mig bare hr."
+msgstr "Jeg undrede mig bare, hr."
 
 #: Story/S4-ST3P.c:237
 msgid "I'll kill ye, hero."
@@ -7825,11 +7880,11 @@ msgstr "AVV!"
 
 #: Story/S4-TREE.c:12
 msgid "There is a rock near the Duck Idol with a crack in it..."
-msgstr "Der er en sten nær Andeidolet med en revne i sig..."
+msgstr "Der er en sten nær Andeidolet med en revne i sig ..."
 
 #: Story/S4-TREE.c:14
 msgid "Please sir, don't hurt me, the talking tree of the east!"
-msgstr "Gør mig ikke ondt, du talende træ fra øst!"
+msgstr "Gør ikke mig, det talende træ fra øst, ondt!"
 
 #: Story/S4-TREE.c:16
 msgid "That one smarted!"
@@ -7845,7 +7900,7 @@ msgstr "Det er et æbletræ."
 
 #: Story/S5-END.c:10
 msgid "You did it!  You did it Smallwood!"
-msgstr "Du gjorde det!  Du gjorde det Skovhøj!"
+msgstr "Du gjorde det!  Du gjorde det, Skovhøj!"
 
 #: Story/S5-END.c:12
 msgid "Dink, you saved me!  You are a hero!"
@@ -7853,7 +7908,7 @@ msgstr "Dink, du reddede mig!  Du er en helt!"
 
 #: Story/S5-END.c:16
 msgid "Pshaw, twasn't nuthin!"
-msgstr "Pshaw, twasn't integ!"
+msgstr "Pfft, det var sg'ik' noget!"
 
 #: Story/S5-END.c:17
 msgid "I saved all of you, actually."
@@ -7877,7 +7932,7 @@ msgstr "Så helt grundlæggende har jeg dræbt to uskyldige drager, der bare bes
 
 #: Story/S5-END.c:28
 msgid "Um.. gotta get back to the store, see ya later."
-msgstr "Um.. må tilbage til butikken, ses senere."
+msgstr "Øhm.. må tilbage til butikken, ses senere."
 
 #: Story/S5-FD.c:29
 msgid "Noooo!  The girl has died!  I HAVE FAILED!!!!!!!"
@@ -7893,11 +7948,11 @@ msgstr "Gwen!!!  Kom i sikkerhed!"
 
 #: Story/S5-FGUY.c:38
 msgid "Oh mother!  I've been so afraid!"
-msgstr "Oh mor! Jeg har været så bange!"
+msgstr "Åh mor! Jeg har været så bange!"
 
 #: Story/S5-FGUY.c:42
 msgid "That sound..."
-msgstr "Den lyd..."
+msgstr "Den lyd ..."
 
 #: Story/S5-FGUY.c:63
 msgid "Run from us no more, humans."
@@ -7905,7 +7960,7 @@ msgstr "Løb ikke fra os igen, mennesker."
 
 #: Story/S5-FGUY.c:75
 msgid "Let us finish it."
-msgstr "Lad os gøre det færdigt."
+msgstr "Lad os få sagen afsluttet."
 
 #: Story/S5-FGUY.c:78
 msgid "We will fight!"
@@ -7937,7 +7992,7 @@ msgstr "Hej, jeg er Dink Skovhøj."
 
 #: Story/S5-GUY.c:32
 msgid "Oh yes, I've read about you!  Please, did you see anyone out there?"
-msgstr "Oh ja, jeg har hørt om dig!  Så du nogen derude?"
+msgstr "Ah ja, jeg har hørt om dig!  Så du nogen derude?"
 
 #: Story/S5-GUY.c:35
 msgid "Out where?  Town?"
@@ -7945,7 +8000,7 @@ msgstr "Hvorude?  Byen?"
 
 #: Story/S5-GUY.c:37
 msgid "Yes!  Our daughter is still out there!  She'll be killed!"
-msgstr "Ja!  Vores datter er stadig derhude! Hun bliver dræbt!"
+msgstr "Ja!  Vores datter er stadig derude! Hun bliver dræbt!"
 
 #: Story/S5-GUY.c:39
 msgid "Why?  I saw nothing dangerous."
@@ -7977,7 +8032,7 @@ msgstr " Joppa Ø - Dragernes Ø"
 
 #: Story/S5-SIGN1.c:10
 msgid "I'm dreaming!  You aren't really here, mystical island of legend!"
-msgstr "Jeg drømmer!  Du er her ikke rigtig, mystiske sagnø!"
+msgstr "Jeg drømmer!  Du er her ikke i virkeligheden, mystiske sagnø!"
 
 #: Story/S5-ST1P.c:12
 msgid "Must you hit me?"
@@ -8045,11 +8100,11 @@ msgstr "Se Tom, Dink er tilbage!"
 
 #: Story/S6-G1.c:10
 msgid "This is the way Dink.  I wish you luck."
-msgstr "Det her er vejen Dink.  Jeg ønsker dig held og lykke."
+msgstr "Det her er vejen, Dink.  Jeg ønsker dig held og lykke."
 
 #: Story/S6-G1.c:21
 msgid "Ouch,  that smarted."
-msgstr "Ooch,  det sved."
+msgstr "Av,  det sved."
 
 #: Story/S6-G1.c:23
 msgid "I wonder where that came from?"
@@ -8065,11 +8120,11 @@ msgstr "Dink er i live!  I live!"
 
 #: Story/S6-G2.c:10
 msgid "You are a very brave man Sir Smallwood."
-msgstr "Du er en meget modig mand hr. Skovhøj."
+msgstr "Du er en meget modig mand, hr. Skovhøj."
 
 #: Story/S6-G2.c:21
 msgid "Is that you up there Dink?"
-msgstr "Er det dig deroppe Dink?"
+msgstr "Er det dig deroppe, Dink?"
 
 #: Story/S6-G2.c:24
 msgid "Why are you trying to kill us?"
@@ -8081,11 +8136,11 @@ msgstr "Dræb os ikke, vi er på din side."
 
 #: Story/S6-SIGN1.c:3
 msgid "To Edge Of The World Village"
-msgstr "Til kanten af landsbyens verden"
+msgstr "Til byen i kanten af verden"
 
 #: Story/S6-SIGN5.c:3
 msgid "'Please be careful when using this machine.' - the ancient ones."
-msgstr "'Vær forsigtig under brug af maskinen.' - de ældgamle."
+msgstr "'Vær forsigtig under brug af maskinen.' - De Oprindelige."
 
 #: Story/S6-ST1P.c:31 Story/S6-ST1P.c:68
 msgid "You are a little short of cash right now."
@@ -8137,7 +8192,7 @@ msgstr "Hvordan har livet været her den seneste tid?"
 
 #: Story/S6-ST1P.c:126
 msgid "Strange, I've seen a lot of movement out of the darklands."
-msgstr "Mærkelig, jeg har set masser af bevægelse fra Mørkelandene."
+msgstr "Mærkeligt, jeg har set masser af bevægelse fra Mørkelandene."
 
 #: Story/S6-ST1P.c:128
 msgid "Seems they're pushing out into the world."
@@ -8153,7 +8208,7 @@ msgstr "men jeg må finde Milder!"
 
 #: Story/S6-ST1P.c:134
 msgid "I'm sure time's running out for your friend Dink."
-msgstr "Jeg er sikker på, at tiden løber ud for din ven Dink."
+msgstr "Jeg er sikker på, at tiden løber ud for din ven, Dink."
 
 #: Story/S6-ST1P.c:136
 msgid "For all we know they could've converted Milder to evil."
@@ -8177,7 +8232,7 @@ msgstr "Det er en af naturens vederstyggeligheder.  Jeg vil ikke tale om den."
 
 #: Story/S6-ST1P.c:154
 msgid "\"I only have a few things... power weapons I found near the 'machine'...\""
-msgstr "»Jeg har kun nogle få ting... kraftvåben jeg fandt nær 'maskinen'...«"
+msgstr "»Jeg har kun nogle få ting ... kraftvåben jeg fandt nær »maskinen« ...«"
 
 #: Story/S6-ST1P.c:156
 msgid "Light Sword - $4000"
@@ -8201,7 +8256,7 @@ msgstr "Hr., hav barmhjertighed, jeg har ikke noget andet at sælge."
 
 #: Story/S6-VEND.c:38
 msgid "Sell me something else you bastard!"
-msgstr "Sælg mig noget andet din slyngel!"
+msgstr "Sælg mig noget andet, din slyngel!"
 
 #: Story/S6-VEND.c:42
 msgid "What on earth are you doing in this cave anyway?"
@@ -8245,15 +8300,15 @@ msgstr "Jeg tager af sted nu."
 
 #: Story/S6-VEND.c:73
 msgid "\"Hello, friend.  I will teach Hellfire magic for $1500 gold.\""
-msgstr "»Hallo min ven.  Jeg vil lære dig helvedsild for 1.500 guldstykker.«"
+msgstr "»Hallo min ven.  Jeg vil lære dig helvedesild for 1.500 guldstykker.«"
 
 #: Story/S6-VEND.c:75
 msgid "Learn Hellfire"
-msgstr "Lær helvedsild"
+msgstr "Lær helvedesild"
 
 #: Story/S6-VEND.c:123
 msgid "* YOU LEARN HELLFIRE *"
-msgstr "* DU LÆRER HELVEDSILD *"
+msgstr "* DU LÆRER HELVEDESILD *"
 
 #: Story/S6-WARP.c:6 Story/S7-WARP.c:6
 msgid "Press the red button"
@@ -8333,23 +8388,25 @@ msgstr "Ja!"
 
 #: Story/S7-MIL.c:47
 msgid "Er, no, I mean.. tell me what happened!"
-msgstr "Er, nej, jeg mener... fortæl mig hvad der skete!"
+msgstr "Æh, nej, jeg mener ... fortæl mig hvad der skete!"
 
 #: Story/S7-MIL.c:49
 msgid "..I was left here to die by a monstrosity.."
-msgstr "..Jeg blev efterladt her for at dø på grund af en vederstyggelighed.."
+msgstr "..Jeg blev efterladt her for at dø af en vederstyggelighed.."
 
 #: Story/S7-MIL.c:51
 msgid "Ah, by the Cast?"
-msgstr "Ah, af Klikken?"
+msgstr "Ah, af Kliken?"
 
 #: Story/S7-MIL.c:53
 msgid "..no.."
 msgstr "..nej.."
 
+# (eller tilsvarende - altså at det var dem som fremstod som bagmænd,
+# mens det i virkeligheden er ham her)
 #: Story/S7-MIL.c:55
 msgid "..the Cast were just a front.. he is pure evil.."
-msgstr "..Klikken var lige foran.. han er ren ondskab.."
+msgstr "..Kliken var kun en frontfigur.. han er ren ondskab.."
 
 #: Story/S7-MIL.c:57
 msgid "..run..run before it's too late.."
@@ -8361,7 +8418,7 @@ msgstr "Nægt at gå uden ham"
 
 #: Story/S7-MIL.c:61
 msgid "Take his advice"
-msgstr "Hør det her råd"
+msgstr "Lyt til hans råd"
 
 #: Story/S7-MIL.c:67
 msgid "I will not leave without you, Milder."
@@ -8369,7 +8426,7 @@ msgstr "Jeg går ikke uden dig, Milder."
 
 #: Story/S7-MIL.c:69
 msgid "..but why?  i was so mean to you as a kid..."
-msgstr "..men hvorfor?  Jeg var så ond mod dig som dreng..."
+msgstr "..men hvorfor?  Jeg var så ond mod dig som dreng ..."
 
 #: Story/S7-MIL.c:71
 msgid "It is the honorable thing to do."
@@ -8378,7 +8435,7 @@ msgstr "Det er det korrekte at gøre."
 # engelsk fejl dink -> Dink?
 #: Story/S7-MIL.c:73
 msgid "..you are more of a knight than I ever was, dink..."
-msgstr "..du er en større ridder, end jeg nogensinde var, Dink..."
+msgstr "..du er en større ridder, end jeg nogensinde var, Dink ..."
 
 #: Story/S7-MIL.c:75
 msgid "Nonsense.  Can you walk?"
@@ -8386,7 +8443,7 @@ msgstr "Vrøvl.  Kan du gå?"
 
 #: Story/S7-MIL.c:77
 msgid "..I think so..take my.."
-msgstr "..Det tror jeg..tag min.."
+msgstr "..det tror jeg..tag min.."
 
 #: Story/S7-MIL.c:83
 msgid "Alright, see ya."
@@ -8394,15 +8451,15 @@ msgstr "I orden, vi ses."
 
 #: Story/S7-MIL.c:85
 msgid "..i..understand...tell Lyna I love her..."
-msgstr "..jeg..forstår...sig til Lyna, at jeg elsker hende..."
+msgstr "..jeg..forstår ...sig til Lyna, at jeg elsker hende ..."
 
 #: Story/S7-MIL.c:87
 msgid "Tell her?  I'll SHOW her love... moohahahha!"
-msgstr "Sig det til hende?  Jeg skal VISE hende kærlighed... moohahahha!"
+msgstr "Sig det til hende?  Jeg skal VISE hende kærlighed ... moohahahha!"
 
 #: Story/S7-MIL.c:89
 msgid "..you little bitch...if I only had the strength to..."
-msgstr "..din lille kælling...hvis bare jeg havde styrke til..."
+msgstr "..din lille kælling ... hvis bare jeg havde styrke til ..."
 
 #: Story/S7-MIL.c:108
 msgid "NOOO!  IT'S HIM!"
@@ -8418,7 +8475,7 @@ msgstr "Jeg er begyndelsen og slutningen."
 
 #: Story/S7-MIL.c:114
 msgid "..kill him, dink..kill him..."
-msgstr "..dræb ham, dink..dræb ham..."
+msgstr "..dræb ham, Dink..dræb ham ..."
 
 #: Story/S7-MIL.c:116
 msgid "I am everything you love."
@@ -8426,7 +8483,7 @@ msgstr "Jeg er alt, du elsker."
 
 #: Story/S7-MIL.c:118
 msgid "I am everything you despise."
-msgstr "Jeg er alt, du eftertragter."
+msgstr "Jeg er alt, du hader."
 
 #: Story/S7-MIL.c:120
 msgid "You are sick and twisted is what you are."
@@ -8434,7 +8491,7 @@ msgstr "Du er syg og tosset, er hvad du er."
 
 #: Story/S7-MIL.c:122
 msgid "..his name is Seth.. he is an ancient one...he killed the others.."
-msgstr "..hans navn er Seth.. han er ældgammel...han dræbte de andre.."
+msgstr "..hans navn er Seth.. han er en af De Oprindelige ... han dræbte de andre .."
 
 #: Story/S7-MIL.c:124
 msgid "<casts explosion>"
@@ -8452,17 +8509,18 @@ msgstr "<griner ondt af dig>"
 msgid "FOR GOD, THE CROWN AND ALL THAT IS GOOD, I SHALL DESTROY YOU, SETH!"
 msgstr "FOR GUD, KRONE OG ALT GODT, JEG SKAL KNUSE DIG, SETH!"
 
+# http://www.phrases.org.uk/meanings/woe-is-me.html
 #: Story/S7-MOM.c:25
 msgid "Woe are us!"
-msgstr "Du er os!"
+msgstr "Vi er nedtrykte!"
 
 #: Story/S7-MOM.c:32
 msgid "You cannot hurt us Dink."
-msgstr "Du kan ikke skade os Dink."
+msgstr "Du kan ikke skade os, Dink."
 
 #: Story/S7-MOM.c:39
 msgid "You cannot see us Dink."
-msgstr "Du kan ikke se os Dink."
+msgstr "Du kan ikke se os, Dink."
 
 #: Story/S7-MOM.c:46
 msgid "LOOK UPON MY DEFORMED FACE!"
@@ -8552,7 +8610,7 @@ msgstr "Tillykke!"
 
 #: Story/S8-DA.c:181
 msgid "To bad, better luck next time."
-msgstr "Ærgeligt, bedre held næste gang."
+msgstr "Ærgerligt, bedre held næste gang."
 
 #: Story/S8-DA.c:189
 msgid "Congratulations!"
@@ -8580,7 +8638,7 @@ msgstr "Hej, vi er de gigantiske ænder fra Koka Ø."
 
 #: Story/S8-DUCK.c:23
 msgid "Uh, I'm Dink."
-msgstr "Uh, jeg er Dink."
+msgstr "Øh, jeg er Dink."
 
 #: Story/S8-DUCK.c:25
 msgid "Hello Dink."
@@ -8588,7 +8646,7 @@ msgstr "Hej Dink."
 
 #: Story/S8-DUCK.c:34
 msgid "Quack.  No!!"
-msgstr "Kvaksalver.  Nej!!"
+msgstr "Kvæk.  Nej!!"
 
 #: Story/S8-DUCK2.c:15 Story/S8-DUCK2.c:35
 msgid "Hi giant duck."
@@ -8608,7 +8666,7 @@ msgstr "Vil du lege med mig?"
 
 #: Story/S8-DUCK2.c:25
 msgid "Uhh, not right now, I'm ... busy."
-msgstr "Uhh, ikke lige nu, jeg har ... travlt."
+msgstr "Øhh, ikke lige nu, jeg har ... travlt."
 
 #: Story/S8-DUCK2.c:27
 msgid "Okay, maybe later then."
@@ -8648,7 +8706,7 @@ msgstr "Jeg er mor and."
 
 #: Story/S8-DUCK3.c:15
 msgid "Oh, I see."
-msgstr "Oh, jeg forstår."
+msgstr "Ah, jeg forstår."
 
 #: Story/S8-DUCK3.c:17
 msgid "And how are your kids doing?"
@@ -8664,7 +8722,7 @@ msgstr "Det er da strålende."
 
 #: Story/S8-DUCK3.c:29
 msgid "Yeah, this is fun!"
-msgstr "Yeah, det her er sjovt!"
+msgstr "Ja, det her er sjovt!"
 
 #: Story/S8-DUCK4.c:9
 msgid "Hey duck, thanks for the game."
@@ -8688,7 +8746,7 @@ msgstr "Jeg er ikke færdig endnu.  Kom tilbage senere."
 
 #: Story/S8-GUY.c:40
 msgid "\"My masterpiece is finished!\""
-msgstr "»Mit mesterværk er færdig«"
+msgstr "»Mit mesterværk er færdigt«"
 
 #: Story/S8-GUY.c:42
 msgid "Buy the FlameBow for $25,000"
@@ -8700,7 +8758,7 @@ msgstr "* ILDBUEN KØBT *"
 
 #: Story/S8-SIGN.c:3
 msgid "Blistering Pete waz here"
-msgstr "Peter var her"
+msgstr "Ildpeter var her"
 
 #: Story/S8-WELL.c:3
 msgid "I want to draw blood, not water!"
@@ -8708,7 +8766,7 @@ msgstr "Jeg vil udgyde blod, ikke vand!"
 
 #: Story/S8-WELL.c:8
 msgid "Someone must live nearby."
-msgstr "Nogen må leve tæt herpå."
+msgstr "Nogen må bo tæt herpå."
 
 #: Story/SAVEBOT.c:11
 msgid "Die, strange machine that doesn't belong here!"
@@ -8776,7 +8834,7 @@ msgstr "Det er jeg bange for ..."
 
 #: Story/SC-WIZ.c:48
 msgid "What ... what of the city of KernSin?"
-msgstr "Hvad ... Hvad med byen KernSin?"
+msgstr "Hvad ... Hvad med byen Kernsin?"
 
 #: Story/SC-WIZ.c:50
 msgid "Ooooo, well, both the city and its castle were destroyed"
@@ -8786,9 +8844,12 @@ msgstr "Ooooo, både byen og dens borg blev ødelagt"
 msgid "during the last part of the war 100 years ago."
 msgstr "under den sidste del af krigen for 100 år siden."
 
+# (mindre by lyder som om det er en oversættelse.  Det skyldes
+# selvfølgelig mest at den engelske streng er lidt mærkelig, men det ved
+# brugerne jo ikke)
 #: Story/SC-WIZ.c:54
 msgid "Later it was partly rebuilt and now is the smaller town of KernSin."
-msgstr "Senere blev den delvist genopbygget og er nu den mindre by KernSin."
+msgstr "Senere blev den delvist genopbygget og er nu flækken Kernsin."
 
 #: Story/SC-WIZ.c:56
 msgid "This, this is so much.  Did we win the war?"
@@ -8832,7 +8893,7 @@ msgstr "Din familie har et interessant stamtræ."
 
 #: Story/SC-WIZ.c:78
 msgid "The ancient ones are drawn to you,"
-msgstr "De ældgamle trækkes mod dig,"
+msgstr "De Oprindelige trækkes mod dig,"
 
 #: Story/SC-WIZ.c:80
 msgid "they can draw and feed upon magic from your family."
@@ -8840,7 +8901,7 @@ msgstr "de kan udtrække og mæske sig i magi fra din familie."
 
 #: Story/SC-WIZ.c:82
 msgid "And if one were to destroy you, they would gain immense power."
-msgstr "Og hvis en kunne knuse dig, ville denne person opnå utrolig kraft."
+msgstr "Og hvis en af dem skulle knuse dig, ville de opnå utrolig kraft."
 
 #: Story/SC-WIZ.c:84
 msgid "There is some chaos brewing in this land now."
@@ -8852,11 +8913,11 @@ msgstr "Vi ved ikke hvem, som står bag det.  Jeg var på vej mod"
 
 #: Story/SC-WIZ.c:88
 msgid "the darklands when I came here, I have to rescue a friend."
-msgstr "Mørklandene, da jeg kom hertil, jeg skal undsætte en ven."
+msgstr "Mørkelandene, da jeg kom hertil. Jeg skal undsætte en ven."
 
 #: Story/SC-WIZ.c:90
 msgid "Be careful Dink, whoever is behind this is probably an ancient,"
-msgstr "Vær forsigtig Dink, den som står bag er sikkert en historisk skabing,"
+msgstr "Vær forsigtig, Dink, den som står bag er sikkert en af De Oprindelige,"
 
 #: Story/SC-WIZ.c:92
 msgid "making it all seem to be someone else."
@@ -8864,7 +8925,7 @@ msgstr "der udgiver sig for at være en anden."
 
 #: Story/SC-WIZ.c:94
 msgid "I must go, beware Dink, and good luck."
-msgstr "Jeg skal gå, pas på Dink, og held og lykke."
+msgstr "Jeg må løbe. Pas på Dink, og held og lykke."
 
 #: Story/SC-WIZ.c:108
 msgid "Bad idea ..."
@@ -8876,19 +8937,19 @@ msgstr "Yum!"
 
 #: Story/SPICE.c:12
 msgid "Oh my god, it's you!!!"
-msgstr "Oh min gud, det er dig!!!"
+msgstr "Åh gud, det er dig!!!"
 
 #: Story/SPICE.c:13
 msgid "Hello there guy, what's your name?"
-msgstr "Hello du der fyr, hvad er dit navn?"
+msgstr "Hallo du der fyr, hvad er dit navn?"
 
 #: Story/SPICE.c:14
 msgid "Uhh ..."
-msgstr "Uhh ..."
+msgstr "Øhh ..."
 
 #: Story/SPICE.c:16
 msgid "Let's not discuss that now Sporty.  Let's talk about you .."
-msgstr "Lad os ikke diskutere det nu Sporty.  Lad os snakke om dig .."
+msgstr "Lad os ikke diskutere det nu, Sporty.  Lad os snakke om dig .."
 
 #: Story/SPICE.c:17
 msgid "all five of you and me!!"
@@ -8896,7 +8957,7 @@ msgstr "alle i fem og mig!!"
 
 #: Story/START-1.c:35
 msgid "Creating new game..."
-msgstr "Opretter nyt spil..."
+msgstr "Opretter nyt spil ..."
 
 #: Story/START-2.c:98
 msgid "Try loading a saved game that exists, friend."
@@ -8904,7 +8965,7 @@ msgstr "Prøv at indlæse et gemt spil der eksisterer. :o)"
 
 #: Story/START.c:79
 msgid "Error - Scripts require version V1.03+ of dink.exe.  Upgrade!"
-msgstr "Fejl - Skripter kræver version 1.03+ af dink.exe.  Opgradering!"
+msgstr "Fejl - Skripter kræver version 1.03+ af dink.exe.  Opgrader!"
 
 #: Story/TREEDUCK.c:9
 msgid "I feel magical!"
@@ -8916,15 +8977,15 @@ msgstr "Yum, vand!"
 
 #: Story/en-gmog.c:58
 msgid "Please..."
-msgstr "Bær over med mig..."
+msgstr "Bær over med mig ..."
 
 #: Story/en-gmog.c:60
 msgid "I will tell you where the secret Cast camp is..."
-msgstr "Jeg vil fortælle dig hvor den hemmelig Klikkelejr er..."
+msgstr "Jeg vil fortælle dig hvor den hemmelig Klikelejr er ..."
 
 #: Story/s7-boss.c:67
 msgid "<Casts explosion>"
-msgstr "<Klikkeeksplosioner>"
+msgstr "<Kaster eksplosion>"
 
 #: Story/s7-boss.c:158
 msgid "Watch Conan O'brien!"
@@ -8940,7 +9001,7 @@ msgstr "MÆRK MIN VREDE, SKOVHØJ!"
 
 #: Story/s7-boss.c:177
 msgid "I felt that."
-msgstr "Jeg kan mærke den."
+msgstr "Det kunne jeg mærke."
 
 #: Story/s7-boss.c:185
 msgid "Listen to the birds.. even they are calling for your heart."
@@ -8952,7 +9013,7 @@ msgstr "Du vil snart være død."
 
 #: Story/s7-boss.c:200
 msgid "Nice shot.  It will be your last."
-msgstr "Pænt skud.  det vil blive dit sidste."
+msgstr "Godt ramt.  Det vil blive dit sidste skud."
 
 #: Story/s7-boss.c:206
 msgid "You are starting to annoy me now."
@@ -8968,7 +9029,7 @@ msgstr "Det er på en måde trist, at du skal dø for ingenting."
 
 #: Story/s7-boss.c:227
 msgid "That kinda tickled."
-msgstr "Det killede en smule."
+msgstr "Det kildede en smule."
 
 #: Story/s7-boss.c:232
 msgid "You are just like me you know, Dink."
@@ -8976,7 +9037,7 @@ msgstr "Du er lige som mig, at du ved det, Dink."
 
 #: Story/s7-boss.c:246
 msgid "EAT IT!"
-msgstr "SPIS DET!"
+msgstr "ÆD DEN!"
 
 #: Story/s7-boss.c:297
 msgid "Too bad I had to kill him, he seemed likable enough."
@@ -8989,6 +9050,3 @@ msgstr "Min krop dirrer!"
 #: Story/s7-boss.c:302
 msgid "I must now get back to Goodheart Castle and inform the King."
 msgstr "Jeg må nu tilbage til De Gode HjerterS Borg og informere kongen."
-
-#~ msgid "This my bed.  So clean and neat!  Mom must have made it."
-#~ msgstr "Dette er min seng.  Så ren og blød!  Mor må have redt den."
