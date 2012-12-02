@@ -320,3 +320,8 @@ Battle of Wesnoth
   sound too. I'm not fully satisfied with this, but I did my best :).
   Copyright (C) 2010  Petteri Tolonen
   License: GPLv2+
+
+  Edited: I made this sound earlier, but it started to annoy me, so I
+  modified the "echo" part to be a little bit "crunchier".
+  Copyright (C) 2012  Petteri Tolonen
+  License: GPLv2+
