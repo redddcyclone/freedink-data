@@ -243,6 +243,18 @@ Sound effects
   Copyright (C) 2009  Fernando Carmona Varo
   License: WTFPL
 
+- bhit.wav
+
+  Origin: freeciv/data/stdsounds/woodbrk.ogg
+  Origin: http://openquartz.cvs.sourceforge.net/viewvc/openquartz/pak0/sound/ambience/woodbrk.wav
+  Origin: public domain'sounds by pOx http://www.planetquake.com/paroxysm 
+
+  Author: Frank Condello (pox@planetquake.com) (as per freeciv/data/stdsounds.soundspec)
+  License: public domain
+
+  Edited: shortened by cutting the rattle from the end
+  Copyright (C) 2012  Petteri Tolonen
+  License: GPLv3+ | Art Libre | CC-BY-SA
 
 Files from Wesnoth
 ------------------
@@ -323,5 +335,51 @@ Battle of Wesnoth
 
   Edited: I made this sound earlier, but it started to annoy me, so I
   modified the "echo" part to be a little bit "crunchier".
+  Copyright (C) 2012  Petteri Tolonen
+  License: GPLv2+
+
+- grunt1.wav
+
+  Dink is hit.
+
+  Origin: wesnoth/data/core/sounds/human-hit-4.ogg
+  Author: ?
+  License: GPLv2+
+
+  Edited: changed the speed
+
+- grunt2.wav
+
+  Dink is hit (alternate).
+
+  Origin: wesnoth/data/core/sounds/human-hit-5.ogg
+  Author: ?
+  License: GPLv2+
+
+  Edited: changed the speed
+  Copyright (C) 2012  Petteri Tolonen
+  License: GPLv2+
+
+- punch.wav
+
+  Dink hits something with his fists.
+
+  Origin: wesnoth/data/core/sounds/club.ogg
+  Author: ?
+  License: GPLv2+
+
+  Edited: shortened and filtered some higher sounds.
+  Copyright (C) 2012  Petteri Tolonen
+  License: GPLv2+
+
+- swing.wav
+
+  Dink hits the air with his fists.
+
+  Origin: wesnoth/data/core/sounds/dagger-swish.wav
+  Author: ?
+  License: GPLv2+
+
+  Edited: changed the speed
   Copyright (C) 2012  Petteri Tolonen
   License: GPLv2+

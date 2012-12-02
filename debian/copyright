@@ -156,6 +156,10 @@ Sound effects
   arrow.wav (orig: bow-hit.ogg)
   bow1.wav (orig: bow-miss.ogg)
   sword2.wav (orig: spear.ogg)
+  grunt1.wav (orig: human-hit.4.ogg)
+  grunt2.wav (orig: human-hit.5.ogg)
+  punch.wav (orig: club.ogg)
+  swing.wav (orig: dagger-swish.wav)
   (/usr/share/games/wesnoth/data/core/sounds/ from the Wesnoth project)
     Copyright (C) 2003 - 2007 by David White <dave@whitevine.net>
     Copyright (C) 2004 - 2007 by Guillaume Melquiond <guillaume.melquiond@gmail.com>
@@ -189,13 +193,29 @@ Sound effects
     Copyright (C) 2010  Petteri Tolonen
 - sword2.wav
   Based on arrow.wav above, plus:
-    Copyright (C) 2010  Petteri Tolonen
+    Copyright (C) 2010, 2012  Petteri Tolonen
+- grunt1.wav
+  Based on human-hit-4.ogg above, plus:
+    Copyright (C) 2012  Petteri Tolonen
+- grunt2.wav
+  Based on human-hit-5.ogg above, plus:
+    Copyright (C) 2012  Petteri Tolonen
+- punch.wav
+  Based on club.ogg above, plus:
+    Copyright (C) 2012  Petteri Tolonen
+- swing.wav
+  Based on dagger-swish.wav above, plus:
+    Copyright (C) 2012  Petteri Tolonen
 - high2.wav
     Copyright (C) 2009  Sylvain Beucler
     License: GPLv3+ | Art Libre | CC-BY-SA
 - wscream.wav
     Copyright (C) 2009  Fernando Carmona Varo
     License: WTFPL
+- bhit.wav
+  Based on /usr/share/games/freeciv/stdsounds/woodbrk.ogg, plus:
+    Copyright (C) 2012  Petteri Tolonen
+    License: GPLv2+
 
 
 Translations
