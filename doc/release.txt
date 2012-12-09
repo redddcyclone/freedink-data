@@ -142,10 +142,13 @@ git-import-orig --pristine-tar .../freedink-data-$VERSION.tar.gz
 # - Fix stuff...
 git commit -am "New upstream release - v$VERSION"
 git-buildpackage --git-tag
+sudo pbuilder --build --basetgz /var/cache/pbuilder/base-testing.tar.gz ../freedink-data_$VERSION-1.dsc
 git push origin master pristine-tar upstream
 git push --tags
 # http://mentors.debian.net/cgi-bin/maintainer-intro
-dput mentors ../freedink-data_$VERSION-1_*.changes
+cd /var/cache/pbuilder/result/
+debsign freedink-data_$VERSION-1_*.changes
+dput mentors freedink-data_$VERSION-1_*.changes
 
 
 Fedora notes:
