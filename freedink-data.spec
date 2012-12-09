@@ -1,5 +1,5 @@
 Name:		freedink-data
-Version:	1.08.20111016
+Version:	1.08.20121209
 Release:	1%{?dist}
 Summary:	Adventure and role-playing game (game data)
 
@@ -47,6 +47,15 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Dec 10 2012 Sylvain Beucler <beuc@beuc.net> - 1.08.20121209-1
+- New upstream release
+
+* Thu Jul 19 2012 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.08.20111016-3
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_18_Mass_Rebuild
+
+* Fri Jan 13 2012 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.08.20111016-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_17_Mass_Rebuild
+
 * Sun Oct 16 2011 Sylvain Beucler <beuc@beuc.net> - 1.08.20111016-1
 - New upstream release
 

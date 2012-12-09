@@ -1,3 +1,63 @@
+2012-12-09  Sylvain Beucler <beuc@beuc.net>
+
+	* dink/l10n/fi.po: Update fi.po
+
+2012-12-02  Sylvain Beucler <beuc@beuc.net>
+
+	* debian/copyright: typo
+
+2012-12-02  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS, README-REPLACEMENTS.txt, debian/copyright,
+	soundtest/story/ouch.c: Add sound replacements from Petteri +
+	improve soundtest D-Mod
+
+2012-12-02  Sylvain Beucler <beuc@beuc.net>
+
+	* soundtest/story/sheart.c: Add test case for heart pick-up sound
+
+2012-12-02  Sylvain Beucler <beuc@beuc.net>
+
+	* Makefile, NEWS, README-REPLACEMENTS.txt, debian/copyright,
+	dink/l10n/fi.po, soundtest/README: Add Finnish translation
+
+2012-11-15  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS, debian/copyright, dink/l10n/da.po: Updated Danish
+	translation
+
+2012-11-02  Sylvain Beucler <beuc@beuc.net>
+
+	* doc/midi.txt: Load snd_seq when doing MIDI
+
+2012-10-14  Sylvain Beucler <beuc@beuc.net>
+
+	* debian/changelog, debian/freedink-data.lintian-overrides,
+	debian/rules, debian/source/format: Update Debian packaging
+
+2012-10-14  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS, debian/copyright, dink/l10n/README, dink/l10n/hr.po: Partial
+	Croatian translation
+
+2012-01-08  Sylvain Beucler <beuc@beuc.net>
+
+	* Makefile, NEWS, debian/copyright, dink/l10n/eo.po: New Esperanto
+	translation
+
+2011-10-16  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS: Prepare NEWS file for next version
+
+2011-10-16  Sylvain Beucler <beuc@beuc.net>
+
+	* debian/changelog: Fix typo in the Debian changelog
+
+2011-10-16  Sylvain Beucler <beuc@beuc.net>
+
+	* ChangeLog, debian/changelog, dink/l10n/dink.pot,
+	freedink-data.spec: Release 1.08.20111016
+
 2011-10-16  Sylvain Beucler <beuc@beuc.net>
 
 	* NEWS, README-REPLACEMENTS.txt, debian/copyright,

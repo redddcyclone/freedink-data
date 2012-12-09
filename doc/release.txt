@@ -14,7 +14,7 @@ git2cl > ChangeLog
 # Sync autobuild/
 
 # Test freedink-data-$version.tar.gz and
-# freedink-data-inst-$version.tar.gz.
+# freedink-data-nosrc-$version.tar.gz.
 make dist
 
 # Commit the current state
@@ -159,4 +159,4 @@ which is detailing this step.
 
 See also:
 https://admin.fedoraproject.org/pkgdb/acls/name/freedink-data
-http://pkgs.fedoraproject.org/gitweb/?p=freedink-data.git
+http://pkgs.fedoraproject.org/cgit/freedink-data.git/
