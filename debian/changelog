@@ -1,5 +1,6 @@
-freedink-data (1.08.20111016-2) UNRELEASED; urgency=low
+freedink-data (1.08.20121209-1) experimental; urgency=low
 
+  * New upstream release
   * Specify source format
   * Install upstream ChangeLog
   * Remove helper-templates-in-copyright lintian override, the false
