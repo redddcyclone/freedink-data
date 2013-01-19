@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: dink 1.08.20100103\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-12-16 21:52+0100\n"
-"PO-Revision-Date: 2010-01-04 09:54+0100\n"
+"PO-Revision-Date: 2013-01-19 14:09+0100\n"
 "Last-Translator: Sylvain Beucler <beuc@beuc.net>\n"
 "Language-Team: French <traduc@traduc.org>\n"
 "MIME-Version: 1.0\n"
@@ -170,7 +170,7 @@ msgstr "Entrée = Inventaire"
 
 #: Story/ESCAPE.c:126
 msgid "Use the arrow keys to move.  Joystick and control pad are also supported."
-msgstr "Utiliser les touches fléchées pour vous déplacer.  Les joysticks et manettes sont également gérées."
+msgstr "Utiliser les touches fléchées pour vous déplacer.  Les joysticks et manettes sont également gérés."
 
 #: Story/ESCAPE.c:128 Story/ESCAPE.c:143 Story/S1-BOOT.c:83
 #: Story/S2-HEALP.c:51 Story/S2-HEALP.c:64 Story/S2-HEALP.c:137
