@@ -221,17 +221,18 @@ Sound effects
 Translations
 ============
 
-- dink/l10n/da.po: Copyright (C) 2009, 2010, 2012  Joe Hansen <joedalton2@yahoo.dk>
-- dink/l10n/de.po: Copyright (C) 2009  Michael Skiba <transl@michael-skiba.de>
-- dink/l10n/eo.po: Copyright (C) 2011  Felipe Castro <fefcas@gmail.com>
-- dink/l10n/es.po: Copyright (C) 2009  Fernando Carmona Varo <ferkiwi@gmail.com>
-                   Copyright (C) 2010  Juan Valencia Escalante <jvalenciae@jveweb.net>
+- dink/l10n/ca.po: Copyright (C) 2013, Àngel Mompó
+- dink/l10n/da.po: Copyright (C) 2009, 2010, 2012  Joe Hansen
+- dink/l10n/de.po: Copyright (C) 2009  Michael Skiba
+- dink/l10n/eo.po: Copyright (C) 2011  Felipe Castro
+- dink/l10n/es.po: Copyright (C) 2009  Fernando Carmona Varo
+                   Copyright (C) 2010  Juan Valencia Escalante
 - dink/l10n/fi.po: Copyright (C) 2012  Petteri Tolonen
 - dink/l10n/fr.po: Copyright (C) 2008, 2009  Free Software Foundation, Inc.
 - dink/l10n/hr.po: Copyright (C) 2012  Tomislav Krznar
 - dink/l10n/mk.po: Copyright (C) 2008, 2009  Free Software Foundation, Inc.
-- dink/l10n/nl.po: Copyright (C) 2003  Nanette <clubs_shetlandpony@hotmail.com>
-                   Copyright (C) 2010, 2011  Bas Wijnen <shevek@fmf.nl>
+- dink/l10n/nl.po: Copyright (C) 2003  Nanette
+                   Copyright (C) 2010, 2011  Bas Wijnen
 
 
 Packaging
