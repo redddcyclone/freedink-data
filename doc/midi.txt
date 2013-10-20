@@ -7,14 +7,14 @@ To compose or edit MIDIs:
 
 - Jack: sound daemon requested by Rosegarden
 
-- fluid-soundfont-gs fluid-soundfont-gm: sound fonts, used by
-  Fluidsynth to reproduce different instruments (150MB)
+- fluid-soundfont-gs fluid-soundfont-gm musescore-soundfont-gm: sound
+  fonts, used by Fluidsynth to reproduce different instruments (150MB)
 
 
 # To install under Debian GNU/Linux:
 
 aptitude install rosegarden jackd fluidsynth \
-  fluid-soundfont-gs fluid-soundfont-gm
+  fluid-soundfont-gs fluid-soundfont-gm musescore-soundfont-gm
 
 # You can also use graphical interfaces to start Fluidsynth and Jackd:
 
@@ -51,3 +51,7 @@ fluidsynth -m alsa_seq /usr/share/sounds/sf2/FluidR3_GM.sf2 \
 # "Signed 16 bit PCM / Little-endian / Stereo / 44100Hz"
 # You may need to strip the silences, using:
 # "Effects > Truncate Silence..."
+
+
+# To test playing a MIDI file:
+fluidsynth -a alsa -l -i /usr/share/sounds/sf2/TimGM6mb.sf2 /usr/share/games/dink/dink/Sound/dance.mid
