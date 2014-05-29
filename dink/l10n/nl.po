@@ -1,6 +1,6 @@
 # Translation of freedink-data: storyline data for dink
 # Copyright (C) 2010-2011 Bas Wijnen.
-# This file is distributed under the same license as the dink package.
+# This file is distributed under the same license as the freedink package.
 # Nanette <clubs_shetlandpony@hotmail.com>, 2009.
 # Bas Wijnen <wijnen@debian.org>, 2010-2011.
 msgid ""

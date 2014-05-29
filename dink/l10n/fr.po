@@ -1,7 +1,7 @@
-# French translations for dink package
+# French translations for dink.
 # Traductions françaises du paquet dink.
 # Copyright (C) 2008, 2009, 2010 Free Software Foundation, Inc.
-# This file is distributed under the same license as the dink package.
+# This file is distributed under the same license as the freedink package.
 # Sylvain Beucler <beuc@beuc.net>, 2008, 2009, 2010.
 #
 msgid ""

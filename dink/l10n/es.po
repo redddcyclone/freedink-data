@@ -1,6 +1,6 @@
-# Spanish translations for dink package
+# Spanish translations for the dink adventure.
 # Copyright (C) 2009 Fernando Carmona Varo
-# This file is distributed under the same license as the dink package.
+# This file is distributed under the same license as the freedink package.
 #
 # Fernando Carmona Varo <ferkiwi@gmail.com>, 2009.
 # Juan Valencia Escalante <jvalenciae@jveweb.net>, 2010.
@@ -12,6 +12,7 @@ msgstr ""
 "PO-Revision-Date: 2010-11-22 00:51-0600\n"
 "Last-Translator: Juan Valencia <jvalenciae@jveweb.net>\n"
 "Language-Team: Spanish <es@li.org>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -599,8 +600,7 @@ msgstr "en el desenmascaramiento de uno de los planes de Cast!"
 
 #: Story/POSTER.c:30
 msgid "Also in the news:  A pig farmer named Dink Smallwood found a lost Terris girl."
-msgstr ""
-"En otras noticias: Un criador de cerdos llamado Dink Smallwood encontró una chica de Terris perdida."
+msgstr "En otras noticias: Un criador de cerdos llamado Dink Smallwood encontró una chica de Terris perdida."
 
 #: Story/POSTER.c:32
 msgid "Pig farmer!? What a crock.  At least I'm on there though."
@@ -668,8 +668,7 @@ msgstr "También noticias: ¡Dink Smallwood salva a la aldea de Windemere de la 
 
 #: Story/POSTER.c:83
 msgid "taught them proper agricultural procedure he learned pig farming in Stonebrook."
-msgstr ""
-"que les enseño procedimientos apropiados de agricultura que aprendió cuidando cerdos en Stonebrook."
+msgstr "que les enseñó procedimientos apropiados de agricultura que aprendió cuidando cerdos en Stonebrook."
 
 #: Story/POSTER.c:85
 msgid "Arg! Oh well, close enough."
@@ -822,11 +821,11 @@ msgstr "¡Genial! Me lleva... ¡oye!"
 
 #: Story/S1-BOOT.c:54
 msgid "I already bought them at the rip off price!"
-msgstr "¡Ya las compré al precio al precio de robo!"
+msgstr "¡Ya las compré al precio de robo!"
 
 #: Story/S1-BOOT.c:56
 msgid "What a pity."
-msgstr "Que pena."
+msgstr "Qué pena."
 
 #: Story/S1-BOOT.c:58
 msgid "I would like to make a return."
@@ -898,7 +897,7 @@ msgstr "Por supuesto que no."
 
 #: Story/S1-BRG2.c:68
 msgid "Ah, how nice."
-msgstr "Ah, que bien."
+msgstr "Ah, qué bien."
 
 #: Story/S1-BUL.c:16
 msgid "Here, piggie piggies."

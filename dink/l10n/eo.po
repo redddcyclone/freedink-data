@@ -1,6 +1,6 @@
-# Esperanto translation for the dink package
+# Esperanto translation for dink.
 # Copyright (C) 2011 Felipe Castro
-# This file is distributed under the same license as the dink package.
+# This file is distributed under the same license as the freedink package.
 # Felipe Castro <fefcas@gmail.com>, 2011.
 #
 msgid ""

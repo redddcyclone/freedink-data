@@ -1,6 +1,6 @@
-# Croatian translations for dink package
+# Croatian translations for dink.
 # Copyright (C) 2012  Tomislav Krznar
-# This file is distributed under the same license as the dink package.
+# This file is distributed under the same license as the freedink package.
 #
 # Tomislav Krznar <tomislav.krznar@gmail.com>, 2012.
 msgid ""

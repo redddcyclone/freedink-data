@@ -1900,10 +1900,6 @@ msgstr "ти почнуваат навистина да ми пречат."
 msgid "They come in from the forest and tear up the fields!"
 msgstr "Тие идат од шума и ги откорнуваат полињата!"
 
-#: Story/S1-H3-OF.c:64
-msgid "I gotta do something about them soon ..."
-msgstr ""
-
 #: Story/S1-H3-OF.c:66
 msgid "Offer to take care of the problem"
 msgstr "Понуди се да му помогнеш"
@@ -5720,12 +5716,6 @@ msgstr ""
 #: Story/S3-CHICK.c:52
 msgid "Ahh, yes.. I've ... heard of that parade."
 msgstr ""
-
-#: Story/S3-CHICK.c:57
-#, fuzzy
-msgctxt "s3-chick:57"
-msgid "So what do you do?"
-msgstr "Што сакаш Милдер?"
 
 #: Story/S3-CHICK.c:59
 msgid "Oh, I'm a painter."

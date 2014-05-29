@@ -1,6 +1,6 @@
-# German translations for dink package
+# German translations for dink.
 # Copyright (C) 2009 Michael Skiba
-# This file is distributed under the same license as the dink package.
+# This file is distributed under the same license as the freedink package.
 # Michael Skiba <transl@michael-skiba.de>, 2009.
 # Michael Skiba <michael.skiba@malteser-offenburg.de>, 2009.
 # Karl Eichwalder <ke@suse.de>, 2010.
