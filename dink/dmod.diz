@@ -34,10 +34,13 @@ Joystick/Gamepad controls: Inventory/Equip screen
 
 Other
     <Alt-Return>	Toggle fullscreen mode
-    <Alt-M>	Stop playing current MIDI song
+    <Alt-M>	Stop playing current music
     <Alt-Q>	Quick quit to Windows
-    <Alt-D>	Enable debug mode
+    <Alt-D>	Toggle debug mode
+    <Alt-C>	Toggle console mode
     <P>		Play pillbug sound
+    <N>		Pause music
+    <B>		Resume music
 
 
 This version includes all files released under a free (zlib) license
