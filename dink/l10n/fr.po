@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: dink 1.08.20100103\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-12-16 21:52+0100\n"
-"PO-Revision-Date: 2013-01-19 14:09+0100\n"
+"PO-Revision-Date: 2014-07-12 18:48+0200\n"
 "Last-Translator: Sylvain Beucler <beuc@beuc.net>\n"
 "Language-Team: French <traduc@traduc.org>\n"
 "Language: fr\n"
@@ -1724,6 +1724,14 @@ msgstr "Euhhh. Je ... hum ..."
 #: Story/S1-H3-L.c:55 Story/S1-H3-OF.c:100
 msgid "Oh"
 msgstr "Oh"
+
+#: Story/S1-H3-L.c:58
+msgid "Try to comfort her about her family"
+msgstr "Essaie de la réconforter au sujet de sa famille"
+
+#: Story/S1-H3-L.c:59
+msgid "Apologize for being an ass"
+msgstr "Excuse-toi d'avoir été un imbécile"
 
 #: Story/S1-H3-L.c:64
 msgid "I'm sorry about your mother.  But I know how you feel"
