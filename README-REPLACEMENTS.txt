@@ -106,7 +106,6 @@ using the Ogg Vorbis format rather than the MIDI format.
   -Track name: Faren Raborn
   -Track name: June, 1995
 
-
   Replacement:
   Composed using Rosegarden (reverie.rg) with the help of public
   domain scores
@@ -189,6 +188,30 @@ using the Ogg Vorbis format rather than the MIDI format.
 
   http://www.free-scores.com/redirection-partition.php?partition=5401
   score, public domain
+
+- lovin.mid (Kernsin parade)
+  lovin.ogg
+
+  Original MIDI version (TiMidity output):
+  -Sequence: Lovin' / GACHOPIN
+  -Copyright: Copyright(c)1997,GACHOPIN All Rights Reserved.
+
+  Original MIDI version can be found at:
+  http://www.pu3.fiberbit.net/gachopin/en/
+  http://www.pu3.fiberbit.net/gachopin/music/lovin-e.html
+  http://www.pu3.fiberbit.net/gachopin/midi/midplug/lovin_mp.mid
+
+  Re-uploaded by the author under CC BY 3.0 (retrieved 2014-07-12).
+
+  +Source: https://www.youtube.com/watch?v=sLR6RFybiTg
+  +Copyright (C) 2007, 2012  Gachopin
+  +License: CC BY 3.0
+	
+  Converted to Ogg Vorbis:
+  youtube-dl https://www.youtube.com/watch?v=sLR6RFybiTg
+  avconv -i Lovin-sLR6RFybiTg.mp4 -codec:audio copy Lovin-sLR6RFybiTg.aac
+  avconv -i Lovin-sLR6RFybiTg.aac Lovin-sLR6RFybiTg.wav
+  oggenc -q 6 Lovin-sLR6RFybiTg.wav -o Lovin-sLR6RFybiTg.ogg
 
 
 Sound effects

@@ -77,7 +77,7 @@ Free sound replacements
 
 - 1.mid/JOHN_MICHEL_CELLO-BACH_AVE_MARIA.ogg
     Artist: John Michel (Cello)
-    License: CC-BY-SA 3.0 Unported
+    License: CC BY-SA 3.0 Unported
 - 1.mid/prelude.mid
     Copyright: Aryliin and TboWan <arsouyes.org>
     License: Art Libre
@@ -109,15 +109,15 @@ Free sound replacements
 - 104.mid/serenade-d957.rg
   104.mid/serenade-d957.mid
     Copyright (C) 2008  Sylvain Beucler
-    License: GPLv3+ | Art Libre | CC-BY-SA
+    License: GPLv3+ | Art Libre | CC BY-SA
 - 104.mid/schubert-franz-peter-serenade-5672.pdf
     License: public domain
     Copyright (C) 2008  Sylvain Beucler
-    License: GPLv3+ | Art Libre | CC-BY-SA
+    License: GPLv3+ | Art Libre | CC BY-SA
 - 105.mid/reverie.rg
   105.mid/reverie.mid
     Copyright (C) 2008  Sylvain Beucler
-    License: GPLv3+ | Art Libre | CC-BY-SA
+    License: GPLv3+ | Art Libre | CC BY-SA
 - 105.mid/IMSLP14012-Debussy_-_R__verie__piano_.pdf
     License: public domain
 - 106.mid/Felix_Mendelssohn_-_Violinkonzert_e-moll_-_1._Allegro_molto_appassionato_0m_6s_0h__3m_18s_0h.ogg
@@ -129,9 +129,11 @@ Free sound replacements
     License: public domain (1934)
 - denude.mid/blue_danube.mid
     Copyright (C) 2004  Nikos Kouremenos
-    License: CC-BY-SA
+    License: CC BY-SA
 - denube.mid/TheBlueDanubeOp314.pdf
     License: public domain
+- lovin.mp4/lovin.ogg
+    License: CC BY 3.0
 
 
 Sound effects
@@ -141,16 +143,16 @@ Sound effects
   <not copyrightable (1 frame of silence)>
 - fire.wav/fire_long.wav
     Copyright (C) 1999-2007  The Berklee College of Music Sampling Archive
-    License: CC-BY 3.0
+    License: CC BY 3.0
 - fire.wav/fire.wav
     Copyright (C) 1999-2007  The Berklee College of Music Sampling Archive
     Copyright (C) 2008  Sylvain Beucler
-    License: CC-BY 3.0
+    License: CC BY 3.0
 - fire.wav/fire.aup
   fire.wav/gold_data/*
     Copyright (C) 1999-2007  The Berklee College of Music Sampling Archive
     Copyright (C) 2008  Sylvain Beucler
-    License: CC-BY 3.0
+    License: CC BY 3.0
 - gold.wav/gold.ogg (orig: gold.ogg)
   bird1.wav (orig: bird2.ogg)
   arrow.wav (orig: bow-hit.ogg)
@@ -208,13 +210,13 @@ Sound effects
     Copyright (C) 2012  Petteri Tolonen
 - high2.wav
     Copyright (C) 2009  Sylvain Beucler
-    License: GPLv3+ | Art Libre | CC-BY-SA
+    License: GPLv3+ | Art Libre | CC BY-SA
 - open.wav/convert
 <not copyrightable (a simple bash command)>
 - open.wav/door-03.flac
   open.wav/open.wav
     Copyright (C) 2010  Iwan Gabovitch <qubodup@gmail.com>
-    License: GPLv2+ | CC-BY-SA 3+
+    License: GPLv2+ | CC BY-SA 3+
 
 - wscream.wav
     Copyright (C) 2009  Fernando Carmona Varo
@@ -222,7 +224,7 @@ Sound effects
 - bhit.wav
   Based on /usr/share/games/freeciv/stdsounds/woodbrk.ogg, plus:
     Copyright (C) 2012  Petteri Tolonen
-    License: GPLv3+ | Art Libre | CC-BY-SA
+    License: GPLv3+ | Art Libre | CC BY-SA
 
 
 Translations
