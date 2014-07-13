@@ -5,10 +5,10 @@
 # Balázs Úr <urbalazs@gmail.com>, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: dink 1.08.20100103\n"
+"Project-Id-Version: dink 1.08.20140712\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-12-16 21:52+0100\n"
-"PO-Revision-Date: 2014-06-13 00:44+0200\n"
+"PO-Revision-Date: 2014-07-13 00:03+0200\n"
 "Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
 "Language: hu\n"
@@ -1737,6 +1737,14 @@ msgstr "Uhhh. Én… uhm…"
 #: Story/S1-H3-L.c:55 Story/S1-H3-OF.c:100
 msgid "Oh"
 msgstr "Ó"
+
+#: Story/S1-H3-L.c:58
+msgid "Try to comfort her about her family"
+msgstr "Próbáld megvigasztalni a családja miatt"
+
+#: Story/S1-H3-L.c:59
+msgid "Apologize for being an ass"
+msgstr "Kérj elnézést, hogy szamár voltál"
 
 #: Story/S1-H3-L.c:64
 msgid "I'm sorry about your mother.  But I know how you feel"

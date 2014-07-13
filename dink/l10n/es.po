@@ -4,13 +4,14 @@
 #
 # Fernando Carmona Varo <ferkiwi@gmail.com>, 2009.
 # Juan Valencia Escalante <jvalenciae@jveweb.net>, 2010.
+# Benno Schulenberg <benno@vertaalt.nl>, 2014.\n"
 msgid ""
 msgstr ""
-"Project-Id-Version: dink 1.08.20090706\n"
+"Project-Id-Version: dink 1.08.20140712\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-12-16 21:52+0100\n"
-"PO-Revision-Date: 2010-11-22 00:51-0600\n"
-"Last-Translator: Juan Valencia <jvalenciae@jveweb.net>\n"
+"PO-Revision-Date: 2014-07-12 23:04+0200\n"
+"Last-Translator: Benno Schulenberg <benno@vertaalt.nl>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -1727,6 +1728,16 @@ msgstr "Uhhh. yo ... uhm ..."
 #: Story/S1-H3-L.c:55 Story/S1-H3-OF.c:100
 msgid "Oh"
 msgstr "Oh"
+
+#: Story/S1-H3-L.c:58
+#, fuzzy
+#| msgid "Try to comfort her"
+msgid "Try to comfort her about her family"
+msgstr "Trata de reconfortarla"
+
+#: Story/S1-H3-L.c:59
+msgid "Apologize for being an ass"
+msgstr ""
 
 #: Story/S1-H3-L.c:64
 msgid "I'm sorry about your mother.  But I know how you feel"
@@ -5275,7 +5286,7 @@ msgstr "Pregunta sobre sus historias"
 
 #: Story/S2-WAND.c:24
 msgid "So what do you do?"
-msgstr "Entonces, ¿A qué te dedicas?"
+msgstr "Entonces, ¿a qué te dedicas?"
 
 #: Story/S2-WAND.c:26
 msgid "Well, I'm a hunter."
@@ -5714,11 +5725,11 @@ msgstr "Ahh, si.. he ... escuchado de ese desfile."
 #: Story/S3-CHICK.c:57
 msgctxt "s3-chick:57"
 msgid "So what do you do?"
-msgstr "¿Entonces que es lo que haces?"
+msgstr "Entonces, ¿qué es lo que haces?"
 
 #: Story/S3-CHICK.c:59
 msgid "Oh, I'm a painter."
-msgstr "Oh, son un pintor."
+msgstr "Oh, soy pintor."
 
 #: Story/S3-CHICK.c:61
 msgid "Ahh, I see.  What are you painting here?"
@@ -5814,7 +5825,7 @@ msgstr "Eso podría ser malo."
 
 #: Story/S3-CHICK.c:139
 msgid "I did hear one rumor though."
-msgstr "Aunque, escuche un rumor."
+msgstr "Aunque, escuché un rumor."
 
 #: Story/S3-CHICK.c:141
 msgid "A man said he was traveling near the Goblin Sanctuary and one"
@@ -5823,7 +5834,7 @@ msgstr "Un hombre dijo que estaba viajando cerca del santuario Goblin y uno"
 # I need to check this with the author, I am not sure if he is saying that the fact that a Goblin near the sanctuary attacked is a very unlikely event nowadays, or if this days on themselves are strange.
 #: Story/S3-CHICK.c:143
 msgid "attacked him.  Very rare these days."
-msgstr "lo ataco. Algo muy raro estos días."
+msgstr "lo atacó. Algo muy raro estos días."
 
 #: Story/S3-CHICK.c:145
 msgid "That could be something, I'll check it out."
@@ -5919,7 +5930,7 @@ msgstr "¿Qué haces hombre? ¡Debo seguir moviéndome!"
 
 #: Story/S3-FREAK.c:92
 msgid "Ask why he's running"
-msgstr "Pregunta por que corre"
+msgstr "Pregunta por qué corre"
 
 #: Story/S3-FREAK.c:93
 msgid "Ask about the ducks"
@@ -5931,7 +5942,7 @@ msgstr "Pregunta sobre el desfile"
 
 #: Story/S3-FREAK.c:100
 msgid "Why are you running around so fast?"
-msgstr "¿Por que corres tan rápido?"
+msgstr "¿Por qué corres tan rápido?"
 
 #: Story/S3-FREAK.c:102
 msgid "Cause I'm excited!!"
@@ -5939,7 +5950,7 @@ msgstr "¡¡Por que estoy emocionado!!"
 
 #: Story/S3-FREAK.c:104
 msgid "About what?"
-msgstr "¿Sobre que?"
+msgstr "¿Sobre qué?"
 
 #: Story/S3-FREAK.c:106
 msgid "The big parade happening soon man!!"
@@ -6521,7 +6532,7 @@ msgstr "¡¡¡Guardias!!! ¡¡¡Por aquí!!!"
 
 #: Story/S3-PEEPS.c:43
 msgid "Help!! This Dink guy is no hero, he was behind the attack!"
-msgstr "¡¡Ayuda!! ¡Este tipo Dink no es un héroe, el estuvo tras el ataque!"
+msgstr "¡¡Ayuda!! ¡Este tipo Dink no es un héroe, él estuvo tras el ataque!"
 
 #: Story/S3-PEEPS.c:46
 msgid "Please sir... please...no!!!  Come on, help me fight this guy!"
@@ -6609,7 +6620,7 @@ msgstr "Bienvenido a nuestra tienda de libros señor."
 
 #: Story/S3-ST1P.c:17
 msgid "How may I help you today sir?"
-msgstr "¿Cómo puedo ayudarlo hoy señor?"
+msgstr "¿Cómo puedo ayudarle hoy, señor?"
 
 #: Story/S3-ST1P.c:19
 msgid "Ask about the bookstore"
@@ -6621,15 +6632,15 @@ msgstr "Averígua sobre el próximo pueblo"
 
 #: Story/S3-ST1P.c:22 Story/S4-ST1P.c:39
 msgid "See what's news"
-msgstr "Ve que novedades hay"
+msgstr "Ve qué novedades hay"
 
 #: Story/S3-ST1P.c:27
 msgid "So what do you got here?"
-msgstr "¿Entonces que tienes aquí?"
+msgstr "Entonces, ¿qué tienes aquí?"
 
 #: Story/S3-ST1P.c:29
 msgid "We carry books, what did you think?"
-msgstr "Tenemos libros, ¿Qué pensabas?"
+msgstr "Tenemos libros, ¿qué pensabas?"
 
 #: Story/S3-ST1P.c:31
 msgid "Mmmmm"
