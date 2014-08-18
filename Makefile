@@ -35,22 +35,22 @@ dist: update-gmo
 
 #	Clean-up:
 #	git files
-	find $(releasedir) -name ".gitignore" -print0 | xargs -0r rm
+	find $(releasedir)/ -name ".gitignore" -print0 | xargs -0r rm
 #	backup files
-	find $(releasedir) -name "*~" -print0 | xargs -0r rm
+	find $(releasedir)/ -name "*~" -print0 | xargs -0r rm
 #	savegames
-	find $(releasedir) -iname "save*.dat" -print0 | xargs -0r rm
+	find $(releasedir)/ -iname "save*.dat" -print0 | xargs -0r rm
 #	cheat^wDebugging tool
 	rm -f $(releasedir)/dink/Story/key-67.c
 #	debug mode output
 	rm -f $(releasedir)/dink/DEBUG.TXT
 
 #	Tarball:
-	tar czf $(releasedir).tar.gz $(releasedir)
+	tar czf $(releasedir).tar.gz $(releasedir)/
 
 ##	Derived release (doesn't include Audacity and Rosegarden
 ##	projects, original Ogg Vorbis files, etc.):
-	cd $(releasedir) && \
+	cd $(releasedir)/ && \
 	make install DESTDIR=`pwd`/t && \
 	cd t/usr/local/share/ && \
 	tar czf ../../../../../freedink-data-$(version)-nosrc.tar.gz dink
