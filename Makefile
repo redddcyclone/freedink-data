@@ -38,7 +38,7 @@ dist: update-gmo
 
 	rm -rf $(releasedir)
 	mkdir $(releasedir)
-	cp -a ChangeLog COPYING DEB NEWS *.txt *.spec Makefile autobuild/ dink/ doc/ licenses/ soundtest/ src/ $(releasedir)
+	cp -a ChangeLog COPYING DEB NEWS *.txt *.spec Makefile autobuild/ debian/ dink/ doc/ licenses/ soundtest/ src/ $(releasedir)
 
 #	Clean-up:
 #	git files
@@ -47,7 +47,7 @@ dist: update-gmo
 	find $(releasedir)/ -name "*~" -print0 | xargs -0r rm
 #	savegames
 	find $(releasedir)/ -iname "save*.dat" -print0 | xargs -0r rm
-#	cheat^wDebugging tool
+#	cheat^Wdebugging tool
 	rm -f $(releasedir)/dink/Story/key-67.c
 #	debug mode output
 	rm -f $(releasedir)/dink/DEBUG.TXT

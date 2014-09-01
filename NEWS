@@ -1,19 +1,18 @@
-* v1.08.20121232                                           -*- outline -*-
-
-** UNRELEASED
+* v1.08.20140901                                           -*- outline -*-
 
 ** New sound replacements
 
-  New open.wav (thanks Iwan Gabovitch)
+   New open.wav (thanks Iwan Gabovitch)
 
-  New lovin.ogg by gachopin (thanks Digvijay for pointing the CC BY version)
-
+   New lovin.ogg by gachopin (thanks Digvijay for pointing the CC BY version)
 
 ** Catalan translation (thanks Àngel Mompó Llovet)
 
 ** Hungarian translation (thanks Úr Balázs)
 
-** Add 2 translatable strings (conversation with Libby in Story/S1-H3-L.c) and their translations.
+** Add 2 translatable strings and their translations
+
+   (conversation with Libby in Story/S1-H3-L.c)
 
 * v1.08.20121209
 

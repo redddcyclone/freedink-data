@@ -1,3 +1,102 @@
+2014-09-01  Sylvain Beucler <beuc@beuc.net>
+
+	* Makefile: Move -nosrc.tar.gz building to a post-release script
+
+2014-08-18  Sylvain Beucler <beuc@beuc.net>
+
+	* debian/changelog, debian/compat, debian/control: debian: prepare
+	new version; use compat 9
+
+2014-08-18  Sylvain Beucler <beuc@beuc.net>
+
+	* .gitignore: .gitignore: ignore generated .mo files
+
+2014-08-18  Sylvain Beucler <beuc@beuc.net>
+
+	* debian/gbp.conf: debian: not using git-build-package anymore
+
+2014-08-18  Sylvain Beucler <beuc@beuc.net>
+
+	* Makefile: make dist: clarify output
+
+2014-07-21  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS, dink/l10n/da.po, dink/l10n/eo.po: Update translations (eo,
+	da)
+
+2014-07-13  Sylvain Beucler <beuc@beuc.net>
+
+	* dink/l10n/es.po, dink/l10n/fr.po, dink/l10n/hu.po: Sync
+	translations
+
+2014-07-12  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS, README-REPLACEMENTS.txt, debian/copyright,
+	src/lovin.mid/lovin.ogg: New sound replacement: lovin.ogg
+
+2014-07-12  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS, dink/l10n/dink.pot, dink/l10n/fr.po: Add 2 translatable
+	strings
+
+2014-06-30  Sylvain Beucler <beuc@beuc.net>
+
+	* Makefile, NEWS, dink/l10n/hu.po: New Hungarian translation
+
+2014-06-30  Sylvain Beucler <beuc@beuc.net>
+
+	* dink/dmod.diz: Update game controls documentation
+
+2014-05-29  Sylvain Beucler <beuc@beuc.net>
+
+	* dink/l10n/ca.po, dink/l10n/da.po, dink/l10n/de.po,
+	dink/l10n/eo.po, dink/l10n/es.po, dink/l10n/fi.po, dink/l10n/fr.po,
+	dink/l10n/hr.po, dink/l10n/mk.po, dink/l10n/nl.po: translations:
+	sync with TP
+
+2014-05-26  Sylvain Beucler <beuc@beuc.net>
+
+	*
+	gentoo/games-rpg/freedink-data/freedink-data-1.08.20080920.ebuild,
+	gentoo/games-rpg/freedink-data/metadata.xml: Remove obsolete gentoo
+	ebuild - get it from official Gentoo instead :)
+
+2014-05-26  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS, README-REPLACEMENTS.txt, debian/copyright,
+	src/open.wav/convert, src/open.wav/open.wav: Add open.wav from
+	qubodup
+
+2013-10-20  Sylvain Beucler <beuc@beuc.net>
+
+	* doc/midi.txt: Mention musescore-soundfont-gm in MIDI doc
+
+2013-10-20  Sylvain Beucler <beuc@beuc.net>
+
+	* Makefile, NEWS, debian/copyright: Add Catalan translation
+
+2013-01-19  Sylvain Beucler <beuc@beuc.net>
+
+	* dink/l10n/fr.po: Re-import from TP
+
+2013-01-19  Sylvain Beucler <beuc@beuc.net>
+
+	* dink/l10n/fr.po: Fix typo in French translation
+
+2012-12-09  Sylvain Beucler <beuc@beuc.net>
+
+	* doc/release.txt: Use pbuilder when building a Debian package to
+	upload officially
+
+2012-12-09  Sylvain Beucler <beuc@beuc.net>
+
+	* debian/changelog, debian/control: Debian upload
+
+2012-12-09  Sylvain Beucler <beuc@beuc.net>
+
+	* ChangeLog, NEWS, dink/l10n/dink.pot, doc/release.txt,
+	freedink-data.spec: Release 1.08.20121209
+
 2012-12-09  Sylvain Beucler <beuc@beuc.net>
 
 	* dink/l10n/fi.po: Update fi.po

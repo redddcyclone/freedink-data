@@ -65,33 +65,6 @@ git push origin pristine-tar
 # Upload sigs to freedink.org
 
 
-On the website:
----------------
-
-cd www/releases/
-
-for f in ../snapshots/freedink-data-$VERSION{,-nosrc}.*; do
-    ln -nfs $f
-done
-
-pushd debian
-    for f in ../../snapshots/debian/freedink-data_$VERSION*; do
-        ln -nfs $f
-    done
-    make
-popd
-
-pushd fedora
-    for f in ../../snapshots/fedora/freedink-data-$VERSION-*; do
-        ln -nfs $f
-    done
-    make  # in a Fedora vserver
-    cp -a ../../snapshots/fedora/freedink-data.spec .
-popd
-
-# TODO: update woe installer
-
-
 Submit the release to:
 ----------------------
 
@@ -99,8 +72,8 @@ Submit the release to:
   info-gnu@gnu.org
 - Savannah / GNU Planet
   http://savannah.gnu.org/p/freedink
-- freshmeat
-  http://freshmeat.net/projects/freedink/
+- FreeCode
+  https://freecode.com/projects/freedink
 - Translation Project
   http://translationproject.org/html/maintainers.html
 - Dink Network
@@ -127,24 +100,8 @@ Check this for updates:
 - /usr/share/doc/debian-policy/upgrading-checklist.txt.gz
 - http://lintian.debian.org/full/pkg-games-devel@lists.alioth.debian.org.html#freedink-data
 
-# http://wiki.debian.org/Games/VCS
-# http://wiki.debian.org/Games/VCS/git
-git clone YOU@git.debian.org:/git/pkg-games/freedink-data
-cd freedink-data
-git checkout -b pristine-tar origin/pristine-tar
-git checkout -b upstream origin/upstream
+pdebuild
 
-# set DEBEMAIL
-
-git checkout master
-git-import-orig --pristine-tar .../freedink-data-$VERSION.tar.gz
-# - Import debian/ from "upstream"
-# - Fix stuff...
-git commit -am "New upstream release - v$VERSION"
-git-buildpackage --git-tag
-sudo pbuilder --build --basetgz /var/cache/pbuilder/base-testing.tar.gz ../freedink-data_$VERSION-1.dsc
-git push origin master pristine-tar upstream
-git push --tags
 # http://mentors.debian.net/cgi-bin/maintainer-intro
 cd /var/cache/pbuilder/result/
 debsign freedink-data_$VERSION-1_*.changes
@@ -161,5 +118,5 @@ http://fedoraproject.org/wiki/PackageMaintainers/UpdatingPackageHowTo#Example
 which is detailing this step.
 
 See also:
-https://admin.fedoraproject.org/pkgdb/acls/name/freedink-data
+https://admin.fedoraproject.org/pkgdb/package/freedink-data/
 http://pkgs.fedoraproject.org/cgit/freedink-data.git/

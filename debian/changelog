@@ -1,10 +1,10 @@
-freedink-data (1.08.20140818-1) unstable; urgency=medium
+freedink-data (1.08.20140901-1) unstable; urgency=medium
 
   * New upstream release
   * Bump Standards-Version (no changes)
   * Bump compat to 9 (for the sake of it)
 
- -- Sylvain Beucler <beuc@debian.org>  Mon, 18 Aug 2014 18:37:36 +0200
+ -- Sylvain Beucler <beuc@debian.org>  Mon, 01 Sep 2014 21:57:24 +0200
 
 freedink-data (1.08.20121209-1) experimental; urgency=low
 
