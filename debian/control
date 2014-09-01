@@ -6,8 +6,8 @@ Uploaders: Sylvain Beucler <beuc@debian.org>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.5
 Homepage: http://www.gnu.org/software/freedink/
-Vcs-Git: git://git.debian.org/git/pkg-games/freedink-data.git
-Vcs-Browser: http://git.debian.org/?p=pkg-games/freedink-data.git
+Vcs-Git: git://git.savannah.gnu.org/freedink/freedink-data.git
+Vcs-Browser: http://git.savannah.gnu.org/cgit/freedink/freedink-data.git
 
 Package: freedink-data
 Architecture: all
