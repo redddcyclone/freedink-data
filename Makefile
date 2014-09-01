@@ -1,7 +1,7 @@
 DESTDIR=
 PREFIX=/usr/local
 DATADIR=$(PREFIX)/share
-version=1.08.`date +%Y%m%d`
+version:=1.08.$(shell date +%Y%m%d)
 releasedir=freedink-data-$(version)
 
 all:
@@ -30,6 +30,13 @@ install:
 # (Do this from a fresh Git checkout to avoid packaging temporary files)
 dist: update-gmo
 ##	Source release
+
+#	Not using Git because that doesn't ship the .mo files
+#	Plus that forbids testing uncommitted changes
+#	git archive --format=tar.gz --prefix=$(releasedir)/ -o > $(releasedir).tar.gz HEAD \
+#	  -- ChangeLog COPYING DEB NEWS *.txt *.spec Makefile autobuild/ debian/ dink/ doc/ licenses/ soundtest/ src/ \
+
+	rm -rf $(releasedir)
 	mkdir $(releasedir)
 	cp -a ChangeLog COPYING DEB NEWS *.txt *.spec Makefile autobuild/ dink/ doc/ licenses/ soundtest/ src/ $(releasedir)
 
@@ -47,14 +54,6 @@ dist: update-gmo
 
 #	Tarball:
 	tar czf $(releasedir).tar.gz $(releasedir)/
-
-##	Derived release (doesn't include Audacity and Rosegarden
-##	projects, original Ogg Vorbis files, etc.):
-	cd $(releasedir)/ && \
-	make install DESTDIR=`pwd`/t && \
-	cd t/usr/local/share/ && \
-	tar czf ../../../../../freedink-data-$(version)-nosrc.tar.gz dink
-	rm -rf $(releasedir)/t
 
 	rm -rf $(releasedir)
 
