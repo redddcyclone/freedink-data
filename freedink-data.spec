@@ -16,8 +16,8 @@ made by RTsoft. Besides twisted humor, it includes the actual game
 editor, allowing players to create hundreds of new adventures called
 Dink Modules or D-Mods for short.
 
-This package contains architecture-independent data for the original
-game, along with free sound and music replacements.
+This package contains the original game story, along with free sound
+and music replacements.
 
 
 %prep
