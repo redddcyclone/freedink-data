@@ -1,22 +1,22 @@
 # Catalan translations for dink.
 # Copyright (C) 2012 Àngel Mompó Llovet
 # This file is distributed under the same license as the freedink package.
-# Àngel Mompó <mecatxis@gmail.com>, 2013.
+# Àngel Mompó <mecatxis@mecatxis.cat>, 2013, 2014.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: dink 1.08.20100103\n"
+"Project-Id-Version: dink 1.08.20140712\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-12-16 21:52+0100\n"
-"PO-Revision-Date: 2013-02-16 10:55+0100\n"
+"PO-Revision-Date: 2014-12-28 13:13+0100\n"
 "Last-Translator: Àngel Mompó <mecatxis@gmail.com>\n"
 "Language-Team: Catalan <ca@dodds.net>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Generator: Gtranslator 2.91.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 2.91.6\n"
 
 #: Story/1GOLD.c:16 Story/LGOLD.c:28 Story/MGOLD.c:29 Story/SGOLD.c:16
 #: Story/XLGOLD.c:29
@@ -1735,6 +1735,14 @@ msgstr "Ehhh. Jo... mpf..."
 #: Story/S1-H3-L.c:55 Story/S1-H3-OF.c:100
 msgid "Oh"
 msgstr "Oh"
+
+#: Story/S1-H3-L.c:58
+msgid "Try to comfort her about her family"
+msgstr "Prova de consolar-la sobre el tema de la seva família"
+
+#: Story/S1-H3-L.c:59
+msgid "Apologize for being an ass"
+msgstr "Demana perdó per ser un ruc"
 
 #: Story/S1-H3-L.c:64
 msgid "I'm sorry about your mother.  But I know how you feel"
