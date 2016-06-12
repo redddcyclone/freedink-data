@@ -267,6 +267,22 @@ Sound effects
   Copyright (C) 2009  Sylvain Beucler
   License: GPLv3+ | Art Libre | CC-BY-SA
 
+- sel1.wav
+
+  Select a choice in a menu dialog (22kHz), leave inventory (22kHz), fireball magic (8kHz)
+
+  Basis:
+  http://opengameart.org/content/spell-4-fire
+  License: CC-BY 3.0, CC-BY-SA 3.0, GPL v3, GPL v2
+
+  Basis located by Zaphod.  Largely reworked in Audacity by Sylvain
+  Beucler to be closer to the original sound, using effects including
+  duplicate, echo, amplification, pitch, revert.
+  Frequency set with: ffmpeg -i sel1.wav -ar 22050 -ac 1 sel1.wav
+  
+  Copyright (C) 2009  Bark K.  http://opengameart.org/users/bart
+  Copyright (C) 2016  Sylvain Beucler
+
 - wscream.wav
 
   Girl scream (e.g. when you hit Chealse, the girl near the well in
