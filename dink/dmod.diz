@@ -35,7 +35,7 @@ Joystick/Gamepad controls: Inventory/Equip screen
 Other
     <Alt-Return>	Toggle fullscreen mode
     <Alt-M>	Stop playing current music
-    <Alt-Q>	Quick quit to Windows
+    <Alt-Q>	Quick quit to system
     <Alt-D>	Toggle debug mode
     <Alt-C>	Toggle console mode
     <P>		Play pillbug sound
