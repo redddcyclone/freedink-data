@@ -309,6 +309,14 @@ Sound effects
   Copyright (C) 2012  Petteri Tolonen
   License: GPLv3+ | Art Libre | CC-BY-SA
 
+- stairs.wav
+
+  Dink ascends/descends stairs.
+
+  Placed in the public domain by Bas Wijnen.
+  Reworked in Audacity by Sylvain Beucler.
+
+
 Files from Wesnoth
 ------------------
 
