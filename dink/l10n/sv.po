@@ -12,6 +12,7 @@ msgstr ""
 "Last-Translator: Josef Andersson <josef.andersson@fripost.org>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -180,7 +181,7 @@ msgstr "Skift = Magi"
 
 #: Story/ESCAPE.c:124
 msgid "Enter = Item/magic equip screen"
-msgstr "Retur = Skärmen för föremål/magisk utrusting"
+msgstr "Retur = Skärmen för föremål/magisk utrustning"
 
 #: Story/ESCAPE.c:126
 msgid "Use the arrow keys to move.  Joystick and control pad are also supported."
@@ -309,7 +310,7 @@ msgstr "Jag har nu magin helveteseld!"
 
 #: Story/GOLD200.c:28
 msgid "I found &ncrap gold."
-msgstr "Jag fann &ncrap gold. "
+msgstr "Jag fann &ncrap mynt."
 
 #: Story/GOLD500.c:28
 msgid "I found 500 gold."
@@ -357,7 +358,7 @@ msgstr "Hurra!  Världen är räddad!"
 
 #: Story/KING.c:20
 msgid "CONGRATULATIONS!"
-msgstr "GRATTULERAR!"
+msgstr "GRATULERAR!"
 
 #: Story/KING.c:22
 msgid "YOU HAVE FINISHED THE GAME."
@@ -475,7 +476,7 @@ msgstr "Jaså?"
 
 #: Story/KING.c:151
 msgid "Yes - my family got royally screwed by the crown each year."
-msgstr "Ja - min famlij blev total överkörda av styret varje år."
+msgstr "Ja - min familj blev total överkörda av styret varje år."
 
 #: Story/KING.c:153
 msgid "I will take that into consideration Dink, I really will."
@@ -487,7 +488,7 @@ msgstr "Jag hörde om Milder."
 
 #: Story/KING.c:162
 msgid "Yes.. he was a very brave knight - he entered the darklands knowing..."
-msgstr "Ja.. han var en modig riddare - han reste till Msörkländerna vetandes..."
+msgstr "Ja.. han var en modig riddare - han reste till Mörkländerna vetandes..."
 
 #: Story/KING.c:164
 msgid "full well that very few return.  And now he is lost too."
@@ -619,7 +620,7 @@ msgstr "Grisbonde?! Det var det dummaste jag hört. Jag är i alla fall med."
 
 #: Story/POSTER.c:34
 msgid " Also:  The town of Kernsin is having a festival, all invited."
-msgstr " Dessutom: Staden Kersin har en festival, alla är inbjudna."
+msgstr " Dessutom: Staden Kernsin har en festival, alla är inbjudna."
 
 #: Story/POSTER.c:43
 msgid "The King's News, issue 45."
@@ -631,7 +632,7 @@ msgstr "De berömda riddaren Milder Plattstamp har gift sig!"
 
 #: Story/POSTER.c:47
 msgid "Flatstomp got married?  Wow, small world."
-msgstr "Plattstamp har gift sig? Wov, det är en liten värld."
+msgstr "Plattstamp har gift sig? Wow, det är en liten värld."
 
 #: Story/POSTER.c:49
 msgid "King Daniel wishes Milder and Lyna (the lucky maiden) well."
@@ -643,7 +644,7 @@ msgstr "LYNA? NEEEJ!!!"
 
 #: Story/POSTER.c:53
 msgid " Also:  The town of KernSin is having a parade today."
-msgstr " Dessutom: Staden Kersin har en festival, alla är inbjudna."
+msgstr " Dessutom: Staden Kernsin har en festival, alla är inbjudna."
 
 #: Story/POSTER.c:60
 msgid "The King's News, issue 46."
@@ -699,7 +700,7 @@ msgstr "”Det är en sorgsen dag för vårt land” - kung Daniel"
 
 #: Story/POSTER.c:98 Story/POSTER.c:111
 msgid "Wow.. Poor Milder...he really wasn't such a bad guy."
-msgstr "Wov.. Stackars Milder...han var ändå en ganska bra kille."
+msgstr "Wow.. Stackars Milder...han var ändå en ganska bra kille."
 
 #: Story/POSTER.c:118
 msgid "The King's News, issue 49."
@@ -883,7 +884,7 @@ msgstr "Diskutera"
 
 #: Story/S1-BRG2.c:39
 msgid "You don't have enough gold, fool!"
-msgstr "Du har inte tillräckligt med gold toker!"
+msgstr "Du har inte tillräckligt med mynt toker!"
 
 #: Story/S1-BRG2.c:44
 msgid "Thanks.  Have a nice day."
@@ -1023,7 +1024,7 @@ msgstr "Du kan inte besegra oss herr Smallwood, vi är för mycket för dig."
 
 #: Story/S1-FMONS.c:11
 msgid "Try your best but you risk your life doing so..."
-msgstr "Gör så gott du kan men riskera ditt liv under tiden..."
+msgstr "Gör så gott du kan men du riskerar ditt liv under tiden..."
 
 #: Story/S1-FMONS.c:16
 msgid "RRrrr ar a rar a  arrgghhh."
@@ -1788,7 +1789,7 @@ msgstr "Ibland är det bara så att dåliga saker händer oss, vi"
 
 #: Story/S1-H3-L.c:89
 msgid "have to learn to persevere through them."
-msgstr "behöver lära oss att klara oss genom den."
+msgstr "behöver lära oss att klara oss genom dem."
 
 #: Story/S1-H3-L.c:91
 msgid "Thanks Dink, that's kind of you."
@@ -1940,7 +1941,7 @@ msgstr "Jag funderar på att hyra en jägare från Hamnstaden för att komma"
 
 #: Story/S1-H3-OF.c:83
 msgid "and take care of them!  That'll help next year's harvest."
-msgstr "och ta hand om den! Det kommer att hjälpa nästa års skörd."
+msgstr "och ta hand om dem! Det kommer att hjälpa nästa års skörd."
 
 #: Story/S1-H3-OF.c:88
 msgid "Can I go up and see Libby?"
@@ -2304,7 +2305,7 @@ msgstr "Wow, jag tror aldrig jag har sett ditt ställe häromkring tidigare."
 
 #: Story/S1-MH-M.c:34
 msgid "I like being closer to nature."
-msgstr "Jag gillar att vara närma naturen."
+msgstr "Jag gillar att vara närmare naturen."
 
 #: Story/S1-MH-M.c:36
 msgid "I've been watching you for a while Dink."
@@ -2488,7 +2489,7 @@ msgstr "Snälla, jag har inga pengar, jag reser lätt."
 
 #: Story/S1-ROB2.c:27
 msgid "We'll be the judge of that, where are you headed?"
-msgstr "Vi bestämmer det, var ska du?"
+msgstr "Vi bestämmer det, vart ska du?"
 
 #: Story/S1-ROB2.c:30
 msgid "I'm just passing through to Windemere sir."
@@ -2733,7 +2734,7 @@ msgstr "och de kommer att tro dig."
 
 #: Story/S1-WAND.c:144
 msgid "I heard there was a bad fire in a nearby village,"
-msgstr "Jag hörde att det var en dålig brand i en närliggande by,"
+msgstr "Jag hörde att det var en rejäl brand i en närliggande by,"
 
 #: Story/S1-WAND.c:145
 msgid "hope no one was hurt too bad."
@@ -3029,7 +3030,7 @@ msgstr "Hur ska jag hitta den om den är gömd?"
 
 #: Story/S1-WIZ.c:61
 msgid "Good point.  It lies behind some trees north-east of here."
-msgstr "Bra synpunkt! Den finns bakom några tråd nordöst från här."
+msgstr "Bra synpunkt! Den finns bakom några träd nordöst från här."
 
 #: Story/S1-WIZ.c:63
 msgid "Ok, I may drop by later.. are you in a circus?"
@@ -3145,7 +3146,7 @@ msgstr "Uppmuntra henne att göra slut med Jack"
 
 #: Story/S2-AUNTP.c:206
 msgid "Encourage her to continue getting beaten by Jack"
-msgstr "Uppmuntra  henne att fortsätta bli slagen av Jack"
+msgstr "Uppmuntra henne att fortsätta bli slagen av Jack"
 
 #: Story/S2-AUNTP.c:207
 msgid "Comfort her"
@@ -3221,7 +3222,7 @@ msgstr "Det är ingen dålig stad att växa upp i."
 
 #: Story/S2-AUNTP.c:256
 msgid "You don't sound so enthusiastic."
-msgstr "Du låter inte så entusiatisk."
+msgstr "Du låter inte så entusiastisk."
 
 #: Story/S2-AUNTP.c:258
 msgid "Well.. things have been rough lately, that's all."
@@ -3377,7 +3378,7 @@ msgstr "Jag hoppas att du gillar tuffa tag!"
 
 #: Story/S2-AUNTP.c:380
 msgid "I hate relatives!"
-msgstr "Jag hatar släktningar!"
+msgstr "Jag hatar släktingar!"
 
 #: Story/S2-BAR.c:66
 msgid "Hey everybody!"
@@ -3725,7 +3726,7 @@ msgstr "Ok... förresten, mitt namn är Dink. Farväl för tillfället."
 
 #: Story/S2-CAVE.c:86
 msgid "Any luck?"
-msgstr "Någon lycka?"
+msgstr "Någon tur?"
 
 #: Story/S2-CAVE.c:88
 msgid "Uh, working on that."
@@ -3909,7 +3910,7 @@ msgstr "Javisst.. vad är det?"
 
 #: Story/S2-CAVE2.c:141
 msgid "The Mordavia scroll.  It contains magic I needed to..."
-msgstr "Mordaviaskriftrulle. Den innehåller magi jag behövde för att..."
+msgstr "Mordaviaskriftrullen. Den innehåller magi jag behövde för att..."
 
 #: Story/S2-CAVE2.c:142
 msgid "Ahhhhhh."
@@ -3977,7 +3978,7 @@ msgstr "Mary, är du okej?"
 
 #: Story/S2-CULG.c:24
 msgid "Thanks to you.  Who are you?"
-msgstr "Tack vara dig. Vem är du?"
+msgstr "Tack vare dig. Vem är du?"
 
 #: Story/S2-CULG.c:27
 msgid "A friend of the land."
@@ -4197,7 +4198,7 @@ msgstr "Du förstår, mina flickor är mer än vad man ser."
 
 #: Story/S2-DAMS.c:3
 msgid "Bjork Dam"
-msgstr "Bjork dam"
+msgstr "Bjorkdammen"
 
 #: Story/S2-DS.c:6
 msgid "Condemned Mine - Do Not Enter!"
@@ -4213,11 +4214,11 @@ msgstr "Wow, detta ställe ser övergivet ut..."
 
 #: Story/S2-H1-S.c:8
 msgid "must've been the monsters nearby."
-msgstr "måste har varit monstren i närheten."
+msgstr "måste ha varit monstren i närheten."
 
 #: Story/S2-H2-S.c:6
 msgid "Not a bad little room.  I think I'm going to enjoy my stay."
-msgstr "Inte en dåligt litet rum. Jag tror att jag kommer att gilla min vistelse."
+msgstr "Inte ett dåligt litet rum. Jag tror att jag kommer att gilla min vistelse."
 
 #: Story/S2-H2-S.c:8
 msgid "Except for that guy Jack..."
@@ -4581,7 +4582,7 @@ msgstr "Bondgård?! Vilken förlorare!"
 
 #: Story/S2-MAN2.c:170
 msgid "I don't tend pigs anymore, I'm a mighty warrior."
-msgstr "Jag tar inte hand om grisar längre, jag är är mäktig krigare."
+msgstr "Jag tar inte hand om grisar längre, jag är en mäktig krigare."
 
 #: Story/S2-MAN2.c:172
 msgid "Oh hogwash!"
@@ -4867,7 +4868,7 @@ msgstr "Var oförskämd mot Nadine"
 
 #: Story/S2-NADP.c:34
 msgid "Let her know exactly how fruitless your search has been thus far"
-msgstr "Låt henne veta precis hur fruktlöst ditt sökande har varit hittils"
+msgstr "Låt henne veta precis hur fruktlöst ditt sökande har varit hittills"
 
 #: Story/S2-NADP.c:35
 msgid "Ask Nadine how she and Mary are doing"
@@ -4935,7 +4936,7 @@ msgstr "Självklart. Vad hette din kära flicka igen?"
 
 #: Story/S2-NADP.c:86
 msgid "Mary.  Her name was Mary."
-msgstr "Mary. Hans namn är Mary."
+msgstr "Mary. Hennes namn är Mary."
 
 #: Story/S2-NADP.c:88
 msgid "Do you have any idea of who may have taken her?"
@@ -5213,7 +5214,7 @@ msgstr "Nadines hus"
 
 #: Story/S2-SIGNE.c:3
 msgid "Danger! Murkwood Forest - Has been magically sealed shut by decree of King Daniel."
-msgstr "Varning! Dunkla skogen - är magiskt avstängd på utfärdan av kung Daniel."
+msgstr "Varning! Dunkla skogen - är magiskt avstängd enligt påbud av kung Daniel."
 
 #: Story/S2-SK.c:3
 msgid "Residence of Jack and Maria Kneedlewood"
@@ -5305,7 +5306,7 @@ msgstr "Det är ett bra jobb"
 
 #: Story/S2-WAND.c:32
 msgid "Any luck lately?"
-msgstr "Någon lycka sista tiden?"
+msgstr "Någon tur sista tiden?"
 
 #: Story/S2-WAND.c:34
 msgid "No, not really.  It's been kinda weird."
@@ -5385,7 +5386,7 @@ msgstr "Men det sägs att en magianvändare kom och kastade en mäktig trollform
 
 #: Story/S2-WAND.c:115
 msgid "So strong that it teleported the castle to the icelands in the north."
-msgstr "Så stark att den teleporterade slottet till isländerna in norr."
+msgstr "Så stark att den teleporterade slottet till isländerna i norr."
 
 #: Story/S2-WAND.c:117
 msgid "Presumably the goblins died in the harsh weather."
@@ -5489,7 +5490,7 @@ msgstr "Jag hör att någon kommer!"
 
 #: Story/S3-1ST.c:57
 msgid "Hey, those are some of the damn Cast knights."
-msgstr "Dert är några av de förbannade knektarna från Organisationen."
+msgstr "Det är några av de förbannade knektarna från Organisationen."
 
 #: Story/S3-1ST.c:62
 msgid "What the hell are they doing here?"
@@ -5677,7 +5678,7 @@ msgstr "Avsluta honom."
 
 #: Story/S3-CHICK.c:15
 msgid "** FIXING BUG.. RESETTING GOBLIN VILLAGE **"
-msgstr "** PROGRAMFIX.. ÅTERSTÄLLLER TROLLBYN **"
+msgstr "** PROGRAMFIX.. ÅTERSTÄLLER TROLLBYN **"
 
 #: Story/S3-CHICK.c:27
 msgid "Ask what she does"
@@ -6579,7 +6580,7 @@ msgstr "Jag kan inte läsa, tusan!"
 
 #: Story/S3-SIGN6.c:3
 msgid "East to Terris"
-msgstr "Väst till Terris"
+msgstr "Öst till Terris"
 
 #: Story/S3-SIGN7.c:3
 msgid "Goblin Sanctuary - Humans keep out to avoid incidents."
@@ -6719,7 +6720,7 @@ msgstr "Du är en ganska populär kille,"
 
 #: Story/S3-ST1P.c:82
 msgid "I even heard the mayor's daughter talking about you."
-msgstr "Jag hörde att till och med borgmästarens dotter pratar med dig."
+msgstr "Jag hörde att till och med borgmästarens dotter pratar om dig."
 
 #: Story/S3-ST1P.c:84
 msgid "Christina, really!??!  What did she say??"
@@ -6883,7 +6884,7 @@ msgstr "En hel del människor också, jag ryser vid tanken på vad som kunde ha 
 
 #: Story/S3-TC.c:263
 msgid "You really saved the town Dink..."
-msgstr "Du räddad verkligen staden Dink..."
+msgstr "Du räddade verkligen staden Dink..."
 
 #: Story/S3-TC.c:265
 msgid "I'm really proud of you."
@@ -7219,7 +7220,7 @@ msgstr "Ja, ja, ankorna, jag vet ..."
 
 #: Story/S4-H2P1.c:36
 msgid "what the hell have they given back to you?"
-msgstr "Vad fan har de get tillbaka till er?"
+msgstr "Vad fan har de gett tillbaka till er?"
 
 #: Story/S4-H2P1.c:47
 msgid "But after saving us??  Nooo!"
@@ -7263,7 +7264,7 @@ msgstr "Välkommen till vår stad."
 
 #: Story/S4-H2P2.c:42
 msgid "First feed us, then beat us, is that how it is with you?"
-msgstr "Först ge oss mat och sedan stryk, är du så du är?"
+msgstr "Först ge oss mat och sedan stryk, är det så du är?"
 
 #: Story/S4-H2P2.c:45
 msgid "Strange customs you have."
@@ -7943,7 +7944,7 @@ msgstr " Joppaön - drakarnas ö"
 
 #: Story/S5-SIGN1.c:10
 msgid "I'm dreaming!  You aren't really here, mystical island of legend!"
-msgstr "Jag drömmer! Du är verkligen inte här, mystika legendariska ö!"
+msgstr "Jag drömmer! Du är verkligen inte här, mystiska legendariska ö!"
 
 #: Story/S5-ST1P.c:12
 msgid "Must you hit me?"
@@ -8211,15 +8212,15 @@ msgstr "Jag kommer bara att lämna nu."
 
 #: Story/S6-VEND.c:73
 msgid "\"Hello, friend.  I will teach Hellfire magic for $1500 gold.\""
-msgstr "”Hej vännen. Jag kommer att lära ut magin helvetetseld för $1500 mynt.”"
+msgstr "”Hej vännen. Jag kommer att lära ut magin helveteseld för $1500 mynt.”"
 
 #: Story/S6-VEND.c:75
 msgid "Learn Hellfire"
-msgstr "Lär dig helvetetseld"
+msgstr "Lär dig helveteseld"
 
 #: Story/S6-VEND.c:123
 msgid "* YOU LEARN HELLFIRE *"
-msgstr "* DU LÄRDE DIG HELVETETSELD *"
+msgstr "* DU LÄRDE DIG HELVETESELD *"
 
 #: Story/S6-WARP.c:6 Story/S7-WARP.c:6
 msgid "Press the red button"
@@ -8427,7 +8428,7 @@ msgstr "Du kan inte skada oss Dink."
 
 #: Story/S7-MOM.c:39
 msgid "You cannot see us Dink."
-msgstr "Du kan inte see oss Dink."
+msgstr "Du kan inte se oss Dink."
 
 #: Story/S7-MOM.c:46
 msgid "LOOK UPON MY DEFORMED FACE!"
@@ -8511,7 +8512,7 @@ msgstr "Vaden är gjorda, börja slåss!"
 
 #: Story/S8-DA.c:177
 msgid "Congradulations!"
-msgstr "Grattulerar!"
+msgstr "Gratulerar!"
 
 #: Story/S8-DA.c:181
 msgid "To bad, better luck next time."
@@ -8807,7 +8808,7 @@ msgstr "Och om de kunde förgöra dig skulle de erhålla enorm kraft."
 
 #: Story/SC-WIZ.c:84
 msgid "There is some chaos brewing in this land now."
-msgstr "Det är en kaos groende i landet nu."
+msgstr "Kaos gror i landet nu."
 
 #: Story/SC-WIZ.c:86
 msgid "We don't know who's behind it either.  I was on my way to"
@@ -8831,7 +8832,7 @@ msgstr "Jag måste gå Dink, var försiktig och lycka till."
 
 #: Story/SC-WIZ.c:108
 msgid "Bad idea ..."
-msgstr "Dålig ide ..."
+msgstr "Dålig idé ..."
 
 #: Story/SFOOD.c:19
 msgid "Yum!"
@@ -8887,7 +8888,7 @@ msgstr "Jag kommer att berätta för dig var Organisationen finns..."
 
 #: Story/s7-boss.c:67
 msgid "<Casts explosion>"
-msgstr "<Kaster explosion>"
+msgstr "<Kastar explosion>"
 
 #: Story/s7-boss.c:158
 msgid "Watch Conan O'brien!"
