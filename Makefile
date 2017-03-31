@@ -34,11 +34,11 @@ dist: update-gmo
 #	Not using Git because that doesn't ship the .mo files
 #	Plus that forbids testing uncommitted changes
 #	git archive --format=tar.gz --prefix=$(releasedir)/ -o > $(releasedir).tar.gz HEAD \
-#	  -- ChangeLog COPYING DEB NEWS *.txt *.spec Makefile autobuild/ debian/ dink/ doc/ licenses/ soundtest/ src/ \
+#	  -- ChangeLog COPYING NEWS *.txt *.spec Makefile autobuild/ debian/ dink/ doc/ licenses/ soundtest/ src/ \
 
 	rm -rf $(releasedir)
 	mkdir $(releasedir)
-	cp -a ChangeLog COPYING DEB NEWS *.txt *.spec Makefile autobuild/ debian/ dink/ doc/ licenses/ soundtest/ src/ $(releasedir)
+	cp -a ChangeLog COPYING NEWS *.txt *.spec Makefile autobuild/ debian/ dink/ doc/ licenses/ soundtest/ src/ $(releasedir)
 
 #	Clean-up:
 #	git files
