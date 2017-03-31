@@ -22,22 +22,10 @@ make dist
 git commit -am "Release $VERSION"
 
 # Tag it
-git tag -s v$VERSION -m v$VERSION
-# Here you can test the release in the autobuilder
-# (preferably by rsync'ing the repository)
+git tag -s v$VERSION -m "v$VERSION"
 
 git push origin master
 git push --tags
-
-
-On the autobuilder:
--------------------
-
-VERSION=1.08.`date +%Y%m%d`
-./freedink-data-snapshot.sh release $VERSION
-#./freedink-data-exe.sh
-./freedink-data-debs.sh # as root
-./freedink-data-rpms.sh # in a Fedora vserver
 
 
 On the maintainer computer:
@@ -73,16 +61,15 @@ Submit the release to:
   info-gnu@gnu.org
 - Savannah / GNU Planet
   http://savannah.gnu.org/p/freedink
-- FreeCode
-  https://freecode.com/projects/freedink
 - Translation Project
   http://translationproject.org/html/maintainers.html
 - Dink Network
-  http://www.dinknetwork.com/contribute/version/new/???/
+  http://www.dinknetwork.com/contribute/version/new/freedink_data/
+  http://www.dinknetwork.com/contribute/version/new/freedink_data_source_code/
 - Debian GNU/Linux
-  http://wiki.debian.org/Games/Sponsors/Queue
+  See below
 - Fedora GNU/Linux
-  http://fedoraproject.org/wiki/PackageMaintainers/UpdatingPackageHowTo
+  See below
 - OpenSUSE GNU/Linux
   tell Stefan about the latest official srpm
 - ArchLinux GNU/Linux
@@ -101,12 +88,19 @@ Check this for updates:
 - /usr/share/doc/debian-policy/upgrading-checklist.txt.gz
 - http://lintian.debian.org/full/pkg-games-devel@lists.alioth.debian.org.html#freedink-data
 
-pdebuild
+sudo pbuilder --create --basetgz /var/cache/pbuilder/base-stretch.tar.gz --distribution stretch
+sudo pbuilder --update --basetgz /var/cache/pbuilder/base-stretch.tar.gz
+ln -nfs freedink-data-$VERSION.tar.gz freedink-data_$VERSION.orig.tar.gz
+rm -rf freedink-data-$VERSION/ && tar xf freedink-data-$VERSION.tar.gz
+pushd freedink-data-$VERSION/
+pdebuild -- --basetgz /var/cache/pbuilder/base-stretch.tar.gz
+popd
 
-# http://mentors.debian.net/cgi-bin/maintainer-intro
-cd /var/cache/pbuilder/result/
 debsign freedink-data_$VERSION-1_*.changes
-dput mentors freedink-data_$VERSION-1_*.changes
+dput freedink-data_$VERSION-1_*.changes
+
+For backports:
+https://wiki.debian.org/BuildingFormalBackports#Self-contained_example_for_Apache_2.4
 
 
 Fedora notes:

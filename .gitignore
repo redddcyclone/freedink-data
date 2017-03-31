@@ -1,3 +1,6 @@
 *~
 *.tar.gz
+*-nosrc.zip
 dink/l10n/??/
+dink/save*.dat
+dink/Story/key-67.c

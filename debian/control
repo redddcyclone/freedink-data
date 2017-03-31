@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
 Uploaders: Sylvain Beucler <beuc@debian.org>
 Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.8
 Homepage: http://www.gnu.org/software/freedink/
 Vcs-Git: git://git.savannah.gnu.org/freedink/freedink-data.git
 Vcs-Browser: http://git.savannah.gnu.org/cgit/freedink/freedink-data.git
