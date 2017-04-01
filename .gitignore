@@ -1,6 +1,6 @@
 *~
-*.tar.gz
+*.tar.xz
 *-nosrc.zip
-dink/l10n/??/
+dink/l10n/??/LC_MESSAGES/dink.mo
 dink/save*.dat
 dink/Story/key-67.c

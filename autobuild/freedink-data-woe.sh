@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -ex
 
 ##	Derived release (doesn't include Audacity and Rosegarden
 ##	projects, original Ogg Vorbis files, etc.)
@@ -15,7 +15,7 @@ export LANG=C.UTF8
 unset LC_ALL LANGUAGE
 
 rm -rf $PACKAGE-$VERSION/
-tar xzf $PACKAGE-$VERSION.tar.gz
+tar xf $PACKAGE-$VERSION.tar.xz
 pushd $PACKAGE-$VERSION/
 make install DESTDIR=`pwd`/t
 mkdir zip/
@@ -36,7 +36,8 @@ done
 mv t/usr/local/share/dink/dink/ zip/
 
 # Set reproducible date for all generated files:
-SOURCE_DATE_EPOCH=$(date -d$(echo $VERSION | grep -Po '\d{8}')Z +%s)
+# (considering the tarball has clean dates... which it has not)
+SOURCE_DATE_EPOCH=$(date -d$(echo $VERSION | grep -Po '\d{8}')Z0000 +%s)
 find zip/ -newermt "@${SOURCE_DATE_EPOCH}" -print0 \
   | xargs -0r touch --no-dereference --date="@${SOURCE_DATE_EPOCH}"
 

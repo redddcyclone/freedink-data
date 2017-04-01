@@ -1,8 +1,9 @@
 DESTDIR=
 PREFIX=/usr/local
 DATADIR=$(PREFIX)/share
-version:=1.08.$(shell date +%Y%m%d)
-releasedir=freedink-data-$(version)
+VERSION:=1.08.$(shell date +%Y%m%d)
+releasedir=freedink-data-$(VERSION)
+SOURCE_DATE_EPOCH:=$(shell date -d$$(echo $(VERSION) | grep -Po '\d{8}')Z0000 +%s)
 
 all:
 	@echo "No default action"
@@ -38,7 +39,8 @@ dist: update-gmo
 
 	rm -rf $(releasedir)
 	mkdir $(releasedir)
-	cp -a ChangeLog COPYING NEWS *.txt *.spec Makefile autobuild/ debian/ dink/ doc/ licenses/ soundtest/ src/ $(releasedir)
+	chmod 00755 $(releasedir)
+	umask 022; cp -dR ChangeLog COPYING NEWS *.txt *.spec Makefile autobuild/ debian/ dink/ doc/ licenses/ soundtest/ src/ $(releasedir)
 
 #	Clean-up:
 #	git files
@@ -53,7 +55,12 @@ dist: update-gmo
 	rm -f $(releasedir)/dink/DEBUG.TXT
 
 #	Tarball:
-	tar czf $(releasedir).tar.gz $(releasedir)/
+#	Make it reproducible, not really needed, but fun and doesn't leak metadata
+#	https://reproducible-builds.org/docs/archives/
+	tar -c --sort=name \
+	  --mtime="@$(SOURCE_DATE_EPOCH)" \
+	  --owner=root --group=root --numeric-owner \
+	  $(releasedir)/ | pixz -7 > $(releasedir).tar.xz
 
 	rm -rf $(releasedir)
 
@@ -65,3 +72,9 @@ update-gmo:
 		echo -n "$$i: "; \
 		msgfmt --statistics $$i.po -o $$i/LC_MESSAGES/dink.mo; \
 	done
+
+reprotest:
+	reprotest --dont-vary=time \
+	  'make dist VERSION=$(VERSION) && ./autobuild/freedink-data-woe.sh $(VERSION) \
+	    && chmod 644  \$(releasedir).tar.xz $(releasedir)-nosrc.zip' \
+	  '$(releasedir).tar.xz $(releasedir)-nosrc.zip'
