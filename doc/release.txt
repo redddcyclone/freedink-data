@@ -11,7 +11,6 @@ git2cl > ChangeLog
 # Sync freedink-data.spec
 # Edit freedink-data.spec (Version/Release + %changelog w/ C-c C-e)
 # Edit dink/l10n/dink.pot (Project-Id-Version and PO-Revision-Date)
-# Sync autobuild/
 rsync -Lrtvz  translationproject.org::tp/latest/dink/  dink/l10n/
 
 # Test freedink-data-$version.tar.xz

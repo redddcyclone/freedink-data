@@ -2,8 +2,9 @@ freedink-data (1.08.20170401-1) UNRELEASED; urgency=medium
 
   * New upstream release
   * Bump Standards-Version (no changes)
+  * Update URL with .xz extension
 
- -- Sylvain Beucler <beuc@debian.org>  Sat, 01 Apr 2017 00:45:29 +0200
+ -- Sylvain Beucler <beuc@debian.org>  Sat, 01 Apr 2017 22:03:44 +0200
 
 freedink-data (1.08.20140901-1) unstable; urgency=medium
 

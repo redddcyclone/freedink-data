@@ -1,3 +1,85 @@
+2017-04-01  Sylvain Beucler <beuc@beuc.net>
+
+	* doc/release.txt, freedink-data.spec: rpm: update for new release +
+	modernize a bit
+
+2017-04-01  Sylvain Beucler <beuc@beuc.net>
+
+	* licenses/wtfpl.txt: licenses: sync wtfpl
+
+2017-04-01  Sylvain Beucler <beuc@beuc.net>
+
+	* .gitignore, Makefile, autobuild/freedink-data-woe.sh,
+	debian/watch, doc/release.txt: build: use xz to say < 50MB + more
+	tidy
+
+2017-04-01  Sylvain Beucler <beuc@beuc.net>
+
+	* .gitignore, autobuild/freedink-data-debs.sh,
+	autobuild/freedink-data-rpms.sh,
+	autobuild/freedink-data-snapshot.sh,
+	autobuild/freedink-data-woe.sh, debian/changelog, debian/control,
+	doc/release.txt: build: tidy release process
+
+2017-03-31  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS, README-REPLACEMENTS.txt, debian/copyright,
+	src/stairs.wav/stairs.wav: New stairs.wav sound replacement
+
+2017-03-31  Sylvain Beucler <beuc@beuc.net>
+
+	* dink/l10n/ca.po, dink/l10n/da.po, dink/l10n/de.po,
+	dink/l10n/eo.po, dink/l10n/es.po, dink/l10n/fi.po, dink/l10n/fr.po,
+	dink/l10n/hr.po, dink/l10n/hu.po, dink/l10n/mk.po, dink/l10n/nl.po,
+	dink/l10n/sv.po: Sync TranslationProject
+
+2017-03-31  Sylvain Beucler <beuc@beuc.net>
+
+	* DEB, Makefile: debian: update doc
+
+2017-01-30  Sylvain Beucler <beuc@beuc.net>
+
+	* dink/dmod.diz: dmod.diz: replace 'Windows' by 'system' as it
+	confused a user History should forgive this slight alteration to the original game
+	data ;)
+
+2016-06-12  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS, README-REPLACEMENTS.txt, debian/copyright,
+	src/sel1.wav/sel1.aup, src/sel1.wav/sel1.wav: New sel1.wav sound
+	replacement
+
+2016-06-04  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS, dink/l10n/ca.po, dink/l10n/sv.po: Sync TranslationProject
+
+2015-08-01  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS, dink/l10n/es.po: Sync TranslationProject
+
+2014-12-29  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS, dink/l10n/ca.po: Sync TranslationProject
+
+2014-10-27  Sylvain Beucler <beuc@beuc.net>
+
+	* autobuild/freedink-data-woe.sh: Add script to create the
+	-nosrc.zip release
+
+2014-09-02  Sylvain Beucler <beuc@beuc.net>
+
+	* debian/control, freedink-data.spec: Improve package description
+
+2014-09-01  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS, debian/control, doc/release.txt: release: document TP sync +
+	prepare next release
+
+2014-09-01  Sylvain Beucler <beuc@beuc.net>
+
+	* ChangeLog, Makefile, NEWS, debian/changelog, dink/l10n/dink.pot,
+	doc/release.txt, freedink-data.spec: Release 1.08.20140901
+
 2014-09-01  Sylvain Beucler <beuc@beuc.net>
 
 	* Makefile: Move -nosrc.tar.gz building to a post-release script
@@ -519,8 +601,8 @@
 
 2008-12-12  Sylvain Beucler <beuc@beuc.net>
 
-	* dink/i18n/dink.pot, dink/i18n/fr.po, dink/l10n/dink.pot,
-	dink/l10n/fr.po: Rename i18n to l10n
+	* dink/{i18n => l10n}/dink.pot, dink/{i18n => l10n}/fr.po: Rename
+	i18n to l10n
 
 2008-12-09  Sylvain Beucler <beuc@beuc.net>
 
@@ -572,9 +654,8 @@
 2008-09-20  Sylvain Beucler <beuc@beuc.net>
 
 	* debian/changelog, freedink-data.spec,
-	gentoo/games-rpg/freedink-data/freedink-data-1.08.20080914.ebuild,
-	gentoo/games-rpg/freedink-data/freedink-data-1.08.20080920.ebuild: 
-	Release
+	gentoo/games-rpg/freedink-data/{freedink-data-1.08.20080914.ebuild
+	=> freedink-data-1.08.20080920.ebuild}: Release
 
 2008-09-20  Sylvain Beucler <beuc@beuc.net>
 
@@ -638,7 +719,7 @@
 
 2008-09-03  Sylvain Beucler <beuc@beuc.net>
 
-	* README.txt, dink/README.txt, doc/PACKAGING: Notes on repackaging
+	* dink/README.txt => README.txt, doc/PACKAGING: Notes on repackaging
 	graphics
 
 2008-09-03  Sylvain Beucler <beuc@beuc.net>
