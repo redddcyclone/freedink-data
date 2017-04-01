@@ -1,13 +1,12 @@
 Name:		freedink-data
-Version:	1.08.20140901
+Version:	1.08.20170401
 Release:	1%{?dist}
 Summary:	Adventure and role-playing game (game data)
 
 Group:		Amusements/Games
 License:	zlib and CC-BY-SA and (GPLv3+ or Free Art or CC-BY-SA) and OAL and Public Domain and CC-BY and GPLv2+
 URL:		http://www.gnu.org/software/freedink/
-Source0:	ftp://ftp.gnu.org/gnu/freedink/%{name}-%{version}.tar.gz
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
+Source0:	ftp://ftp.gnu.org/gnu/freedink/%{name}-%{version}.tar.xz
 BuildArch:	noarch
 
 %description
@@ -16,8 +15,8 @@ made by RTsoft. Besides twisted humor, it includes the actual game
 editor, allowing players to create hundreds of new adventures called
 Dink Modules or D-Mods for short.
 
-This package contains the original game story, along with free sound
-and music replacements.
+This package contains architecture-independent data for the original
+game, along with free sound and music replacements.
 
 
 %prep
@@ -31,12 +30,9 @@ sed -i 's/\r//' README.txt README-REPLACEMENTS.txt
 
 
 %install
-rm -rf $RPM_BUILD_ROOT
-make install PREFIX=%{_prefix} DESTDIR=$RPM_BUILD_ROOT
-
-
-%clean
-rm -rf $RPM_BUILD_ROOT
+make install PREFIX=%{_prefix} DESTDIR=%{buildroot}
+# D-Mod .mo files are pre-generated in upstream tarball, and engine uses an alternate $dmod/l10n/ path
+#%%find_lang dink
 
 
 %files
@@ -46,6 +42,18 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sat Apr 01 2017 Sylvain Beucler <beuc@beuc.net> - 1.08.20170401-1
+- New upstream release
+
+* Fri Feb 10 2017 Fedora Release Engineering <releng@fedoraproject.org> - 1.08.20140901-4
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_26_Mass_Rebuild
+
+* Wed Feb 03 2016 Fedora Release Engineering <releng@fedoraproject.org> - 1.08.20140901-3
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_24_Mass_Rebuild
+
+* Wed Jun 17 2015 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.08.20140901-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_23_Mass_Rebuild
+
 * Mon Sep 01 2014 Sylvain Beucler <beuc@beuc.net> - 1.08.20140901-1
 - New upstream release
 
