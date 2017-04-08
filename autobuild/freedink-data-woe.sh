@@ -15,7 +15,7 @@ export LANG=C.UTF8
 unset LC_ALL LANGUAGE
 
 rm -rf $PACKAGE-$VERSION/
-tar xf $PACKAGE-$VERSION.tar.xz
+tar xf $PACKAGE-$VERSION.tar.gz
 pushd $PACKAGE-$VERSION/
 make install DESTDIR=`pwd`/t
 mkdir zip/

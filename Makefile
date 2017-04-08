@@ -57,10 +57,11 @@ dist: update-gmo
 #	Tarball:
 #	Make it reproducible, not really needed, but fun and doesn't leak metadata
 #	https://reproducible-builds.org/docs/archives/
+#	Though any update to this Makefile changes the release checksum...
 	tar -c --sort=name \
 	  --mtime="@$(SOURCE_DATE_EPOCH)" \
 	  --owner=root --group=root --numeric-owner \
-	  $(releasedir)/ | pixz -7 > $(releasedir).tar.xz
+	  $(releasedir)/ | gzip -n > $(releasedir).tar.gz
 
 	rm -rf $(releasedir)
 
@@ -74,7 +75,7 @@ update-gmo:
 	done
 
 reprotest:
-	reprotest --dont-vary=time \
+	reprotest \
 	  'make dist VERSION=$(VERSION) && ./autobuild/freedink-data-woe.sh $(VERSION) \
-	    && chmod 644  \$(releasedir).tar.xz $(releasedir)-nosrc.zip' \
-	  '$(releasedir).tar.xz $(releasedir)-nosrc.zip'
+	    && chmod 644  \$(releasedir).tar.gz $(releasedir)-nosrc.zip' \
+	  '$(releasedir).tar.gz $(releasedir)-nosrc.zip'
