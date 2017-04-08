@@ -13,7 +13,7 @@ git2cl > ChangeLog
 # Edit dink/l10n/dink.pot (Project-Id-Version and PO-Revision-Date)
 rsync -Lrtvz  translationproject.org::tp/latest/dink/  dink/l10n/
 
-# Test freedink-data-$version.tar.xz
+# Test freedink-data-$version.tar.gz
 make dist
 
 # Commit the current state
@@ -31,22 +31,22 @@ On the maintainer computer:
 
 # Upload it at ftp.gnu.org
 # http://www.gnu.org/prep/maintain/html_node/Automated-FTP-Uploads.html
-gpg --sign -b freedink-data-$VERSION.tar.xz
-cat <<EOF | gpg --clearsign -a > freedink-data-$VERSION.tar.xz.directive.asc
+gpg --sign -b freedink-data-$VERSION.tar.gz
+cat <<EOF | gpg --clearsign -a > freedink-data-$VERSION.tar.gz.directive.asc
 version: 1.1
 directory: freedink
-filename: freedink-data-$VERSION.tar.xz
+filename: freedink-data-$VERSION.tar.gz
 EOF
 
 # Send all 3 files to ftp://anonymous@ftp-upload.gnu.org/incoming/ftp/
-# freedink-data-$VERSION.tar.xz
-# freedink-data-$VERSION.tar.xz.sig
-# freedink-data-$VERSION.tar.xz.directive.asc
-lftp -e "mput freedink-data-$VERSION.tar.xz*; exit" -u anonymous, ftp-upload.gnu.org/incoming/ftp/
+# freedink-data-$VERSION.tar.gz
+# freedink-data-$VERSION.tar.gz.sig
+# freedink-data-$VERSION.tar.gz.directive.asc
+lftp -e "mput freedink-data-$VERSION.tar.gz*; exit" -u anonymous, ftp-upload.gnu.org/incoming/ftp/
 
 # Make a pristine-tar copy of the release. Beware, this requires 500MB
 # of free space! (but only a few kBs in the .git repository)
-pristine-tar commit freedink-data-$VERSION.tar.xz v$VERSION
+pristine-tar commit freedink-data-$VERSION.tar.gz v$VERSION
 git push origin pristine-tar
 
 
@@ -86,8 +86,8 @@ Check this for updates:
 
 sudo pbuilder --create --basetgz /var/cache/pbuilder/base-stretch.tar.gz --distribution stretch
 sudo pbuilder --update --basetgz /var/cache/pbuilder/base-stretch.tar.gz
-ln -nfs freedink-data-$VERSION.tar.xz freedink-data_$VERSION.orig.tar.xz
-rm -rf freedink-data-$VERSION/ && tar xf freedink-data-$VERSION.tar.xz
+ln -nfs freedink-data-$VERSION.tar.gz freedink-data_$VERSION.orig.tar.gz
+rm -rf freedink-data-$VERSION/ && tar xf freedink-data-$VERSION.tar.gz
 pushd freedink-data-$VERSION/
 \cp -a ../debian .
 pdebuild -- --basetgz /var/cache/pbuilder/base-stretch.tar.gz --buildresult ..
