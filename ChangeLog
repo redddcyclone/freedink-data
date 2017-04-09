@@ -1,3 +1,40 @@
+2017-04-09  Sylvain Beucler <beuc@beuc.net>
+
+	* Makefile: build: generate .mo for all .po files (so I don't forget
+	to register new translations next time)
+
+2017-04-08  Sylvain Beucler <beuc@beuc.net>
+
+	* doc/release.txt: build: more xz->gz
+
+2017-04-08  Sylvain Beucler <beuc@beuc.net>
+
+	* Makefile, autobuild/freedink-data-woe.sh,
+	doc/reproducible-builds.txt: build: more reproducibility + switch
+	back to .gz Investigation in progress regarding .xz safety wrt error detection
+	http://www.nongnu.org/lzip/xz_inadequate.html not compatible with
+	pristine-tar
+	https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=859303 double
+	extension not properly at the DN
+
+	http://files.dinknetwork.com/freedink_data_source_code-1_08_20170401.xzcould be linked from the DN instead of hosted there:
+	http://www.dinknetwork.com/file/freedink_data_source_code/ plus
+	distros mostly point to the .gz URL
+
+2017-04-02  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS: Forgot to mention updated German translation
+
+2017-04-02  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS, debian/changelog, doc/release.txt: build: tidy doc + prepare
+	next release
+
+2017-04-01  Sylvain Beucler <beuc@beuc.net>
+
+	* ChangeLog, NEWS, debian/changelog, dink/l10n/dink.pot,
+	doc/release.txt: Release 1.08.20170401
+
 2017-04-01  Sylvain Beucler <beuc@beuc.net>
 
 	* doc/release.txt, freedink-data.spec: rpm: update for new release +

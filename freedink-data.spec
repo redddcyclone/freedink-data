@@ -1,12 +1,12 @@
 Name:		freedink-data
-Version:	1.08.20170401
+Version:	1.08.20170409
 Release:	1%{?dist}
-Summary:	Adventure and role-playing game (game data)
+Summary:	Adventure and role-playing game (assets)
 
 Group:		Amusements/Games
 License:	zlib and CC-BY-SA and (GPLv3+ or Free Art or CC-BY-SA) and OAL and Public Domain and CC-BY and GPLv2+
 URL:		http://www.gnu.org/software/freedink/
-Source0:	ftp://ftp.gnu.org/gnu/freedink/%{name}-%{version}.tar.xz
+Source0:	ftp://ftp.gnu.org/gnu/freedink/%{name}-%{version}.tar.gz
 BuildArch:	noarch
 
 %description
@@ -42,6 +42,9 @@ make install PREFIX=%{_prefix} DESTDIR=%{buildroot}
 
 
 %changelog
+* Sun Apr 09 2017 Sylvain Beucler <beuc@beuc.net> - 1.08.20170409-1
+- New upstream release
+
 * Sat Apr 01 2017 Sylvain Beucler <beuc@beuc.net> - 1.08.20170401-1
 - New upstream release
 

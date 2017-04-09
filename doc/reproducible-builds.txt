@@ -24,6 +24,12 @@ Zip -nosrc release
 
 Build environment tracking
 
+- 1.08.20170409:
+  tar			debian/1.29b-1.1
+  gettext/msgfmt	debian/0.19.8.1-2
+  gzip			debian/1.6-5+b1
+  zip			debian/1.0.6-2+b1
+
 - 1.08.20170401:
   tar			debian/1.29b-1.1	requires --sort=name (introduced in Stretch)
   gettext/msgfmt	debian/0.19.8.1-2

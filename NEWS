@@ -1,6 +1,8 @@
-* v1.08.20170432                                           -*- outline -*-
+* v1.08.20170409                                           -*- outline -*-
 
-** UNRELEASED
+** Fix Swedish translation integration
+
+** Fix incomplete NEWS entry for previous v1.08.20170401 release
 
 * v1.08.20170401
 
@@ -15,6 +17,8 @@
 ** Updated Spanish translation (thanks Benno Schulenberg)
 
 ** Updated German translation (thanks Helmar Gerloni and Roland Illig)
+
+** -nosrc.zip release is now bit-for-bit reproducible from the source tarball
 
 * v1.08.20140901
 

@@ -13,8 +13,9 @@ git2cl > ChangeLog
 # Edit dink/l10n/dink.pot (Project-Id-Version and PO-Revision-Date)
 rsync -Lrtvz  translationproject.org::tp/latest/dink/  dink/l10n/
 
-# Test freedink-data-$version.tar.gz
+make reprotest
 make dist
+# Test freedink-data-$version.tar.gz...
 
 # Commit the current state
 git commit -am "Release $VERSION"
@@ -84,18 +85,15 @@ Check this for updates:
 - /usr/share/doc/debian-policy/upgrading-checklist.txt.gz
 - http://lintian.debian.org/full/pkg-games-devel@lists.alioth.debian.org.html#freedink-data
 
-sudo pbuilder --create --basetgz /var/cache/pbuilder/base-stretch.tar.gz --distribution stretch
-sudo pbuilder --update --basetgz /var/cache/pbuilder/base-stretch.tar.gz
+sudo pbuilder create
+sudo pbuilder update
 ln -nfs freedink-data-$VERSION.tar.gz freedink-data_$VERSION.orig.tar.gz
 rm -rf freedink-data-$VERSION/ && tar xf freedink-data-$VERSION.tar.gz
-pushd freedink-data-$VERSION/
-\cp -a ../debian .
-pdebuild -- --basetgz /var/cache/pbuilder/base-stretch.tar.gz --buildresult ..
-popd
-
-rm -f freedink-data_$VERSION-1_source.changes
-debsign freedink-data_$VERSION-1_*.changes
-dput freedink-data_$VERSION-1_*.changes
+cd freedink-data-$VERSION/ && rm -rf debian/ && \cp -a ../debian .
+pdebuild --buildresult ..
+lintian
+debsign
+debrelease --dput
 
 For backports:
 https://wiki.debian.org/BuildingFormalBackports#Self-contained_example_for_Apache_2.4
