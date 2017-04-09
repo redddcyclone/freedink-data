@@ -68,7 +68,7 @@ dist: update-gmo
 # Compile translation strings catalogs
 update-gmo:
 	cd dink/l10n; \
-	for i in da de fr nl mk es eo fi ca hu; do \
+	for i in $$(ls ??.po | sed 's/\.po$$//'); do \
 		mkdir -p $$i/LC_MESSAGES; \
 		echo -n "$$i: "; \
 		msgfmt --statistics $$i.po -o $$i/LC_MESSAGES/dink.mo; \
