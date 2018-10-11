@@ -226,6 +226,17 @@ Sound effects
   Replacement:
   It's just a 1-frame silence, nothing copyrightable ;)
 
+- burn.wav
+
+  Tree burning down, bomb exploding, bomb damaging
+
+  Replacement:
+  https://freesound.org/people/qubodup/sounds/442676/
+  Authors: laribum, jovanovich, moviebuffgavin, qubodup
+  License: public domain
+
+  Resampled to 8000Hz for compatibility.
+
 - fire.wav
 
   Fire burning in the background (chimney, torch)
@@ -240,6 +251,17 @@ Sound effects
   using Audacity, but given the manual processing, there was no real
   source form and I trashed the temporary .aup project.
   Copyright (C) 2008  Sylvain Beucler
+
+- nono.wav
+
+  Click on a non-active area of the screen (in intro screens), Ryan lock-picking
+
+  Replacement:
+  https://freesound.org/people/qubodup/sounds/442674/
+  Authors: JPolito, qubodup
+  License: public domain
+
+  Resampled to 22050Hz for compatibility.
 
 - open.wav
 
