@@ -302,6 +302,17 @@ Sound effects
   Copyright (C) 2010 Iwan Gabovitch <qubodup@gmail.com>
   License: GPLv2+ | CC-BY-SA 3+
 
+- save.wav
+ 
+  Save machine (to play in loop)
+
+  Replacement:
+  https://freesound.org/people/qubodup/sounds/442825/
+  Authors: Trebblofang, qubodup
+  License: public domain
+
+  Resampled to 22050Hz for compatibility.
+
 - sel1.wav
 
   Select a choice in a menu dialog (22kHz), leave inventory (22kHz), fireball magic (8kHz)
