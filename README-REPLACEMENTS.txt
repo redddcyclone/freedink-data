@@ -319,11 +319,20 @@ Sound effects
   Copyright (C) 2016  Sylvain Beucler
 
 - stairs.wav
-
+ 
   Dink ascends/descends stairs.
 
-  Placed in the public domain by Bas Wijnen.
-  Reworked in Audacity by Sylvain Beucler.
+  Replacement:
+  https://freesound.org/people/qubodup/sounds/442770/
+  Authors: Anthousai, qubodup
+  License: public domain
+
+  Resampled to 22050Hz for compatibility.
+
+  v1/stairs.wav
+
+    Placed in the public domain by Bas Wijnen.
+    Reworked in Audacity by Sylvain Beucler.
 
 - wscream.wav
 
