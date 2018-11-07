@@ -217,6 +217,17 @@ using the Ogg Vorbis format rather than the MIDI format.
 Sound effects
 =============
 
+- axe.wav
+ 
+  Throwing axe weapon hitting something
+
+  Replacement:
+  https://freesound.org/people/qubodup/sounds/442903/
+  Authors: MattLeschuck, gprosser, Kreastricon62, qubodup
+  License: public domain
+
+  Resampled to 22050Hz for compatibility.
+
 - bhit.wav
 
   Origin: freeciv/data/stdsounds/woodbrk.ogg
