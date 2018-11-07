@@ -217,14 +217,18 @@ using the Ogg Vorbis format rather than the MIDI format.
 Sound effects
 =============
 
-- intro.wav
+- bhit.wav
 
-  Original/replaced version: Used to be the soundtrack of the game
-  intro video (CD version); replaced by empty sound since 1.08. Used
-  for "Back from the grave" title screen.
+  Origin: freeciv/data/stdsounds/woodbrk.ogg
+  Origin: http://openquartz.cvs.sourceforge.net/viewvc/openquartz/pak0/sound/ambience/woodbrk.wav
+  Origin: public domain'sounds by pOx http://www.planetquake.com/paroxysm 
 
-  Replacement:
-  It's just a 1-frame silence, nothing copyrightable ;)
+  Author: Frank Condello (pox@planetquake.com) (as per freeciv/data/stdsounds.soundspec)
+  License: public domain
+
+  Edited: shortened by cutting the rattle from the end
+  Copyright (C) 2012  Petteri Tolonen
+  License: GPLv3+ | Art Libre | CC-BY-SA
 
 - burn.wav
 
@@ -252,6 +256,27 @@ Sound effects
   source form and I trashed the temporary .aup project.
   Copyright (C) 2008  Sylvain Beucler
 
+- high2.wav
+
+  Choir noise when you pickup a strength potion; sound when you're
+  given control when starting the game
+
+  Recreated with ZynAddSubFX, with instrument "Choir and Voice > Choir
+  Pad1", notes are g+2+7 on ZynAddSubFX, i.e FA# (bass) + DO# (bass) +
+  SIb (high), or F#+C#+Cb (US).
+
+  Copyright (C) 2009  Sylvain Beucler
+  License: GPLv3+ | Art Libre | CC-BY-SA
+
+- intro.wav
+
+  Original/replaced version: Used to be the soundtrack of the game
+  intro video (CD version); replaced by empty sound since 1.08. Used
+  for "Back from the grave" title screen.
+
+  Replacement:
+  It's just a 1-frame silence, nothing copyrightable ;)
+
 - nono.wav
 
   Click on a non-active area of the screen (in intro screens), Ryan lock-picking
@@ -277,18 +302,6 @@ Sound effects
   Copyright (C) 2010 Iwan Gabovitch <qubodup@gmail.com>
   License: GPLv2+ | CC-BY-SA 3+
 
-- high2.wav
-
-  Choir noise when you pickup a strength potion; sound when you're
-  given control when starting the game
-
-  Recreated with ZynAddSubFX, with instrument "Choir and Voice > Choir
-  Pad1", notes are g+2+7 on ZynAddSubFX, i.e FA# (bass) + DO# (bass) +
-  SIb (high), or F#+C#+Cb (US).
-
-  Copyright (C) 2009  Sylvain Beucler
-  License: GPLv3+ | Art Libre | CC-BY-SA
-
 - sel1.wav
 
   Select a choice in a menu dialog (22kHz), leave inventory (22kHz), fireball magic (8kHz)
@@ -305,6 +318,13 @@ Sound effects
   Copyright (C) 2009  Bark K.  http://opengameart.org/users/bart
   Copyright (C) 2016  Sylvain Beucler
 
+- stairs.wav
+
+  Dink ascends/descends stairs.
+
+  Placed in the public domain by Bas Wijnen.
+  Reworked in Audacity by Sylvain Beucler.
+
 - wscream.wav
 
   Girl scream (e.g. when you hit Chealse, the girl near the well in
@@ -317,26 +337,6 @@ Sound effects
 
   Copyright (C) 2009  Fernando Carmona Varo
   License: WTFPL
-
-- bhit.wav
-
-  Origin: freeciv/data/stdsounds/woodbrk.ogg
-  Origin: http://openquartz.cvs.sourceforge.net/viewvc/openquartz/pak0/sound/ambience/woodbrk.wav
-  Origin: public domain'sounds by pOx http://www.planetquake.com/paroxysm 
-
-  Author: Frank Condello (pox@planetquake.com) (as per freeciv/data/stdsounds.soundspec)
-  License: public domain
-
-  Edited: shortened by cutting the rattle from the end
-  Copyright (C) 2012  Petteri Tolonen
-  License: GPLv3+ | Art Libre | CC-BY-SA
-
-- stairs.wav
-
-  Dink ascends/descends stairs.
-
-  Placed in the public domain by Bas Wijnen.
-  Reworked in Audacity by Sylvain Beucler.
 
 
 Files from Wesnoth
