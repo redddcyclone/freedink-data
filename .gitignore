@@ -1,5 +1,5 @@
 *~
-*.tar.xz
+*.tar.gz
 *-nosrc.zip
 dink/l10n/??/LC_MESSAGES/dink.mo
 dink/save*.dat
