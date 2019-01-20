@@ -1,3 +1,56 @@
+2019-01-20  Sylvain Beucler <beuc@beuc.net>
+
+	* debian/changelog, debian/control, debian/watch: debian: lintian
+	fixes
+
+2019-01-20  Sylvain Beucler <beuc@beuc.net>
+
+	* freedink-data.spec: rpm: sync Fedora
+
+2019-01-20  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS, dink/l10n/eo.po, dink/l10n/es.po, dink/l10n/tr.po: Sync
+	Translation Project
+
+2018-11-07  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS, README-REPLACEMENTS.txt, src/axe.wav/axe.wav: New axe.wav
+	replacement
+
+2018-11-07  Sylvain Beucler <beuc@beuc.net>
+
+	* soundtest/story/reference.c: Add tests for sword1.wav and
+	steps.wav
+
+2018-11-07  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS, README-REPLACEMENTS.txt, src/save.wav/save.wav: New save.wav
+	replacement
+
+2018-11-07  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS, README-REPLACEMENTS.txt: Improved stairs.wav
+
+2018-11-07  Sylvain Beucler <beuc@beuc.net>
+
+	* README-REPLACEMENTS.txt: README-REPLACEMENTS.txt: sort sounds by
+	filename
+
+2018-11-07  Sylvain Beucler <beuc@beuc.net>
+
+	* : Re-encode burn.wav to mono
+
+2018-10-11  Sylvain Beucler <beuc@beuc.net>
+
+	* NEWS, README-REPLACEMENTS.txt, src/burn.wav/burn.wav,
+	src/nono.wav/nono.wav: New burn.wav and nono.wav sound replacements
+
+2017-04-09  Sylvain Beucler <beuc@beuc.net>
+
+	* ChangeLog, NEWS, debian/changelog, debian/compat, debian/control,
+	debian/watch, doc/release.txt, doc/reproducible-builds.txt,
+	freedink-data.spec: Release 1.08.20170409
+
 2017-04-09  Sylvain Beucler <beuc@beuc.net>
 
 	* Makefile: build: generate .mo for all .po files (so I don't forget
