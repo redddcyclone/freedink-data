@@ -47,7 +47,11 @@ lftp -e "mput freedink-data-$VERSION.tar.gz*; exit" -u anonymous, ftp-upload.gnu
 
 # Make a pristine-tar copy of the release. Beware, this requires 500MB
 # of free space! (but only a few kBs in the .git repository)
-pristine-tar commit freedink-data-$VERSION.tar.gz v$VERSION
+gpg --enarmor freedink-data-$VERSION.tar.gz.sig  # pristine-tar stores a .asc whatever the format
+sed 's/ ARMORED FILE/ SIGNATURE/' freedink-data-$VERSION.tar.gz.sig.asc > freedink-data-$VERSION.tar.gz.asc
+pristine-tar commit -s freedink-data-$VERSION.tar.gz.asc freedink-data-$VERSION.tar.gz v$VERSION
+# pristine-tar checkout -s freedink-data-$VERSION.tar.gz.asc freedink-data-$VERSION.tar.gz
+# gpg --verify freedink-data-$VERSION.tar.gz.asc
 git push origin pristine-tar
 
 
@@ -88,11 +92,12 @@ Check this for updates:
 sudo pbuilder create
 sudo pbuilder update
 ln -nfs freedink-data-$VERSION.tar.gz freedink-data_$VERSION.orig.tar.gz
+ln -nfs freedink-data-$VERSION.tar.gz.sig freedink-data-$VERSION.orig.tar.gz.sig
 rm -rf freedink-data-$VERSION/ && tar xf freedink-data-$VERSION.tar.gz
 cd freedink-data-$VERSION/ && rm -rf debian/ && \cp -a ../debian .
 pdebuild --buildresult ..
-lintian
-debsign
+lintian -i
+debsign -k ...
 debrelease --dput
 
 For backports:
