@@ -1,3 +1,11 @@
+freedink-data (1.08.20190120-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update obsolete 'extra' priority to 'optional'
+  * Use https for Homepage and Vcs-Browser fields, and for watch file
+
+ -- Sylvain Beucler <beuc@debian.org>  Sun, 20 Jan 2019 12:02:52 +0100
+
 freedink-data (1.08.20170409-1) experimental; urgency=medium
 
   * New upstream release
