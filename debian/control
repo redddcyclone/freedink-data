@@ -11,6 +11,7 @@ Vcs-Browser: https://git.savannah.gnu.org/cgit/freedink/freedink-data.git
 
 Package: freedink-data
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}
 Description: adventure and role-playing game (assets)
  Dink Smallwood is an adventure/role-playing game, similar to Zelda,
